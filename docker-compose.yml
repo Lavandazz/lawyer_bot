@@ -1,0 +1,72 @@
+# Updated 14.12.2024
+# version: "3.8"  # Версия Compose
+
+services:  # Определяем контейнеры
+  lawyer_bot:  # Контейнер для бота
+    image: "lawyer_bot_image"
+    build:
+      context: .  # Указываем, что Dockerfile находится в текущей директории
+    container_name: lawyer_bot_container  # Название контейнера
+    env_file:  # Файл с переменными окружения
+      - .env
+    networks:
+      - lawyer_bot_network
+    volumes:
+      - .:/app  # Монтируем весь проект
+      - ./logs:/app/logs  # Логи сохраняем вне контейнера
+    depends_on:  # Указываем, что база данных должна запуститься раньше бота
+      lawyer_db:
+        condition: service_healthy
+    restart: always
+    command:
+      - sh  # запускаем оболочку shell
+      - -c  # указывает, что далее следуют команды для выполнения
+      - |   # указывает многострочность строки
+        aerich upgrade  
+        python main.py
+
+#    environment: # Добавляем переопределение переменных (для локального контейнера)
+#      - DATABASE_HOST=host.docker.internal  # ← Магия Docker для localhost
+#      - DATABASE_PORT=5432  # Порт БД на локальной машине
+
+# для работы локально, закомментить все db
+
+  lawyer_db:  # имя сервиса как в .env DATABASE_HOST=coffee_db
+    image: postgres:15
+    container_name: postgres_container_lawyer
+    env_file:  # Файл с переменными окружения
+      - .env
+    ports:
+      - "5431:5432"  # порт хоста:порт внутри контейнера
+    networks:
+      - lawyer_bot_network
+    volumes: # Сохраняем данные вне контейнера
+      - postgres_data_lawyer:/var/lib/postgresql/data
+    restart: always
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U postgres" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  redis:
+    image: redis:alpine
+    container_name: redis_container
+    ports:
+      - "6379:6379"
+    networks:
+      - lawyer_bot_network
+    restart: always
+    env_file:
+      - .env
+    command:
+      - /bin/sh
+      - -c
+      - redis-server --requirepass "$${REDIS_PASSWORD:?REDIS_PASSWORD variable is not set}"
+
+
+networks:
+  lawyer_bot_network:
+    driver: bridge
+volumes:
+  postgres_data_lawyer:  # Определяем volume для хранения данных PostgreSQL

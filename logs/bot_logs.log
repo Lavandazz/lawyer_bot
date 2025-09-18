@@ -1,0 +1,908 @@
+INFO     2025-09-16 09:31:38,408 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-17 10:15:15,905 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-17 10:16:06,989 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-17 10:23:39,596 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-17 10:24:16,597 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-17 10:24:51,784 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-17 12:02:54,487 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-17 12:02:55,516 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+INFO     2025-09-17 12:02:55,522 [bot] (start_handlers.py).seed_admin(39) Админ уже существует, пропускаем создание
+INFO     2025-09-17 12:02:58,379 [bot] (commands.py).set_commands(20) Установил команды
+WARNING  2025-09-17 12:02:58,478 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-17 12:10:49,715 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-17 12:10:50,140 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+ERROR    2025-09-17 12:10:50,143 [bot] (start_handlers.py).seed_admin(44) Ошибка при создании админа invalid input for query argument $4: 9772680469 (value out of int32 range)
+Traceback (most recent call last):
+  File "asyncpg\\protocol\\prepared_stmt.pyx", line 175, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+  File "asyncpg\\protocol\\codecs/base.pyx", line 227, in asyncpg.protocol.protocol.Codec.encode
+  File "asyncpg\\protocol\\codecs/base.pyx", line 129, in asyncpg.protocol.protocol.Codec.encode_scalar
+  File "asyncpg\\pgproto\\./codecs/int.pyx", line 60, in asyncpg.pgproto.pgproto.int4_encode
+OverflowError: value out of int32 range
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\backends\asyncpg\client.py", line 89, in _translate_exceptions
+    return await func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\backends\asyncpg\client.py", line 112, in execute_insert
+    return await connection.fetchrow(query, *values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\asyncpg\connection.py", line 748, in fetchrow
+    data = await self._execute(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\asyncpg\connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\asyncpg\connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\asyncpg\connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg\\protocol\\protocol.pyx", line 185, in bind_execute
+  File "asyncpg\\protocol\\prepared_stmt.pyx", line 204, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+asyncpg.exceptions.DataError: invalid input for query argument $4: 9772680469 (value out of int32 range)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\handlers\start_handlers.py", line 30, in seed_admin
+    await User.create(
+    ...<6 lines>...
+    )
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\models.py", line 1210, in create
+    await instance.save(using_db=db, force_create=True)
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\models.py", line 996, in save
+    await executor.execute_insert(self)
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\backends\base\executor.py", line 188, in execute_insert
+    insert_result = await self.db.execute_insert(self.insert_query, values)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\backends\base_postgres\client.py", line 33, in _translate_exceptions
+    return await self._translate_exceptions(func, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\backends\asyncpg\client.py", line 91, in _translate_exceptions
+    raise OperationalError(exc)
+tortoise.exceptions.OperationalError: invalid input for query argument $4: 9772680469 (value out of int32 range)
+INFO     2025-09-17 12:10:50,303 [bot] (commands.py).set_commands(20) Установил команды
+WARNING  2025-09-17 12:10:50,404 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-17 12:12:27,184 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-17 12:12:27,726 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+ERROR    2025-09-17 12:12:27,729 [bot] (start_handlers.py).seed_admin(44) Ошибка при создании админа invalid input for query argument $4: 9772680469 (value out of int32 range)
+Traceback (most recent call last):
+  File "asyncpg\\protocol\\prepared_stmt.pyx", line 175, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+  File "asyncpg\\protocol\\codecs/base.pyx", line 227, in asyncpg.protocol.protocol.Codec.encode
+  File "asyncpg\\protocol\\codecs/base.pyx", line 129, in asyncpg.protocol.protocol.Codec.encode_scalar
+  File "asyncpg\\pgproto\\./codecs/int.pyx", line 60, in asyncpg.pgproto.pgproto.int4_encode
+OverflowError: value out of int32 range
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\backends\asyncpg\client.py", line 89, in _translate_exceptions
+    return await func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\backends\asyncpg\client.py", line 112, in execute_insert
+    return await connection.fetchrow(query, *values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\asyncpg\connection.py", line 748, in fetchrow
+    data = await self._execute(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\asyncpg\connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\asyncpg\connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\asyncpg\connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg\\protocol\\protocol.pyx", line 185, in bind_execute
+  File "asyncpg\\protocol\\prepared_stmt.pyx", line 204, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+asyncpg.exceptions.DataError: invalid input for query argument $4: 9772680469 (value out of int32 range)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\handlers\start_handlers.py", line 30, in seed_admin
+    await User.create(
+    ...<6 lines>...
+    )
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\models.py", line 1210, in create
+    await instance.save(using_db=db, force_create=True)
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\models.py", line 996, in save
+    await executor.execute_insert(self)
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\backends\base\executor.py", line 188, in execute_insert
+    insert_result = await self.db.execute_insert(self.insert_query, values)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\backends\base_postgres\client.py", line 33, in _translate_exceptions
+    return await self._translate_exceptions(func, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\backends\asyncpg\client.py", line 91, in _translate_exceptions
+    raise OperationalError(exc)
+tortoise.exceptions.OperationalError: invalid input for query argument $4: 9772680469 (value out of int32 range)
+INFO     2025-09-17 12:12:27,970 [bot] (commands.py).set_commands(20) Установил команды
+WARNING  2025-09-17 12:12:28,188 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-17 12:13:00,520 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-17 12:13:01,082 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+INFO     2025-09-17 12:13:01,086 [bot] (start_handlers.py).seed_admin(38) Администратор зарегистрирован
+INFO     2025-09-17 12:13:01,288 [bot] (commands.py).set_commands(20) Установил команды
+WARNING  2025-09-17 12:13:01,553 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-17 12:14:44,322 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-17 12:14:44,743 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+INFO     2025-09-17 12:14:45,171 [bot] (commands.py).set_commands(20) Установил команды
+WARNING  2025-09-17 12:14:45,509 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-17 12:19:11,365 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-17 12:19:11,777 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+INFO     2025-09-17 12:19:11,963 [bot] (commands.py).set_commands(20) Установил команды
+WARNING  2025-09-17 12:20:08,934 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-17 12:20:11,272 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-17 12:20:11,812 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+INFO     2025-09-17 12:20:11,969 [bot] (commands.py).set_commands(20) Установил команды
+WARNING  2025-09-17 12:26:00,364 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-17 12:26:00,525 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-17 12:26:02,784 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-17 12:26:03,328 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+INFO     2025-09-17 12:26:03,693 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-17 12:26:07,679 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-17 12:26:07,680 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-17 12:31:18,458 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-17 12:31:20,918 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-17 12:31:21,476 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+INFO     2025-09-17 12:31:21,639 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-17 12:31:23,946 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-17 12:31:23,947 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+INFO     2025-09-17 12:31:26,168 [bot] (admin_handlers.py).admin_menu_handler(20) Вход в панель админа
+DEBUG    2025-09-17 12:31:37,445 [bot] (get_statistic_handlers.py).get_statistic(27) State AdminMenuState:admin
+DEBUG    2025-09-17 12:31:40,532 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-17 12:31:40,533 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+INFO     2025-09-17 12:31:45,632 [bot] (admin_handlers.py).admin_menu_handler(20) Вход в панель админа
+WARNING  2025-09-17 12:33:44,259 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-17 12:33:46,755 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-17 12:34:01,706 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-17 12:34:02,139 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+INFO     2025-09-17 12:34:02,290 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-17 12:34:04,120 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-17 12:34:04,120 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-17 12:34:08,243 [bot] (get_statistic_handlers.py).get_statistic(27) State AdminMenuState:admin_menu
+DEBUG    2025-09-17 12:34:11,062 [bot] (get_statistic_handlers.py).get_period_statistic(58) Выбор даты: get_period_statistic StatsState:waiting_date
+DEBUG    2025-09-17 12:34:12,513 [bot] (get_statistic_handlers.py).get_statistic_from_db(215) day_stat: None
+DEBUG    2025-09-17 12:34:12,513 [bot] (get_statistic_handlers.py).day_statistic(110) Нет статистики за день
+DEBUG    2025-09-17 12:34:15,021 [bot] (get_statistic_handlers.py).get_statistic_from_db(215) day_stat: None
+DEBUG    2025-09-17 12:34:15,021 [bot] (get_statistic_handlers.py).day_statistic(110) Нет статистики за день
+WARNING  2025-09-17 12:34:15,228 [bot] (get_statistic_handlers.py).day_statistic(133) Попытка получить статистику: Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+DEBUG    2025-09-17 12:34:25,634 [bot] (get_statistic_handlers.py).get_statistic_from_db(215) day_stat: None
+DEBUG    2025-09-17 12:34:25,634 [bot] (get_statistic_handlers.py).day_statistic(110) Нет статистики за день
+WARNING  2025-09-17 12:34:25,767 [bot] (get_statistic_handlers.py).day_statistic(133) Попытка получить статистику: Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+DEBUG    2025-09-17 12:34:27,776 [bot] (get_statistic_handlers.py).get_statistic_from_db(215) day_stat: <Statistic>
+DEBUG    2025-09-17 12:34:27,776 [bot] (get_statistic_handlers.py).day_statistic(124) Получил статистику за день
+WARNING  2025-09-17 12:44:47,611 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-17 12:44:47,771 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-17 12:44:50,030 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-17 12:44:50,456 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+INFO     2025-09-17 12:44:50,738 [bot] (commands.py).set_commands(20) Установил команды
+WARNING  2025-09-17 12:47:07,281 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-17 12:47:09,805 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-17 12:47:10,226 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+INFO     2025-09-17 12:47:10,461 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-17 12:47:15,281 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-17 12:47:15,281 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-17 12:48:10,350 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-17 12:48:14,669 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-17 12:48:15,209 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+INFO     2025-09-17 12:48:15,357 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-17 12:48:17,907 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-17 12:48:17,907 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-17 12:48:43,012 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-17 12:48:45,559 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-17 12:48:46,003 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+INFO     2025-09-17 12:48:46,171 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-17 12:48:53,834 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-17 12:48:53,835 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-17 12:53:20,192 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-17 12:53:22,643 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-17 12:53:23,050 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+INFO     2025-09-17 12:53:23,210 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-17 12:53:28,750 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-17 12:53:28,750 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-17 12:53:36,183 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-17 12:53:36,183 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-17 12:56:01,489 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-17 12:56:01,636 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-17 12:56:03,801 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-17 12:56:04,322 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+INFO     2025-09-17 12:56:04,592 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-17 12:56:06,809 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-17 12:56:06,809 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-17 12:56:10,625 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-17 12:56:10,625 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-17 12:56:14,291 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-17 12:56:14,291 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-17 12:56:54,017 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-17 12:56:56,676 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-17 12:56:57,111 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+INFO     2025-09-17 12:56:57,340 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-17 12:56:58,510 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-17 12:56:58,510 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-17 12:57:05,421 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-17 12:57:05,421 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-17 12:59:05,344 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-17 12:59:07,869 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-17 12:59:08,416 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+INFO     2025-09-17 12:59:08,573 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-17 12:59:13,834 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-17 12:59:13,834 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-17 13:09:22,194 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-17 13:09:22,355 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-17 13:09:24,687 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-17 13:09:25,122 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+INFO     2025-09-17 13:09:25,288 [bot] (commands.py).set_commands(20) Установил команды
+ERROR    2025-09-17 13:09:27,261 [bot] (start_handlers.py).get_start(78) Ошибка при создании админа 'NoneType' object has no attribute 'phone_number'
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\handlers\start_handlers.py", line 61, in get_start
+    phone = contact.phone_number
+            ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'phone_number'
+WARNING  2025-09-17 13:20:46,371 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-17 13:20:46,512 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-17 13:20:48,816 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-17 13:20:49,237 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+INFO     2025-09-17 13:20:49,419 [bot] (commands.py).set_commands(20) Установил команды
+INFO     2025-09-17 13:21:25,886 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-17 13:21:26,423 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+INFO     2025-09-17 13:21:26,608 [bot] (commands.py).set_commands(20) Установил команды
+WARNING  2025-09-17 13:26:54,096 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-17 13:26:56,596 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-17 13:26:57,025 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-17 13:26:57,218 [bot] (commands.py).set_commands(20) Установил команды
+INFO     2025-09-17 13:30:10,495 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-17 13:30:10,904 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-17 13:30:11,086 [bot] (commands.py).set_commands(20) Установил команды
+INFO     2025-09-17 13:31:16,159 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-17 13:31:16,567 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-17 13:31:16,741 [bot] (commands.py).set_commands(20) Установил команды
+WARNING  2025-09-17 13:31:52,731 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-17 13:31:52,882 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-17 13:31:55,078 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-17 13:31:55,495 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-17 13:31:55,805 [bot] (commands.py).set_commands(20) Установил команды
+WARNING  2025-09-17 13:34:11,706 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-17 13:34:14,147 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-17 13:34:14,582 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-17 13:34:14,742 [bot] (commands.py).set_commands(20) Установил команды
+WARNING  2025-09-17 15:24:11,611 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-17 15:24:11,777 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-17 15:24:16,126 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-17 15:24:16,899 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-17 15:24:17,093 [bot] (commands.py).set_commands(20) Установил команды
+WARNING  2025-09-17 15:35:14,438 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-17 15:35:14,587 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-17 15:35:17,581 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-17 15:35:38,058 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-17 15:35:38,652 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-17 15:35:38,840 [bot] (commands.py).set_commands(20) Установил команды
+WARNING  2025-09-17 15:36:31,195 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-17 15:36:34,022 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-17 15:36:34,497 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-17 15:36:34,751 [bot] (commands.py).set_commands(20) Установил команды
+WARNING  2025-09-17 15:36:56,152 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-17 15:36:58,928 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-17 15:36:59,387 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-17 15:36:59,550 [bot] (commands.py).set_commands(20) Установил команды
+WARNING  2025-09-17 15:39:47,121 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-17 15:39:50,031 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-17 15:39:50,601 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-17 15:39:50,765 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-17 15:40:17,907 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-17 15:40:17,907 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-17 15:49:47,134 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-17 15:49:47,310 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-17 15:49:49,719 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-17 15:49:50,243 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-17 15:49:50,425 [bot] (commands.py).set_commands(20) Установил команды
+WARNING  2025-09-17 15:50:47,996 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-17 15:50:50,562 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-17 15:50:50,988 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-17 15:50:51,171 [bot] (commands.py).set_commands(20) Установил команды
+WARNING  2025-09-17 15:51:17,273 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-17 15:51:19,828 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-17 15:51:20,263 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-17 15:51:20,427 [bot] (commands.py).set_commands(20) Установил команды
+ERROR    2025-09-17 15:51:28,182 [bot] (registeration.py).save_contact(88) Ошибка сохранения юзера: повторяющееся значение ключа нарушает ограничение уникальности "users_telegram_id_key"
+DETAIL:  Ключ "(telegram_id)=(484385628)" уже существует.
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\backends\asyncpg\client.py", line 89, in _translate_exceptions
+    return await func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\backends\asyncpg\client.py", line 112, in execute_insert
+    return await connection.fetchrow(query, *values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\asyncpg\connection.py", line 748, in fetchrow
+    data = await self._execute(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\asyncpg\connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\asyncpg\connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\asyncpg\connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg\\protocol\\protocol.pyx", line 206, in bind_execute
+asyncpg.exceptions.UniqueViolationError: повторяющееся значение ключа нарушает ограничение уникальности "users_telegram_id_key"
+DETAIL:  Ключ "(telegram_id)=(484385628)" уже существует.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\handlers\registeration.py", line 80, in save_contact
+    await User.create(
+    ...<5 lines>...
+        role="user")
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\models.py", line 1210, in create
+    await instance.save(using_db=db, force_create=True)
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\models.py", line 996, in save
+    await executor.execute_insert(self)
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\backends\base\executor.py", line 188, in execute_insert
+    insert_result = await self.db.execute_insert(self.insert_query, values)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\backends\base_postgres\client.py", line 33, in _translate_exceptions
+    return await self._translate_exceptions(func, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\backends\asyncpg\client.py", line 93, in _translate_exceptions
+    raise IntegrityError(exc)
+tortoise.exceptions.IntegrityError: повторяющееся значение ключа нарушает ограничение уникальности "users_telegram_id_key"
+DETAIL:  Ключ "(telegram_id)=(484385628)" уже существует.
+WARNING  2025-09-17 15:53:20,502 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-17 15:53:22,884 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-17 15:53:23,309 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-17 15:53:23,529 [bot] (commands.py).set_commands(20) Установил команды
+ERROR    2025-09-17 15:53:40,705 [bot] (registeration.py).save_contact(89) Ошибка сохранения юзера: повторяющееся значение ключа нарушает ограничение уникальности "users_telegram_id_key"
+DETAIL:  Ключ "(telegram_id)=(484385628)" уже существует.
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\backends\asyncpg\client.py", line 89, in _translate_exceptions
+    return await func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\backends\asyncpg\client.py", line 112, in execute_insert
+    return await connection.fetchrow(query, *values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\asyncpg\connection.py", line 748, in fetchrow
+    data = await self._execute(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\asyncpg\connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\asyncpg\connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\asyncpg\connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg\\protocol\\protocol.pyx", line 206, in bind_execute
+asyncpg.exceptions.UniqueViolationError: повторяющееся значение ключа нарушает ограничение уникальности "users_telegram_id_key"
+DETAIL:  Ключ "(telegram_id)=(484385628)" уже существует.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\handlers\registeration.py", line 81, in save_contact
+    await User.create(
+    ...<5 lines>...
+        role="user")
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\models.py", line 1210, in create
+    await instance.save(using_db=db, force_create=True)
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\models.py", line 996, in save
+    await executor.execute_insert(self)
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\backends\base\executor.py", line 188, in execute_insert
+    insert_result = await self.db.execute_insert(self.insert_query, values)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\backends\base_postgres\client.py", line 33, in _translate_exceptions
+    return await self._translate_exceptions(func, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\backends\asyncpg\client.py", line 93, in _translate_exceptions
+    raise IntegrityError(exc)
+tortoise.exceptions.IntegrityError: повторяющееся значение ключа нарушает ограничение уникальности "users_telegram_id_key"
+DETAIL:  Ключ "(telegram_id)=(484385628)" уже существует.
+DEBUG    2025-09-17 15:53:42,236 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-17 15:53:42,237 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-17 15:58:55,303 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-18 09:50:32,970 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 09:50:35,486 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-18 09:50:35,666 [bot] (commands.py).set_commands(20) Установил команды
+ERROR    2025-09-18 09:50:51,781 [bot] (middleware.py).__call__(116) [StatisticMiddleware] Ошибка статистики: Error 22 connecting to localhost:6379. Удаленный компьютер отклонил это сетевое подключение.
+ERROR    2025-09-18 09:50:58,192 [bot] (middleware.py).__call__(116) [StatisticMiddleware] Ошибка статистики: Error 22 connecting to localhost:6379. Удаленный компьютер отклонил это сетевое подключение.
+ERROR    2025-09-18 09:50:58,210 [bot] (registeration.py).save_contact(89) Ошибка сохранения юзера: повторяющееся значение ключа нарушает ограничение уникальности "users_telegram_id_key"
+DETAIL:  Ключ "(telegram_id)=(484385628)" уже существует.
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\backends\asyncpg\client.py", line 89, in _translate_exceptions
+    return await func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\backends\asyncpg\client.py", line 112, in execute_insert
+    return await connection.fetchrow(query, *values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\asyncpg\connection.py", line 748, in fetchrow
+    data = await self._execute(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\asyncpg\connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\asyncpg\connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\asyncpg\connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg\\protocol\\protocol.pyx", line 206, in bind_execute
+asyncpg.exceptions.UniqueViolationError: повторяющееся значение ключа нарушает ограничение уникальности "users_telegram_id_key"
+DETAIL:  Ключ "(telegram_id)=(484385628)" уже существует.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\handlers\registeration.py", line 81, in save_contact
+    await User.create(
+    ...<5 lines>...
+        role="user")
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\models.py", line 1210, in create
+    await instance.save(using_db=db, force_create=True)
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\models.py", line 996, in save
+    await executor.execute_insert(self)
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\backends\base\executor.py", line 188, in execute_insert
+    insert_result = await self.db.execute_insert(self.insert_query, values)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\backends\base_postgres\client.py", line 33, in _translate_exceptions
+    return await self._translate_exceptions(func, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\backends\asyncpg\client.py", line 93, in _translate_exceptions
+    raise IntegrityError(exc)
+tortoise.exceptions.IntegrityError: повторяющееся значение ключа нарушает ограничение уникальности "users_telegram_id_key"
+DETAIL:  Ключ "(telegram_id)=(484385628)" уже существует.
+ERROR    2025-09-18 09:51:40,679 [bot] (middleware.py).__call__(116) [StatisticMiddleware] Ошибка статистики: Error 22 connecting to localhost:6379. Удаленный компьютер отклонил это сетевое подключение.
+ERROR    2025-09-18 09:51:53,453 [bot] (middleware.py).__call__(116) [StatisticMiddleware] Ошибка статистики: Error 22 connecting to localhost:6379. Удаленный компьютер отклонил это сетевое подключение.
+ERROR    2025-09-18 09:52:00,305 [bot] (middleware.py).__call__(116) [StatisticMiddleware] Ошибка статистики: Error 22 connecting to localhost:6379. Удаленный компьютер отклонил это сетевое подключение.
+ERROR    2025-09-18 09:52:11,605 [bot] (middleware.py).__call__(116) [StatisticMiddleware] Ошибка статистики: Error 22 connecting to localhost:6379. Удаленный компьютер отклонил это сетевое подключение.
+ERROR    2025-09-18 09:52:11,649 [bot] (registeration.py).save_contact(89) Ошибка сохранения юзера: повторяющееся значение ключа нарушает ограничение уникальности "users_telegram_id_key"
+DETAIL:  Ключ "(telegram_id)=(484385628)" уже существует.
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\backends\asyncpg\client.py", line 89, in _translate_exceptions
+    return await func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\backends\asyncpg\client.py", line 112, in execute_insert
+    return await connection.fetchrow(query, *values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\asyncpg\connection.py", line 748, in fetchrow
+    data = await self._execute(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\asyncpg\connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\asyncpg\connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\asyncpg\connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg\\protocol\\protocol.pyx", line 206, in bind_execute
+asyncpg.exceptions.UniqueViolationError: повторяющееся значение ключа нарушает ограничение уникальности "users_telegram_id_key"
+DETAIL:  Ключ "(telegram_id)=(484385628)" уже существует.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\handlers\registeration.py", line 81, in save_contact
+    await User.create(
+    ...<5 lines>...
+        role="user")
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\models.py", line 1210, in create
+    await instance.save(using_db=db, force_create=True)
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\models.py", line 996, in save
+    await executor.execute_insert(self)
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\backends\base\executor.py", line 188, in execute_insert
+    insert_result = await self.db.execute_insert(self.insert_query, values)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\backends\base_postgres\client.py", line 33, in _translate_exceptions
+    return await self._translate_exceptions(func, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\backends\asyncpg\client.py", line 93, in _translate_exceptions
+    raise IntegrityError(exc)
+tortoise.exceptions.IntegrityError: повторяющееся значение ключа нарушает ограничение уникальности "users_telegram_id_key"
+DETAIL:  Ключ "(telegram_id)=(484385628)" уже существует.
+WARNING  2025-09-18 10:05:17,977 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-18 10:05:18,147 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-18 10:05:22,051 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 10:05:22,861 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-18 10:05:23,081 [bot] (commands.py).set_commands(20) Установил команды
+ERROR    2025-09-18 10:05:29,259 [bot] (middleware.py).__call__(116) [StatisticMiddleware] Ошибка статистики: Error 22 connecting to localhost:6379. Удаленный компьютер отклонил это сетевое подключение.
+ERROR    2025-09-18 10:05:44,108 [bot] (middleware.py).__call__(116) [StatisticMiddleware] Ошибка статистики: Error 22 connecting to localhost:6379. Удаленный компьютер отклонил это сетевое подключение.
+ERROR    2025-09-18 10:05:51,299 [bot] (middleware.py).__call__(116) [StatisticMiddleware] Ошибка статистики: Error 22 connecting to localhost:6379. Удаленный компьютер отклонил это сетевое подключение.
+DEBUG    2025-09-18 10:05:51,303 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 10:05:51,303 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+ERROR    2025-09-18 10:06:49,102 [bot] (registeration.py).save_contact(92) Ошибка сохранения юзера: повторяющееся значение ключа нарушает ограничение уникальности "users_telegram_id_key"
+DETAIL:  Ключ "(telegram_id)=(484385628)" уже существует.
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\backends\asyncpg\client.py", line 89, in _translate_exceptions
+    return await func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\backends\asyncpg\client.py", line 112, in execute_insert
+    return await connection.fetchrow(query, *values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\asyncpg\connection.py", line 748, in fetchrow
+    data = await self._execute(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\asyncpg\connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\asyncpg\connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\asyncpg\connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg\\protocol\\protocol.pyx", line 206, in bind_execute
+asyncpg.exceptions.UniqueViolationError: повторяющееся значение ключа нарушает ограничение уникальности "users_telegram_id_key"
+DETAIL:  Ключ "(telegram_id)=(484385628)" уже существует.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\handlers\registeration.py", line 84, in save_contact
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\models.py", line 1210, in create
+    await instance.save(using_db=db, force_create=True)
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\models.py", line 996, in save
+    await executor.execute_insert(self)
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\backends\base\executor.py", line 188, in execute_insert
+    insert_result = await self.db.execute_insert(self.insert_query, values)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\backends\base_postgres\client.py", line 33, in _translate_exceptions
+    return await self._translate_exceptions(func, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\backends\asyncpg\client.py", line 93, in _translate_exceptions
+    raise IntegrityError(exc)
+tortoise.exceptions.IntegrityError: повторяющееся значение ключа нарушает ограничение уникальности "users_telegram_id_key"
+DETAIL:  Ключ "(telegram_id)=(484385628)" уже существует.
+DEBUG    2025-09-18 10:06:51,209 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 10:06:51,209 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-18 10:12:54,563 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-18 10:12:57,499 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 10:12:58,065 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-18 10:12:58,215 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 10:13:00,869 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 10:13:00,870 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-18 10:13:22,372 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 10:13:22,373 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-18 10:22:09,102 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 10:22:09,102 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-18 10:22:39,609 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-18 10:22:39,872 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-18 10:22:42,120 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 10:22:42,590 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-18 10:22:42,777 [bot] (commands.py).set_commands(20) Установил команды
+WARNING  2025-09-18 10:26:59,172 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-18 10:27:02,010 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 10:27:02,566 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 10:27:02,727 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 10:27:05,623 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 10:27:05,624 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-18 10:27:21,578 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 10:27:21,579 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-18 10:43:29,447 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-18 10:43:29,610 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-18 10:43:31,942 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 10:43:32,384 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 10:43:32,674 [bot] (commands.py).set_commands(20) Установил команды
+WARNING  2025-09-18 10:44:31,728 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-18 10:44:34,570 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 10:44:34,993 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 10:44:35,161 [bot] (commands.py).set_commands(20) Установил команды
+WARNING  2025-09-18 10:45:20,455 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-18 10:45:23,022 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 10:45:23,478 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 10:45:23,643 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 10:45:29,489 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 10:45:29,489 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-18 10:47:13,201 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-18 10:47:15,708 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 10:47:16,155 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 10:47:16,324 [bot] (commands.py).set_commands(20) Установил команды
+WARNING  2025-09-18 10:47:41,798 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-18 10:47:44,399 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 10:47:44,963 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 10:47:45,131 [bot] (commands.py).set_commands(20) Установил команды
+WARNING  2025-09-18 10:48:01,555 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-18 10:48:03,997 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 10:48:14,151 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 10:48:14,697 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 10:48:14,888 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 10:48:19,512 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 10:48:19,512 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-18 10:54:30,866 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 10:54:30,866 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-18 11:08:53,228 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-18 11:08:53,386 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-18 11:08:57,943 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 11:08:58,386 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 11:08:58,702 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 11:19:33,177 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 11:19:33,177 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-18 11:29:45,157 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-18 11:29:45,303 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-18 11:29:47,739 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 11:29:48,301 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 11:29:48,478 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 11:29:52,139 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 11:29:52,139 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-18 11:31:15,711 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-18 11:31:18,342 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 11:31:18,787 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 11:31:18,953 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 11:31:29,603 [bot] (back_handler.py).back(23) Начало обработки back. Текущее состояние: AnswerState:docs_questions
+DEBUG    2025-09-18 11:31:32,643 [bot] (back_handler.py).back(23) Начало обработки back. Текущее состояние: AnswerState:question
+DEBUG    2025-09-18 11:31:38,068 [bot] (back_handler.py).back(23) Начало обработки back. Текущее состояние: AnswerState:question
+WARNING  2025-09-18 11:36:34,282 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-18 11:36:36,964 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 11:36:37,456 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 11:36:37,668 [bot] (commands.py).set_commands(20) Установил команды
+WARNING  2025-09-18 11:40:32,143 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-18 11:40:32,287 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-18 11:40:34,767 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 11:40:35,206 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 11:40:35,559 [bot] (commands.py).set_commands(20) Установил команды
+WARNING  2025-09-18 11:40:55,836 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-18 11:40:58,455 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 11:40:58,893 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 11:40:59,043 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 11:42:28,640 [bot] (back_handler.py).back(23) Начало обработки back. Текущее состояние: AnswerState:question
+WARNING  2025-09-18 11:45:55,341 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-18 11:45:57,961 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 11:45:58,392 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 11:45:58,590 [bot] (commands.py).set_commands(20) Установил команды
+WARNING  2025-09-18 11:47:33,952 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-18 11:47:36,585 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 11:47:37,136 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 11:47:37,412 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 11:47:45,111 [bot] (back_handler.py).back(23) Начало обработки back. Текущее состояние: AnswerState:doc_answer
+DEBUG    2025-09-18 11:47:53,480 [bot] (back_handler.py).back(23) Начало обработки back. Текущее состояние: AnswerState:answer
+DEBUG    2025-09-18 11:48:19,976 [bot] (back_handler.py).back(23) Начало обработки back. Текущее состояние: AnswerState:doc_answer
+WARNING  2025-09-18 11:48:41,726 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-18 11:48:44,253 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 11:48:44,719 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 11:48:44,883 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 11:48:49,492 [bot] (back_handler.py).back(24) Начало обработки back. Текущее состояние: AnswerState:doc_answer
+DEBUG    2025-09-18 11:48:51,666 [bot] (back_handler.py).back(24) Начало обработки back. Текущее состояние: AnswerState:docs_questions
+DEBUG    2025-09-18 11:48:55,241 [bot] (back_handler.py).back(24) Начало обработки back. Текущее состояние: AnswerState:answer
+WARNING  2025-09-18 11:50:05,475 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-18 11:50:08,343 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 11:50:08,786 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 11:50:08,958 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 11:50:10,572 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 11:50:10,572 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-18 11:50:18,493 [bot] (back_handler.py).back(24) Начало обработки back. Текущее состояние: AnswerState:answer
+WARNING  2025-09-18 12:23:48,769 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-18 12:23:48,925 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-18 12:23:52,421 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 12:23:53,240 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 12:23:53,428 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 12:23:56,964 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 12:23:56,964 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-18 12:24:00,450 [bot] (back_handler.py).back(24) Начало обработки back. Текущее состояние: AdminMenuState:admin_menu
+DEBUG    2025-09-18 12:24:02,791 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 12:24:02,792 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-18 12:28:46,032 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-18 12:28:48,714 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 12:28:49,157 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 12:28:49,308 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 12:28:53,676 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 12:28:53,676 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+INFO     2025-09-18 12:29:01,478 [bot] (cancel_state_handler.py).cancel_handler(18) Состояние ожидания: CreateRequest:wait_contract - отменено
+DEBUG    2025-09-18 12:29:01,780 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 12:29:01,780 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-18 12:50:02,632 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-18 12:50:02,776 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-18 12:50:05,360 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 12:50:05,814 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 12:50:06,426 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 12:50:12,254 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 12:50:12,255 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-18 12:51:49,963 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-18 12:51:52,477 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 12:51:52,904 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 12:51:53,123 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 12:51:55,038 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 12:51:55,039 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-18 13:01:56,331 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 13:01:56,331 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+INFO     2025-09-18 13:01:56,435 [bot] (cancel_state_handler.py).cancel_state_handler(40) Состояние сброшено: CreateRequest:wait_contract 
+WARNING  2025-09-18 13:05:57,277 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-18 13:05:57,441 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-18 13:05:59,888 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 13:06:00,373 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 13:06:00,718 [bot] (commands.py).set_commands(20) Установил команды
+WARNING  2025-09-18 13:06:47,905 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-18 13:06:50,467 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 13:06:51,000 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 13:06:51,224 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 13:06:53,418 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 13:06:53,418 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-18 13:06:59,437 [bot] (user_request_handlers.py).creating_request_acc_screenshot(38) получен документ: file_id='BQACAgIAAxkBAAP1aMvZw-6FO2bFIMXG2Vg-n6_eMdQAAjh5AAOUYEqar-tEimBqtDYE' file_unique_id='AgADOHkAA5RgSg' thumbnail=None file_name='py01.pdf' mime_type='application/pdf' file_size=155196, file_id: BQACAgIAAxkBAAP1aMvZw-6FO2bFIMXG2Vg-n6_eMdQAAjh5AAOUYEqar-tEimBqtDYE
+DEBUG    2025-09-18 13:16:54,887 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 13:16:54,887 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+INFO     2025-09-18 13:16:54,970 [bot] (cancel_state_handler.py).cancel_state_handler(40) Состояние сброшено: CreateRequest:wait_contract 
+WARNING  2025-09-18 13:25:23,483 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-18 13:25:23,629 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-18 13:25:25,923 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 13:25:26,352 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 13:25:26,545 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 13:25:28,682 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 13:25:28,682 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-18 13:25:35,556 [bot] (user_request_handlers.py).creating_request_acc_screenshot(39) получен документ: file_id='BQACAgIAAxkBAAP6aMveIIRHVORGDpLnRH8rw7Mn2dUAAl55AAOUYEqKhBwnAY8tgTYE' file_unique_id='AgADXnkAA5RgSg' thumbnail=None file_name='py01.pdf' mime_type='application/pdf' file_size=155196, file_id: BQACAgIAAxkBAAP6aMveIIRHVORGDpLnRH8rw7Mn2dUAAl55AAOUYEqKhBwnAY8tgTYE
+WARNING  2025-09-18 13:29:21,881 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-18 13:29:24,530 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 13:29:24,993 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 13:29:25,164 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 13:29:27,878 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 13:29:27,878 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-18 13:31:41,310 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-18 13:31:43,744 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 13:31:44,296 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 13:31:44,491 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 13:31:46,531 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 13:31:46,531 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-18 13:32:07,137 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-18 13:32:09,616 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 13:32:10,161 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 13:32:10,316 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 13:32:11,982 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 13:32:11,982 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-18 13:34:13,036 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-18 13:34:15,600 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 13:34:16,061 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 13:34:16,233 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 13:34:22,648 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 13:34:22,648 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-18 13:35:02,915 [bot] (user_request_handlers.py).creating_request_acc_screenshot(39) получен документ: file_id='BQACAgIAAxkBAAIBDmjL4FeyJ8qWUy4qCV_Li3pW5b4LAAJ2eQADlGBK8E4jb82A1FI2BA' file_unique_id='AgADdnkAA5RgSg' thumbnail=None file_name='py01.pdf' mime_type='application/pdf' file_size=155196, file_id: BQACAgIAAxkBAAIBDmjL4FeyJ8qWUy4qCV_Li3pW5b4LAAJ2eQADlGBK8E4jb82A1FI2BA
+DEBUG    2025-09-18 13:45:03,056 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 13:45:03,057 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+INFO     2025-09-18 13:45:03,192 [bot] (cancel_state_handler.py).cancel_state_handler(40) Состояние сброшено: CreateRequest:wait_acc_screenshot 
+WARNING  2025-09-18 15:19:53,824 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-18 15:19:53,969 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-18 15:19:56,734 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 15:19:57,194 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 15:19:57,361 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 15:20:03,702 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 15:20:03,702 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-18 15:21:32,529 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-18 15:21:35,056 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 15:21:35,478 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 15:21:35,629 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 15:21:40,751 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 15:21:40,751 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-18 15:21:55,219 [bot] (user_request_handlers.py).creating_request_acc_screenshot(48) получен документ: file_id='BQACAgIAAxkBAAIBG2jL-WPtH8aVYNEc6ECkuIcPvckWAAL5egADlGBKcivFTVTQ4os2BA' file_unique_id='AgAD-XoAA5RgSg' thumbnail=None file_name='Справка_по_операции_2023_07_11_11_26_19.pdf' mime_type='application/pdf' file_size=24656, file_id: BQACAgIAAxkBAAIBG2jL-WPtH8aVYNEc6ECkuIcPvckWAAL5egADlGBKcivFTVTQ4os2BA
+DEBUG    2025-09-18 15:22:15,393 [bot] (user_request_handlers.py).creating_request_pass(70) получен скрин лк: None, file_id: AgACAgIAAxkBAAIBFWjL-PvrtROSBZERXIvEGNeXYa2lAALjAAEyGwABlGBKszRXqcWypjkBAAMCAAN4AAM2BA
+WARNING  2025-09-18 15:22:45,774 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-18 15:22:48,350 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 15:22:48,791 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 15:22:48,938 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 15:22:56,341 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 15:22:56,341 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-18 15:23:08,376 [bot] (user_request_handlers.py).creating_request_acc_screenshot(48) получен документ: None, file_id: AgACAgIAAxkBAAIBFWjL-PvrtROSBZERXIvEGNeXYa2lAALjAAEyGwABlGBKszRXqcWypjkBAAMCAAN4AAM2BA
+DEBUG    2025-09-18 15:23:49,020 [bot] (user_request_handlers.py).creating_request_pass(70) получен скрин лк: None, file_id: AgACAgIAAxkBAAIBI2jL-dWtlpyYu_52TYdVyYUrte28AALrAAEyGwABlGBKPD1Td4Yavg4BAAMCAAN5AAM2BA
+INFO     2025-09-18 15:24:00,638 [bot] (cancel_state_handler.py).cancel_handler(18) Состояние ожидания: CreateRequest:wait_pass - отменено
+DEBUG    2025-09-18 15:24:00,956 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 15:24:00,956 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-18 15:24:11,030 [bot] (user_request_handlers.py).creating_request_acc_screenshot(48) получен документ: file_id='BQACAgIAAxkBAAIBJ2jL-evpUDd59mDFtkRWQAGKaDM0AAL-egADlGBKa9GYD2LQBo02BA' file_unique_id='AgAD_noAA5RgSg' thumbnail=None file_name='Docker.docx' mime_type='application/vnd.openxmlformats-officedocument.wordprocessingml.document' file_size=768878, file_id: BQACAgIAAxkBAAIBJ2jL-evpUDd59mDFtkRWQAGKaDM0AAL-egADlGBKa9GYD2LQBo02BA
+DEBUG    2025-09-18 15:24:24,871 [bot] (user_request_handlers.py).creating_request_pass(70) получен скрин лк: None, file_id: AgACAgIAAxkBAAIBKWjL-fmuCMa6naMozGf-9EsUCNVWAALsAAEyGwABlGBKIbXp16evTZQBAAMCAAN5AAM2BA
+DEBUG    2025-09-18 15:33:49,170 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 15:33:49,170 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+INFO     2025-09-18 15:33:49,238 [bot] (cancel_state_handler.py).cancel_state_handler(40) Состояние сброшено: CreateRequest:wait_pass 
+WARNING  2025-09-18 15:38:20,415 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-18 15:38:20,586 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-18 15:38:22,914 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 15:38:23,329 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 15:38:23,806 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 15:38:31,795 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 15:38:31,795 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-18 15:38:56,869 [bot] (user_request_handlers.py).creating_request_acc_screenshot(47) получен документ: file_id='BQACAgIAAxkBAAIBMGjL_WEEbbosbwYrWAzenIydeWKsAAI5ewADlGBKi9Fsg00afMM2BA' file_unique_id='AgADOXsAA5RgSg' thumbnail=None file_name='Справка_по_операции_2023_07_11_11_26_19.pdf' mime_type='application/pdf' file_size=24656, file_id: BQACAgIAAxkBAAIBMGjL_WEEbbosbwYrWAzenIydeWKsAAI5ewADlGBKi9Fsg00afMM2BA
+DEBUG    2025-09-18 15:39:03,445 [bot] (user_request_handlers.py).creating_request_pass(72) получен скрин лк: [PhotoSize(file_id='AgACAgIAAxkBAAIBMmjL_WcO4TGl_BeNb-zlvHTlJckGAALjAAEyGwABlGBKszRXqcWypjkBAAMCAANzAAM2BA', file_unique_id='AQAD4wABMhsAAZRgSng', width=90, height=78, file_size=944), PhotoSize(file_id='AgACAgIAAxkBAAIBMmjL_WcO4TGl_BeNb-zlvHTlJckGAALjAAEyGwABlGBKszRXqcWypjkBAAMCAANtAAM2BA', file_unique_id='AQAD4wABMhsAAZRgSnI', width=320, height=279, file_size=13366), PhotoSize(file_id='AgACAgIAAxkBAAIBMmjL_WcO4TGl_BeNb-zlvHTlJckGAALjAAEyGwABlGBKszRXqcWypjkBAAMCAAN4AAM2BA', file_unique_id='AQAD4wABMhsAAZRgSn0', width=596, height=520, file_size=33648)], file_id: AgACAgIAAxkBAAIBMmjL_WcO4TGl_BeNb-zlvHTlJckGAALjAAEyGwABlGBKszRXqcWypjkBAAMCAAN4AAM2BA
+DEBUG    2025-09-18 15:39:12,113 [bot] (user_request_handlers.py).creating_request_ndfl(99) получено фото бейджа/пропуска: [PhotoSize(file_id='AgACAgIAAxkBAAIBNGjL_XCY9AiXS7vu74iUyrEAAQovDwACAgEyGwABlGBK2s7QhuSJu-0BAAMCAANzAAM2BA', file_unique_id='AQADAgEyGwABlGBKeA', width=90, height=90, file_size=2199), PhotoSize(file_id='AgACAgIAAxkBAAIBNGjL_XCY9AiXS7vu74iUyrEAAQovDwACAgEyGwABlGBK2s7QhuSJu-0BAAMCAANtAAM2BA', file_unique_id='AQADAgEyGwABlGBKcg', width=320, height=320, file_size=29466), PhotoSize(file_id='AgACAgIAAxkBAAIBNGjL_XCY9AiXS7vu74iUyrEAAQovDwACAgEyGwABlGBK2s7QhuSJu-0BAAMCAAN4AAM2BA', file_unique_id='AQADAgEyGwABlGBKfQ', width=800, height=800, file_size=115826), PhotoSize(file_id='AgACAgIAAxkBAAIBNGjL_XCY9AiXS7vu74iUyrEAAQovDwACAgEyGwABlGBK2s7QhuSJu-0BAAMCAAN5AAM2BA', file_unique_id='AQADAgEyGwABlGBKfg', width=1024, height=1024, file_size=153078)], file_id: AgACAgIAAxkBAAIBNGjL_XCY9AiXS7vu74iUyrEAAQovDwACAgEyGwABlGBK2s7QhuSJu-0BAAMCAAN5AAM2BA
+DEBUG    2025-09-18 15:39:21,948 [bot] (user_request_handlers.py).creating_request_extract(130) Получен скрин НДФЛ: file_id: AgACAgIAAxkBAAIBNmjL_Xqt5ovG8IlIDPuqCHH_hWt3AALrAAEyGwABlGBKPD1Td4Yavg4BAAMCAAN5AAM2BA
+DEBUG    2025-09-18 15:39:32,370 [bot] (user_request_handlers.py).creating_request_record(160) Получена выписка : file_id='BQACAgIAAxkBAAIBOGjL_YScOa-gvgdnRM-qu1QJL30RAAI9ewADlGBKeVe9cmKffj02BA' file_unique_id='AgADPXsAA5RgSg' thumbnail=None file_name='py01.pdf' mime_type='application/pdf' file_size=155196, file_id: BQACAgIAAxkBAAIBOGjL_YScOa-gvgdnRM-qu1QJL30RAAI9ewADlGBKeVe9cmKffj02BA
+WARNING  2025-09-18 15:40:32,102 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-18 15:40:34,703 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 15:40:35,155 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 15:40:35,301 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 15:40:45,342 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 15:40:45,342 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-18 15:40:59,458 [bot] (user_request_handlers.py).creating_request_acc_screenshot(47) получен документ: file_id='BQACAgIAAxkBAAIBPGjL_du0xwM_uUC68V7B36Gc9vi8AAJJewADlGBKPOTTlhTWGLs2BA' file_unique_id='AgADSXsAA5RgSg' thumbnail=None file_name='Справка_по_операции_2023_07_11_11_26_19.pdf' mime_type='application/pdf' file_size=24656, file_id: BQACAgIAAxkBAAIBPGjL_du0xwM_uUC68V7B36Gc9vi8AAJJewADlGBKPOTTlhTWGLs2BA
+DEBUG    2025-09-18 15:41:07,319 [bot] (user_request_handlers.py).creating_request_pass(72) получен скрин лк: [PhotoSize(file_id='AgACAgIAAxkBAAIBNmjL_Xqt5ovG8IlIDPuqCHH_hWt3AALrAAEyGwABlGBKPD1Td4Yavg4BAAMCAANzAAM2BA', file_unique_id='AQAD6wABMhsAAZRgSng', width=80, height=90, file_size=916), PhotoSize(file_id='AgACAgIAAxkBAAIBNmjL_Xqt5ovG8IlIDPuqCHH_hWt3AALrAAEyGwABlGBKPD1Td4Yavg4BAAMCAANtAAM2BA', file_unique_id='AQAD6wABMhsAAZRgSnI', width=285, height=320, file_size=12224), PhotoSize(file_id='AgACAgIAAxkBAAIBNmjL_Xqt5ovG8IlIDPuqCHH_hWt3AALrAAEyGwABlGBKPD1Td4Yavg4BAAMCAAN4AAM2BA', file_unique_id='AQAD6wABMhsAAZRgSn0', width=713, height=800, file_size=55449), PhotoSize(file_id='AgACAgIAAxkBAAIBNmjL_Xqt5ovG8IlIDPuqCHH_hWt3AALrAAEyGwABlGBKPD1Td4Yavg4BAAMCAAN5AAM2BA', file_unique_id='AQAD6wABMhsAAZRgSn4', width=1021, height=1146, file_size=85843)], file_id: AgACAgIAAxkBAAIBNmjL_Xqt5ovG8IlIDPuqCHH_hWt3AALrAAEyGwABlGBKPD1Td4Yavg4BAAMCAAN5AAM2BA
+DEBUG    2025-09-18 15:41:14,904 [bot] (user_request_handlers.py).creating_request_ndfl(99) получено фото бейджа/пропуска: [PhotoSize(file_id='AgACAgIAAxkBAAIBQGjL_eva24JUb16g1-UajFaYgsZFAALsAAEyGwABlGBKIbXp16evTZQBAAMCAANzAAM2BA', file_unique_id='AQAD7AABMhsAAZRgSng', width=90, height=90, file_size=2104), PhotoSize(file_id='AgACAgIAAxkBAAIBQGjL_eva24JUb16g1-UajFaYgsZFAALsAAEyGwABlGBKIbXp16evTZQBAAMCAANtAAM2BA', file_unique_id='AQAD7AABMhsAAZRgSnI', width=320, height=320, file_size=23306), PhotoSize(file_id='AgACAgIAAxkBAAIBQGjL_eva24JUb16g1-UajFaYgsZFAALsAAEyGwABlGBKIbXp16evTZQBAAMCAAN4AAM2BA', file_unique_id='AQAD7AABMhsAAZRgSn0', width=800, height=800, file_size=83780), PhotoSize(file_id='AgACAgIAAxkBAAIBQGjL_eva24JUb16g1-UajFaYgsZFAALsAAEyGwABlGBKIbXp16evTZQBAAMCAAN5AAM2BA', file_unique_id='AQAD7AABMhsAAZRgSn4', width=1024, height=1024, file_size=108015)], file_id: AgACAgIAAxkBAAIBQGjL_eva24JUb16g1-UajFaYgsZFAALsAAEyGwABlGBKIbXp16evTZQBAAMCAAN5AAM2BA
+DEBUG    2025-09-18 15:41:29,158 [bot] (user_request_handlers.py).creating_request_extract(130) Получен скрин НДФЛ: file_id: BQACAgIAAxkBAAIBQmjL_fm5cjOYmSGXbFzOOeCdLvriAAJKewADlGBKiT1wbVXOhm42BA
+DEBUG    2025-09-18 15:41:35,678 [bot] (user_request_handlers.py).creating_request_record(160) Получена выписка : None, file_id: AgACAgIAAxkBAAIBMmjL_WcO4TGl_BeNb-zlvHTlJckGAALjAAEyGwABlGBKszRXqcWypjkBAAMCAAN4AAM2BA
+WARNING  2025-09-18 15:52:21,812 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-18 15:52:21,962 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-18 15:52:24,264 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 15:52:24,690 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 15:52:24,914 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 15:52:30,499 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 15:52:30,500 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-18 15:53:30,871 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-18 15:53:33,388 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 15:53:44,104 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 15:53:44,559 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 15:53:44,830 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 15:53:47,430 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 15:53:47,430 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-18 15:55:20,797 [bot] (back_handler.py).back(24) Начало обработки back. Текущее состояние: None
+WARNING  2025-09-18 15:57:17,649 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-18 15:57:20,779 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 15:57:21,251 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 15:57:21,512 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 15:57:23,706 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 15:57:23,706 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-18 15:57:25,913 [bot] (back_handler.py).back(24) Начало обработки back. Текущее состояние: UserState:request
+DEBUG    2025-09-18 15:57:25,916 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 15:57:25,916 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-18 15:57:38,657 [bot] (main.py).start_bot(21) Бот закрыт
