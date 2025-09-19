@@ -14,7 +14,6 @@ from utils.logging_config import bot_logger
 async def start_registration_user(message: Message):
     """Регистрация пользователя"""
     await message.edit_text(
-        chat_id=message.from_user.id,
         text=f"Для работы с ботом необходимо подтвердить номер телефона.\n"
              f"Пожалуйста, пришлите номер телефона.",
         reply_markup=get_phone_keyboard()
