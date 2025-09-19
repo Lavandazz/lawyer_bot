@@ -9,7 +9,7 @@ from aiogram import Bot, Dispatcher
 
 from .settings_env import env_file
 
-
+CLIENTS_DIR = "clients"
 # Переменные окружения
 token = os.getenv("BOT_TOKEN")
 admin_id = os.getenv("ADMIN")

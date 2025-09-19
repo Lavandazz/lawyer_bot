@@ -24,17 +24,15 @@ class CreateRequest(StatesGroup):
     wait_pass = State()
     wait_ndfl = State()
     wait_extract = State()
-    wait_record = State()
+    wait_record_book = State()
     wait_comment = State()
     wait_save = State()
+    wait_surname = State()
 
 
 class AdminMenuState(StatesGroup):
     """ Меню админа """
-    admin_menu = State()
-    admin = State()
-    barista = State()
-    rights = State()
+    requests_menu = State()
     statistic_menu = State()  # меню статистики
     statistic = State()
 

@@ -3,9 +3,11 @@ from aiogram.exceptions import TelegramBadRequest
 from aiogram.fsm.context import FSMContext
 from aiogram.types import CallbackQuery
 
+from keyboards.admin_keyboards import admin_kb
+from keyboards.create_request import file_for_record
 from keyboards.help_keyboard import help_kb, help_docs_kb
 from keyboards.menu_keyboard import inline_menu_kb
-from states.menu_states import MenuState, CreateRequest, AnswerState, UserState
+from states.menu_states import MenuState, CreateRequest, AnswerState, UserState, AdminMenuState
 from utils.answers import documents_info
 from utils.logging_config import bot_logger
 
@@ -24,10 +26,10 @@ async def back(call: CallbackQuery, state: FSMContext, bot: Bot, role: str):
     bot_logger.debug(f'Начало обработки back. Текущее состояние: {current_state}')
 
     # возврат в главное меню
-    if current_state in {MenuState.admin_menu, CreateRequest, UserState.request}:
+    if current_state in {MenuState.admin_menu, UserState.request}:
         await state.set_state(MenuState.main_menu)
         await call.message.edit_text(
-            text=f"Главное меню.\n\n"
+            text=f"*Главное меню.*\n\n"
                  f"Кнопка - *Начать запрос* - переводит бота в режим принятия документов.\n"
                  f"Пожалуйста, перед началом работы, ознакомьтесь с инструкцией по команде /help.\n\n"
                  f"Ниже Вы можете зайти в личный кабинет, где отображаются все Ваши запросы.",
@@ -51,10 +53,23 @@ async def back(call: CallbackQuery, state: FSMContext, bot: Bot, role: str):
             reply_markup=help_docs_kb(documents_info)
         )
 
+    if current_state in {CreateRequest.wait_contract, CreateRequest.wait_acc_screenshot, CreateRequest.wait_pass,
+                         CreateRequest.wait_ndfl, CreateRequest.wait_extract, CreateRequest.wait_record_book,
+                         CreateRequest.wait_save, CreateRequest.wait_comment, CreateRequest.wait_surname}:
+        await state.set_state(UserState.request)
+        await call.message.edit_text(
+            text="Выберите интересующий вопрос",
+            reply_markup=file_for_record()
+        )
+
+    # переход в админ меню
+    if current_state in {AdminMenuState.requests_menu, AdminMenuState.statistic_menu}:
+        await state.set_state(MenuState.admin_menu)
+        await call.message.edit_text(text='Вы вошли в админ-панель', reply_markup=admin_kb())
 
 
-async def clear_message(call: CallbackQuery, bot: Bot, role: str):
+async def clear_message(call: CallbackQuery, role: str):
     """ Скрыть уведомление о новом отзыве """
-    if role == 'barista':
+    if role == 'admin':
         await call.message.delete()
         bot_logger.debug(f'Удалил сообщение')

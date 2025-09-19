@@ -906,3 +906,912 @@ DEBUG    2025-09-18 15:57:25,913 [bot] (back_handler.py).back(24) Начало �
 DEBUG    2025-09-18 15:57:25,916 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
 DEBUG    2025-09-18 15:57:25,916 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
 WARNING  2025-09-18 15:57:38,657 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-18 20:04:54,978 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 20:04:55,438 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 20:04:55,623 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 20:04:57,341 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 20:04:57,341 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-18 20:07:40,158 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-18 20:07:40,325 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-18 20:07:43,313 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 20:07:43,768 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 20:07:44,140 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 20:07:48,127 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 20:07:48,127 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-18 20:08:12,339 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 20:08:12,340 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-18 21:13:25,177 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-18 21:13:25,331 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-18 21:13:27,955 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 21:13:28,517 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 21:13:28,881 [bot] (commands.py).set_commands(20) Установил команды
+WARNING  2025-09-18 21:13:51,348 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-18 21:13:54,062 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 21:13:54,500 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 21:13:54,677 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 21:13:57,552 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 21:13:57,552 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-18 21:14:26,309 [bot] (user_request_handlers.py).creating_request_acc_screenshot(70) получен документ: file_id='BQACAgIAAxkBAAIBZWjMTALElZ6Yx1xD4iNfv11oRBrnAAIZggADlGBKp8Fp_ZKjEwE2BA' file_unique_id='AgADGYIAA5RgSg' thumbnail=None file_name='Справка_по_операции_2023_07_11_11_26_19.pdf' mime_type='application/pdf' file_size=24656, file_id: BQACAgIAAxkBAAIBZWjMTALElZ6Yx1xD4iNfv11oRBrnAAIZggADlGBKp8Fp_ZKjEwE2BA
+WARNING  2025-09-18 21:18:31,351 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-18 21:18:34,424 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 21:18:34,846 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 21:18:35,091 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 21:18:37,404 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 21:18:37,404 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-18 21:18:47,614 [bot] (user_request_handlers.py).creating_request_acc_screenshot(90) получен документ: file_id='BQACAgIAAxkBAAIBa2jMTQdt52M-ppfMp78XTJnjqVBdAAIpggADlGBKycahaxFB9Zw2BA' file_unique_id='AgADKYIAA5RgSg' thumbnail=None file_name='Справка_по_операции_2023_07_11_11_26_19.pdf' mime_type='application/pdf' file_size=24656, file_id: BQACAgIAAxkBAAIBa2jMTQdt52M-ppfMp78XTJnjqVBdAAIpggADlGBKycahaxFB9Zw2BA
+WARNING  2025-09-18 21:19:27,013 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-18 21:19:29,575 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 21:19:30,003 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 21:19:30,173 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 21:19:31,987 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 21:19:31,988 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-18 21:20:51,310 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-18 21:20:53,860 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 21:20:54,330 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 21:20:54,554 [bot] (commands.py).set_commands(20) Установил команды
+WARNING  2025-09-18 21:21:02,518 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-18 21:21:05,097 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 21:21:05,554 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 21:21:05,739 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 21:21:07,419 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 21:21:07,419 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-18 21:21:17,719 [bot] (back_handler.py).back(24) Начало обработки back. Текущее состояние: CreateRequest:wait_contract
+WARNING  2025-09-18 21:23:45,171 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-18 21:23:45,359 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-18 21:23:48,396 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 21:23:48,838 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 21:23:49,048 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 21:23:55,028 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 21:23:55,029 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-18 21:24:04,605 [bot] (back_handler.py).back(24) Начало обработки back. Текущее состояние: CreateRequest:wait_contract
+DEBUG    2025-09-18 21:24:23,041 [bot] (back_handler.py).back(24) Начало обработки back. Текущее состояние: AnswerState:doc_answer
+DEBUG    2025-09-18 21:24:34,104 [bot] (back_handler.py).back(24) Начало обработки back. Текущее состояние: AnswerState:doc_answer
+DEBUG    2025-09-18 21:24:39,468 [bot] (back_handler.py).back(24) Начало обработки back. Текущее состояние: AnswerState:doc_answer
+DEBUG    2025-09-18 21:24:40,664 [bot] (back_handler.py).back(24) Начало обработки back. Текущее состояние: AnswerState:docs_questions
+DEBUG    2025-09-18 21:24:43,836 [bot] (back_handler.py).back(24) Начало обработки back. Текущее состояние: AnswerState:answer
+DEBUG    2025-09-18 21:24:46,400 [bot] (back_handler.py).back(24) Начало обработки back. Текущее состояние: AnswerState:docs_questions
+DEBUG    2025-09-18 21:24:46,977 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 21:24:46,978 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-18 21:28:27,611 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-18 21:28:30,300 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 21:28:30,831 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 21:28:31,071 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 21:28:35,533 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 21:28:35,533 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-18 21:28:46,014 [bot] (back_handler.py).back(24) Начало обработки back. Текущее состояние: CreateRequest:wait_contract
+DEBUG    2025-09-18 21:28:50,733 [bot] (back_handler.py).back(24) Начало обработки back. Текущее состояние: AnswerState:doc_answer
+DEBUG    2025-09-18 21:28:52,095 [bot] (back_handler.py).back(24) Начало обработки back. Текущее состояние: AnswerState:docs_questions
+DEBUG    2025-09-18 21:28:54,075 [bot] (back_handler.py).back(24) Начало обработки back. Текущее состояние: AnswerState:answer
+DEBUG    2025-09-18 21:28:54,666 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 21:28:54,666 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-18 21:29:07,923 [bot] (back_handler.py).back(24) Начало обработки back. Текущее состояние: CreateRequest:wait_contract
+DEBUG    2025-09-18 21:29:29,923 [bot] (back_handler.py).back(24) Начало обработки back. Текущее состояние: AnswerState:doc_answer
+DEBUG    2025-09-18 21:29:35,594 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 21:29:35,594 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-18 21:29:40,035 [bot] (back_handler.py).back(24) Начало обработки back. Текущее состояние: CreateRequest:wait_contract
+WARNING  2025-09-18 21:29:43,937 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-18 21:29:46,685 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 21:29:47,148 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 21:29:47,805 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 21:29:50,335 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 21:29:50,336 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-18 21:30:02,062 [bot] (back_handler.py).back(24) Начало обработки back. Текущее состояние: CreateRequest:wait_contract
+WARNING  2025-09-18 21:31:44,528 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-18 21:31:47,268 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 21:31:47,699 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 21:31:47,911 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 21:31:50,467 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 21:31:50,468 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-18 21:32:05,357 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_contract
+DEBUG    2025-09-18 21:33:16,467 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_contract
+WARNING  2025-09-18 21:43:17,155 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-18 21:43:17,352 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-18 21:43:19,964 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 22:08:31,980 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 22:09:42,978 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 22:09:43,430 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 22:09:43,620 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 22:09:45,098 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 22:09:45,099 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-18 22:09:57,692 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_contract
+DEBUG    2025-09-18 22:10:11,867 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_pass
+DEBUG    2025-09-18 22:10:32,701 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_ndfl
+DEBUG    2025-09-18 22:10:46,291 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_extract
+DEBUG    2025-09-18 22:11:02,220 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_acc_screenshot
+DEBUG    2025-09-18 22:11:15,499 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_pass
+DEBUG    2025-09-18 22:11:18,682 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_pass
+DEBUG    2025-09-18 22:11:21,351 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_acc_screenshot
+DEBUG    2025-09-18 22:11:35,950 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_extract
+DEBUG    2025-09-18 22:11:58,792 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_ndfl
+DEBUG    2025-09-18 22:12:42,322 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_contract
+DEBUG    2025-09-18 22:13:41,058 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_acc_screenshot
+DEBUG    2025-09-18 22:13:43,793 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_acc_screenshot
+DEBUG    2025-09-18 22:14:23,916 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_acc_screenshot
+DEBUG    2025-09-18 22:14:45,823 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_contract
+DEBUG    2025-09-18 22:15:40,859 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_acc_screenshot
+WARNING  2025-09-18 22:16:42,128 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-18 22:16:44,621 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 22:16:45,053 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 22:16:45,272 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 22:16:53,711 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 22:16:53,711 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-18 22:17:04,084 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_acc_screenshot
+WARNING  2025-09-18 22:24:03,982 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-18 22:24:04,323 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-18 22:24:06,689 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 22:24:07,159 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 22:24:07,883 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 22:24:14,433 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 22:24:14,433 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-18 22:24:30,388 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_contract
+DEBUG    2025-09-18 22:24:32,366 [bot] (acc_screenshot.py).creating_request_acc_screenshot(19) Current state data: {'contract': 'BQACAgIAAxkBAAIBxmjMXGutGc2LYShtuV1Hp9AVLYxSAAJNgwADlGBKNChAOdj2Mdo2BA'}
+DEBUG    2025-09-18 22:24:32,366 [bot] (acc_screenshot.py).creating_request_acc_screenshot(20) acc_screenshot in data: None
+DEBUG    2025-09-18 22:24:48,719 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_acc_screenshot
+DEBUG    2025-09-18 22:24:50,787 [bot] (acc_screenshot.py).creating_request_acc_screenshot(19) Current state data: {'contract': 'AgACAgIAAxkBAAIByWjMXH6X7v_zFoLyTwiRYTOBkuYIAAKiAzIbAAGUYEppmd7DOmaI_QEAAwIAA3gAAzYE'}
+DEBUG    2025-09-18 22:24:50,788 [bot] (acc_screenshot.py).creating_request_acc_screenshot(20) acc_screenshot in data: None
+DEBUG    2025-09-18 22:25:42,586 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_acc_screenshot
+DEBUG    2025-09-18 22:25:45,765 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_contract
+DEBUG    2025-09-18 22:25:47,792 [bot] (acc_screenshot.py).creating_request_acc_screenshot(19) Current state data: {'contract': 'AgACAgIAAxkBAAIByWjMXH6X7v_zFoLyTwiRYTOBkuYIAAKiAzIbAAGUYEppmd7DOmaI_QEAAwIAA3gAAzYE'}
+DEBUG    2025-09-18 22:25:47,793 [bot] (acc_screenshot.py).creating_request_acc_screenshot(20) acc_screenshot in data: None
+DEBUG    2025-09-18 22:26:03,569 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_acc_screenshot
+DEBUG    2025-09-18 22:26:04,851 [bot] (acc_screenshot.py).creating_request_acc_screenshot(19) Current state data: {'contract': 'AgACAgIAAxkBAAIByWjMXH6X7v_zFoLyTwiRYTOBkuYIAAKiAzIbAAGUYEppmd7DOmaI_QEAAwIAA3gAAzYE'}
+DEBUG    2025-09-18 22:26:04,851 [bot] (acc_screenshot.py).creating_request_acc_screenshot(20) acc_screenshot in data: None
+DEBUG    2025-09-18 22:26:12,155 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_acc_screenshot
+DEBUG    2025-09-18 22:26:14,114 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_contract
+WARNING  2025-09-18 22:27:07,063 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-18 22:27:10,103 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 22:27:10,535 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 22:27:10,799 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 22:27:12,208 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 22:27:12,208 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-18 22:27:14,634 [bot] (contract.py).creating_contract(19) Current state data: {}
+DEBUG    2025-09-18 22:27:14,635 [bot] (contract.py).creating_contract(20) contract in data: None
+DEBUG    2025-09-18 22:27:20,217 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_contract
+DEBUG    2025-09-18 22:27:24,304 [bot] (contract.py).creating_contract(19) Current state data: {'contract': 'BQACAgIAAxkBAAIB1mjMXRdtzXMv-RHRhjXWOTVLk-u7AAJcgwADlGBK0SNna3lio302BA'}
+DEBUG    2025-09-18 22:27:24,305 [bot] (contract.py).creating_contract(20) contract in data: None
+DEBUG    2025-09-18 22:27:28,323 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_contract
+DEBUG    2025-09-18 22:27:30,295 [bot] (acc_screenshot.py).creating_request_acc_screenshot(19) Current state data: {'contract': 'BQACAgIAAxkBAAIB1mjMXRdtzXMv-RHRhjXWOTVLk-u7AAJcgwADlGBK0SNna3lio302BA'}
+DEBUG    2025-09-18 22:27:30,295 [bot] (acc_screenshot.py).creating_request_acc_screenshot(20) acc_screenshot in data: None
+DEBUG    2025-09-18 22:27:46,321 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_acc_screenshot
+DEBUG    2025-09-18 22:27:48,764 [bot] (acc_screenshot.py).creating_request_acc_screenshot(19) Current state data: {'contract': 'AgACAgIAAxkBAAIByWjMXH6X7v_zFoLyTwiRYTOBkuYIAAKiAzIbAAGUYEppmd7DOmaI_QEAAwIAA3gAAzYE'}
+DEBUG    2025-09-18 22:27:48,765 [bot] (acc_screenshot.py).creating_request_acc_screenshot(20) acc_screenshot in data: None
+DEBUG    2025-09-18 22:37:30,599 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 22:37:30,599 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+INFO     2025-09-18 22:37:30,721 [bot] (cancel_state_handler.py).cancel_state_handler(40) Состояние сброшено: CreateRequest:wait_acc_screenshot 
+WARNING  2025-09-18 22:57:38,732 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-18 22:57:38,890 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-18 22:57:41,460 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 22:57:41,918 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 22:57:42,090 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 22:57:50,595 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 22:57:50,596 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-18 22:57:54,626 [bot] (contract.py).creating_contract(19) Current state data: {}
+DEBUG    2025-09-18 22:57:54,627 [bot] (contract.py).creating_contract(20) contract in data: None
+DEBUG    2025-09-18 22:58:02,673 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_contract
+DEBUG    2025-09-18 22:58:04,351 [bot] (acc_screenshot.py).creating_request_acc_screenshot(19) Current state data: {'contract': 'BQACAgIAAxkBAAIB4mjMZEjUXENgvgNsupYJo61TJapiAAKxgwADlGBK2GygATTM_z42BA'}
+DEBUG    2025-09-18 22:58:04,351 [bot] (acc_screenshot.py).creating_request_acc_screenshot(20) acc_screenshot in data: None
+DEBUG    2025-09-18 22:58:10,913 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_acc_screenshot
+DEBUG    2025-09-18 22:58:12,259 [bot] (acc_screenshot.py).creating_request_acc_screenshot(19) Current state data: {'contract': 'AgACAgIAAxkBAAIB5WjMZFE7I_N90cy6dKLkqtvUD_aEAAKiAzIbAAGUYEppmd7DOmaI_QEAAwIAA3gAAzYE'}
+DEBUG    2025-09-18 22:58:12,259 [bot] (acc_screenshot.py).creating_request_acc_screenshot(20) acc_screenshot in data: None
+DEBUG    2025-09-18 22:58:16,313 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_acc_screenshot
+DEBUG    2025-09-18 22:58:20,199 [bot] (contract.py).creating_contract(19) Current state data: {'contract': 'AgACAgIAAxkBAAIB5WjMZFE7I_N90cy6dKLkqtvUD_aEAAKiAzIbAAGUYEppmd7DOmaI_QEAAwIAA3gAAzYE'}
+DEBUG    2025-09-18 22:58:20,199 [bot] (contract.py).creating_contract(20) contract in data: None
+DEBUG    2025-09-18 22:58:22,989 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_contract
+WARNING  2025-09-18 22:59:44,419 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-18 22:59:46,992 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 22:59:47,423 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 22:59:47,605 [bot] (commands.py).set_commands(20) Установил команды
+WARNING  2025-09-18 23:00:34,462 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-18 23:00:37,032 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 23:00:48,948 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 23:00:49,386 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 23:00:49,700 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 23:00:51,530 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 23:00:51,530 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-18 23:00:54,029 [bot] (contract.py).creating_contract(20) Current state data: {}
+DEBUG    2025-09-18 23:00:54,030 [bot] (contract.py).creating_contract(21) contract in data: None
+DEBUG    2025-09-18 23:01:00,423 [bot] (acc_screenshot.py).creating_request_acc_screenshot(19) Current state data: {'contract': 'BQACAgIAAxkBAAIB7mjMZPrjxzPWwL2GM9fHlC3pTzMOAAK6gwADlGBKYx07MQQIdZE2BA'}
+DEBUG    2025-09-18 23:01:00,424 [bot] (acc_screenshot.py).creating_request_acc_screenshot(20) acc_screenshot in data: None
+DEBUG    2025-09-18 23:01:11,760 [bot] (contract.py).creating_contract(20) Current state data: {'contract': 'AgACAgIAAxkBAAIB5WjMZFE7I_N90cy6dKLkqtvUD_aEAAKiAzIbAAGUYEppmd7DOmaI_QEAAwIAA3gAAzYE'}
+DEBUG    2025-09-18 23:01:11,761 [bot] (contract.py).creating_contract(21) contract in data: None
+DEBUG    2025-09-18 23:01:14,559 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_contract
+DEBUG    2025-09-18 23:01:16,856 [bot] (acc_screenshot.py).creating_request_acc_screenshot(19) Current state data: {'contract': 'AgACAgIAAxkBAAIB5WjMZFE7I_N90cy6dKLkqtvUD_aEAAKiAzIbAAGUYEppmd7DOmaI_QEAAwIAA3gAAzYE'}
+DEBUG    2025-09-18 23:01:16,856 [bot] (acc_screenshot.py).creating_request_acc_screenshot(20) acc_screenshot in data: None
+DEBUG    2025-09-18 23:01:18,498 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_acc_screenshot
+DEBUG    2025-09-18 23:01:20,479 [bot] (acc_screenshot.py).creating_request_acc_screenshot(19) Current state data: {'contract': 'AgACAgIAAxkBAAIB5WjMZFE7I_N90cy6dKLkqtvUD_aEAAKiAzIbAAGUYEppmd7DOmaI_QEAAwIAA3gAAzYE'}
+DEBUG    2025-09-18 23:01:20,479 [bot] (acc_screenshot.py).creating_request_acc_screenshot(20) acc_screenshot in data: None
+DEBUG    2025-09-18 23:01:29,312 [bot] (acc_screenshot.py).creating_request_acc_screenshot(19) Current state data: {'contract': 'AgACAgIAAxkBAAIB5WjMZFE7I_N90cy6dKLkqtvUD_aEAAKiAzIbAAGUYEppmd7DOmaI_QEAAwIAA3gAAzYE'}
+DEBUG    2025-09-18 23:01:29,312 [bot] (acc_screenshot.py).creating_request_acc_screenshot(20) acc_screenshot in data: None
+DEBUG    2025-09-18 23:01:31,298 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_acc_screenshot
+WARNING  2025-09-18 23:02:44,981 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-18 23:02:47,598 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 23:02:48,041 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 23:02:48,200 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 23:02:50,543 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 23:02:50,543 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-18 23:02:53,009 [bot] (acc_screenshot.py).creating_request_acc_screenshot(19) Current state data: {}
+DEBUG    2025-09-18 23:02:53,010 [bot] (acc_screenshot.py).creating_request_acc_screenshot(20) acc_screenshot in data: None
+DEBUG    2025-09-18 23:03:01,932 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_acc_screenshot
+DEBUG    2025-09-18 23:03:03,587 [bot] (acc_screenshot.py).creating_request_acc_screenshot(19) Current state data: {'contract': 'AgACAgIAAxkBAAIB5WjMZFE7I_N90cy6dKLkqtvUD_aEAAKiAzIbAAGUYEppmd7DOmaI_QEAAwIAA3gAAzYE'}
+DEBUG    2025-09-18 23:03:03,587 [bot] (acc_screenshot.py).creating_request_acc_screenshot(20) acc_screenshot in data: None
+WARNING  2025-09-18 23:03:36,445 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-18 23:03:38,923 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 23:03:39,347 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 23:03:39,508 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 23:03:41,592 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 23:03:41,593 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-18 23:03:43,961 [bot] (acc_screenshot.py).creating_request_acc_screenshot(19) Current state data: {}
+DEBUG    2025-09-18 23:03:43,962 [bot] (acc_screenshot.py).creating_request_acc_screenshot(20) acc_screenshot in data: None
+WARNING  2025-09-18 23:04:20,719 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-18 23:04:23,205 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 23:04:23,630 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 23:04:23,829 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 23:04:25,613 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 23:04:25,613 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-18 23:04:28,531 [bot] (acc_screenshot.py).creating_request_acc_screenshot(19) Current state data: {}
+DEBUG    2025-09-18 23:04:28,532 [bot] (acc_screenshot.py).creating_request_acc_screenshot(20) acc_screenshot in data: None
+DEBUG    2025-09-18 23:04:37,903 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_acc_screenshot
+DEBUG    2025-09-18 23:05:16,676 [bot] (acc_screenshot.py).creating_request_acc_screenshot(19) Current state data: {'contract': 'AgACAgIAAxkBAAIB5WjMZFE7I_N90cy6dKLkqtvUD_aEAAKiAzIbAAGUYEppmd7DOmaI_QEAAwIAA3gAAzYE'}
+DEBUG    2025-09-18 23:05:16,676 [bot] (acc_screenshot.py).creating_request_acc_screenshot(20) acc_screenshot in data: None
+WARNING  2025-09-18 23:05:24,199 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-18 23:05:26,784 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 23:05:27,340 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 23:05:27,506 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 23:05:29,111 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 23:05:29,111 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-18 23:05:32,528 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_ndfl
+DEBUG    2025-09-18 23:05:33,539 [bot] (acc_screenshot.py).creating_request_acc_screenshot(19) Current state data: {}
+DEBUG    2025-09-18 23:05:33,540 [bot] (acc_screenshot.py).creating_request_acc_screenshot(20) acc_screenshot in data: None
+WARNING  2025-09-18 23:06:05,254 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-18 23:06:07,836 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 23:06:08,289 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 23:06:08,496 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 23:06:11,006 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 23:06:11,006 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-18 23:06:15,403 [bot] (acc_screenshot.py).creating_request_acc_screenshot(19) Current state data: {}
+DEBUG    2025-09-18 23:06:15,403 [bot] (acc_screenshot.py).creating_request_acc_screenshot(20) acc_screenshot in data: None
+WARNING  2025-09-18 23:06:45,313 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-18 23:06:47,675 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 23:06:48,117 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 23:06:48,416 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 23:06:49,820 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 23:06:49,820 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-18 23:06:52,146 [bot] (acc_screenshot.py).creating_request_acc_screenshot(19) Current state data: {}
+DEBUG    2025-09-18 23:06:52,146 [bot] (acc_screenshot.py).creating_request_acc_screenshot(20) acc_screenshot in data: None
+WARNING  2025-09-18 23:08:40,183 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-18 23:08:40,344 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-18 23:08:42,670 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 23:08:43,087 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 23:08:43,287 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 23:08:45,646 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 23:08:45,647 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-18 23:08:48,220 [bot] (acc_screenshot.py).creating_request_acc_screenshot(19) Current state data: {}
+DEBUG    2025-09-18 23:08:48,220 [bot] (acc_screenshot.py).creating_request_acc_screenshot(20) acc_screenshot in data: None
+WARNING  2025-09-18 23:21:26,479 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-18 23:21:26,630 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-18 23:25:43,398 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 23:25:43,979 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 23:25:44,175 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 23:25:50,480 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 23:25:50,480 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-18 23:25:53,219 [bot] (contract.py).creating_contract(21) Current state data: {}
+DEBUG    2025-09-18 23:25:53,220 [bot] (contract.py).creating_contract(22) contract in data: None
+DEBUG    2025-09-18 23:26:07,402 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_contract
+DEBUG    2025-09-18 23:26:08,670 [bot] (acc_screenshot.py).creating_request_acc_screenshot(19) Current state data: {'contract': 'BQACAgIAAxkBAAICKmjMatx22M22KIsdLu_EYJBAomtIAAIbhAADlGBKMxMbPUpdTik2BA'}
+DEBUG    2025-09-18 23:26:08,670 [bot] (acc_screenshot.py).creating_request_acc_screenshot(20) acc_screenshot in data: None
+WARNING  2025-09-18 23:37:10,598 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-18 23:37:10,744 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-18 23:37:13,257 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 23:37:13,790 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 23:37:13,968 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 23:38:02,001 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 23:38:02,001 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-18 23:38:06,865 [bot] (contract.py).creating_contract(21) Current state data: {}
+DEBUG    2025-09-18 23:38:06,865 [bot] (contract.py).creating_contract(22) contract in data: None
+DEBUG    2025-09-18 23:38:16,228 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_contract
+DEBUG    2025-09-18 23:38:17,485 [bot] (acc_screenshot.py).creating_request_acc_screenshot(19) Current state data: {'contract': 'BQACAgIAAxkBAAICM2jMbbXgNORXNMPU-g2ErlApj0XbAAIuhAADlGBKLZ0KAAGfZAwqNgQ'}
+DEBUG    2025-09-18 23:38:17,485 [bot] (acc_screenshot.py).creating_request_acc_screenshot(20) acc_screenshot in data: None
+WARNING  2025-09-18 23:40:42,623 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-18 23:40:45,241 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 23:40:45,771 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 23:40:45,930 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 23:40:51,110 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 23:40:51,110 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-18 23:40:53,416 [bot] (contract.py).creating_contract(21) Current state data: {}
+DEBUG    2025-09-18 23:40:53,416 [bot] (contract.py).creating_contract(22) contract in data: None
+DEBUG    2025-09-18 23:40:59,731 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_contract
+DEBUG    2025-09-18 23:41:00,805 [bot] (acc_screenshot.py).creating_request_acc_screenshot(19) Current state data: {'contract': 'BQACAgIAAxkBAAICPGjMblnQIDXPKcvfhsIX6x_WpjXDAAI1hAADlGBKdzL2CJz_lPs2BA'}
+DEBUG    2025-09-18 23:41:00,805 [bot] (acc_screenshot.py).creating_request_acc_screenshot(20) acc_screenshot in data: None
+DEBUG    2025-09-18 23:41:05,482 [bot] (acc_screenshot.py).creating_request_acc_screenshot_save(40) сохраняю скрин лк
+DEBUG    2025-09-18 23:41:05,547 [bot] (acc_screenshot.py).creating_request_acc_screenshot_save(55) получен скрин: None, file_id: AgACAgIAAxkBAAICNmjMbb5xYdSm7v6rk0O349OqNx8hAAKiAzIbAAGUYEppmd7DOmaI_QEAAwIAA3gAAzYE
+DEBUG    2025-09-18 23:43:19,375 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_acc_screenshot
+DEBUG    2025-09-18 23:43:20,261 [bot] (acc_screenshot.py).creating_request_acc_screenshot(19) Current state data: {'contract': 'BQACAgIAAxkBAAICPGjMblnQIDXPKcvfhsIX6x_WpjXDAAI1hAADlGBKdzL2CJz_lPs2BA', 'acc_screenshot': 'AgACAgIAAxkBAAICNmjMbb5xYdSm7v6rk0O349OqNx8hAAKiAzIbAAGUYEppmd7DOmaI_QEAAwIAA3gAAzYE'}
+DEBUG    2025-09-18 23:43:20,262 [bot] (acc_screenshot.py).creating_request_acc_screenshot(20) acc_screenshot in data: AgACAgIAAxkBAAICNmjMbb5xYdSm7v6rk0O349OqNx8hAAKiAzIbAAGUYEppmd7DOmaI_QEAAwIAA3gAAzYE
+DEBUG    2025-09-18 23:43:21,513 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_acc_screenshot
+WARNING  2025-09-18 23:43:23,277 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-18 23:43:25,872 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-18 23:43:26,298 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-18 23:43:26,610 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-18 23:49:40,645 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: None
+DEBUG    2025-09-18 23:49:42,201 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 23:49:42,201 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-18 23:49:45,106 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: UserState:request
+DEBUG    2025-09-18 23:49:45,107 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-18 23:49:45,107 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-18 23:50:07,441 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: AnswerState:doc_answer
+DEBUG    2025-09-18 23:50:39,136 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: AnswerState:docs_questions
+WARNING  2025-09-19 00:04:05,933 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-19 00:04:06,099 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-19 00:04:08,539 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-19 00:04:08,987 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-19 00:04:09,191 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-19 00:04:11,051 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-19 00:04:11,051 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+ERROR    2025-09-19 00:04:18,273 [bot] (user_request_handlers.py).creating_request_save(56) Не получилось сохранить заявку: 'int' object has no attribute '_saved_in_db'
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\handlers\user\user_request_handlers.py", line 44, in creating_request_save
+    await SalaryRequest.create(
+    ...<8 lines>...
+    )
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\models.py", line 1207, in create
+    instance = cls(**kwargs)
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\models.py", line 698, in __init__
+    for key in meta.fields.difference(self._set_kwargs(kwargs)):
+                                      ~~~~~~~~~~~~~~~~^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\models.py", line 724, in _set_kwargs
+    if value and not value._saved_in_db:
+                     ^^^^^^^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute '_saved_in_db'
+DEBUG    2025-09-19 00:04:24,039 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_save
+WARNING  2025-09-19 00:06:45,040 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-19 00:06:47,537 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-19 00:06:47,969 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-19 00:06:48,137 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-19 00:06:52,251 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-19 00:06:52,251 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+ERROR    2025-09-19 00:06:59,341 [bot] (user_request_handlers.py).creating_request_save(57) Не получилось сохранить заявку: 'int' object has no attribute '_saved_in_db'
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\handlers\user\user_request_handlers.py", line 44, in creating_request_save
+    await SalaryRequest.create(
+    ...<8 lines>...
+    )
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\models.py", line 1207, in create
+    instance = cls(**kwargs)
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\models.py", line 698, in __init__
+    for key in meta.fields.difference(self._set_kwargs(kwargs)):
+                                      ~~~~~~~~~~~~~~~~^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\models.py", line 724, in _set_kwargs
+    if value and not value._saved_in_db:
+                     ^^^^^^^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute '_saved_in_db'
+WARNING  2025-09-19 00:07:48,311 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-19 00:07:50,736 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-19 00:07:51,160 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-19 00:07:51,306 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-19 00:07:52,967 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-19 00:07:52,967 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+ERROR    2025-09-19 00:07:57,662 [bot] (user_request_handlers.py).creating_request_save(57) Не получилось сохранить заявку: 'int' object has no attribute '_saved_in_db'
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\handlers\user\user_request_handlers.py", line 44, in creating_request_save
+    await SalaryRequest.create(
+    ...<8 lines>...
+    )
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\models.py", line 1207, in create
+    instance = cls(**kwargs)
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\models.py", line 698, in __init__
+    for key in meta.fields.difference(self._set_kwargs(kwargs)):
+                                      ~~~~~~~~~~~~~~~~^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\models.py", line 724, in _set_kwargs
+    if value and not value._saved_in_db:
+                     ^^^^^^^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute '_saved_in_db'
+DEBUG    2025-09-19 00:08:04,056 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_save
+WARNING  2025-09-19 00:08:07,144 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-19 10:16:43,100 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-19 10:16:45,639 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-19 10:16:45,871 [bot] (commands.py).set_commands(20) Установил команды
+WARNING  2025-09-19 10:17:15,894 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-19 10:17:16,059 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-19 10:17:19,781 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-19 10:17:20,447 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-19 10:17:20,666 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-19 10:17:22,797 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-19 10:17:22,798 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-19 10:18:21,346 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-19 10:18:25,244 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-19 10:18:26,190 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-19 10:18:26,473 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-19 10:18:28,048 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-19 10:18:28,048 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-19 10:19:58,373 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_save
+ERROR    2025-09-19 10:20:44,914 [bot] (user_request_handlers.py).creating_request_save(57) Не получилось сохранить заявку: 'int' object has no attribute '_saved_in_db'
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\handlers\user\user_request_handlers.py", line 44, in creating_request_save
+    await SalaryRequest.create(
+    ...<8 lines>...
+    )
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\models.py", line 1207, in create
+    instance = cls(**kwargs)
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\models.py", line 698, in __init__
+    for key in meta.fields.difference(self._set_kwargs(kwargs)):
+                                      ~~~~~~~~~~~~~~~~^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\models.py", line 724, in _set_kwargs
+    if value and not value._saved_in_db:
+                     ^^^^^^^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute '_saved_in_db'
+DEBUG    2025-09-19 10:21:59,320 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_save
+DEBUG    2025-09-19 10:22:03,177 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_comment
+ERROR    2025-09-19 10:22:36,368 [bot] (user_request_handlers.py).creating_request_save(57) Не получилось сохранить заявку: 'int' object has no attribute '_saved_in_db'
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\handlers\user\user_request_handlers.py", line 44, in creating_request_save
+    await SalaryRequest.create(
+    ...<8 lines>...
+    )
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\models.py", line 1207, in create
+    instance = cls(**kwargs)
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\models.py", line 698, in __init__
+    for key in meta.fields.difference(self._set_kwargs(kwargs)):
+                                      ~~~~~~~~~~~~~~~~^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\models.py", line 724, in _set_kwargs
+    if value and not value._saved_in_db:
+                     ^^^^^^^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute '_saved_in_db'
+DEBUG    2025-09-19 10:22:39,092 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_save
+WARNING  2025-09-19 10:23:29,743 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-19 10:23:33,101 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-19 10:23:33,724 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-19 10:23:33,892 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-19 10:23:36,630 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-19 10:23:36,631 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+ERROR    2025-09-19 10:23:41,764 [bot] (user_request_handlers.py).creating_request_save(57) Не получилось сохранить заявку: 'int' object has no attribute '_saved_in_db'
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\handlers\user\user_request_handlers.py", line 44, in creating_request_save
+    await SalaryRequest.create(
+    ...<8 lines>...
+    )
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\models.py", line 1207, in create
+    instance = cls(**kwargs)
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\models.py", line 698, in __init__
+    for key in meta.fields.difference(self._set_kwargs(kwargs)):
+                                      ~~~~~~~~~~~~~~~~^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\models.py", line 724, in _set_kwargs
+    if value and not value._saved_in_db:
+                     ^^^^^^^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute '_saved_in_db'
+WARNING  2025-09-19 10:24:06,620 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-19 10:24:09,835 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-19 10:24:10,435 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-19 10:24:10,648 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-19 10:24:12,044 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-19 10:24:12,044 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-19 10:24:39,512 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-19 10:24:43,056 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-19 10:24:43,870 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-19 10:24:44,053 [bot] (commands.py).set_commands(20) Установил команды
+WARNING  2025-09-19 10:24:47,317 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-19 10:24:50,691 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-19 10:24:51,469 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-19 10:24:51,644 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-19 10:24:56,391 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-19 10:24:56,392 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-19 10:27:56,312 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-19 10:27:56,494 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-19 10:28:00,395 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-19 10:28:01,157 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-19 10:28:01,564 [bot] (commands.py).set_commands(20) Установил команды
+WARNING  2025-09-19 10:31:50,224 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-19 10:31:53,557 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-19 10:31:54,169 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-19 10:31:54,347 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-19 10:31:59,427 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-19 10:31:59,427 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-19 10:32:26,092 [bot] (contract.py).creating_contract(21) Current state data: {}
+DEBUG    2025-09-19 10:32:26,093 [bot] (contract.py).creating_contract(22) contract in data: None
+DEBUG    2025-09-19 10:32:34,399 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_contract
+DEBUG    2025-09-19 10:32:35,809 [bot] (acc_screenshot.py).creating_request_acc_screenshot(19) Current state data: {'contract': 'BQACAgIAAxkBAAICbmjNBw9y-Na02FmciVFbkJ1ZA9g4AALGgQADlGhK7CSiKiqpr2s2BA'}
+DEBUG    2025-09-19 10:32:35,809 [bot] (acc_screenshot.py).creating_request_acc_screenshot(20) acc_screenshot in data: None
+DEBUG    2025-09-19 10:32:45,050 [bot] (acc_screenshot.py).creating_request_acc_screenshot_save(40) сохраняю скрин лк
+DEBUG    2025-09-19 10:32:45,130 [bot] (acc_screenshot.py).creating_request_acc_screenshot_save(54) получен скрин: None, file_id: AgACAgIAAxkBAAICcWjNBxwcBH2ItRQZNCcE92TE6Hf6AAJo_DEbAAGUaErQNF7cXJSmTgEAAwIAA3kAAzYE
+DEBUG    2025-09-19 10:32:46,187 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_acc_screenshot
+DEBUG    2025-09-19 10:32:54,777 [bot] (personal_pass.py).creating_request_pass_save(52) получен скрин лк: [PhotoSize(file_id='AgACAgIAAxkBAAICdGjNByZOmR6eCOtX2DYo1ZPe-RuPAAJp_DEbAAGUaEpG55jqugS_YgEAAwIAA3MAAzYE', file_unique_id='AQADafwxGwABlGhKeA', width=90, height=90, file_size=2104), PhotoSize(file_id='AgACAgIAAxkBAAICdGjNByZOmR6eCOtX2DYo1ZPe-RuPAAJp_DEbAAGUaEpG55jqugS_YgEAAwIAA20AAzYE', file_unique_id='AQADafwxGwABlGhKcg', width=320, height=320, file_size=23306), PhotoSize(file_id='AgACAgIAAxkBAAICdGjNByZOmR6eCOtX2DYo1ZPe-RuPAAJp_DEbAAGUaEpG55jqugS_YgEAAwIAA3gAAzYE', file_unique_id='AQADafwxGwABlGhKfQ', width=800, height=800, file_size=83780), PhotoSize(file_id='AgACAgIAAxkBAAICdGjNByZOmR6eCOtX2DYo1ZPe-RuPAAJp_DEbAAGUaEpG55jqugS_YgEAAwIAA3kAAzYE', file_unique_id='AQADafwxGwABlGhKfg', width=1024, height=1024, file_size=108015)], file_id: AgACAgIAAxkBAAICdGjNByZOmR6eCOtX2DYo1ZPe-RuPAAJp_DEbAAGUaEpG55jqugS_YgEAAwIAA3kAAzYE
+DEBUG    2025-09-19 10:32:57,126 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_pass
+DEBUG    2025-09-19 10:33:09,270 [bot] (extract.py).creating_request_extract_save(55) получена выписка ИЛС: file_id: AgACAgIAAxkBAAICd2jNBzWfBHLxHlfkW6HPovNxUl5SAAJq_DEbAAGUaErrFyLFzUbuxAEAAwIAA3gAAzYE
+DEBUG    2025-09-19 10:33:11,504 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_extract
+DEBUG    2025-09-19 10:33:16,208 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_extract
+DEBUG    2025-09-19 10:33:25,101 [bot] (ndfl.py).creating_request_ndfl_save(54) получен НДФЛ: file_id: BQACAgIAAxkBAAICe2jNB0Ux85Fe-7lWuUN4BYZQIpN8AALLgQADlGhKe5Uyxb_lee82BA
+DEBUG    2025-09-19 10:33:26,438 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_ndfl
+DEBUG    2025-09-19 10:33:28,500 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_ndfl
+DEBUG    2025-09-19 10:33:40,825 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_comment
+DEBUG    2025-09-19 10:33:49,082 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_extract
+DEBUG    2025-09-19 10:33:53,454 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_comment
+DEBUG    2025-09-19 10:33:55,086 [bot] (user_request_handlers.py).creating_request_save(30) Получаю все data state
+ERROR    2025-09-19 10:33:55,088 [bot] (user_request_handlers.py).creating_request_save(62) Не получилось сохранить заявку: 'int' object has no attribute '_saved_in_db'
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\handlers\user\user_request_handlers.py", line 48, in creating_request_save
+    await SalaryRequest.create(
+    ...<8 lines>...
+    )
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\models.py", line 1207, in create
+    instance = cls(**kwargs)
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\models.py", line 698, in __init__
+    for key in meta.fields.difference(self._set_kwargs(kwargs)):
+                                      ~~~~~~~~~~~~~~~~^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\models.py", line 724, in _set_kwargs
+    if value and not value._saved_in_db:
+                     ^^^^^^^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute '_saved_in_db'
+DEBUG    2025-09-19 10:43:09,357 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-19 10:43:09,357 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+INFO     2025-09-19 10:43:09,546 [bot] (cancel_state_handler.py).cancel_state_handler(40) Состояние сброшено: CreateRequest:wait_extract 
+WARNING  2025-09-19 11:15:13,289 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-19 11:15:13,449 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-19 11:15:16,417 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-19 11:15:16,883 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-19 11:15:17,153 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-19 11:15:19,867 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-19 11:15:19,867 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-19 11:17:02,387 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-19 11:17:05,278 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-19 11:17:05,745 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-19 11:17:05,945 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-19 11:17:25,978 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-19 11:17:25,979 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-19 11:17:46,450 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-19 11:17:49,066 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-19 11:17:49,498 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-19 11:17:49,659 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-19 11:17:52,674 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-19 11:17:52,674 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-19 11:18:44,773 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-19 11:18:47,370 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-19 11:18:47,800 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-19 11:18:48,003 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-19 11:18:49,327 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-19 11:18:49,327 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-19 11:20:31,828 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_surname
+DEBUG    2025-09-19 11:20:35,009 [bot] (user_request_handlers.py).creating_request_save(30) Получаю все data state
+DEBUG    2025-09-19 11:20:46,013 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_comment
+DEBUG    2025-09-19 11:20:48,591 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_comment
+DEBUG    2025-09-19 11:21:37,901 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_surname
+WARNING  2025-09-19 11:22:10,402 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-19 11:22:13,004 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-19 11:22:13,452 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-19 11:22:13,639 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-19 11:22:16,835 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-19 11:22:16,835 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-19 11:24:47,002 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-19 11:24:49,612 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-19 11:24:50,064 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-19 11:24:50,249 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-19 11:24:55,046 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-19 11:24:55,046 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-19 11:25:03,021 [bot] (surname.py).creating_request_surname_save(41) введена фамилия Макушина
+DEBUG    2025-09-19 11:25:03,111 [bot] (surname.py).creating_request_surname_save(56) фамилия введена
+DEBUG    2025-09-19 11:25:05,061 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_surname
+DEBUG    2025-09-19 11:25:07,007 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_surname
+WARNING  2025-09-19 11:25:23,657 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-19 11:25:23,795 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-19 11:25:26,084 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-19 11:25:26,523 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-19 11:25:26,710 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-19 11:25:28,394 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-19 11:25:28,394 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-19 11:25:33,749 [bot] (surname.py).creating_request_surname_save(42) введена фамилия Vfreib
+DEBUG    2025-09-19 11:25:33,862 [bot] (surname.py).creating_request_surname_save(57) фамилия введена
+DEBUG    2025-09-19 11:25:35,355 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_surname
+DEBUG    2025-09-19 11:25:38,391 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_surname
+WARNING  2025-09-19 11:26:19,629 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-19 11:26:22,108 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-19 11:26:22,537 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-19 11:26:22,694 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-19 11:26:24,265 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-19 11:26:24,265 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-19 11:26:28,283 [bot] (surname.py).creating_request_surname_save(44) введена фамилия aEBTSETBZ
+DEBUG    2025-09-19 11:26:28,423 [bot] (surname.py).creating_request_surname_save(59) фамилия введена
+DEBUG    2025-09-19 11:26:29,341 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_surname
+DEBUG    2025-09-19 11:26:32,669 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_surname
+WARNING  2025-09-19 11:27:39,504 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-19 11:27:41,993 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-19 11:27:42,449 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-19 11:27:42,616 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-19 11:27:44,161 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-19 11:27:44,161 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-19 11:27:48,609 [bot] (surname.py).creating_request_surname_save(44) введена фамилия Макушина
+WARNING  2025-09-19 11:29:31,364 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-19 11:29:33,950 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-19 11:29:34,402 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-19 11:29:34,610 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-19 11:29:38,916 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-19 11:29:38,916 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-19 11:29:47,248 [bot] (surname.py).creating_request_surname_save(44) введена фамилия Макушина
+DEBUG    2025-09-19 11:29:47,314 [bot] (surname.py).creating_request_surname_save(61) фамилия введена
+DEBUG    2025-09-19 11:29:49,773 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_surname
+WARNING  2025-09-19 12:27:47,997 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-19 12:27:48,143 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-19 12:27:51,909 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-19 12:27:52,603 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-19 12:27:52,853 [bot] (commands.py).set_commands(20) Установил команды
+WARNING  2025-09-19 12:28:38,830 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-19 12:28:41,489 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-19 12:28:42,052 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-19 12:28:42,225 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-19 12:28:53,495 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-19 12:28:53,495 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-19 12:29:05,333 [bot] (surname.py).creating_request_surname_save(46) введена фамилия Макушина
+DEBUG    2025-09-19 12:29:05,418 [bot] (surname.py).creating_request_surname_save(63) фамилия введена
+DEBUG    2025-09-19 12:29:07,690 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_surname
+DEBUG    2025-09-19 12:29:09,198 [bot] (contract.py).creating_contract(21) Current state data: {'surname': 'Макушина'}
+DEBUG    2025-09-19 12:29:09,198 [bot] (contract.py).creating_contract(22) contract in data: None
+DEBUG    2025-09-19 12:29:15,572 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_contract
+DEBUG    2025-09-19 12:29:17,271 [bot] (acc_screenshot.py).creating_request_acc_screenshot(19) Current state data: {'surname': 'Макушина', 'contract': 'BQACAgIAAxkBAAICymjNImre1stU4L2f7mzguF38kv73AAJRgwADlGhKp04ydyzDSbk2BA'}
+DEBUG    2025-09-19 12:29:17,272 [bot] (acc_screenshot.py).creating_request_acc_screenshot(20) acc_screenshot in data: None
+DEBUG    2025-09-19 12:29:22,333 [bot] (acc_screenshot.py).creating_request_acc_screenshot_save(40) сохраняю скрин лк
+DEBUG    2025-09-19 12:29:22,413 [bot] (acc_screenshot.py).creating_request_acc_screenshot_save(54) получен скрин: None, file_id: AgACAgIAAxkBAAICzWjNInI4fekSQfaxdsAvTVOlEWixAAIY_TEbAAGUaEqrEHzccw4hqwEAAwIAA3kAAzYE
+DEBUG    2025-09-19 12:29:24,085 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_acc_screenshot
+DEBUG    2025-09-19 12:29:33,399 [bot] (personal_pass.py).creating_request_pass_save(52) получен скрин лк: [PhotoSize(file_id='AgACAgIAAxkBAAIC0GjNIn2eJbhYVqNzt0LGP2gDSHZlAAIZ_TEbAAGUaErfOIoOlST6SwEAAwIAA3MAAzYE', file_unique_id='AQADGf0xGwABlGhKeA', width=90, height=90, file_size=2199), PhotoSize(file_id='AgACAgIAAxkBAAIC0GjNIn2eJbhYVqNzt0LGP2gDSHZlAAIZ_TEbAAGUaErfOIoOlST6SwEAAwIAA20AAzYE', file_unique_id='AQADGf0xGwABlGhKcg', width=320, height=320, file_size=29466), PhotoSize(file_id='AgACAgIAAxkBAAIC0GjNIn2eJbhYVqNzt0LGP2gDSHZlAAIZ_TEbAAGUaErfOIoOlST6SwEAAwIAA3gAAzYE', file_unique_id='AQADGf0xGwABlGhKfQ', width=800, height=800, file_size=115826), PhotoSize(file_id='AgACAgIAAxkBAAIC0GjNIn2eJbhYVqNzt0LGP2gDSHZlAAIZ_TEbAAGUaErfOIoOlST6SwEAAwIAA3kAAzYE', file_unique_id='AQADGf0xGwABlGhKfg', width=1024, height=1024, file_size=153078)], file_id: AgACAgIAAxkBAAIC0GjNIn2eJbhYVqNzt0LGP2gDSHZlAAIZ_TEbAAGUaErfOIoOlST6SwEAAwIAA3kAAzYE
+DEBUG    2025-09-19 12:29:35,452 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_pass
+DEBUG    2025-09-19 12:29:53,529 [bot] (ndfl.py).creating_request_ndfl_save(54) получен НДФЛ: file_id: BQACAgIAAxkBAAIC02jNIpEJE3b9YNnc8Q1l5ccGC6PZAAJUgwADlGhKX-1kCZBIrLo2BA
+DEBUG    2025-09-19 12:29:55,281 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_ndfl
+DEBUG    2025-09-19 12:30:06,479 [bot] (extract.py).creating_request_extract_save(55) получена выписка ИЛС: file_id: AgACAgIAAxkBAAIC1mjNIp7G9lcaRqyZ-QucobsF4FD1AAIa_TEbAAGUaEpHkeqwabtYTwEAAwIAA3gAAzYE
+DEBUG    2025-09-19 12:30:08,313 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_extract
+DEBUG    2025-09-19 12:30:14,430 [bot] (extract.py).creating_request_extract_save(55) получена выписка ИЛС: file_id: BQACAgIAAxkBAAIC2WjNIqYsb6aKitDI4X6XVoCBYU5dAAJXgwADlGhKO4CdRRZjKM82BA
+DEBUG    2025-09-19 12:30:16,345 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_extract
+DEBUG    2025-09-19 12:30:23,162 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_comment
+DEBUG    2025-09-19 12:30:25,613 [bot] (user_request_handlers.py).creating_request_save(38) Получаю все data state
+INFO     2025-09-19 12:30:25,614 [bot] (user_request_handlers.py).creating_request_save(48)  Не все документы загружены. • Трудовая книжка
+• Telegram ID 
+WARNING  2025-09-19 12:37:04,901 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-19 12:37:07,435 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-19 12:37:07,878 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-19 12:37:08,049 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-19 12:37:13,136 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-19 12:37:13,136 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-19 12:37:22,076 [bot] (surname.py).creating_request_surname_save(46) введена фамилия Макушина
+DEBUG    2025-09-19 12:37:22,220 [bot] (surname.py).creating_request_surname_save(63) фамилия введена
+DEBUG    2025-09-19 12:37:24,690 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_surname
+DEBUG    2025-09-19 12:37:26,331 [bot] (contract.py).creating_contract(21) Current state data: {'surname': 'Макушина'}
+DEBUG    2025-09-19 12:37:26,331 [bot] (contract.py).creating_contract(22) contract in data: None
+DEBUG    2025-09-19 12:38:04,288 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_contract
+DEBUG    2025-09-19 12:38:06,212 [bot] (acc_screenshot.py).creating_request_acc_screenshot(19) Current state data: {'surname': 'Макушина', 'contract': 'BQACAgIAAxkBAAIC5GjNJHkUmWyut0aqeK_FVXMNMw_-AAKHgwADlGhK3h6vkU3w7-g2BA'}
+DEBUG    2025-09-19 12:38:06,213 [bot] (acc_screenshot.py).creating_request_acc_screenshot(20) acc_screenshot in data: None
+DEBUG    2025-09-19 12:38:10,583 [bot] (acc_screenshot.py).creating_request_acc_screenshot_save(40) сохраняю скрин лк
+DEBUG    2025-09-19 12:38:10,680 [bot] (acc_screenshot.py).creating_request_acc_screenshot_save(54) получен скрин: None, file_id: AgACAgIAAxkBAAIC1mjNIp7G9lcaRqyZ-QucobsF4FD1AAIa_TEbAAGUaEpHkeqwabtYTwEAAwIAA3gAAzYE
+DEBUG    2025-09-19 12:38:13,796 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_acc_screenshot
+DEBUG    2025-09-19 12:38:22,851 [bot] (personal_pass.py).creating_request_pass_save(52) получен скрин лк: [PhotoSize(file_id='AgACAgIAAxkBAAIC0GjNIn2eJbhYVqNzt0LGP2gDSHZlAAIZ_TEbAAGUaErfOIoOlST6SwEAAwIAA3MAAzYE', file_unique_id='AQADGf0xGwABlGhKeA', width=90, height=90, file_size=2199), PhotoSize(file_id='AgACAgIAAxkBAAIC0GjNIn2eJbhYVqNzt0LGP2gDSHZlAAIZ_TEbAAGUaErfOIoOlST6SwEAAwIAA20AAzYE', file_unique_id='AQADGf0xGwABlGhKcg', width=320, height=320, file_size=29466), PhotoSize(file_id='AgACAgIAAxkBAAIC0GjNIn2eJbhYVqNzt0LGP2gDSHZlAAIZ_TEbAAGUaErfOIoOlST6SwEAAwIAA3gAAzYE', file_unique_id='AQADGf0xGwABlGhKfQ', width=800, height=800, file_size=115826), PhotoSize(file_id='AgACAgIAAxkBAAIC0GjNIn2eJbhYVqNzt0LGP2gDSHZlAAIZ_TEbAAGUaErfOIoOlST6SwEAAwIAA3kAAzYE', file_unique_id='AQADGf0xGwABlGhKfg', width=1024, height=1024, file_size=153078)], file_id: AgACAgIAAxkBAAIC0GjNIn2eJbhYVqNzt0LGP2gDSHZlAAIZ_TEbAAGUaErfOIoOlST6SwEAAwIAA3kAAzYE
+DEBUG    2025-09-19 12:38:23,628 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_pass
+DEBUG    2025-09-19 12:38:37,078 [bot] (ndfl.py).creating_request_ndfl_save(54) получен НДФЛ: file_id: AgACAgIAAxkBAAICzWjNInI4fekSQfaxdsAvTVOlEWixAAIY_TEbAAGUaEqrEHzccw4hqwEAAwIAA3kAAzYE
+DEBUG    2025-09-19 12:38:38,474 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_ndfl
+DEBUG    2025-09-19 12:38:44,795 [bot] (extract.py).creating_request_extract_save(55) получена выписка ИЛС: file_id: AgACAgIAAxkBAAIC1mjNIp7G9lcaRqyZ-QucobsF4FD1AAIa_TEbAAGUaEpHkeqwabtYTwEAAwIAA3gAAzYE
+DEBUG    2025-09-19 12:38:45,888 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_extract
+DEBUG    2025-09-19 12:38:59,179 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_extract
+DEBUG    2025-09-19 12:39:02,974 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_extract
+DEBUG    2025-09-19 12:39:09,634 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_comment
+DEBUG    2025-09-19 12:39:10,912 [bot] (user_request_handlers.py).creating_request_save(38) Получаю все data state
+INFO     2025-09-19 12:39:10,912 [bot] (user_request_handlers.py).creating_request_save(48)  Не все документы загружены. • Трудовая книжка 
+WARNING  2025-09-19 12:41:40,108 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-19 12:41:40,272 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-19 12:41:42,973 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-19 12:41:43,428 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-19 12:41:43,616 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-19 12:41:45,768 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-19 12:41:45,768 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-19 12:41:54,257 [bot] (surname.py).creating_request_surname_save(46) введена фамилия Макушина
+DEBUG    2025-09-19 12:41:54,338 [bot] (surname.py).creating_request_surname_save(63) фамилия введена
+DEBUG    2025-09-19 12:41:56,106 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_surname
+DEBUG    2025-09-19 12:41:58,472 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_surname
+DEBUG    2025-09-19 12:41:59,998 [bot] (contract.py).creating_contract(21) Current state data: {'surname': 'Макушина'}
+DEBUG    2025-09-19 12:41:59,998 [bot] (contract.py).creating_contract(22) contract in data: None
+DEBUG    2025-09-19 12:42:06,064 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_contract
+DEBUG    2025-09-19 12:42:07,458 [bot] (acc_screenshot.py).creating_request_acc_screenshot(19) Current state data: {'surname': 'Макушина', 'contract': 'BQACAgIAAxkBAAIC_2jNJW1ToTcvPXqA2-4iWlA4-4ZeAAKSgwADlGhKiMt_c0q8m1k2BA'}
+DEBUG    2025-09-19 12:42:07,459 [bot] (acc_screenshot.py).creating_request_acc_screenshot(20) acc_screenshot in data: None
+DEBUG    2025-09-19 12:42:14,100 [bot] (acc_screenshot.py).creating_request_acc_screenshot_save(40) сохраняю скрин лк
+DEBUG    2025-09-19 12:42:14,181 [bot] (acc_screenshot.py).creating_request_acc_screenshot_save(54) получен скрин: None, file_id: AgACAgIAAxkBAAIDAmjNJXb9g2OOKI0RVVZ3UUAWTGJ1AAIa_TEbAAGUaEpHkeqwabtYTwEAAwIAA3gAAzYE
+DEBUG    2025-09-19 12:42:15,446 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_acc_screenshot
+DEBUG    2025-09-19 12:42:23,292 [bot] (personal_pass.py).creating_request_pass_save(52) получен скрин лк: [PhotoSize(file_id='AgACAgIAAxkBAAIDBWjNJX-aSuqngx_mKl4Xp_eXpV8bAAIs_TEbAAGUaEqAnftXv_UoQAEAAwIAA3MAAzYE', file_unique_id='AQADLP0xGwABlGhKeA', width=90, height=90, file_size=2104), PhotoSize(file_id='AgACAgIAAxkBAAIDBWjNJX-aSuqngx_mKl4Xp_eXpV8bAAIs_TEbAAGUaEqAnftXv_UoQAEAAwIAA20AAzYE', file_unique_id='AQADLP0xGwABlGhKcg', width=320, height=320, file_size=23306), PhotoSize(file_id='AgACAgIAAxkBAAIDBWjNJX-aSuqngx_mKl4Xp_eXpV8bAAIs_TEbAAGUaEqAnftXv_UoQAEAAwIAA3gAAzYE', file_unique_id='AQADLP0xGwABlGhKfQ', width=800, height=800, file_size=83780), PhotoSize(file_id='AgACAgIAAxkBAAIDBWjNJX-aSuqngx_mKl4Xp_eXpV8bAAIs_TEbAAGUaEqAnftXv_UoQAEAAwIAA3kAAzYE', file_unique_id='AQADLP0xGwABlGhKfg', width=1024, height=1024, file_size=108015)], file_id: AgACAgIAAxkBAAIDBWjNJX-aSuqngx_mKl4Xp_eXpV8bAAIs_TEbAAGUaEqAnftXv_UoQAEAAwIAA3kAAzYE
+DEBUG    2025-09-19 12:42:24,270 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_pass
+DEBUG    2025-09-19 12:42:31,632 [bot] (ndfl.py).creating_request_ndfl_save(54) получен НДФЛ: file_id: AgACAgIAAxkBAAIDCGjNJYdY0ok9MLLxJ9ogD1nSrcvDAAIZ_TEbAAGUaErfOIoOlST6SwEAAwIAA3kAAzYE
+DEBUG    2025-09-19 12:42:32,885 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_ndfl
+DEBUG    2025-09-19 12:42:41,353 [bot] (extract.py).creating_request_extract_save(55) получена выписка ИЛС: file_id: BQACAgIAAxkBAAIDC2jNJZFJW2TK0Ckvwj-qFBXJSFtnAAKVgwADlGhK82Vo3YBqQ_c2BA
+DEBUG    2025-09-19 12:42:42,263 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_extract
+DEBUG    2025-09-19 12:42:49,374 [bot] (record.py).creating_request_record_book_save(53) получен трудовой книжки: None, file_id: BQACAgIAAxkBAAIDDmjNJZkTlRomFtodYzHWbdlXLGxpAAKYgwADlGhKoOb-fGaCC2A2BA
+DEBUG    2025-09-19 12:42:52,076 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_record_book
+DEBUG    2025-09-19 12:42:57,068 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_record_book
+DEBUG    2025-09-19 12:42:59,143 [bot] (user_request_handlers.py).creating_request_save(38) Получаю все data state
+INFO     2025-09-19 12:42:59,157 [bot] (save_docs.py).create_folder(55) Создана папка clients\Макушина
+INFO     2025-09-19 12:42:59,353 [bot] (save_docs.py).save_doc(91) Файл contract.pdf сохранен в clients\Макушина
+INFO     2025-09-19 12:42:59,534 [bot] (save_docs.py).save_doc(91) Файл screenshot.jpg сохранен в clients\Макушина
+INFO     2025-09-19 12:42:59,698 [bot] (save_docs.py).save_doc(91) Файл personal_pass.jpg сохранен в clients\Макушина
+INFO     2025-09-19 12:42:59,904 [bot] (save_docs.py).save_doc(91) Файл extract.pdf сохранен в clients\Макушина
+INFO     2025-09-19 12:43:00,027 [bot] (save_docs.py).save_doc(91) Файл ndfl.jpg сохранен в clients\Макушина
+ERROR    2025-09-19 12:43:00,027 [bot] (user_request_handlers.py).creating_request_save(76) Не получилось сохранить заявку: 'int' object has no attribute '_saved_in_db'
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\handlers\user\user_request_handlers.py", line 61, in creating_request_save
+    await SalaryRequest.create(
+    ...<8 lines>...
+    )
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\models.py", line 1207, in create
+    instance = cls(**kwargs)
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\models.py", line 698, in __init__
+    for key in meta.fields.difference(self._set_kwargs(kwargs)):
+                                      ~~~~~~~~~~~~~~~~^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\models.py", line 724, in _set_kwargs
+    if value and not value._saved_in_db:
+                     ^^^^^^^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute '_saved_in_db'
+WARNING  2025-09-19 12:46:03,182 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-19 12:46:06,010 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-19 12:46:06,563 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-19 12:46:06,795 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-19 12:46:16,679 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-19 12:46:16,679 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-19 12:46:22,315 [bot] (surname.py).creating_request_surname_save(46) введена фамилия макушина
+DEBUG    2025-09-19 12:46:22,470 [bot] (surname.py).creating_request_surname_save(63) фамилия введена
+DEBUG    2025-09-19 12:46:23,847 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_surname
+DEBUG    2025-09-19 12:46:26,212 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_surname
+DEBUG    2025-09-19 12:46:27,334 [bot] (contract.py).creating_contract(21) Current state data: {'surname': 'Макушина'}
+DEBUG    2025-09-19 12:46:27,334 [bot] (contract.py).creating_contract(22) contract in data: None
+DEBUG    2025-09-19 12:46:32,406 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_contract
+DEBUG    2025-09-19 12:46:33,366 [bot] (acc_screenshot.py).creating_request_acc_screenshot(19) Current state data: {'surname': 'Макушина', 'contract': 'BQACAgIAAxkBAAIDGWjNJneIHapqAAGqGe2O9JMbDosprAACpoMAA5RoStj_-1astVU9NgQ'}
+DEBUG    2025-09-19 12:46:33,366 [bot] (acc_screenshot.py).creating_request_acc_screenshot(20) acc_screenshot in data: None
+DEBUG    2025-09-19 12:46:37,536 [bot] (acc_screenshot.py).creating_request_acc_screenshot_save(40) сохраняю скрин лк
+DEBUG    2025-09-19 12:46:37,623 [bot] (acc_screenshot.py).creating_request_acc_screenshot_save(54) получен скрин: None, file_id: AgACAgIAAxkBAAIDAmjNJXb9g2OOKI0RVVZ3UUAWTGJ1AAIa_TEbAAGUaEpHkeqwabtYTwEAAwIAA3gAAzYE
+DEBUG    2025-09-19 12:46:40,460 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_acc_screenshot
+DEBUG    2025-09-19 12:46:47,717 [bot] (personal_pass.py).creating_request_pass_save(52) получен скрин лк: [PhotoSize(file_id='AgACAgIAAxkBAAIDAmjNJXb9g2OOKI0RVVZ3UUAWTGJ1AAIa_TEbAAGUaEpHkeqwabtYTwEAAwIAA3MAAzYE', file_unique_id='AQADGv0xGwABlGhKeA', width=90, height=78, file_size=944), PhotoSize(file_id='AgACAgIAAxkBAAIDAmjNJXb9g2OOKI0RVVZ3UUAWTGJ1AAIa_TEbAAGUaEpHkeqwabtYTwEAAwIAA20AAzYE', file_unique_id='AQADGv0xGwABlGhKcg', width=320, height=279, file_size=13366), PhotoSize(file_id='AgACAgIAAxkBAAIDAmjNJXb9g2OOKI0RVVZ3UUAWTGJ1AAIa_TEbAAGUaEpHkeqwabtYTwEAAwIAA3gAAzYE', file_unique_id='AQADGv0xGwABlGhKfQ', width=596, height=520, file_size=33648)], file_id: AgACAgIAAxkBAAIDAmjNJXb9g2OOKI0RVVZ3UUAWTGJ1AAIa_TEbAAGUaEpHkeqwabtYTwEAAwIAA3gAAzYE
+DEBUG    2025-09-19 12:47:03,829 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_pass
+DEBUG    2025-09-19 12:47:09,506 [bot] (ndfl.py).creating_request_ndfl_save(54) получен НДФЛ: file_id: BQACAgIAAxkBAAIDImjNJp1vPWN29Ur7ikKpDAM2Jr9YAAKqgwADlGhKTCMcZhV-fxE2BA
+DEBUG    2025-09-19 12:47:10,374 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_ndfl
+DEBUG    2025-09-19 12:47:16,621 [bot] (extract.py).creating_request_extract_save(55) получена выписка ИЛС: file_id: AgACAgIAAxkBAAIDAmjNJXb9g2OOKI0RVVZ3UUAWTGJ1AAIa_TEbAAGUaEpHkeqwabtYTwEAAwIAA3gAAzYE
+DEBUG    2025-09-19 12:47:17,442 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_extract
+DEBUG    2025-09-19 12:47:19,870 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_ndfl
+DEBUG    2025-09-19 12:47:22,742 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_pass
+DEBUG    2025-09-19 12:47:28,029 [bot] (record.py).creating_request_record_book_save(53) получен трудовой книжки: None, file_id: BQACAgIAAxkBAAIDKmjNJrBzakyQNzW0ZJsHGSpHGTTPAAKsgwADlGhKr0Sd9VpGZ6g2BA
+DEBUG    2025-09-19 12:47:28,880 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_record_book
+DEBUG    2025-09-19 12:47:34,314 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_comment
+DEBUG    2025-09-19 12:47:35,778 [bot] (acc_screenshot.py).creating_request_acc_screenshot(19) Current state data: {'surname': 'Макушина', 'contract': 'BQACAgIAAxkBAAIDGWjNJneIHapqAAGqGe2O9JMbDosprAACpoMAA5RoStj_-1astVU9NgQ', 'acc_screenshot': 'AgACAgIAAxkBAAIDAmjNJXb9g2OOKI0RVVZ3UUAWTGJ1AAIa_TEbAAGUaEpHkeqwabtYTwEAAwIAA3gAAzYE', 'personal_pass': 'AgACAgIAAxkBAAIDAmjNJXb9g2OOKI0RVVZ3UUAWTGJ1AAIa_TEbAAGUaEpHkeqwabtYTwEAAwIAA3gAAzYE', 'ndfl': 'BQACAgIAAxkBAAIDImjNJp1vPWN29Ur7ikKpDAM2Jr9YAAKqgwADlGhKTCMcZhV-fxE2BA', 'extract': 'AgACAgIAAxkBAAIDAmjNJXb9g2OOKI0RVVZ3UUAWTGJ1AAIa_TEbAAGUaEpHkeqwabtYTwEAAwIAA3gAAzYE', 'record_book': 'BQACAgIAAxkBAAIDKmjNJrBzakyQNzW0ZJsHGSpHGTTPAAKsgwADlGhKr0Sd9VpGZ6g2BA', 'comment': 'ЕМЫУЕиуыя', 'telegram': 484385628}
+DEBUG    2025-09-19 12:47:35,779 [bot] (acc_screenshot.py).creating_request_acc_screenshot(20) acc_screenshot in data: AgACAgIAAxkBAAIDAmjNJXb9g2OOKI0RVVZ3UUAWTGJ1AAIa_TEbAAGUaEpHkeqwabtYTwEAAwIAA3gAAzYE
+DEBUG    2025-09-19 12:47:36,817 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_acc_screenshot
+DEBUG    2025-09-19 12:47:38,265 [bot] (contract.py).creating_contract(21) Current state data: {'surname': 'Макушина', 'contract': 'BQACAgIAAxkBAAIDGWjNJneIHapqAAGqGe2O9JMbDosprAACpoMAA5RoStj_-1astVU9NgQ', 'acc_screenshot': 'AgACAgIAAxkBAAIDAmjNJXb9g2OOKI0RVVZ3UUAWTGJ1AAIa_TEbAAGUaEpHkeqwabtYTwEAAwIAA3gAAzYE', 'personal_pass': 'AgACAgIAAxkBAAIDAmjNJXb9g2OOKI0RVVZ3UUAWTGJ1AAIa_TEbAAGUaEpHkeqwabtYTwEAAwIAA3gAAzYE', 'ndfl': 'BQACAgIAAxkBAAIDImjNJp1vPWN29Ur7ikKpDAM2Jr9YAAKqgwADlGhKTCMcZhV-fxE2BA', 'extract': 'AgACAgIAAxkBAAIDAmjNJXb9g2OOKI0RVVZ3UUAWTGJ1AAIa_TEbAAGUaEpHkeqwabtYTwEAAwIAA3gAAzYE', 'record_book': 'BQACAgIAAxkBAAIDKmjNJrBzakyQNzW0ZJsHGSpHGTTPAAKsgwADlGhKr0Sd9VpGZ6g2BA', 'comment': 'ЕМЫУЕиуыя', 'telegram': 484385628}
+DEBUG    2025-09-19 12:47:38,265 [bot] (contract.py).creating_contract(22) contract in data: AgACAgIAAxkBAAIDAmjNJXb9g2OOKI0RVVZ3UUAWTGJ1AAIa_TEbAAGUaEpHkeqwabtYTwEAAwIAA3gAAzYE
+DEBUG    2025-09-19 12:47:39,883 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_contract
+DEBUG    2025-09-19 12:47:42,545 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_ndfl
+DEBUG    2025-09-19 12:47:45,511 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_extract
+DEBUG    2025-09-19 12:47:48,269 [bot] (user_request_handlers.py).creating_request_save(38) Получаю все data state
+INFO     2025-09-19 12:47:48,270 [bot] (save_docs.py).create_folder(55) Создана папка clients\Макушина
+INFO     2025-09-19 12:47:48,435 [bot] (save_docs.py).save_doc(91) Файл contract.pdf сохранен в clients\Макушина
+INFO     2025-09-19 12:47:48,540 [bot] (save_docs.py).save_doc(91) Файл screenshot.jpg сохранен в clients\Макушина
+INFO     2025-09-19 12:47:48,643 [bot] (save_docs.py).save_doc(91) Файл personal_pass.jpg сохранен в clients\Макушина
+INFO     2025-09-19 12:47:48,745 [bot] (save_docs.py).save_doc(91) Файл extract.jpg сохранен в clients\Макушина
+INFO     2025-09-19 12:47:48,860 [bot] (save_docs.py).save_doc(91) Файл ndfl.pdf сохранен в clients\Макушина
+ERROR    2025-09-19 12:47:48,860 [bot] (user_request_handlers.py).creating_request_save(76) Не получилось сохранить заявку: 'int' object has no attribute '_saved_in_db'
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\handlers\user\user_request_handlers.py", line 61, in creating_request_save
+    await SalaryRequest.create(
+    ...<8 lines>...
+    )
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\models.py", line 1207, in create
+    instance = cls(**kwargs)
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\models.py", line 698, in __init__
+    for key in meta.fields.difference(self._set_kwargs(kwargs)):
+                                      ~~~~~~~~~~~~~~~~^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\models.py", line 724, in _set_kwargs
+    if value and not value._saved_in_db:
+                     ^^^^^^^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute '_saved_in_db'
+WARNING  2025-09-19 12:57:12,532 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-19 12:57:12,677 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-19 12:57:15,092 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-19 13:13:03,265 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-19 13:13:22,042 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-19 13:13:22,505 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-19 13:13:22,683 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-19 13:14:22,309 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-19 13:14:22,309 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-19 13:15:01,843 [bot] (surname.py).creating_request_surname_save(46) введена фамилия Макушина
+DEBUG    2025-09-19 13:15:01,940 [bot] (surname.py).creating_request_surname_save(63) фамилия введена
+DEBUG    2025-09-19 13:15:09,101 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_surname
+DEBUG    2025-09-19 13:15:10,326 [bot] (contract.py).creating_contract(21) Current state data: {'surname': 'Макушина'}
+DEBUG    2025-09-19 13:15:10,327 [bot] (contract.py).creating_contract(22) contract in data: None
+DEBUG    2025-09-19 13:15:16,165 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_contract
+DEBUG    2025-09-19 13:15:17,635 [bot] (acc_screenshot.py).creating_request_acc_screenshot(19) Current state data: {'surname': 'Макушина', 'contract': 'BQACAgIAAxkBAAIDOmjNLTKNlcivt9BjoJkKI7is3peIAAIthAADlGhKlkHYhAfG-D82BA'}
+DEBUG    2025-09-19 13:15:17,635 [bot] (acc_screenshot.py).creating_request_acc_screenshot(20) acc_screenshot in data: None
+DEBUG    2025-09-19 13:15:21,443 [bot] (acc_screenshot.py).creating_request_acc_screenshot_save(40) сохраняю скрин лк
+DEBUG    2025-09-19 13:15:21,516 [bot] (acc_screenshot.py).creating_request_acc_screenshot_save(54) получен скрин: None, file_id: AgACAgIAAxkBAAIDPWjNLTkEy4YIPLHH_2asv3aTkVQCAAIa_TEbAAGUaEpHkeqwabtYTwEAAwIAA3gAAzYE
+DEBUG    2025-09-19 13:15:22,288 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_acc_screenshot
+DEBUG    2025-09-19 13:15:29,368 [bot] (personal_pass.py).creating_request_pass_save(52) получен скрин лк: [PhotoSize(file_id='AgACAgIAAxkBAAIDQGjNLUG16G9S7i6L2-2cW6K2U9TEAAIZ_TEbAAGUaErfOIoOlST6SwEAAwIAA3MAAzYE', file_unique_id='AQADGf0xGwABlGhKeA', width=90, height=90, file_size=2199), PhotoSize(file_id='AgACAgIAAxkBAAIDQGjNLUG16G9S7i6L2-2cW6K2U9TEAAIZ_TEbAAGUaErfOIoOlST6SwEAAwIAA20AAzYE', file_unique_id='AQADGf0xGwABlGhKcg', width=320, height=320, file_size=29466), PhotoSize(file_id='AgACAgIAAxkBAAIDQGjNLUG16G9S7i6L2-2cW6K2U9TEAAIZ_TEbAAGUaErfOIoOlST6SwEAAwIAA3gAAzYE', file_unique_id='AQADGf0xGwABlGhKfQ', width=800, height=800, file_size=115826), PhotoSize(file_id='AgACAgIAAxkBAAIDQGjNLUG16G9S7i6L2-2cW6K2U9TEAAIZ_TEbAAGUaErfOIoOlST6SwEAAwIAA3kAAzYE', file_unique_id='AQADGf0xGwABlGhKfg', width=1024, height=1024, file_size=153078)], file_id: AgACAgIAAxkBAAIDQGjNLUG16G9S7i6L2-2cW6K2U9TEAAIZ_TEbAAGUaErfOIoOlST6SwEAAwIAA3kAAzYE
+DEBUG    2025-09-19 13:15:30,459 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_pass
+DEBUG    2025-09-19 13:15:42,607 [bot] (ndfl.py).creating_request_ndfl_save(54) получен НДФЛ: file_id: AgACAgIAAxkBAAIDPWjNLTkEy4YIPLHH_2asv3aTkVQCAAIa_TEbAAGUaEpHkeqwabtYTwEAAwIAA3gAAzYE
+DEBUG    2025-09-19 13:15:43,890 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_ndfl
+DEBUG    2025-09-19 13:15:50,188 [bot] (extract.py).creating_request_extract_save(55) получена выписка ИЛС: file_id: AgACAgIAAxkBAAIDRmjNLVaGYDUCuqKlpaVEy2gb6CtVAAIY_TEbAAGUaEqrEHzccw4hqwEAAwIAA3kAAzYE
+DEBUG    2025-09-19 13:15:51,228 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_extract
+DEBUG    2025-09-19 13:15:53,782 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_extract
+DEBUG    2025-09-19 13:15:55,465 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_ndfl
+DEBUG    2025-09-19 13:16:00,765 [bot] (record.py).creating_request_record_book_save(53) получен трудовой книжки: [PhotoSize(file_id='AgACAgIAAxkBAAIDPWjNLTkEy4YIPLHH_2asv3aTkVQCAAIa_TEbAAGUaEpHkeqwabtYTwEAAwIAA3MAAzYE', file_unique_id='AQADGv0xGwABlGhKeA', width=90, height=78, file_size=944), PhotoSize(file_id='AgACAgIAAxkBAAIDPWjNLTkEy4YIPLHH_2asv3aTkVQCAAIa_TEbAAGUaEpHkeqwabtYTwEAAwIAA20AAzYE', file_unique_id='AQADGv0xGwABlGhKcg', width=320, height=279, file_size=13366), PhotoSize(file_id='AgACAgIAAxkBAAIDPWjNLTkEy4YIPLHH_2asv3aTkVQCAAIa_TEbAAGUaEpHkeqwabtYTwEAAwIAA3gAAzYE', file_unique_id='AQADGv0xGwABlGhKfQ', width=596, height=520, file_size=33648)], file_id: AgACAgIAAxkBAAIDPWjNLTkEy4YIPLHH_2asv3aTkVQCAAIa_TEbAAGUaEpHkeqwabtYTwEAAwIAA3gAAzYE
+DEBUG    2025-09-19 13:16:01,703 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_record_book
+DEBUG    2025-09-19 13:16:06,548 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: CreateRequest:wait_comment
+DEBUG    2025-09-19 13:16:08,324 [bot] (user_request_handlers.py).creating_request_save(40) Получаю все data state
+INFO     2025-09-19 13:16:08,325 [bot] (save_docs.py).create_folder(55) Создана папка clients\Макушина
+INFO     2025-09-19 13:16:08,490 [bot] (save_docs.py).save_doc(91) Файл contract.pdf сохранен в clients\Макушина
+INFO     2025-09-19 13:16:08,600 [bot] (save_docs.py).save_doc(91) Файл screenshot.jpg сохранен в clients\Макушина
+INFO     2025-09-19 13:16:08,811 [bot] (save_docs.py).save_doc(91) Файл personal_pass.jpg сохранен в clients\Макушина
+INFO     2025-09-19 13:16:08,969 [bot] (save_docs.py).save_doc(91) Файл extract.jpg сохранен в clients\Макушина
+INFO     2025-09-19 13:16:09,214 [bot] (save_docs.py).save_doc(91) Файл ndfl.jpg сохранен в clients\Макушина
+INFO     2025-09-19 13:16:09,230 [bot] (user_request_handlers.py).creating_request_save(73) Новый запрос по отпускным
+INFO     2025-09-19 13:16:09,740 [bot] (send_messages.py)._send_notification(36) Попытка отправки админу 2
+DEBUG    2025-09-19 13:16:09,832 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-19 13:16:09,833 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-19 13:21:52,543 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: AdminMenuState:admin_menu
+WARNING  2025-09-19 13:22:31,448 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-19 13:22:34,142 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-19 13:22:34,612 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-19 13:22:34,803 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-19 13:22:36,536 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-19 13:22:36,536 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-19 13:22:43,282 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: MenuState:admin_menu
+DEBUG    2025-09-19 13:22:43,283 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-19 13:22:43,283 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-19 13:28:51,184 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-19 13:28:51,348 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-19 13:28:53,656 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-19 13:28:54,109 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-19 13:28:54,331 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-19 13:28:57,319 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-19 13:28:57,319 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-19 13:33:11,471 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-19 13:33:14,105 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-19 13:33:14,550 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-19 13:33:14,772 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-19 13:33:24,022 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-19 13:33:24,022 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-19 13:35:14,377 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-19 13:35:17,034 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-19 13:35:17,497 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-19 13:35:17,789 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-19 13:35:20,715 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-19 13:35:20,716 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-19 13:35:24,469 [bot] (back_handler.py).back(25) Начало обработки back. Текущее состояние: AdminMenuState:requests_menu
+DEBUG    2025-09-19 13:36:38,184 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-19 13:36:38,185 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-19 13:37:41,402 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-19 13:37:44,059 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-19 13:37:44,615 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-19 13:37:44,852 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-19 13:37:46,649 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-19 13:37:46,650 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-19 13:37:50,370 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: AdminMenuState:requests_menu
+DEBUG    2025-09-19 13:37:53,774 [bot] (get_statistic_handlers.py).get_statistic(27) State MenuState:admin_menu
+DEBUG    2025-09-19 13:37:54,727 [bot] (get_statistic_handlers.py).get_period_statistic(58) Выбор даты: get_period_statistic StatsState:waiting_date
+DEBUG    2025-09-19 13:38:26,143 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-19 13:38:26,143 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-19 13:38:30,053 [bot] (get_statistic_handlers.py).get_statistic(27) State MenuState:admin_menu
+DEBUG    2025-09-19 13:38:30,889 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: AdminMenuState:statistic_menu
+WARNING  2025-09-19 13:39:05,156 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-19 13:39:05,308 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-19 13:39:07,662 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-19 13:39:08,109 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-19 13:39:08,284 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-19 13:39:09,180 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-19 13:39:09,180 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-19 13:39:12,880 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: AdminMenuState:requests_menu
+DEBUG    2025-09-19 13:39:14,059 [bot] (get_statistic_handlers.py).get_statistic(27) State MenuState:admin_menu
+DEBUG    2025-09-19 13:39:15,621 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: AdminMenuState:statistic_menu
+DEBUG    2025-09-19 13:39:17,773 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: MenuState:admin_menu
+DEBUG    2025-09-19 13:39:17,774 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-19 13:39:17,774 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-19 13:39:37,859 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-19 13:39:40,350 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-19 13:39:40,948 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-19 13:39:41,172 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-19 13:39:50,717 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-19 13:39:50,717 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-19 13:43:08,936 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-19 13:43:11,346 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-19 13:43:11,888 [bot] (start_handlers.py).seed_admin(25) Проверка: seed_admin вызвана
+INFO     2025-09-19 13:43:12,156 [bot] (commands.py).set_commands(20) Установил команды
+DEBUG    2025-09-19 13:43:20,359 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: AnswerState:answer
+DEBUG    2025-09-19 13:43:23,352 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: AnswerState:docs_questions
+DEBUG    2025-09-19 13:43:31,812 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: AnswerState:answer
+DEBUG    2025-09-19 13:43:34,232 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: AnswerState:docs_questions
+DEBUG    2025-09-19 13:43:35,010 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-19 13:43:35,011 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-19 13:59:42,164 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-19 13:59:42,324 [bot] (main.py).<module>(43) Помощник завершены

@@ -17,6 +17,8 @@ services:  # Определяем контейнеры
     depends_on:  # Указываем, что база данных должна запуститься раньше бота
       lawyer_db:
         condition: service_healthy
+#      redis_lawyer:
+#        condition: service_healthy
     restart: always
     command:
       - sh  # запускаем оболочку shell
@@ -31,13 +33,13 @@ services:  # Определяем контейнеры
 
 # для работы локально, закомментить все db
 
-  lawyer_db:  # имя сервиса как в .env DATABASE_HOST=coffee_db
+  lawyer_db:  # имя сервиса как в .env DATABASE_HOST=lawyer_db
     image: postgres:15
     container_name: postgres_container_lawyer
     env_file:  # Файл с переменными окружения
       - .env
     ports:
-      - "5431:5432"  # порт хоста:порт внутри контейнера
+      - "5431:5432"  # порт хоста (меняем для разных проектов):порт внутри контейнера
     networks:
       - lawyer_bot_network
     volumes: # Сохраняем данные вне контейнера
@@ -49,11 +51,11 @@ services:  # Определяем контейнеры
       timeout: 5s
       retries: 5
 
-  redis:
+  redis_lawyer:  # REDIS_HOST
     image: redis:alpine
-    container_name: redis_container
+    container_name: redis_container_lawyer
     ports:
-      - "6379:6379"
+      - "6380:6379"
     networks:
       - lawyer_bot_network
     restart: always

@@ -112,10 +112,4 @@ def get_review_keyboard(review_id: int):
     return kb.as_markup()
 
 
-def show_review_message(review_id: int):
-    """ Клавиатура для уведомления о новом отзыве """
-    kb = InlineKeyboardBuilder()
-    kb.button(text='Скрыть', callback_data=f"clear_{review_id}")
-    return kb.as_markup()
-
 

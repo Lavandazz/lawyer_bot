@@ -13,6 +13,8 @@ def admin_kb():
     kb = InlineKeyboardBuilder()
     kb.button(text="Статистика",
               callback_data="statistic")
+    kb.button(text="Заявки на расчет",
+              callback_data="requests")
     if SUPERADMIN:
         kb.row(InlineKeyboardButton(text='Запуск парсинга', callback_data='start_parse'))
     kb.adjust(2)
@@ -26,6 +28,16 @@ def admin_stat_kb():
     kb = InlineKeyboardBuilder()
     kb.button(text='За день', callback_data='stat_day')
     kb.button(text='За период', callback_data='stat_all')
+    kb.adjust(2)
+    kb.row(InlineKeyboardButton(text='⬅️ Назад', callback_data='back'))
+    return kb.as_markup()
+
+
+async def requests_kb(requests):
+    """Клавиатура, которая отображает все запросы от пользователей по фамилиям"""
+    kb = InlineKeyboardBuilder()
+    for request in requests:
+        kb.button(text=f"{request.user_id.second_name}", callback_data=f'request{request.id}')
     kb.adjust(2)
     kb.row(InlineKeyboardButton(text='⬅️ Назад', callback_data='back'))
     return kb.as_markup()

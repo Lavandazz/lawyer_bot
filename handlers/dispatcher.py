@@ -3,17 +3,24 @@ from aiogram.filters import Command, StateFilter
 
 from handlers.admin.get_statistic_handlers import get_statistic, get_period_statistic, day_statistic, \
     first_day_statistic, second_day_statistic, prev_month, next_month
-from handlers.back.back_handler import back
+from handlers.back.back_handler import back, clear_message
+from handlers.user.create_request.acc_screenshot import creating_request_acc_screenshot_save, \
+    creating_request_acc_screenshot
+from handlers.user.create_request.comment import creating_request_comment, creating_request_comment_save
+from handlers.user.create_request.contract import creating_contract, creating_contract_save
+from handlers.user.create_request.extract import creating_request_extract_save, creating_request_extract
+from handlers.user.create_request.ndfl import creating_request_ndfl, creating_request_ndfl_save
+from handlers.user.create_request.personal_pass import creating_request_pass_save, creating_request_pass
+from handlers.user.create_request.record import creating_request_record_book_save, creating_request_record_book
+from handlers.user.create_request.surname import creating_request_surname, creating_request_surname_save
 
 from handlers.user.help_handlers import get_help, hide_faq_handler, get_help_docs, get_help_how_upload, answer
 from handlers.user.registeration import process_contact, approve_phone
 from handlers.user.start_handlers import get_start, on_start
-from handlers.admin.admin_handlers import  admin_menu
+from handlers.admin.admin_handlers import admin_menu, admin_menu_requests
 
 from handlers.cancel_state_handler import cancel_handler
-from handlers.user.user_request_handlers import creating_request, creating_request_acc_screenshot, \
-    creating_request_pass, creating_request_ndfl, creating_request_extract, creating_request_record, \
-    creating_request_comment, creating_request_message
+from handlers.user.user_request_handlers import creating_request, creating_request_save
 
 from states.menu_states import StatsState, CreateRequest
 from utils.middleware import RoleMiddleware, StatisticMiddleware
@@ -46,18 +53,39 @@ def setup_dispatcher(dp: Dispatcher):
 
     # оформление запроса пользователя
     dp.callback_query.register(creating_request, F.data == "start_request")
-    dp.message.register(creating_request_acc_screenshot, StateFilter(CreateRequest.wait_contract))
-    dp.message.register(creating_request_pass, StateFilter(CreateRequest.wait_acc_screenshot))
-    dp.message.register(creating_request_ndfl, StateFilter(CreateRequest.wait_pass))
-    dp.message.register(creating_request_extract, StateFilter(CreateRequest.wait_ndfl))
-    dp.message.register(creating_request_record, StateFilter(CreateRequest.wait_extract))
-    dp.message.register(creating_request_comment, StateFilter(CreateRequest.wait_record))
-    dp.message.register(creating_request_message, StateFilter(CreateRequest.wait_comment))
 
+    dp.callback_query.register(creating_request_surname, F.data == "surname")
+    dp.message.register(creating_request_surname_save, F.text, StateFilter(CreateRequest.wait_surname))
+
+    dp.callback_query.register(creating_contract, F.data == "contract")
+    dp.message.register(creating_contract_save, F.document | F.photo,  StateFilter(CreateRequest.wait_contract))
+
+    dp.callback_query.register(creating_request_acc_screenshot, F.data == "acc_screenshot")
+    dp.message.register(creating_request_acc_screenshot_save, F.photo, StateFilter(CreateRequest.wait_acc_screenshot))
+
+    dp.callback_query.register(creating_request_pass, F.data == "pass")
+    dp.message.register(creating_request_pass_save, F.photo, StateFilter(CreateRequest.wait_pass))
+
+    dp.callback_query.register(creating_request_ndfl, F.data == "ndfl")
+    dp.message.register(creating_request_ndfl_save, F.document | F.photo, StateFilter(CreateRequest.wait_ndfl))
+
+    dp.callback_query.register(creating_request_extract, F.data == "extract")
+    dp.message.register(creating_request_extract_save, F.document | F.photo, StateFilter(CreateRequest.wait_extract))
+
+    dp.callback_query.register(creating_request_record_book, F.data == "record_book")
+    dp.message.register(creating_request_record_book_save, F.document | F.photo, StateFilter(CreateRequest.wait_record_book))
+
+    dp.callback_query.register(creating_request_comment, F.data == "comment")
+    dp.message.register(creating_request_comment_save, F.text, StateFilter(CreateRequest.wait_comment))
+
+    dp.callback_query.register(creating_request_save, F.data == "send")
+
+    dp.callback_query.register(clear_message, F.data.startswith('clear_'))
 
 
     # панель администратора
     dp.callback_query.register(admin_menu, F.data == "admin_panel")
+    dp.callback_query.register(admin_menu_requests, F.data == "requests")
     dp.callback_query.register(get_statistic, F.data == 'statistic')
     dp.callback_query.register(get_statistic, F.data == 'statistic')
 
