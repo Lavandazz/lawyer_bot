@@ -64,7 +64,7 @@ async def get_start(message: Message, bot: Bot, new_user: bool):
                                    "Пожалуйста, пройдите регистрацию."
                                    )
             await asyncio.sleep(3)
-            await start_registration_user(message)
+            await start_registration_user(message.from_user.id)
 
             await bot.send_message(chat_id=SUPERADMIN, text=f'Зарегистрирован новый пользователь {message.from_user.id}')
 

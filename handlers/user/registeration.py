@@ -7,13 +7,14 @@ from database.models_db import User
 from keyboards.approval_keyboard import yes_or_no_btn
 from keyboards.menu_keyboard import inline_menu_kb
 from keyboards.register_keyboard import get_phone_keyboard
+from utils.config import bot
 
 from utils.logging_config import bot_logger
 
 
-async def start_registration_user(message: Message):
+async def start_registration_user(chat_id):
     """Регистрация пользователя"""
-    await message.edit_text(
+    await bot.send_message(chat_id=chat_id,
         text=f"Для работы с ботом необходимо подтвердить номер телефона.\n"
              f"Пожалуйста, пришлите номер телефона.",
         reply_markup=get_phone_keyboard()
