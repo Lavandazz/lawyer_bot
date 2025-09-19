@@ -43,7 +43,7 @@ async def approve_phone(call: CallbackQuery, state: FSMContext):
 
     if approval == "yes":
         data = await state.get_data()
-        phone_number = data.get("phone").replace('+7', '')
+        phone_number = data.get("phone").replace('7', '')
 
         await save_contact(
             username=call.from_user.username,
