@@ -1,3 +1,6 @@
+import asyncio
+
+from aiogram import types
 from aiogram.fsm.context import FSMContext
 from aiogram.types import Message, CallbackQuery
 
@@ -7,7 +10,7 @@ from database.models_db import User
 from keyboards.approval_keyboard import yes_or_no_btn
 from keyboards.menu_keyboard import inline_menu_kb
 from keyboards.register_keyboard import get_phone_keyboard
-from utils.config import bot
+from utils.config import bot, SUPERADMIN
 
 from utils.logging_config import bot_logger
 
@@ -44,8 +47,8 @@ async def approve_phone(call: CallbackQuery, state: FSMContext):
     if approval == "yes":
         data = await state.get_data()
         phone_number = data.get("phone").replace('7', '')
-        bot_logger.debug(f"Получен номер телефона: {phone_number}"
-                         f"approval = {approval}, call_data = {call.data}")
+
+        # Сохраняем данные
         await save_contact(
             username=call.from_user.username,
             telegram_id=call.from_user.id,
@@ -53,6 +56,24 @@ async def approve_phone(call: CallbackQuery, state: FSMContext):
             second_name=call.from_user.last_name,
             phone=phone_number
         )
+
+        await bot.send_message(chat_id=SUPERADMIN, text=f'Зарегистрирован новый пользователь {call.from_user.id}')
+
+        # 1. Сначала отвечаем на callback
+        await call.answer(text="Спасибо за регистрацию.")
+
+        # 2. Убираем Reply-клавиатуру отправкой нового сообщения
+        mess = await bot.send_message(
+            chat_id=call.from_user.id,
+            text="Клавиатура скрыта",
+            reply_markup=types.ReplyKeyboardRemove()
+        )
+
+        # 3. Удаляем сообщение с "Клавиатура скрыта" (опционально)
+        await asyncio.sleep(0.5)
+        await bot.delete_message(chat_id=call.from_user.id, message_id=mess)
+
+        # 4. Редактируем original сообщение
         await call.message.edit_text(
             text=f"Главное меню.\n\n"
                  f"Кнопка - *Начать запрос* - переводит бота в режим принятия документов.\n"
@@ -63,9 +84,10 @@ async def approve_phone(call: CallbackQuery, state: FSMContext):
         )
     else:
         await call.message.edit_text(
-            text=f"необходимо пройти регистрацию.",
+            text="Необходимо пройти регистрацию.",
         )
         return
+
     await state.clear()
 
 

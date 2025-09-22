@@ -65,13 +65,10 @@ async def get_start(message: Message, bot: Bot, new_user: bool):
                                    "для регистрации необходимо подтвердить свой номер телефона.",
                                    reply_markup=get_phone_keyboard()
                                    )
-            # await asyncio.sleep(1.5)
-            # await start_registration_user(message.from_user.id)
-
-            await bot.send_message(chat_id=SUPERADMIN, text=f'Зарегистрирован новый пользователь {message.from_user.id}')
 
         else:
             bot_logger.info(f"Зарегистрированный пользователь взаимодействует с ботом {message.from_user.id}")
+
             await bot.send_message(message.from_user.id,
                                    f"{generate_day_or_night(local_time.hour)}\n\n"
                                         f"Главное меню.\n\n"
