@@ -8,5 +8,12 @@
       <jdbc-url>jdbc:postgresql://localhost:5432/lawyer_test_db</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="lawyer_db" uuid="9e57438f-981c-4171-8878-b342ba8f91db">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://185.239.50.102:5433/lawyer_db</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>

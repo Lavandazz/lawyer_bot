@@ -44,7 +44,8 @@ async def approve_phone(call: CallbackQuery, state: FSMContext):
     if approval == "yes":
         data = await state.get_data()
         phone_number = data.get("phone").replace('7', '')
-
+        bot_logger.debug(f"Получен номер телефона: {phone_number}"
+                         f"approval = {approval}, call_data = {call.data}")
         await save_contact(
             username=call.from_user.username,
             telegram_id=call.from_user.id,
@@ -52,7 +53,6 @@ async def approve_phone(call: CallbackQuery, state: FSMContext):
             second_name=call.from_user.last_name,
             phone=phone_number
         )
-    else:
         await call.message.edit_text(
             text=f"Главное меню.\n\n"
                  f"Кнопка - *Начать запрос* - переводит бота в режим принятия документов.\n"
@@ -61,6 +61,11 @@ async def approve_phone(call: CallbackQuery, state: FSMContext):
             reply_markup=await inline_menu_kb(call.from_user.id),
             parse_mode='Markdown'
         )
+    else:
+        await call.message.edit_text(
+            text=f"необходимо пройти регистрацию.",
+        )
+        return
     await state.clear()
 
 

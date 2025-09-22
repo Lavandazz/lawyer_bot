@@ -7,6 +7,7 @@ from tortoise.exceptions import IntegrityError
 from database.models_db import User
 from handlers.user.registeration import start_registration_user
 from keyboards.menu_keyboard import inline_menu_kb
+from keyboards.register_keyboard import get_phone_keyboard
 
 from utils.config import SUPERADMIN, TEL
 from utils.generator_text import generate_day_or_night
@@ -61,14 +62,16 @@ async def get_start(message: Message, bot: Bot, new_user: bool):
             # Отправляем клавиатуру для подтверждения номера телефона
             await bot.send_message(chat_id=message.from_user.id,
                                    text="С ботом могут работать только зарегистрированные пользователи.\n"
-                                   "Пожалуйста, пройдите регистрацию."
+                                   "для регистрации необходимо подтвердить свой номер телефона.",
+                                   reply_markup=get_phone_keyboard()
                                    )
-            await asyncio.sleep(3)
-            await start_registration_user(message.from_user.id)
+            # await asyncio.sleep(1.5)
+            # await start_registration_user(message.from_user.id)
 
             await bot.send_message(chat_id=SUPERADMIN, text=f'Зарегистрирован новый пользователь {message.from_user.id}')
 
         else:
+            bot_logger.info(f"Зарегистрированный пользователь взаимодействует с ботом {message.from_user.id}")
             await bot.send_message(message.from_user.id,
                                    f"{generate_day_or_night(local_time.hour)}\n\n"
                                         f"Главное меню.\n\n"
