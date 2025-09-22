@@ -59,19 +59,16 @@ async def approve_phone(call: CallbackQuery, state: FSMContext):
 
         await bot.send_message(chat_id=SUPERADMIN, text=f'Зарегистрирован новый пользователь {call.from_user.id}')
 
-        # 1. Сначала отвечаем на callback
-        await call.answer(text="Спасибо за регистрацию.")
-
-        # 2. Убираем Reply-клавиатуру отправкой нового сообщения
+        # Убираем Reply-клавиатуру отправкой нового сообщения
         mess = await bot.send_message(
             chat_id=call.from_user.id,
-            text="Клавиатура скрыта",
+            text="Спасибо за регистрацию.",
             reply_markup=types.ReplyKeyboardRemove()
         )
 
-        # 3. Удаляем сообщение с "Клавиатура скрыта" (опционально)
+        # Удаляем сообщение от бота о регистрацие (опционально)
         await asyncio.sleep(0.5)
-        await bot.delete_message(chat_id=call.from_user.id, message_id=mess)
+        await bot.delete_message(chat_id=call.from_user.id, message_id=mess.message_id)
 
         # 4. Редактируем original сообщение
         await call.message.edit_text(
