@@ -12,7 +12,7 @@ async def is_admin(user_id) -> bool:
     """ Проверка администратора """
     try:
         user = await User.get(telegram_id=user_id)
-        return user.role in ['admin', 'barista']
+        return user.role == 'admin'
     except DoesNotExist:
         return False
 

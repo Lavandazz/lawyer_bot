@@ -37,7 +37,8 @@ async def requests_kb(requests):
     """Клавиатура, которая отображает все запросы от пользователей по фамилиям"""
     kb = InlineKeyboardBuilder()
     for request in requests:
-        kb.button(text=f"{request.user_id.second_name}", callback_data=f'request{request.id}')
+        print(f"кнопки {request.user_id.second_name}")
+        kb.button(text=f"{request.user_id.second_name}", callback_data=f'request_{request.id}')
     kb.adjust(2)
     kb.row(InlineKeyboardButton(text='⬅️ Назад', callback_data='back'))
     return kb.as_markup()

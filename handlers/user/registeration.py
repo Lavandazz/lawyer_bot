@@ -8,20 +8,37 @@ from tortoise.exceptions import IntegrityError
 
 from database.models_db import User
 from keyboards.approval_keyboard import yes_or_no_btn
+from keyboards.back_keyboard import back_button
 from keyboards.menu_keyboard import inline_menu_kb
 from keyboards.register_keyboard import get_phone_keyboard
+from states.menu_states import UserState
 from utils.config import bot, SUPERADMIN
 
 from utils.logging_config import bot_logger
 
 
-async def start_registration_user(chat_id):
+async def start_registration_user(chat_id, state: FSMContext):
     """Регистрация пользователя"""
     await bot.send_message(chat_id=chat_id,
-        text=f"Для работы с ботом необходимо подтвердить номер телефона.\n"
-             f"Пожалуйста, пришлите номер телефона.",
-        reply_markup=get_phone_keyboard()
-    )
+                           text=f"Для работы с ботом необходимо подтвердить номер телефона и ввести ФИО.\n"
+                                f"Пожалуйста, напишите полностью Фамилию, Имя, Отчество.\n",
+                           reply_markup=back_button()
+                           )
+    await state.set_state(UserState.register)
+
+
+async def start_registration_user_name(message: Message, state: FSMContext):
+    """Регистрация пользователя"""
+    await state.update_data(fio=message.text)
+    if not message.text or not len(message.text.split()) == 3:
+        await message.answer(text="Введите ФИО полностью")
+        return
+
+    await message.answer(text=f"Отлично.\n"
+                              f"Пришлите номер телефона",
+                         reply_markup=get_phone_keyboard()
+                         )
+    await state.set_state(UserState.phone)
 
 
 async def process_contact(message: Message, state: FSMContext):
@@ -46,14 +63,17 @@ async def approve_phone(call: CallbackQuery, state: FSMContext):
 
     if approval == "yes":
         data = await state.get_data()
+        fio_string = data.get("fio")
         phone_number = data.get("phone").replace('7', '')
+        fio = split_fio(fio_string)
 
         # Сохраняем данные
         await save_contact(
             username=call.from_user.username,
             telegram_id=call.from_user.id,
-            first_name=call.from_user.first_name,
-            second_name=call.from_user.last_name,
+            second_name=fio[0],
+            first_name=fio[1],
+            patronymic=fio[2],
             phone=phone_number
         )
 
@@ -67,7 +87,7 @@ async def approve_phone(call: CallbackQuery, state: FSMContext):
         )
 
         # Удаляем сообщение от бота о регистрацие (опционально)
-        await asyncio.sleep(0.5)
+        await asyncio.sleep(1)
         await bot.delete_message(chat_id=call.from_user.id, message_id=mess.message_id)
 
         # 4. Редактируем original сообщение
@@ -88,13 +108,22 @@ async def approve_phone(call: CallbackQuery, state: FSMContext):
     await state.clear()
 
 
-async def save_contact(username, telegram_id, first_name, second_name, phone):
+def split_fio(full_fio:str):
+    fio = full_fio.split()
+    second_name = fio[0].title()
+    name = fio[1].title()
+    patronymic = fio[2].title()
+    return second_name, name, patronymic
+
+
+async def save_contact(username, telegram_id, second_name, first_name, patronymic, phone):
     try:
         await User.create(
             username=username,
             telegram_id=telegram_id,
-            first_name=first_name,
             second_name=second_name,
+            first_name=first_name,
+            patronymic=patronymic,
             phone=phone,
             role="user")
         bot_logger.info(f"Новый пользователь сохранен")

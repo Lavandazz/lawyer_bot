@@ -1,5 +1,6 @@
 import asyncio
 from aiogram import Bot
+from aiogram.fsm.context import FSMContext
 from aiogram.types import Message
 from datetime import timezone
 from tortoise.exceptions import IntegrityError
@@ -44,7 +45,7 @@ async def seed_admin():
         bot_logger.exception(f'Ошибка при создании админа {e}')
 
 
-async def get_start(message: Message, bot: Bot, new_user: bool):
+async def get_start(message: Message, bot: Bot, new_user: bool, state: FSMContext):
     """
     Хендлер команды /start.
 
@@ -59,12 +60,7 @@ async def get_start(message: Message, bot: Bot, new_user: bool):
     try:
 
         if new_user:
-            # Отправляем клавиатуру для подтверждения номера телефона
-            await bot.send_message(chat_id=message.from_user.id,
-                                   text="С ботом могут работать только зарегистрированные пользователи.\n"
-                                   "для регистрации необходимо подтвердить свой номер телефона.",
-                                   reply_markup=get_phone_keyboard()
-                                   )
+            await start_registration_user(chat_id=message.from_user.id, state=state)
 
         else:
             bot_logger.info(f"Зарегистрированный пользователь взаимодействует с ботом {message.from_user.id}")
@@ -78,7 +74,7 @@ async def get_start(message: Message, bot: Bot, new_user: bool):
                                         f"*Мои запросы* - Ваш личный кабинет, где отображаются все Ваши запросы.",
                                    reply_markup=await inline_menu_kb(message.from_user.id),
                                    parse_mode='Markdown')
-            # await start_registration_user(message)
+            # await start_registration_user(chat_id=message.from_user.id, state=state)
 
     except Exception as e:
         bot_logger.exception(f'Ошибка при создании админа {e}')

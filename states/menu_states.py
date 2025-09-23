@@ -8,6 +8,8 @@ class MenuState(StatesGroup):
 
 
 class UserState(StatesGroup):
+    register = State()
+    phone = State()
     request = State()
 
 
@@ -38,6 +40,7 @@ class AdminMenuState(StatesGroup):
 
 
 class StatsState(StatesGroup):
+    """Статистика"""
     waiting_date = State()
     waiting_first_date = State()
     waiting_second_date = State()
@@ -79,7 +82,7 @@ class PostState(StatesGroup):
     save_post = State()  # сохранение поста
 
 
-class ReviewStates(StatesGroup):
+class RequestStates(StatesGroup):
     """ Добавление отзыва клиентом """
     waiting_for_photo = State()
     waiting_for_text = State()

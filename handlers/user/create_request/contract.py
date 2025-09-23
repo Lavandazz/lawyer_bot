@@ -23,7 +23,8 @@ async def creating_contract(call: CallbackQuery, state: FSMContext):
 
     if not data.get("contract"):
         await call.message.answer(
-            text=f"📎 Прикрепите файл с трудовым договором/ГПХ используя скрепку ниже.\n"
+            text=f"📎 Прикрепите файл с трудовым договором/ГПХ используя скрепку ниже."
+                 f"Формат файла PDF.\n"
                  f"Для отмены нажмите на кнопку 'Назад' или команду /cancel",
             reply_markup=back_button()
         )

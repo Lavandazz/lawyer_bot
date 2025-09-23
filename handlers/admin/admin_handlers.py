@@ -15,12 +15,3 @@ async def admin_menu(call: CallbackQuery, state: FSMContext, role: str):
     await call.message.edit_text(text='Вы вошли в админ-панель', reply_markup=admin_kb())
 
 
-@admin_only
-async def admin_menu_requests(call: CallbackQuery, state: FSMContext, role: str):
-    """ Отображение всех заявок """
-    await state.set_state(AdminMenuState.requests_menu)
-    requests = await SalaryRequest.all().prefetch_related('user_id')
-    await call.message.edit_text(text="Здесь отображены все заявки от пользователей",
-                                 reply_markup=await requests_kb(requests))
-
-    await state.set_state(AdminMenuState.requests_menu)

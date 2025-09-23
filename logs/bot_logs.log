@@ -1845,3 +1845,696 @@ INFO     2025-09-22 10:28:51,425 [bot] (commands.py).set_commands(20) Устан
 INFO     2025-09-22 10:28:53,772 [bot] (start_handlers.py).get_start(74) Зарегистрированный пользователь взаимодействует с ботом 484385628
 DEBUG    2025-09-22 10:28:53,773 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
 DEBUG    2025-09-22 10:28:53,773 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-22 11:52:27,681 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-22 11:52:27,867 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-22 11:52:30,413 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-22 11:52:31,073 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+INFO     2025-09-22 11:52:31,601 [bot] (commands.py).set_commands(20) Установил команды
+INFO     2025-09-22 11:52:35,020 [bot] (start_handlers.py).get_start(70) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-22 11:52:35,021 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-22 11:52:35,021 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-22 12:31:52,216 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-22 12:31:52,372 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-22 12:31:55,812 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-22 12:31:56,470 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+INFO     2025-09-22 12:31:56,795 [bot] (commands.py).set_commands(20) Установил команды
+INFO     2025-09-22 12:32:48,752 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-22 12:32:49,176 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+INFO     2025-09-22 12:32:49,339 [bot] (commands.py).set_commands(20) Установил команды
+INFO     2025-09-22 13:18:52,963 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-22 13:18:53,422 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+INFO     2025-09-22 13:18:53,603 [bot] (commands.py).set_commands(20) Установил команды
+INFO     2025-09-22 13:20:26,699 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-22 13:20:27,246 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+INFO     2025-09-22 13:20:27,434 [bot] (commands.py).set_commands(20) Установил команды
+INFO     2025-09-22 13:21:38,886 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-22 13:21:39,460 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+INFO     2025-09-22 13:21:39,686 [bot] (commands.py).set_commands(20) Установил команды
+INFO     2025-09-22 13:21:51,663 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-22 13:21:52,211 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+INFO     2025-09-22 13:21:52,464 [bot] (commands.py).set_commands(20) Установил команды
+WARNING  2025-09-22 13:22:02,222 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-22 13:22:02,420 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-22 13:22:04,633 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-22 13:22:05,183 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+INFO     2025-09-22 13:22:05,363 [bot] (commands.py).set_commands(20) Установил команды
+INFO     2025-09-22 13:22:14,144 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-22 13:22:14,680 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+INFO     2025-09-22 13:22:14,946 [bot] (commands.py).set_commands(20) Установил команды
+INFO     2025-09-22 13:22:18,795 [bot] (start_handlers.py).get_start(70) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-22 13:22:18,796 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-22 13:22:18,796 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-22 13:22:21,032 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: UserState:request
+DEBUG    2025-09-22 13:22:21,033 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-22 13:22:21,033 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-22 13:22:23,178 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: MenuState:admin_menu
+DEBUG    2025-09-22 13:22:23,179 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-22 13:22:23,179 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-22 13:23:59,208 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-22 13:24:01,863 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-22 13:24:02,422 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+INFO     2025-09-22 13:24:02,611 [bot] (commands.py).set_commands(20) Установил команды
+INFO     2025-09-22 13:26:27,406 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-22 13:26:27,959 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+INFO     2025-09-22 13:26:28,144 [bot] (commands.py).set_commands(20) Установил команды
+WARNING  2025-09-22 13:27:22,269 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-22 13:27:24,864 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-22 13:27:25,325 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+INFO     2025-09-22 13:27:25,494 [bot] (commands.py).set_commands(20) Установил команды
+INFO     2025-09-22 13:27:47,014 [bot] (start_handlers.py).get_start(70) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-22 13:27:47,015 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-22 13:27:47,015 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-22 13:27:50,583 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: UserState:request
+DEBUG    2025-09-22 13:27:50,584 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-22 13:27:50,584 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-22 13:31:24,364 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-22 13:31:26,962 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-22 13:31:27,392 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+INFO     2025-09-22 13:31:27,634 [bot] (commands.py).set_commands(20) Установил команды
+INFO     2025-09-22 13:31:31,116 [bot] (start_handlers.py).get_start(70) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-22 13:31:31,117 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-22 13:31:31,118 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-22 13:33:46,371 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-22 13:33:46,529 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-22 13:33:48,997 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-22 13:33:49,434 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+INFO     2025-09-22 13:33:49,618 [bot] (commands.py).set_commands(20) Установил команды
+INFO     2025-09-22 13:33:53,906 [bot] (start_handlers.py).get_start(70) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-22 13:33:53,907 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-22 13:33:53,907 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+ERROR    2025-09-22 13:33:59,556 [bot] (users_requests.py).show_user_request(44) 'Message' object has no attribute 'chat_id'
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\handlers\admin\users_requests.py", line 40, in show_user_request
+    await bot.send_document(chat_id=call.message.chat_id, caption=f"*Заявка от {document.user_id.second_name}:*",
+                                    ^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\pydantic\main.py", line 991, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'Message' object has no attribute 'chat_id'
+WARNING  2025-09-22 13:34:30,820 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-22 13:34:33,291 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-22 13:34:33,725 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+INFO     2025-09-22 13:34:33,917 [bot] (commands.py).set_commands(20) Установил команды
+INFO     2025-09-22 13:34:36,323 [bot] (start_handlers.py).get_start(70) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-22 13:34:36,324 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-22 13:34:36,324 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+ERROR    2025-09-22 13:34:40,378 [bot] (users_requests.py).show_user_request(44) Telegram server says - Bad Request: invalid file HTTP URL specified: Disallowed character in URL host
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\handlers\admin\users_requests.py", line 40, in show_user_request
+    await bot.send_document(chat_id=call.from_user.id, caption=f"*Заявка от {document.user_id.second_name}:*",
+                            document=document.contract)
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiogram\client\bot.py", line 2500, in send_document
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiogram\client\bot.py", line 478, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+        bot=bot, method=method, status_code=resp.status, content=raw_result
+    )
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: invalid file HTTP URL specified: Disallowed character in URL host
+WARNING  2025-09-22 13:35:35,639 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-22 13:35:38,232 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-22 13:35:38,693 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+INFO     2025-09-22 13:35:38,891 [bot] (commands.py).set_commands(20) Установил команды
+ERROR    2025-09-22 13:35:40,339 [bot] (users_requests.py).show_user_request(44) Telegram server says - Bad Request: invalid file HTTP URL specified: Disallowed character in URL host
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\handlers\admin\users_requests.py", line 40, in show_user_request
+    await bot.send_photo(chat_id=call.from_user.id, caption=f"*Заявка от {document.user_id.second_name}:*",
+                            photo=document.contract)
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiogram\client\bot.py", line 2920, in send_photo
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiogram\client\bot.py", line 478, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+        bot=bot, method=method, status_code=resp.status, content=raw_result
+    )
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: invalid file HTTP URL specified: Disallowed character in URL host
+INFO     2025-09-22 13:35:43,265 [bot] (start_handlers.py).get_start(70) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-22 13:35:43,266 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-22 13:35:43,266 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+ERROR    2025-09-22 13:35:47,255 [bot] (users_requests.py).show_user_request(44) Telegram server says - Bad Request: invalid file HTTP URL specified: Disallowed character in URL host
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\handlers\admin\users_requests.py", line 40, in show_user_request
+    await bot.send_photo(chat_id=call.from_user.id, caption=f"*Заявка от {document.user_id.second_name}:*",
+                            photo=document.contract)
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiogram\client\bot.py", line 2920, in send_photo
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiogram\client\bot.py", line 478, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+        bot=bot, method=method, status_code=resp.status, content=raw_result
+    )
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: invalid file HTTP URL specified: Disallowed character in URL host
+WARNING  2025-09-22 13:50:50,437 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-22 13:50:50,583 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-22 13:50:53,111 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-22 13:50:53,604 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+INFO     2025-09-22 13:50:54,200 [bot] (commands.py).set_commands(20) Установил команды
+INFO     2025-09-22 13:50:59,578 [bot] (start_handlers.py).get_start(70) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-22 13:50:59,579 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-22 13:50:59,579 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+ERROR    2025-09-22 13:51:03,252 [bot] (users_requests.py).show_user_request(47) HTTP Client says - ClientOSError: [Errno 2] Can not write request body for https://api.telegram.org/bot7693453113:AAFoCltX6v5cl19OiOvcM_Vwta9r4fP2OVo/sendDocument
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiohttp\client_reqrep.py", line 658, in write_bytes
+    await self.body.write(writer)
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiohttp\multipart.py", line 1008, in write
+    await part.write(writer)
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiohttp\payload.py", line 494, in write
+    chunk = await self._iter.__anext__()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiogram\types\input_file.py", line 103, in read
+    async with aiofiles.open(self.path, "rb") as f:
+               ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiofiles\base.py", line 63, in __aenter__
+    return await self
+           ^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiofiles\base.py", line 59, in __await__
+    self._obj = yield from self._coro.__await__()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiofiles\threadpool\__init__.py", line 92, in _open
+    f = await loop.run_in_executor(executor, cb)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+FileNotFoundError: [Errno 2] No such file or directory: 'clients/Макушина/clients\\Макушина\\contract.pdf'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 177, in make_request
+    async with session.post(
+               ~~~~~~~~~~~~^
+        url, data=form, timeout=self.timeout if timeout is None else timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ) as resp:
+    ^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiohttp\client.py", line 1425, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiohttp\client.py", line 730, in _request
+    await resp.start(conn)
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiohttp\client_reqrep.py", line 1059, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiohttp\streams.py", line 672, in read
+    await self._waiter
+aiohttp.client_exceptions.ClientOSError: [Errno 2] Can not write request body for https://api.telegram.org/bot7693453113:AAFoCltX6v5cl19OiOvcM_Vwta9r4fP2OVo/sendDocument
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\handlers\admin\users_requests.py", line 43, in show_user_request
+    await bot.send_document(chat_id=call.from_user.id, caption=f"*Заявка от {document.user_id.second_name}:*",
+                            document=file_doc)
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiogram\client\bot.py", line 2500, in send_document
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiogram\client\bot.py", line 478, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 184, in make_request
+    raise TelegramNetworkError(method=method, message=f"{type(e).__name__}: {e}")
+aiogram.exceptions.TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 2] Can not write request body for https://api.telegram.org/bot7693453113:AAFoCltX6v5cl19OiOvcM_Vwta9r4fP2OVo/sendDocument
+WARNING  2025-09-22 13:51:59,780 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-22 13:52:02,386 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-22 13:52:02,839 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+INFO     2025-09-22 13:52:02,989 [bot] (commands.py).set_commands(20) Установил команды
+INFO     2025-09-22 13:52:04,916 [bot] (start_handlers.py).get_start(70) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-22 13:52:04,917 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-22 13:52:04,917 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+ERROR    2025-09-22 13:52:08,070 [bot] (users_requests.py).show_user_request(47) HTTP Client says - ClientOSError: [Errno 2] Can not write request body for https://api.telegram.org/bot7693453113:AAFoCltX6v5cl19OiOvcM_Vwta9r4fP2OVo/sendDocument
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiohttp\client_reqrep.py", line 658, in write_bytes
+    await self.body.write(writer)
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiohttp\multipart.py", line 1008, in write
+    await part.write(writer)
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiohttp\payload.py", line 494, in write
+    chunk = await self._iter.__anext__()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiogram\types\input_file.py", line 103, in read
+    async with aiofiles.open(self.path, "rb") as f:
+               ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiofiles\base.py", line 63, in __aenter__
+    return await self
+           ^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiofiles\base.py", line 59, in __await__
+    self._obj = yield from self._coro.__await__()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiofiles\threadpool\__init__.py", line 92, in _open
+    f = await loop.run_in_executor(executor, cb)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+FileNotFoundError: [Errno 2] No such file or directory: 'clients/Макушина/clients\\Макушина\\contract.pdf'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 177, in make_request
+    async with session.post(
+               ~~~~~~~~~~~~^
+        url, data=form, timeout=self.timeout if timeout is None else timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ) as resp:
+    ^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiohttp\client.py", line 1425, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiohttp\client.py", line 730, in _request
+    await resp.start(conn)
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiohttp\client_reqrep.py", line 1059, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiohttp\streams.py", line 672, in read
+    await self._waiter
+aiohttp.client_exceptions.ClientOSError: [Errno 2] Can not write request body for https://api.telegram.org/bot7693453113:AAFoCltX6v5cl19OiOvcM_Vwta9r4fP2OVo/sendDocument
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\handlers\admin\users_requests.py", line 43, in show_user_request
+    await bot.send_document(chat_id=call.from_user.id, caption=f"*Заявка от {document.user_id.second_name}:*",
+                            document=file_doc)
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiogram\client\bot.py", line 2500, in send_document
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiogram\client\bot.py", line 478, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 184, in make_request
+    raise TelegramNetworkError(method=method, message=f"{type(e).__name__}: {e}")
+aiogram.exceptions.TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 2] Can not write request body for https://api.telegram.org/bot7693453113:AAFoCltX6v5cl19OiOvcM_Vwta9r4fP2OVo/sendDocument
+WARNING  2025-09-22 13:52:31,448 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-22 13:52:33,942 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-22 13:52:34,393 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+INFO     2025-09-22 13:52:34,567 [bot] (commands.py).set_commands(20) Установил команды
+ERROR    2025-09-22 13:52:36,068 [bot] (users_requests.py).show_user_request(47) HTTP Client says - ClientOSError: [Errno 2] Can not write request body for https://api.telegram.org/bot7693453113:AAFoCltX6v5cl19OiOvcM_Vwta9r4fP2OVo/sendDocument
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiohttp\client_reqrep.py", line 658, in write_bytes
+    await self.body.write(writer)
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiohttp\multipart.py", line 1008, in write
+    await part.write(writer)
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiohttp\payload.py", line 494, in write
+    chunk = await self._iter.__anext__()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiogram\types\input_file.py", line 103, in read
+    async with aiofiles.open(self.path, "rb") as f:
+               ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiofiles\base.py", line 63, in __aenter__
+    return await self
+           ^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiofiles\base.py", line 59, in __await__
+    self._obj = yield from self._coro.__await__()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiofiles\threadpool\__init__.py", line 92, in _open
+    f = await loop.run_in_executor(executor, cb)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+FileNotFoundError: [Errno 2] No such file or directory: 'clients/Макушина/clients\\Макушина\\contract.pdf'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 177, in make_request
+    async with session.post(
+               ~~~~~~~~~~~~^
+        url, data=form, timeout=self.timeout if timeout is None else timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ) as resp:
+    ^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiohttp\client.py", line 1425, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiohttp\client.py", line 730, in _request
+    await resp.start(conn)
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiohttp\client_reqrep.py", line 1059, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiohttp\streams.py", line 672, in read
+    await self._waiter
+aiohttp.client_exceptions.ClientOSError: [Errno 2] Can not write request body for https://api.telegram.org/bot7693453113:AAFoCltX6v5cl19OiOvcM_Vwta9r4fP2OVo/sendDocument
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\handlers\admin\users_requests.py", line 43, in show_user_request
+    await bot.send_document(chat_id=call.from_user.id, caption=f"*Заявка от {document.user_id.second_name}:*",
+                            document=file_doc)
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiogram\client\bot.py", line 2500, in send_document
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiogram\client\bot.py", line 478, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 184, in make_request
+    raise TelegramNetworkError(method=method, message=f"{type(e).__name__}: {e}")
+aiogram.exceptions.TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 2] Can not write request body for https://api.telegram.org/bot7693453113:AAFoCltX6v5cl19OiOvcM_Vwta9r4fP2OVo/sendDocument
+WARNING  2025-09-22 13:53:01,827 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-22 13:53:04,340 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-22 13:53:04,775 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+INFO     2025-09-22 13:53:05,007 [bot] (commands.py).set_commands(20) Установил команды
+WARNING  2025-09-22 13:53:23,654 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-22 13:53:26,212 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-22 13:53:26,797 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+INFO     2025-09-22 13:53:26,950 [bot] (commands.py).set_commands(20) Установил команды
+WARNING  2025-09-22 13:53:33,908 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-22 13:53:36,452 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-22 13:53:37,092 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+INFO     2025-09-22 13:53:37,400 [bot] (commands.py).set_commands(20) Установил команды
+INFO     2025-09-22 13:53:45,876 [bot] (start_handlers.py).get_start(70) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-22 13:53:45,877 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-22 13:53:45,877 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+INFO     2025-09-22 14:31:43,280 [bot] (start_handlers.py).get_start(70) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-22 14:31:43,281 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-22 14:31:43,282 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-22 14:33:10,565 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: AnswerState:doc_answer
+DEBUG    2025-09-22 14:33:12,418 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: AnswerState:doc_answer
+DEBUG    2025-09-22 14:33:15,704 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: AnswerState:doc_answer
+DEBUG    2025-09-22 14:33:18,957 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: AnswerState:doc_answer
+DEBUG    2025-09-22 14:33:21,192 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: AnswerState:doc_answer
+DEBUG    2025-09-22 14:33:22,982 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: AnswerState:docs_questions
+DEBUG    2025-09-22 14:33:25,135 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: AnswerState:answer
+DEBUG    2025-09-22 14:33:26,473 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-22 14:33:26,473 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-22 14:33:41,727 [bot] (surname.py).creating_request_surname_save(46) введена фамилия Онуфриев
+DEBUG    2025-09-22 14:33:41,807 [bot] (surname.py).creating_request_surname_save(63) фамилия введена
+DEBUG    2025-09-22 14:34:18,663 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: CreateRequest:wait_surname
+DEBUG    2025-09-22 14:34:31,470 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: CreateRequest:wait_surname
+DEBUG    2025-09-22 14:34:32,627 [bot] (acc_screenshot.py).creating_request_acc_screenshot(19) Current state data: {'surname': 'Онуфриев'}
+DEBUG    2025-09-22 14:34:32,627 [bot] (acc_screenshot.py).creating_request_acc_screenshot(20) acc_screenshot in data: None
+DEBUG    2025-09-22 14:34:49,505 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: CreateRequest:wait_acc_screenshot
+DEBUG    2025-09-22 14:34:51,003 [bot] (acc_screenshot.py).creating_request_acc_screenshot(19) Current state data: {'surname': 'Онуфриев'}
+DEBUG    2025-09-22 14:34:51,004 [bot] (acc_screenshot.py).creating_request_acc_screenshot(20) acc_screenshot in data: None
+DEBUG    2025-09-22 14:34:58,536 [bot] (acc_screenshot.py).creating_request_acc_screenshot_save(40) сохраняю скрин лк
+DEBUG    2025-09-22 14:34:58,746 [bot] (acc_screenshot.py).creating_request_acc_screenshot_save(54) получен скрин: None, file_id: AgACAgIAAxkBAAInqGjRNDJ7kPBlS8OOtI2aZ0Nt115FAALCAAEyGxIEiUo09rWG9LsxoQEAAwIAA3kAAzYE
+DEBUG    2025-09-22 14:35:03,590 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: CreateRequest:wait_acc_screenshot
+DEBUG    2025-09-22 14:35:13,753 [bot] (personal_pass.py).creating_request_pass_save(52) получен скрин лк: [PhotoSize(file_id='AgACAgIAAxkBAAInsWjRNHS0KFN_5tqJ8Cvk9jE73y9dAALEAAEyGxIEiUrNS6dov21KrgEAAwIAA3MAAzYE', file_unique_id='AQADxAABMhsSBIlKeA', width=90, height=90, file_size=1586), PhotoSize(file_id='AgACAgIAAxkBAAInsWjRNHS0KFN_5tqJ8Cvk9jE73y9dAALEAAEyGxIEiUrNS6dov21KrgEAAwIAA20AAzYE', file_unique_id='AQADxAABMhsSBIlKcg', width=320, height=320, file_size=18310), PhotoSize(file_id='AgACAgIAAxkBAAInsWjRNHS0KFN_5tqJ8Cvk9jE73y9dAALEAAEyGxIEiUrNS6dov21KrgEAAwIAA3gAAzYE', file_unique_id='AQADxAABMhsSBIlKfQ', width=800, height=800, file_size=70433), PhotoSize(file_id='AgACAgIAAxkBAAInsWjRNHS0KFN_5tqJ8Cvk9jE73y9dAALEAAEyGxIEiUrNS6dov21KrgEAAwIAA3kAAzYE', file_unique_id='AQADxAABMhsSBIlKfg', width=1024, height=1024, file_size=97060)], file_id: AgACAgIAAxkBAAInsWjRNHS0KFN_5tqJ8Cvk9jE73y9dAALEAAEyGxIEiUrNS6dov21KrgEAAwIAA3kAAzYE
+DEBUG    2025-09-22 14:35:15,359 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: CreateRequest:wait_pass
+DEBUG    2025-09-22 14:35:27,784 [bot] (ndfl.py).creating_request_ndfl_save(54) получен НДФЛ: file_id: BQACAgIAAxkBAAIntGjRNIL4detW8gL_hdWEJaTZSidQAAKdhAACEgSJSv0zILaO_fKeNgQ
+DEBUG    2025-09-22 14:35:28,741 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: CreateRequest:wait_ndfl
+DEBUG    2025-09-22 14:35:34,902 [bot] (record.py).creating_request_record_book_save(53) получен трудовой книжки: [PhotoSize(file_id='AgACAgIAAxkBAAInqGjRNDJ7kPBlS8OOtI2aZ0Nt115FAALCAAEyGxIEiUo09rWG9LsxoQEAAwIAA3MAAzYE', file_unique_id='AQADwgABMhsSBIlKeA', width=80, height=90, file_size=916), PhotoSize(file_id='AgACAgIAAxkBAAInqGjRNDJ7kPBlS8OOtI2aZ0Nt115FAALCAAEyGxIEiUo09rWG9LsxoQEAAwIAA20AAzYE', file_unique_id='AQADwgABMhsSBIlKcg', width=285, height=320, file_size=12224), PhotoSize(file_id='AgACAgIAAxkBAAInqGjRNDJ7kPBlS8OOtI2aZ0Nt115FAALCAAEyGxIEiUo09rWG9LsxoQEAAwIAA3gAAzYE', file_unique_id='AQADwgABMhsSBIlKfQ', width=713, height=800, file_size=55449), PhotoSize(file_id='AgACAgIAAxkBAAInqGjRNDJ7kPBlS8OOtI2aZ0Nt115FAALCAAEyGxIEiUo09rWG9LsxoQEAAwIAA3kAAzYE', file_unique_id='AQADwgABMhsSBIlKfg', width=1021, height=1146, file_size=85843)], file_id: AgACAgIAAxkBAAInqGjRNDJ7kPBlS8OOtI2aZ0Nt115FAALCAAEyGxIEiUo09rWG9LsxoQEAAwIAA3kAAzYE
+DEBUG    2025-09-22 14:35:36,065 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: CreateRequest:wait_record_book
+DEBUG    2025-09-22 14:35:39,340 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: CreateRequest:wait_comment
+DEBUG    2025-09-22 14:35:45,377 [bot] (extract.py).creating_request_extract_save(55) получена выписка ИЛС: file_id: AgACAgIAAxkBAAInumjRNJS-3JoU5vWVQCwioKVbbnRCAALFAAEyGxIEiUoniMT-TfR9xgEAAwIAA3gAAzYE
+DEBUG    2025-09-22 14:35:46,648 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: CreateRequest:wait_extract
+DEBUG    2025-09-22 14:35:50,309 [bot] (user_request_handlers.py).creating_request_save(38) Получаю все data state
+INFO     2025-09-22 14:35:50,309 [bot] (user_request_handlers.py).creating_request_save(48)  Не все документы загружены. • Договор 
+DEBUG    2025-09-22 14:35:55,522 [bot] (contract.py).creating_contract(21) Current state data: {'surname': 'Онуфриев', 'acc_screenshot': 'AgACAgIAAxkBAAInqGjRNDJ7kPBlS8OOtI2aZ0Nt115FAALCAAEyGxIEiUo09rWG9LsxoQEAAwIAA3kAAzYE', 'personal_pass': 'AgACAgIAAxkBAAInsWjRNHS0KFN_5tqJ8Cvk9jE73y9dAALEAAEyGxIEiUrNS6dov21KrgEAAwIAA3kAAzYE', 'ndfl': 'BQACAgIAAxkBAAIntGjRNIL4detW8gL_hdWEJaTZSidQAAKdhAACEgSJSv0zILaO_fKeNgQ', 'record_book': 'AgACAgIAAxkBAAInqGjRNDJ7kPBlS8OOtI2aZ0Nt115FAALCAAEyGxIEiUo09rWG9LsxoQEAAwIAA3kAAzYE', 'extract': 'AgACAgIAAxkBAAInumjRNJS-3JoU5vWVQCwioKVbbnRCAALFAAEyGxIEiUoniMT-TfR9xgEAAwIAA3gAAzYE'}
+DEBUG    2025-09-22 14:35:55,522 [bot] (contract.py).creating_contract(22) contract in data: AgACAgIAAxkBAAInqGjRNDJ7kPBlS8OOtI2aZ0Nt115FAALCAAEyGxIEiUo09rWG9LsxoQEAAwIAA3kAAzYE
+DEBUG    2025-09-22 14:36:01,753 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: CreateRequest:wait_contract
+DEBUG    2025-09-22 14:36:02,589 [bot] (user_request_handlers.py).creating_request_save(38) Получаю все data state
+INFO     2025-09-22 14:36:02,590 [bot] (save_docs.py).create_folder(55) Создана папка clients\Онуфриев
+INFO     2025-09-22 14:36:02,770 [bot] (save_docs.py).save_doc(91) Файл contract.pdf сохранен в clients\Онуфриев
+INFO     2025-09-22 14:36:02,963 [bot] (save_docs.py).save_doc(91) Файл screenshot.jpg сохранен в clients\Онуфриев
+INFO     2025-09-22 14:36:03,088 [bot] (save_docs.py).save_doc(91) Файл personal_pass.jpg сохранен в clients\Онуфриев
+INFO     2025-09-22 14:36:03,237 [bot] (save_docs.py).save_doc(91) Файл extract.jpg сохранен в clients\Онуфриев
+INFO     2025-09-22 14:36:03,351 [bot] (save_docs.py).save_doc(91) Файл ndfl.pdf сохранен в clients\Онуфриев
+INFO     2025-09-22 14:36:03,359 [bot] (user_request_handlers.py).creating_request_save(71) Новый запрос по отпускным
+INFO     2025-09-22 14:36:03,870 [bot] (send_messages.py)._send_notification(36) Попытка отправки админу 2
+DEBUG    2025-09-22 14:36:03,955 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-22 14:36:03,955 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-22 14:36:08,892 [bot] (back_handler.py).clear_message(75) Удалил сообщение
+WARNING  2025-09-22 14:39:32,023 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-22 14:39:32,184 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-22 14:39:35,111 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-22 14:39:35,580 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+INFO     2025-09-22 14:39:35,847 [bot] (commands.py).set_commands(20) Установил команды
+INFO     2025-09-22 14:39:36,862 [bot] (start_handlers.py).get_start(70) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-22 14:39:36,863 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-22 14:39:36,863 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-22 14:39:45,927 [bot] (contract.py).creating_contract(21) Current state data: {}
+DEBUG    2025-09-22 14:39:45,927 [bot] (contract.py).creating_contract(22) contract in data: None
+DEBUG    2025-09-22 14:39:56,498 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: CreateRequest:wait_contract
+INFO     2025-09-22 14:40:03,020 [bot] (start_handlers.py).get_start(70) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-22 14:40:03,020 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-22 14:40:03,021 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-22 14:40:05,525 [bot] (contract.py).creating_contract(21) Current state data: {'contract': 'BQACAgIAAxkBAAInxmjRNYoIs2bJs-SZezOubbO9NjpgAAK9hAACEgSJSliHg7ArG1HkNgQ'}
+DEBUG    2025-09-22 14:40:05,525 [bot] (contract.py).creating_contract(22) contract in data: None
+INFO     2025-09-22 14:40:12,053 [bot] (start_handlers.py).get_start(70) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-22 14:40:12,054 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-22 14:40:12,054 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-22 14:40:14,556 [bot] (contract.py).creating_contract(21) Current state data: {'contract': 'BQACAgIAAxkBAAInxmjRNYoIs2bJs-SZezOubbO9NjpgAAK9hAACEgSJSliHg7ArG1HkNgQ'}
+DEBUG    2025-09-22 14:40:14,556 [bot] (contract.py).creating_contract(22) contract in data: None
+DEBUG    2025-09-22 14:40:17,953 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: CreateRequest:wait_contract
+WARNING  2025-09-22 14:40:23,535 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-22 14:40:26,043 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-22 14:40:26,582 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+INFO     2025-09-22 14:40:26,760 [bot] (commands.py).set_commands(20) Установил команды
+INFO     2025-09-22 14:40:27,816 [bot] (start_handlers.py).get_start(70) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-22 14:40:27,818 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-22 14:40:27,818 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-22 14:40:31,981 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: AdminMenuState:requests_menu
+DEBUG    2025-09-22 14:40:33,444 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: MenuState:admin_menu
+DEBUG    2025-09-22 14:40:33,445 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-22 14:40:33,445 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-22 14:40:35,689 [bot] (contract.py).creating_contract(21) Current state data: {}
+DEBUG    2025-09-22 14:40:35,690 [bot] (contract.py).creating_contract(22) contract in data: None
+DEBUG    2025-09-22 14:40:44,182 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: CreateRequest:wait_contract
+DEBUG    2025-09-22 14:41:14,516 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: UserState:request
+DEBUG    2025-09-22 14:41:14,517 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-22 14:41:14,517 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-22 14:42:05,540 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-22 14:42:07,966 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-22 14:42:08,389 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+INFO     2025-09-22 14:42:08,533 [bot] (commands.py).set_commands(20) Установил команды
+INFO     2025-09-22 14:42:09,720 [bot] (start_handlers.py).get_start(70) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-22 14:42:09,721 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-22 14:42:09,721 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-22 14:43:16,912 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: AdminMenuState:requests_menu
+WARNING  2025-09-22 14:43:42,534 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-22 14:43:44,991 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-22 14:43:45,419 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+INFO     2025-09-22 14:43:45,619 [bot] (commands.py).set_commands(20) Установил команды
+INFO     2025-09-22 14:43:46,992 [bot] (start_handlers.py).get_start(70) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-22 14:43:46,993 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-22 14:43:46,993 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-22 14:43:58,189 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: AdminMenuState:requests_menu
+WARNING  2025-09-22 14:46:14,068 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-22 14:46:16,687 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-22 14:46:17,256 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+INFO     2025-09-22 14:46:17,426 [bot] (commands.py).set_commands(20) Установил команды
+INFO     2025-09-22 14:46:19,018 [bot] (start_handlers.py).get_start(70) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-22 14:46:19,019 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-22 14:46:19,019 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+ERROR    2025-09-22 14:46:22,587 [bot] (users_requests.py).show_user_request(49) 'list' object has no attribute 'contract'
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\handlers\admin\users_requests.py", line 40, in show_user_request
+    file_path = f"{document.contract}"
+                   ^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'contract'
+ERROR    2025-09-22 14:46:54,343 [bot] (users_requests.py).show_user_request(49) 'list' object has no attribute 'contract'
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\handlers\admin\users_requests.py", line 40, in show_user_request
+    file_path = f"{document.contract}"
+                   ^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'contract'
+WARNING  2025-09-22 15:32:11,911 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-22 15:32:12,065 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-23 13:52:25,761 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-23 13:52:27,906 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+INFO     2025-09-23 13:52:28,499 [bot] (commands.py).set_commands(20) Установил команды
+WARNING  2025-09-23 13:53:39,740 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-23 13:53:46,855 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-23 13:53:47,562 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+WARNING  2025-09-23 13:54:06,896 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-23 13:54:10,278 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-23 13:54:10,887 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+INFO     2025-09-23 13:54:13,338 [bot] (commands.py).set_commands(20) Установил команды
+INFO     2025-09-23 13:54:27,566 [bot] (start_handlers.py).get_start(70) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-23 13:54:27,572 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-23 13:54:27,572 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-23 13:55:10,148 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-23 13:55:13,959 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-23 13:55:14,772 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+INFO     2025-09-23 13:55:15,093 [bot] (commands.py).set_commands(20) Установил команды
+INFO     2025-09-23 13:55:17,204 [bot] (start_handlers.py).get_start(70) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-23 13:55:17,205 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-23 13:55:17,205 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-23 13:57:46,252 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-23 13:57:52,024 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-23 13:57:52,962 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+INFO     2025-09-23 13:57:55,807 [bot] (commands.py).set_commands(20) Установил команды
+INFO     2025-09-23 13:57:57,184 [bot] (start_handlers.py).get_start(70) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-23 13:57:57,186 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-23 13:57:57,187 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-23 14:00:42,422 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-23 14:00:46,547 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-23 14:00:47,328 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+INFO     2025-09-23 14:00:52,455 [bot] (commands.py).set_commands(20) Установил команды
+INFO     2025-09-23 14:00:57,821 [bot] (start_handlers.py).get_start(70) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-23 14:00:57,823 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-23 14:00:57,824 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+INFO     2025-09-23 14:00:57,845 [bot] (start_handlers.py).get_start(70) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-23 14:00:57,849 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-23 14:00:57,849 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-23 14:02:35,591 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-23 14:02:35,861 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-23 14:02:39,756 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-23 14:02:40,538 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+INFO     2025-09-23 14:02:41,646 [bot] (commands.py).set_commands(20) Установил команды
+INFO     2025-09-23 14:02:43,481 [bot] (start_handlers.py).get_start(70) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-23 14:02:43,483 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-23 14:02:43,483 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-23 14:03:02,366 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: AdminMenuState:requests_menu
+DEBUG    2025-09-23 14:03:08,270 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: AdminMenuState:requests_menu
+DEBUG    2025-09-23 14:03:09,346 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: MenuState:admin_menu
+DEBUG    2025-09-23 14:03:09,348 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-23 14:03:09,348 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-23 14:03:30,370 [bot] (surname.py).creating_request_surname_save(46) введена фамилия Какой-то
+DEBUG    2025-09-23 14:03:30,629 [bot] (surname.py).creating_request_surname_save(63) фамилия введена
+DEBUG    2025-09-23 14:03:32,258 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: CreateRequest:wait_surname
+WARNING  2025-09-23 14:05:47,591 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-23 14:06:01,097 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-23 14:06:01,745 [bot] (start_handlers.py).seed_admin(26) Проверка: seed_admin вызвана
+INFO     2025-09-23 14:06:02,357 [bot] (commands.py).set_commands(20) Установил команды
+INFO     2025-09-23 14:06:04,120 [bot] (start_handlers.py).get_start(70) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-23 14:06:04,122 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-23 14:06:04,122 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-23 14:06:11,185 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: AdminMenuState:requests_menu
+DEBUG    2025-09-23 15:44:06,731 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: AdminMenuState:requests_menu
+DEBUG    2025-09-23 15:44:13,305 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: MenuState:admin_menu
+DEBUG    2025-09-23 15:44:13,306 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-23 15:44:13,306 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-23 15:44:19,430 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: AdminMenuState:requests_menu
+DEBUG    2025-09-23 15:44:20,425 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: MenuState:admin_menu
+DEBUG    2025-09-23 15:44:20,427 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-23 15:44:20,427 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-23 15:44:22,270 [bot] (user_request_handlers.py).creating_request_save(38) Получаю все data state
+INFO     2025-09-23 15:44:22,270 [bot] (user_request_handlers.py).creating_request_save(48)  Не все документы загружены. • Договор
+• Скриншот счета
+• Паспорт
+• Выписка
+• Справка 2-НДФЛ
+• Трудовая книжка
+• Фамилия 
+DEBUG    2025-09-23 15:44:26,434 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: UserState:request
+DEBUG    2025-09-23 15:44:26,437 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-23 15:44:26,437 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+INFO     2025-09-23 15:44:43,909 [bot] (start_handlers.py).get_start(70) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-23 15:44:43,911 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-23 15:44:43,911 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-23 16:14:20,315 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-23 16:14:20,549 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-23 16:14:27,013 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-23 16:14:28,136 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-23 16:14:28,406 [bot] (commands.py).set_commands(20) Установил команды
+INFO     2025-09-23 16:14:29,766 [bot] (start_handlers.py).get_start(72) Зарегистрированный пользователь взаимодействует с ботом 484385628
+WARNING  2025-09-23 16:17:07,781 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-23 16:17:10,869 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-23 16:17:11,399 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-23 16:17:11,741 [bot] (commands.py).set_commands(20) Установил команды
+INFO     2025-09-23 16:17:18,115 [bot] (start_handlers.py).get_start(72) Зарегистрированный пользователь взаимодействует с ботом 484385628
+ERROR    2025-09-23 16:17:25,857 [bot] (registeration.py).save_contact(127) Пользователь 484385628 уже есть в базе: повторяющееся значение ключа нарушает ограничение уникальности "users_telegram_id_key"
+DETAIL:  Ключ "(telegram_id)=(484385628)" уже существует.
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\backends\asyncpg\client.py", line 89, in _translate_exceptions
+    return await func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\backends\asyncpg\client.py", line 112, in execute_insert
+    return await connection.fetchrow(query, *values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\asyncpg\connection.py", line 748, in fetchrow
+    data = await self._execute(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\asyncpg\connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\asyncpg\connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\asyncpg\connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg\\protocol\\protocol.pyx", line 206, in bind_execute
+asyncpg.exceptions.UniqueViolationError: повторяющееся значение ключа нарушает ограничение уникальности "users_telegram_id_key"
+DETAIL:  Ключ "(telegram_id)=(484385628)" уже существует.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\handlers\user\registeration.py", line 117, in save_contact
+    await User.create(
+    ...<6 lines>...
+        role="user")
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\models.py", line 1210, in create
+    await instance.save(using_db=db, force_create=True)
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\models.py", line 996, in save
+    await executor.execute_insert(self)
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\backends\base\executor.py", line 188, in execute_insert
+    insert_result = await self.db.execute_insert(self.insert_query, values)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\backends\base_postgres\client.py", line 33, in _translate_exceptions
+    return await self._translate_exceptions(func, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\backends\asyncpg\client.py", line 93, in _translate_exceptions
+    raise IntegrityError(exc)
+tortoise.exceptions.IntegrityError: повторяющееся значение ключа нарушает ограничение уникальности "users_telegram_id_key"
+DETAIL:  Ключ "(telegram_id)=(484385628)" уже существует.
+DEBUG    2025-09-23 16:17:27,896 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-23 16:17:27,896 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-23 16:19:50,058 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-23 16:19:52,624 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-23 16:19:53,046 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-23 16:19:53,233 [bot] (commands.py).set_commands(20) Установил команды
+INFO     2025-09-23 16:19:55,481 [bot] (start_handlers.py).get_start(66) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-23 16:19:55,482 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-23 16:19:55,482 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-23 16:20:03,332 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-23 16:20:05,760 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-23 16:20:06,288 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-23 16:20:06,687 [bot] (commands.py).set_commands(20) Установил команды
+INFO     2025-09-23 16:20:09,891 [bot] (start_handlers.py).get_start(66) Зарегистрированный пользователь взаимодействует с ботом 484385628
+WARNING  2025-09-23 16:21:26,290 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-23 16:21:28,819 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-23 16:21:29,281 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-23 16:21:29,494 [bot] (commands.py).set_commands(20) Установил команды
+INFO     2025-09-23 16:21:31,041 [bot] (start_handlers.py).get_start(66) Зарегистрированный пользователь взаимодействует с ботом 484385628
+INFO     2025-09-23 16:21:53,379 [bot] (cancel_state_handler.py).cancel_handler(18) Состояние ожидания: UserState:phone - отменено
+DEBUG    2025-09-23 16:21:53,687 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-23 16:21:53,688 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-23 16:21:59,516 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: MenuState:admin_menu
+DEBUG    2025-09-23 16:21:59,516 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-23 16:21:59,516 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-23 16:24:58,063 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-23 16:24:58,290 [bot] (main.py).<module>(43) Помощник завершены

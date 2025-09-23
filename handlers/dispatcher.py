@@ -3,6 +3,7 @@ from aiogram.filters import Command, StateFilter
 
 from handlers.admin.get_statistic_handlers import get_statistic, get_period_statistic, day_statistic, \
     first_day_statistic, second_day_statistic, prev_month, next_month
+from handlers.admin.users_requests import show_requests, show_user_request
 from handlers.back.back_handler import back, clear_message
 from handlers.user.create_request.acc_screenshot import creating_request_acc_screenshot_save, \
     creating_request_acc_screenshot
@@ -15,14 +16,14 @@ from handlers.user.create_request.record import creating_request_record_book_sav
 from handlers.user.create_request.surname import creating_request_surname, creating_request_surname_save
 
 from handlers.user.help_handlers import get_help, hide_faq_handler, get_help_docs, get_help_how_upload, answer
-from handlers.user.registeration import process_contact, approve_phone
+from handlers.user.registeration import process_contact, approve_phone, start_registration_user_name
 from handlers.user.start_handlers import get_start, on_start
-from handlers.admin.admin_handlers import admin_menu, admin_menu_requests
+from handlers.admin.admin_handlers import admin_menu
 
 from handlers.cancel_state_handler import cancel_handler
 from handlers.user.user_request_handlers import creating_request, creating_request_save
 
-from states.menu_states import StatsState, CreateRequest
+from states.menu_states import StatsState, CreateRequest, UserState
 from utils.middleware import RoleMiddleware, StatisticMiddleware
 
 from utils.config import redis_client
@@ -42,7 +43,8 @@ def setup_dispatcher(dp: Dispatcher):
     dp.message.register(cancel_handler, Command(commands='cancel'))
     dp.message.register(get_help, Command(commands='help'))
 
-    # регистрация телефона
+    # регистрация фио и телефона
+    dp.message.register(start_registration_user_name, StateFilter(UserState.register))
     dp.message.register(process_contact, F.contact)
     dp.callback_query.register(approve_phone, F.data.startswith("approve_"))
 
@@ -54,8 +56,8 @@ def setup_dispatcher(dp: Dispatcher):
     # оформление запроса пользователя
     dp.callback_query.register(creating_request, F.data == "start_request")
 
-    dp.callback_query.register(creating_request_surname, F.data == "surname")
-    dp.message.register(creating_request_surname_save, F.text, StateFilter(CreateRequest.wait_surname))
+    # dp.callback_query.register(creating_request_surname, F.data == "surname")
+    # dp.message.register(creating_request_surname_save, F.text, StateFilter(CreateRequest.wait_surname))
 
     dp.callback_query.register(creating_contract, F.data == "contract")
     dp.message.register(creating_contract_save, F.document | F.photo,  StateFilter(CreateRequest.wait_contract))
@@ -85,8 +87,8 @@ def setup_dispatcher(dp: Dispatcher):
 
     # панель администратора
     dp.callback_query.register(admin_menu, F.data == "admin_panel")
-    dp.callback_query.register(admin_menu_requests, F.data == "requests")
-    dp.callback_query.register(get_statistic, F.data == 'statistic')
+    dp.callback_query.register(show_requests, F.data == "requests")
+    dp.callback_query.register(show_user_request, F.data.startswith("request_"))
     dp.callback_query.register(get_statistic, F.data == 'statistic')
 
     # # календарь

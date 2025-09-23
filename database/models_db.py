@@ -9,6 +9,7 @@ class User(Model):
     """
     id = fields.IntField(pk=True)
     username = fields.CharField(max_length=100, null=True)
+    patronymic = fields.CharField(max_length=100, null=True)
     first_name = fields.CharField(max_length=100, null=True)
     second_name = fields.CharField(max_length=100, null=True)
     phone = fields.BigIntField(unique=True)

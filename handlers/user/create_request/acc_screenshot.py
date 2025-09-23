@@ -10,7 +10,7 @@ from utils.logging_config import bot_logger
 
 async def creating_request_acc_screenshot(call: CallbackQuery, state: FSMContext):
     """
-    Загрузка трудового договора
+    скриншот из ЛК ВБ
     :param call: acc_screenshot
     :param state: acc_screenshot
     """
@@ -20,7 +20,8 @@ async def creating_request_acc_screenshot(call: CallbackQuery, state: FSMContext
     bot_logger.debug(f"acc_screenshot in data: {data.get('acc_screenshot')}")
     if not data.get("acc_screenshot"):
         await call.message.answer(
-            text=f"📎 Прикрепите скриншот из ЛК ВБ используя скрепку ниже...\n"
+            text=f"📎 Прикрепите скриншот из ЛК ВБ используя скрепку ниже..."
+                 f"Формат JPEG.\n"
                  f"Для отмены нажмите на кнопку 'Назад' или команду /cancel",
             reply_markup=back_button()
         )
