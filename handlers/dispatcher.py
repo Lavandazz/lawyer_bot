@@ -56,9 +56,6 @@ def setup_dispatcher(dp: Dispatcher):
     # оформление запроса пользователя
     dp.callback_query.register(creating_request, F.data == "start_request")
 
-    # dp.callback_query.register(creating_request_surname, F.data == "surname")
-    # dp.message.register(creating_request_surname_save, F.text, StateFilter(CreateRequest.wait_surname))
-
     dp.callback_query.register(creating_contract, F.data == "contract")
     dp.message.register(creating_contract_save, F.document | F.photo,  StateFilter(CreateRequest.wait_contract))
 

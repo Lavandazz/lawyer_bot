@@ -55,10 +55,9 @@ class SalaryRequest(Model):
     created_at - дата создания запроса.
     """
     id = fields.IntField(pk=True)
-    user_id: fields.ForeignKeyRelation[User] = fields.ForeignKeyField(
+    user = fields.ForeignKeyField(
         'models.User',
-        related_name='reviews',
-        db_column='user_id')
+        related_name='salary_requests')
     contract = fields.CharField(max_length=255, null=True)
     account_screenshot = fields.CharField(max_length=255, null=True)
     a_pass = fields.CharField(max_length=255, null=True)

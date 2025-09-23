@@ -53,13 +53,14 @@ async def creating_request_save(call: CallbackQuery, state: FSMContext):
 
     try:
         user = await User.get(telegram_id=call.from_user.id)
+        user_folder = f"{user.second_name}_{user.first_name[0]}_{user.patronymic[0]}"
         # Создаем папку для пользователя
-        folder_path = create_folder(user.second_name)
+        folder_path = create_folder(user_folder)
         # Сохраняем файлы и получаем пути
         file_paths = await save_all_docs(bot, folder_path, docs)
         # Сохраняем заявку в БД
         request = await SalaryRequest.create(
-            user_id=user,  # передаем весь объект
+            user=user,  # передаем весь объект
             contract=file_paths.get('contract'),
             account_screenshot=file_paths.get('acc_screenshot'),
             a_pass=file_paths.get('personal_pass'),

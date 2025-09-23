@@ -22,7 +22,6 @@ async def get_docs_from_state(state: FSMContext) -> dict:
         'ndfl': 'Справка 2-НДФЛ',
         'record_book': 'Трудовая книжка',
         'comment': 'Комментарий',
-        'surname': 'Фамилия'
     }
 
     result = {}
@@ -47,10 +46,17 @@ async def get_docs_from_state(state: FSMContext) -> dict:
     }
 
 
-def create_folder(surname: str) -> str:
+def create_folder(fio: str) -> str:
     """Создание подпапки для документов в папке clients"""
-    folder_name = surname.strip().replace(" ", "_")
-    folder_path = os.path.join(CLIENTS_DIR, folder_name)
+    count = 1
+    folder_path = os.path.join(CLIENTS_DIR, fio)
+    # Проверяем, существует ли папка с таким именем
+    while os.path.exists(folder_path):
+        # Если существует, добавляем суффикс с номером
+        folder_path = f"{folder_path}_{count}"
+        count += 1
+
+    # Создаем папку
     os.makedirs(folder_path, exist_ok=True)
     bot_logger.info(f"Создана папка {folder_path}")
     return folder_path

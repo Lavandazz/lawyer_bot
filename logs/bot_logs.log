@@ -2538,3 +2538,235 @@ DEBUG    2025-09-23 16:21:59,516 [bot] (get_user.py).get_role_user(34) Возв�
 DEBUG    2025-09-23 16:21:59,516 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
 WARNING  2025-09-23 16:24:58,063 [bot] (main.py).start_bot(21) Бот закрыт
 WARNING  2025-09-23 16:24:58,290 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-23 16:25:00,670 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-23 16:25:01,226 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-23 16:25:01,561 [bot] (commands.py).set_commands(20) Установил команды
+INFO     2025-09-23 16:25:04,525 [bot] (start_handlers.py).get_start(66) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-23 16:25:04,526 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-23 16:25:04,526 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-23 17:58:22,860 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-23 17:58:23,093 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-23 17:58:25,428 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-23 17:58:25,879 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-23 17:58:26,184 [bot] (commands.py).set_commands(20) Установил команды
+WARNING  2025-09-23 18:14:11,675 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-23 18:14:11,894 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-23 18:14:14,202 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-23 18:14:14,647 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-23 18:14:14,848 [bot] (commands.py).set_commands(20) Установил команды
+INFO     2025-09-23 18:14:20,091 [bot] (start_handlers.py).get_start(66) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-23 18:14:20,092 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-23 18:14:20,092 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-23 18:14:23,219 [bot] (contract.py).creating_contract(21) Current state data: {}
+DEBUG    2025-09-23 18:14:23,219 [bot] (contract.py).creating_contract(22) contract in data: None
+DEBUG    2025-09-23 18:14:34,672 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: CreateRequest:wait_contract
+DEBUG    2025-09-23 18:14:35,910 [bot] (acc_screenshot.py).creating_request_acc_screenshot(19) Current state data: {'contract': 'AgACAgIAAxkBAAIoLGjSuV0L3IsEXkmsHIqviGJSluH3AAKU9zEb2N-YSkFCyjI61UAdAQADAgADeAADNgQ'}
+DEBUG    2025-09-23 18:14:35,910 [bot] (acc_screenshot.py).creating_request_acc_screenshot(20) acc_screenshot in data: None
+DEBUG    2025-09-23 18:14:42,537 [bot] (acc_screenshot.py).creating_request_acc_screenshot_save(41) сохраняю скрин лк
+DEBUG    2025-09-23 18:14:42,629 [bot] (acc_screenshot.py).creating_request_acc_screenshot_save(55) получен скрин: None, file_id: AgACAgIAAxkBAAIoL2jSuWeS0K14-EhzOm8Pe4bgMH69AAKV9zEb2N-YSr530Qs4Gzh-AQADAgADeQADNgQ
+DEBUG    2025-09-23 18:14:43,806 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: CreateRequest:wait_acc_screenshot
+DEBUG    2025-09-23 18:14:44,996 [bot] (contract.py).creating_contract(21) Current state data: {'contract': 'AgACAgIAAxkBAAIoLGjSuV0L3IsEXkmsHIqviGJSluH3AAKU9zEb2N-YSkFCyjI61UAdAQADAgADeAADNgQ', 'acc_screenshot': 'AgACAgIAAxkBAAIoL2jSuWeS0K14-EhzOm8Pe4bgMH69AAKV9zEb2N-YSr530Qs4Gzh-AQADAgADeQADNgQ'}
+DEBUG    2025-09-23 18:14:44,997 [bot] (contract.py).creating_contract(22) contract in data: AgACAgIAAxkBAAIoL2jSuWeS0K14-EhzOm8Pe4bgMH69AAKV9zEb2N-YSr530Qs4Gzh-AQADAgADeQADNgQ
+DEBUG    2025-09-23 18:14:46,315 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: CreateRequest:wait_contract
+DEBUG    2025-09-23 18:14:47,726 [bot] (acc_screenshot.py).creating_request_acc_screenshot(19) Current state data: {'contract': 'AgACAgIAAxkBAAIoLGjSuV0L3IsEXkmsHIqviGJSluH3AAKU9zEb2N-YSkFCyjI61UAdAQADAgADeAADNgQ', 'acc_screenshot': 'AgACAgIAAxkBAAIoL2jSuWeS0K14-EhzOm8Pe4bgMH69AAKV9zEb2N-YSr530Qs4Gzh-AQADAgADeQADNgQ'}
+DEBUG    2025-09-23 18:14:47,726 [bot] (acc_screenshot.py).creating_request_acc_screenshot(20) acc_screenshot in data: AgACAgIAAxkBAAIoL2jSuWeS0K14-EhzOm8Pe4bgMH69AAKV9zEb2N-YSr530Qs4Gzh-AQADAgADeQADNgQ
+DEBUG    2025-09-23 18:14:49,077 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: CreateRequest:wait_acc_screenshot
+DEBUG    2025-09-23 18:14:56,035 [bot] (personal_pass.py).creating_request_pass_save(52) получен скрин лк: [PhotoSize(file_id='AgACAgIAAxkBAAIoNGjSuXSLTWevAAEMDTrv-jXK5N06SAAClvcxG9jfmEpcTVIraGKZXAEAAwIAA3MAAzYE', file_unique_id='AQADlvcxG9jfmEp4', width=90, height=90, file_size=2104), PhotoSize(file_id='AgACAgIAAxkBAAIoNGjSuXSLTWevAAEMDTrv-jXK5N06SAAClvcxG9jfmEpcTVIraGKZXAEAAwIAA20AAzYE', file_unique_id='AQADlvcxG9jfmEpy', width=320, height=320, file_size=23306), PhotoSize(file_id='AgACAgIAAxkBAAIoNGjSuXSLTWevAAEMDTrv-jXK5N06SAAClvcxG9jfmEpcTVIraGKZXAEAAwIAA3gAAzYE', file_unique_id='AQADlvcxG9jfmEp9', width=800, height=800, file_size=83780), PhotoSize(file_id='AgACAgIAAxkBAAIoNGjSuXSLTWevAAEMDTrv-jXK5N06SAAClvcxG9jfmEpcTVIraGKZXAEAAwIAA3kAAzYE', file_unique_id='AQADlvcxG9jfmEp-', width=1024, height=1024, file_size=108015)], file_id: AgACAgIAAxkBAAIoNGjSuXSLTWevAAEMDTrv-jXK5N06SAAClvcxG9jfmEpcTVIraGKZXAEAAwIAA3kAAzYE
+DEBUG    2025-09-23 18:14:57,409 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: CreateRequest:wait_pass
+DEBUG    2025-09-23 18:15:08,827 [bot] (ndfl.py).creating_request_ndfl_save(54) получен НДФЛ: file_id: BQACAgIAAxkBAAIoN2jSuYHFWoI1Dbi7z0EVYRpQ88ztAALDewAC2N-YSr1OAtIvpVzSNgQ
+DEBUG    2025-09-23 18:15:12,143 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: CreateRequest:wait_ndfl
+DEBUG    2025-09-23 18:15:20,523 [bot] (extract.py).creating_request_extract_save(55) получена выписка ИЛС: file_id: AgACAgIAAxkBAAIoOmjSuYxrsjY-bruww7XACeO3KK4fAAKb9zEb2N-YSv926JCOft9SAQADAgADeQADNgQ
+DEBUG    2025-09-23 18:15:21,537 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: CreateRequest:wait_extract
+DEBUG    2025-09-23 18:15:28,686 [bot] (record.py).creating_request_record_book_save(53) получен трудовой книжки: [PhotoSize(file_id='AgACAgIAAxkBAAIoLGjSuV0L3IsEXkmsHIqviGJSluH3AAKU9zEb2N-YSkFCyjI61UAdAQADAgADcwADNgQ', file_unique_id='AQADlPcxG9jfmEp4', width=90, height=78, file_size=944), PhotoSize(file_id='AgACAgIAAxkBAAIoLGjSuV0L3IsEXkmsHIqviGJSluH3AAKU9zEb2N-YSkFCyjI61UAdAQADAgADbQADNgQ', file_unique_id='AQADlPcxG9jfmEpy', width=320, height=279, file_size=13366), PhotoSize(file_id='AgACAgIAAxkBAAIoLGjSuV0L3IsEXkmsHIqviGJSluH3AAKU9zEb2N-YSkFCyjI61UAdAQADAgADeAADNgQ', file_unique_id='AQADlPcxG9jfmEp9', width=596, height=520, file_size=33648)], file_id: AgACAgIAAxkBAAIoLGjSuV0L3IsEXkmsHIqviGJSluH3AAKU9zEb2N-YSkFCyjI61UAdAQADAgADeAADNgQ
+DEBUG    2025-09-23 18:15:29,871 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: CreateRequest:wait_record_book
+DEBUG    2025-09-23 18:15:30,598 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: UserState:request
+DEBUG    2025-09-23 18:15:30,599 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-23 18:15:30,599 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-23 18:15:35,653 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: CreateRequest:wait_comment
+DEBUG    2025-09-23 18:15:37,899 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: CreateRequest:wait_extract
+DEBUG    2025-09-23 18:15:40,414 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: CreateRequest:wait_record_book
+DEBUG    2025-09-23 18:15:46,703 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: CreateRequest:wait_comment
+DEBUG    2025-09-23 18:15:48,094 [bot] (contract.py).creating_contract(21) Current state data: {'contract': 'AgACAgIAAxkBAAIoLGjSuV0L3IsEXkmsHIqviGJSluH3AAKU9zEb2N-YSkFCyjI61UAdAQADAgADeAADNgQ', 'acc_screenshot': 'AgACAgIAAxkBAAIoL2jSuWeS0K14-EhzOm8Pe4bgMH69AAKV9zEb2N-YSr530Qs4Gzh-AQADAgADeQADNgQ', 'personal_pass': 'AgACAgIAAxkBAAIoNGjSuXSLTWevAAEMDTrv-jXK5N06SAAClvcxG9jfmEpcTVIraGKZXAEAAwIAA3kAAzYE', 'ndfl': 'BQACAgIAAxkBAAIoN2jSuYHFWoI1Dbi7z0EVYRpQ88ztAALDewAC2N-YSr1OAtIvpVzSNgQ', 'extract': 'AgACAgIAAxkBAAIoOmjSuYxrsjY-bruww7XACeO3KK4fAAKb9zEb2N-YSv926JCOft9SAQADAgADeQADNgQ', 'record_book': 'AgACAgIAAxkBAAIoLGjSuV0L3IsEXkmsHIqviGJSluH3AAKU9zEb2N-YSkFCyjI61UAdAQADAgADeAADNgQ', 'comment': 'ыувкаепнргошщлз', 'telegram': 484385628}
+DEBUG    2025-09-23 18:15:48,095 [bot] (contract.py).creating_contract(22) contract in data: AgACAgIAAxkBAAIoL2jSuWeS0K14-EhzOm8Pe4bgMH69AAKV9zEb2N-YSr530Qs4Gzh-AQADAgADeQADNgQ
+DEBUG    2025-09-23 18:15:49,423 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: CreateRequest:wait_contract
+DEBUG    2025-09-23 18:15:50,462 [bot] (user_request_handlers.py).creating_request_save(38) Получаю все data state
+INFO     2025-09-23 18:15:50,463 [bot] (save_docs.py).create_folder(61) Создана папка clients\Макушина_М_В
+INFO     2025-09-23 18:15:50,691 [bot] (save_docs.py).save_doc(97) Файл contract.jpg сохранен в clients\Макушина_М_В
+INFO     2025-09-23 18:15:51,242 [bot] (save_docs.py).save_doc(97) Файл screenshot.jpg сохранен в clients\Макушина_М_В
+INFO     2025-09-23 18:15:51,599 [bot] (save_docs.py).save_doc(97) Файл personal_pass.jpg сохранен в clients\Макушина_М_В
+INFO     2025-09-23 18:15:51,848 [bot] (save_docs.py).save_doc(97) Файл extract.jpg сохранен в clients\Макушина_М_В
+INFO     2025-09-23 18:15:51,971 [bot] (save_docs.py).save_doc(97) Файл ndfl.pdf сохранен в clients\Макушина_М_В
+ERROR    2025-09-23 18:15:51,974 [bot] (user_request_handlers.py).creating_request_save(84) Не получилось сохранить заявку: значение NULL в столбце "user_id_id" отношения "salary_requests" нарушает ограничение NOT NULL
+DETAIL:  Ошибочная строка содержит (3, clients\Макушина_М_В\contract.jpg, clients\Макушина_М_В\screenshot.jpg, clients\Макушина_М_В\personal_pass.jpg, clients\Макушина_М_В\ndfl.pdf, clients\Макушина_М_В\extract.jpg, null, ыувкаепнргошщлз, f, 2025-09-23 18:15:51.972795+03, null).
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\backends\asyncpg\client.py", line 89, in _translate_exceptions
+    return await func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\backends\asyncpg\client.py", line 112, in execute_insert
+    return await connection.fetchrow(query, *values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\asyncpg\connection.py", line 748, in fetchrow
+    data = await self._execute(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\asyncpg\connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\asyncpg\connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\asyncpg\connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg\\protocol\\protocol.pyx", line 206, in bind_execute
+asyncpg.exceptions.NotNullViolationError: значение NULL в столбце "user_id_id" отношения "salary_requests" нарушает ограничение NOT NULL
+DETAIL:  Ошибочная строка содержит (3, clients\Макушина_М_В\contract.jpg, clients\Макушина_М_В\screenshot.jpg, clients\Макушина_М_В\personal_pass.jpg, clients\Макушина_М_В\ndfl.pdf, clients\Макушина_М_В\extract.jpg, null, ыувкаепнргошщлз, f, 2025-09-23 18:15:51.972795+03, null).
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\handlers\user\user_request_handlers.py", line 62, in creating_request_save
+    request = await SalaryRequest.create(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\models.py", line 1210, in create
+    await instance.save(using_db=db, force_create=True)
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\models.py", line 996, in save
+    await executor.execute_insert(self)
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\backends\base\executor.py", line 188, in execute_insert
+    insert_result = await self.db.execute_insert(self.insert_query, values)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\backends\base_postgres\client.py", line 33, in _translate_exceptions
+    return await self._translate_exceptions(func, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\backends\asyncpg\client.py", line 93, in _translate_exceptions
+    raise IntegrityError(exc)
+tortoise.exceptions.IntegrityError: значение NULL в столбце "user_id_id" отношения "salary_requests" нарушает ограничение NOT NULL
+DETAIL:  Ошибочная строка содержит (3, clients\Макушина_М_В\contract.jpg, clients\Макушина_М_В\screenshot.jpg, clients\Макушина_М_В\personal_pass.jpg, clients\Макушина_М_В\ndfl.pdf, clients\Макушина_М_В\extract.jpg, null, ыувкаепнргошщлз, f, 2025-09-23 18:15:51.972795+03, null).
+DEBUG    2025-09-23 18:15:51,984 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-23 18:15:51,984 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-23 18:20:59,279 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-23 18:21:01,919 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-23 18:21:02,387 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-23 18:21:02,579 [bot] (commands.py).set_commands(20) Установил команды
+INFO     2025-09-23 18:21:06,361 [bot] (start_handlers.py).get_start(66) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-23 18:21:06,362 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-23 18:21:06,362 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-23 18:21:09,509 [bot] (contract.py).creating_contract(21) Current state data: {}
+DEBUG    2025-09-23 18:21:09,510 [bot] (contract.py).creating_contract(22) contract in data: None
+DEBUG    2025-09-23 18:21:19,903 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: CreateRequest:wait_contract
+DEBUG    2025-09-23 18:21:21,466 [bot] (acc_screenshot.py).creating_request_acc_screenshot(19) Current state data: {'contract': 'BQACAgIAAxkBAAIoSWjSuvMGr9OcA1u5YpUJzzcLhHdCAALmewAC2N-YSpMhJZceRBxGNgQ'}
+DEBUG    2025-09-23 18:21:21,466 [bot] (acc_screenshot.py).creating_request_acc_screenshot(20) acc_screenshot in data: None
+DEBUG    2025-09-23 18:21:33,099 [bot] (acc_screenshot.py).creating_request_acc_screenshot_save(41) сохраняю скрин лк
+DEBUG    2025-09-23 18:21:33,213 [bot] (acc_screenshot.py).creating_request_acc_screenshot_save(55) получен скрин: None, file_id: AgACAgIAAxkBAAIoLGjSuV0L3IsEXkmsHIqviGJSluH3AAKU9zEb2N-YSkFCyjI61UAdAQADAgADeAADNgQ
+DEBUG    2025-09-23 18:21:34,130 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: CreateRequest:wait_acc_screenshot
+DEBUG    2025-09-23 18:21:41,657 [bot] (extract.py).creating_request_extract_save(55) получена выписка ИЛС: file_id: AgACAgIAAxkBAAIoOmjSuYxrsjY-bruww7XACeO3KK4fAAKb9zEb2N-YSv926JCOft9SAQADAgADeQADNgQ
+DEBUG    2025-09-23 18:21:42,613 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: CreateRequest:wait_extract
+DEBUG    2025-09-23 18:21:49,438 [bot] (record.py).creating_request_record_book_save(53) получен трудовой книжки: [PhotoSize(file_id='AgACAgIAAxkBAAIoLGjSuV0L3IsEXkmsHIqviGJSluH3AAKU9zEb2N-YSkFCyjI61UAdAQADAgADcwADNgQ', file_unique_id='AQADlPcxG9jfmEp4', width=90, height=78, file_size=944), PhotoSize(file_id='AgACAgIAAxkBAAIoLGjSuV0L3IsEXkmsHIqviGJSluH3AAKU9zEb2N-YSkFCyjI61UAdAQADAgADbQADNgQ', file_unique_id='AQADlPcxG9jfmEpy', width=320, height=279, file_size=13366), PhotoSize(file_id='AgACAgIAAxkBAAIoLGjSuV0L3IsEXkmsHIqviGJSluH3AAKU9zEb2N-YSkFCyjI61UAdAQADAgADeAADNgQ', file_unique_id='AQADlPcxG9jfmEp9', width=596, height=520, file_size=33648)], file_id: AgACAgIAAxkBAAIoLGjSuV0L3IsEXkmsHIqviGJSluH3AAKU9zEb2N-YSkFCyjI61UAdAQADAgADeAADNgQ
+DEBUG    2025-09-23 18:21:50,566 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: CreateRequest:wait_record_book
+DEBUG    2025-09-23 18:21:52,841 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: CreateRequest:wait_comment
+DEBUG    2025-09-23 18:21:55,178 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: CreateRequest:wait_extract
+DEBUG    2025-09-23 18:22:01,882 [bot] (personal_pass.py).creating_request_pass_save(52) получен скрин лк: [PhotoSize(file_id='AgACAgIAAxkBAAIoOmjSuYxrsjY-bruww7XACeO3KK4fAAKb9zEb2N-YSv926JCOft9SAQADAgADcwADNgQ', file_unique_id='AQADm_cxG9jfmEp4', width=80, height=90, file_size=916), PhotoSize(file_id='AgACAgIAAxkBAAIoOmjSuYxrsjY-bruww7XACeO3KK4fAAKb9zEb2N-YSv926JCOft9SAQADAgADbQADNgQ', file_unique_id='AQADm_cxG9jfmEpy', width=285, height=320, file_size=12224), PhotoSize(file_id='AgACAgIAAxkBAAIoOmjSuYxrsjY-bruww7XACeO3KK4fAAKb9zEb2N-YSv926JCOft9SAQADAgADeAADNgQ', file_unique_id='AQADm_cxG9jfmEp9', width=713, height=800, file_size=55449), PhotoSize(file_id='AgACAgIAAxkBAAIoOmjSuYxrsjY-bruww7XACeO3KK4fAAKb9zEb2N-YSv926JCOft9SAQADAgADeQADNgQ', file_unique_id='AQADm_cxG9jfmEp-', width=1021, height=1146, file_size=85843)], file_id: AgACAgIAAxkBAAIoOmjSuYxrsjY-bruww7XACeO3KK4fAAKb9zEb2N-YSv926JCOft9SAQADAgADeQADNgQ
+DEBUG    2025-09-23 18:22:03,043 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: CreateRequest:wait_pass
+DEBUG    2025-09-23 18:22:08,695 [bot] (ndfl.py).creating_request_ndfl_save(54) получен НДФЛ: file_id: AgACAgIAAxkBAAIoLGjSuV0L3IsEXkmsHIqviGJSluH3AAKU9zEb2N-YSkFCyjI61UAdAQADAgADeAADNgQ
+DEBUG    2025-09-23 18:22:09,488 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: CreateRequest:wait_ndfl
+DEBUG    2025-09-23 18:22:10,680 [bot] (acc_screenshot.py).creating_request_acc_screenshot(19) Current state data: {'contract': 'BQACAgIAAxkBAAIoSWjSuvMGr9OcA1u5YpUJzzcLhHdCAALmewAC2N-YSpMhJZceRBxGNgQ', 'acc_screenshot': 'AgACAgIAAxkBAAIoLGjSuV0L3IsEXkmsHIqviGJSluH3AAKU9zEb2N-YSkFCyjI61UAdAQADAgADeAADNgQ', 'extract': 'AgACAgIAAxkBAAIoOmjSuYxrsjY-bruww7XACeO3KK4fAAKb9zEb2N-YSv926JCOft9SAQADAgADeQADNgQ', 'record_book': 'AgACAgIAAxkBAAIoLGjSuV0L3IsEXkmsHIqviGJSluH3AAKU9zEb2N-YSkFCyjI61UAdAQADAgADeAADNgQ', 'personal_pass': 'AgACAgIAAxkBAAIoOmjSuYxrsjY-bruww7XACeO3KK4fAAKb9zEb2N-YSv926JCOft9SAQADAgADeQADNgQ', 'ndfl': 'AgACAgIAAxkBAAIoLGjSuV0L3IsEXkmsHIqviGJSluH3AAKU9zEb2N-YSkFCyjI61UAdAQADAgADeAADNgQ'}
+DEBUG    2025-09-23 18:22:10,681 [bot] (acc_screenshot.py).creating_request_acc_screenshot(20) acc_screenshot in data: AgACAgIAAxkBAAIoLGjSuV0L3IsEXkmsHIqviGJSluH3AAKU9zEb2N-YSkFCyjI61UAdAQADAgADeAADNgQ
+DEBUG    2025-09-23 18:22:11,620 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: CreateRequest:wait_acc_screenshot
+DEBUG    2025-09-23 18:22:13,247 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: CreateRequest:wait_record_book
+INFO     2025-09-23 18:22:18,750 [bot] (cancel_state_handler.py).cancel_handler(18) Состояние ожидания: CreateRequest:wait_comment - отменено
+DEBUG    2025-09-23 18:22:19,060 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-23 18:22:19,060 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-23 18:22:24,725 [bot] (contract.py).creating_contract(21) Current state data: {}
+DEBUG    2025-09-23 18:22:24,726 [bot] (contract.py).creating_contract(22) contract in data: None
+DEBUG    2025-09-23 18:22:29,954 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: CreateRequest:wait_contract
+DEBUG    2025-09-23 18:22:35,909 [bot] (ndfl.py).creating_request_ndfl_save(54) получен НДФЛ: file_id: BQACAgIAAxkBAAIoZGjSu0B-l-Yiberf4S_s73mpZG83AALtewAC2N-YSvBF1XC6dU0TNgQ
+DEBUG    2025-09-23 18:22:36,723 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: CreateRequest:wait_ndfl
+DEBUG    2025-09-23 18:22:42,988 [bot] (personal_pass.py).creating_request_pass_save(52) получен скрин лк: [PhotoSize(file_id='AgACAgIAAxkBAAIoLGjSuV0L3IsEXkmsHIqviGJSluH3AAKU9zEb2N-YSkFCyjI61UAdAQADAgADcwADNgQ', file_unique_id='AQADlPcxG9jfmEp4', width=90, height=78, file_size=944), PhotoSize(file_id='AgACAgIAAxkBAAIoLGjSuV0L3IsEXkmsHIqviGJSluH3AAKU9zEb2N-YSkFCyjI61UAdAQADAgADbQADNgQ', file_unique_id='AQADlPcxG9jfmEpy', width=320, height=279, file_size=13366), PhotoSize(file_id='AgACAgIAAxkBAAIoLGjSuV0L3IsEXkmsHIqviGJSluH3AAKU9zEb2N-YSkFCyjI61UAdAQADAgADeAADNgQ', file_unique_id='AQADlPcxG9jfmEp9', width=596, height=520, file_size=33648)], file_id: AgACAgIAAxkBAAIoLGjSuV0L3IsEXkmsHIqviGJSluH3AAKU9zEb2N-YSkFCyjI61UAdAQADAgADeAADNgQ
+DEBUG    2025-09-23 18:22:44,247 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: CreateRequest:wait_pass
+DEBUG    2025-09-23 18:22:45,580 [bot] (acc_screenshot.py).creating_request_acc_screenshot(19) Current state data: {'contract': 'BQACAgIAAxkBAAIoYWjSuzn3cC-zPZl9AhfocTEqq0qhAALsewAC2N-YSgYgVgUkUE9oNgQ', 'ndfl': 'BQACAgIAAxkBAAIoZGjSu0B-l-Yiberf4S_s73mpZG83AALtewAC2N-YSvBF1XC6dU0TNgQ', 'personal_pass': 'AgACAgIAAxkBAAIoLGjSuV0L3IsEXkmsHIqviGJSluH3AAKU9zEb2N-YSkFCyjI61UAdAQADAgADeAADNgQ'}
+DEBUG    2025-09-23 18:22:45,581 [bot] (acc_screenshot.py).creating_request_acc_screenshot(20) acc_screenshot in data: None
+DEBUG    2025-09-23 18:22:51,454 [bot] (acc_screenshot.py).creating_request_acc_screenshot_save(41) сохраняю скрин лк
+DEBUG    2025-09-23 18:22:51,545 [bot] (acc_screenshot.py).creating_request_acc_screenshot_save(55) получен скрин: None, file_id: AgACAgIAAxkBAAIoOmjSuYxrsjY-bruww7XACeO3KK4fAAKb9zEb2N-YSv926JCOft9SAQADAgADeQADNgQ
+DEBUG    2025-09-23 18:22:52,543 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: CreateRequest:wait_acc_screenshot
+DEBUG    2025-09-23 18:22:54,459 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: CreateRequest:wait_ndfl
+DEBUG    2025-09-23 18:23:01,651 [bot] (record.py).creating_request_record_book_save(53) получен трудовой книжки: None, file_id: BQACAgIAAxkBAAIobmjSu1qlTRB2zmcLQdrozfnHdTyaAALyewAC2N-YSvUFlO4LEO9JNgQ
+DEBUG    2025-09-23 18:23:02,633 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: CreateRequest:wait_record_book
+DEBUG    2025-09-23 18:23:09,489 [bot] (extract.py).creating_request_extract_save(55) получена выписка ИЛС: file_id: BQACAgIAAxkBAAIocWjSu2E8JTP1x-Hjb0hpIyM8yHHiAAL0ewAC2N-YSok-Bm3UfOJNNgQ
+DEBUG    2025-09-23 18:23:10,409 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: CreateRequest:wait_extract
+DEBUG    2025-09-23 18:23:15,055 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: CreateRequest:wait_comment
+DEBUG    2025-09-23 18:23:16,078 [bot] (user_request_handlers.py).creating_request_save(38) Получаю все data state
+INFO     2025-09-23 18:23:16,079 [bot] (save_docs.py).create_folder(61) Создана папка clients\Макушина_М_В_1
+INFO     2025-09-23 18:23:16,313 [bot] (save_docs.py).save_doc(97) Файл contract.pdf сохранен в clients\Макушина_М_В_1
+INFO     2025-09-23 18:23:16,734 [bot] (save_docs.py).save_doc(97) Файл screenshot.jpg сохранен в clients\Макушина_М_В_1
+INFO     2025-09-23 18:23:16,903 [bot] (save_docs.py).save_doc(97) Файл personal_pass.jpg сохранен в clients\Макушина_М_В_1
+INFO     2025-09-23 18:23:17,455 [bot] (save_docs.py).save_doc(97) Файл extract.pdf сохранен в clients\Макушина_М_В_1
+INFO     2025-09-23 18:23:17,582 [bot] (save_docs.py).save_doc(97) Файл ndfl.pdf сохранен в clients\Макушина_М_В_1
+ERROR    2025-09-23 18:23:17,583 [bot] (user_request_handlers.py).creating_request_save(84) Не получилось сохранить заявку: 'int' object has no attribute '_saved_in_db'
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\handlers\user\user_request_handlers.py", line 62, in creating_request_save
+    request = await SalaryRequest.create(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\models.py", line 1207, in create
+    instance = cls(**kwargs)
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\models.py", line 698, in __init__
+    for key in meta.fields.difference(self._set_kwargs(kwargs)):
+                                      ~~~~~~~~~~~~~~~~^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\tortoise\models.py", line 724, in _set_kwargs
+    if value and not value._saved_in_db:
+                     ^^^^^^^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute '_saved_in_db'
+DEBUG    2025-09-23 18:23:17,638 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-23 18:23:17,638 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-23 18:28:20,807 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-23 18:28:21,022 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-23 18:40:14,595 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-23 18:40:15,172 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-23 18:40:15,396 [bot] (commands.py).set_commands(20) Установил команды
+INFO     2025-09-23 18:40:17,444 [bot] (start_handlers.py).get_start(66) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-23 18:40:17,445 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-23 18:40:17,446 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-23 18:40:20,250 [bot] (contract.py).creating_contract(21) Current state data: {}
+DEBUG    2025-09-23 18:40:20,251 [bot] (contract.py).creating_contract(22) contract in data: None
+DEBUG    2025-09-23 18:40:33,156 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: CreateRequest:wait_contract
+DEBUG    2025-09-23 18:40:37,034 [bot] (acc_screenshot.py).creating_request_acc_screenshot(19) Current state data: {'contract': 'BQACAgIAAxkBAAIoemjSv3GOwyyXgBtVkApMCiQUpG_OAAJsfAAC2N-YSlJDZ9q_S_dxNgQ'}
+DEBUG    2025-09-23 18:40:37,035 [bot] (acc_screenshot.py).creating_request_acc_screenshot(20) acc_screenshot in data: None
+DEBUG    2025-09-23 18:40:42,572 [bot] (acc_screenshot.py).creating_request_acc_screenshot_save(41) сохраняю скрин лк
+DEBUG    2025-09-23 18:40:42,670 [bot] (acc_screenshot.py).creating_request_acc_screenshot_save(55) получен скрин: None, file_id: AgACAgIAAxkBAAIofWjSv3-fdvF1rihTkF5U8BBPerw_AAKb9zEb2N-YSv926JCOft9SAQADAgADeQADNgQ
+DEBUG    2025-09-23 18:40:46,633 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: CreateRequest:wait_acc_screenshot
+DEBUG    2025-09-23 18:40:53,622 [bot] (personal_pass.py).creating_request_pass_save(52) получен скрин лк: [PhotoSize(file_id='AgACAgIAAxkBAAIogGjSv4qpsR4IjgQhESE-0RoTnHt9AAKU9zEb2N-YSkFCyjI61UAdAQADAgADcwADNgQ', file_unique_id='AQADlPcxG9jfmEp4', width=90, height=78, file_size=944), PhotoSize(file_id='AgACAgIAAxkBAAIogGjSv4qpsR4IjgQhESE-0RoTnHt9AAKU9zEb2N-YSkFCyjI61UAdAQADAgADbQADNgQ', file_unique_id='AQADlPcxG9jfmEpy', width=320, height=279, file_size=13366), PhotoSize(file_id='AgACAgIAAxkBAAIogGjSv4qpsR4IjgQhESE-0RoTnHt9AAKU9zEb2N-YSkFCyjI61UAdAQADAgADeAADNgQ', file_unique_id='AQADlPcxG9jfmEp9', width=596, height=520, file_size=33648)], file_id: AgACAgIAAxkBAAIogGjSv4qpsR4IjgQhESE-0RoTnHt9AAKU9zEb2N-YSkFCyjI61UAdAQADAgADeAADNgQ
+DEBUG    2025-09-23 18:40:54,545 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: CreateRequest:wait_pass
+DEBUG    2025-09-23 18:41:01,772 [bot] (ndfl.py).creating_request_ndfl_save(54) получен НДФЛ: file_id: AgACAgIAAxkBAAIofWjSv3-fdvF1rihTkF5U8BBPerw_AAKb9zEb2N-YSv926JCOft9SAQADAgADeQADNgQ
+DEBUG    2025-09-23 18:41:02,634 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: CreateRequest:wait_ndfl
+DEBUG    2025-09-23 18:41:10,320 [bot] (extract.py).creating_request_extract_save(55) получена выписка ИЛС: file_id: BQACAgIAAxkBAAIohmjSv5qZdnC0robpWq7hAxjVPKHBAAJ0fAAC2N-YSvEvxtMTcJ3hNgQ
+DEBUG    2025-09-23 18:41:11,246 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: CreateRequest:wait_extract
+DEBUG    2025-09-23 18:41:18,012 [bot] (record.py).creating_request_record_book_save(53) получен трудовой книжки: None, file_id: BQACAgIAAxkBAAIoiWjSv6JKQS7X-l-PdGT7DqW_85U6AAJ2fAAC2N-YSqBmdmibaf2yNgQ
+DEBUG    2025-09-23 18:41:18,979 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: CreateRequest:wait_record_book
+DEBUG    2025-09-23 18:41:25,037 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: CreateRequest:wait_comment
+DEBUG    2025-09-23 18:41:27,517 [bot] (back_handler.py).back(26) Начало обработки back. Текущее состояние: CreateRequest:wait_pass
+DEBUG    2025-09-23 18:41:28,577 [bot] (user_request_handlers.py).creating_request_save(38) Получаю все data state
+INFO     2025-09-23 18:41:28,578 [bot] (save_docs.py).create_folder(61) Создана папка clients\Макушина_М_В
+INFO     2025-09-23 18:41:28,769 [bot] (save_docs.py).save_doc(97) Файл contract.pdf сохранен в clients\Макушина_М_В
+INFO     2025-09-23 18:41:28,994 [bot] (save_docs.py).save_doc(97) Файл screenshot.jpg сохранен в clients\Макушина_М_В
+INFO     2025-09-23 18:41:29,140 [bot] (save_docs.py).save_doc(97) Файл personal_pass.jpg сохранен в clients\Макушина_М_В
+INFO     2025-09-23 18:41:29,513 [bot] (save_docs.py).save_doc(97) Файл extract.pdf сохранен в clients\Макушина_М_В
+INFO     2025-09-23 18:41:29,640 [bot] (save_docs.py).save_doc(97) Файл ndfl.jpg сохранен в clients\Макушина_М_В
+INFO     2025-09-23 18:41:29,645 [bot] (user_request_handlers.py).creating_request_save(72) Новый запрос по отпускным
+INFO     2025-09-23 18:41:30,160 [bot] (send_messages.py)._send_notification(36) Попытка отправки админу 2
+DEBUG    2025-09-23 18:41:30,246 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-23 18:41:30,246 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-23 18:41:47,654 [bot] (back_handler.py).clear_message(75) Удалил сообщение
+WARNING  2025-09-23 18:44:22,055 [bot] (main.py).start_bot(21) Бот закрыт
