@@ -1,3 +1,4 @@
+import os
 from typing import List
 
 from aiogram.types import InlineKeyboardButton
@@ -42,7 +43,8 @@ async def requests_kb(requests: List[SalaryRequest], role: str):
     kb = InlineKeyboardBuilder()
     for request in requests:
         # название кнопок берем из названия папок (contract - путь к папкам)
-        btn = request.contract.split("\\")[1].replace("_", ".")
+        # btn = request.contract.split("\\")[1].replace("_", ".")
+        btn = os.path.basename(request.contract).replace("_", ".")
         if role == "admin":
             kb.button(text=f"{btn}", callback_data=f'admin_request_{request.id}')
         else:

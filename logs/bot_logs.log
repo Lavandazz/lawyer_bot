@@ -3836,3 +3836,20 @@ Traceback (most recent call last):
                  ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 TypeError: approve_request_kb() missing 2 required positional arguments: 'event' and 'role'
 WARNING  2025-09-24 15:56:09,783 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-24 15:56:12,347 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-24 15:56:12,900 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-24 15:56:13,095 [bot] (commands.py).set_commands(20) Установил команды
+INFO     2025-09-24 15:56:16,176 [bot] (start_handlers.py).get_start(66) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-24 15:56:16,177 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-24 15:56:16,177 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-24 15:56:22,676 [bot] (back_handler.py).back(30) Начало обработки back. Текущее состояние: AdminMenuState:request
+DEBUG    2025-09-24 15:56:22,676 [bot] (back_handler.py).back(79) список сообщений для удаления: [11007, 11008, 11009, 11010, 11011, 11012]
+DEBUG    2025-09-24 15:56:29,914 [bot] (back_handler.py).back(30) Начало обработки back. Текущее состояние: AdminMenuState:request
+DEBUG    2025-09-24 15:56:29,914 [bot] (back_handler.py).back(79) список сообщений для удаления: [11013, 11015, 11016, 11017, 11018, 11019]
+DEBUG    2025-09-24 15:56:31,431 [bot] (back_handler.py).back(30) Начало обработки back. Текущее состояние: AdminMenuState:requests_menu
+DEBUG    2025-09-24 15:56:32,394 [bot] (back_handler.py).back(30) Начало обработки back. Текущее состояние: MenuState:admin_menu
+DEBUG    2025-09-24 15:56:32,395 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-24 15:56:32,395 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-24 15:57:27,657 [bot] (back_handler.py).back(30) Начало обработки back. Текущее состояние: UserState:request
+DEBUG    2025-09-24 15:57:27,657 [bot] (back_handler.py).back(79) список сообщений для удаления: [11020, 11022, 11023, 11024, 11025, 11026]
+DEBUG    2025-09-24 15:57:32,760 [bot] (back_handler.py).back(30) Начало обработки back. Текущее состояние: AdminMenuState:requests_menu
