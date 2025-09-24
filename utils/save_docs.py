@@ -6,34 +6,36 @@ from aiogram.fsm.context import FSMContext
 from utils.config import CLIENTS_DIR
 from utils.logging_config import bot_logger
 
+# Словарь с ожидаемыми документами
+expected_docs = {
+    'contract': 'Договор ГПХ/Трудовой',
+    'acc_screenshot': 'Скрин ЛК ВБ Джоб',
+    'personal_pass': 'Бейдж/пропуск',
+    'extract': 'Выписка ИЛС',
+    'ndfl': 'Справка 2-НДФЛ',
+    'record_book': 'Электронная трудовая книжка',
+    'comment': 'Комментарий',
+}
+
 
 async def get_docs_from_state(state: FSMContext) -> dict:
     """
     Получает все документы из state data и возвращает словарь
+    result: Словарь для наполнения. Как только документ загружен, он попадает в result.
+    missing_docs: Список документов, которые осталось загрузить.
     """
     docs = await state.get_data()
 
-    # Словарь с ожидаемыми документами
-    expected_docs = {
-        'contract': 'Договор',
-        'acc_screenshot': 'Скриншот счета',
-        'personal_pass': 'Паспорт',
-        'extract': 'Выписка',
-        'ndfl': 'Справка 2-НДФЛ',
-        'record_book': 'Трудовая книжка',
-        'comment': 'Комментарий',
-    }
-
-    result = {}
-    missing_docs = []
+    result = {}             # будет: {'contract': 'file123.jpg', 'comment': 'Срочно'}
+    missing_docs = []       # будет: ['Скрин ЛК ВБ Джоб', 'Бейдж/пропуск'] - список отсутствующих документов
 
     for key, description in expected_docs.items():
-        value = docs.get(key)
-        result[key] = value
+        value = docs.get(key)  # получаем значение из state по ключу
+        result[key] = value    # сохраняем в результат
 
         # Проверяем обязательные документы (кроме comment)
-        if key != 'comment' and not value:
-            missing_docs.append(description)
+        if key != 'comment' and not value:  # если документ обязательный И отсутствует
+            missing_docs.append(description)  # добавляем название документа в список отсутствующих
 
     # Устанавливаем комментарий по умолчанию
     if not result.get('comment'):

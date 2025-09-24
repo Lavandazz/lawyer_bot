@@ -3,7 +3,7 @@ from typing import List
 from aiogram.types import InlineKeyboardButton
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 
-from database.models_db import User
+from database.models_db import SalaryRequest
 from utils.config import SUPERADMIN
 from utils.logging_config import bot_logger
 
@@ -33,12 +33,20 @@ def admin_stat_kb():
     return kb.as_markup()
 
 
-async def requests_kb(requests):
-    """Клавиатура, которая отображает все запросы от пользователей по фамилиям"""
+async def requests_kb(requests: List[SalaryRequest], role: str):
+    """
+    Принимаем объекты SalaryRequest из бд и делаем из них клавиатуру с кнопками вида Иванов.И.В.
+    :param requests: список из объектов SalaryRequest
+    :return: клавиатура по ФИО
+    """
     kb = InlineKeyboardBuilder()
     for request in requests:
-        print(f"кнопки {request.user_id.second_name}")
-        kb.button(text=f"{request.user_id.second_name}", callback_data=f'request_{request.id}')
+        # название кнопок берем из названия папок (contract - путь к папкам)
+        btn = request.contract.split("\\")[1].replace("_", ".")
+        if role == "admin":
+            kb.button(text=f"{btn}", callback_data=f'admin_request_{request.id}')
+        else:
+            kb.button(text=f"{btn}", callback_data=f'user_request_{request.id}')
     kb.adjust(2)
     kb.row(InlineKeyboardButton(text='⬅️ Назад', callback_data='back'))
     return kb.as_markup()

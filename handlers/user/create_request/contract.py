@@ -54,4 +54,5 @@ async def creating_contract_save(message: Message, state: FSMContext):
     await state.update_data(contract=file_id)
     await message.answer(text=f"Договор получен\n"
                               f"Загрузите оставшиеся документы",
-                         reply_markup=back_button())
+                         reply_markup=await file_for_record(state))
+    await state.set_state(CreateRequest.save)

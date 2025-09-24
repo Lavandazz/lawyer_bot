@@ -1,42 +1,38 @@
 import os
 
+from tortoise.exceptions import DoesNotExist
 from aiogram.fsm.context import FSMContext
-from aiogram.types import CallbackQuery, FSInputFile, InputMediaPhoto, InlineKeyboardMarkup, InlineKeyboardButton
-
-from database.models_db import SalaryRequest
+from aiogram.types import CallbackQuery, InputMediaPhoto, FSInputFile
+from database.models_db import User, SalaryRequest
 from keyboards.admin_keyboards import requests_kb
-from keyboards.approval_keyboard import approve_request_kb
 from keyboards.back_keyboard import back_button
-from states.menu_states import AdminMenuState
+from states.menu_states import UserState
 from utils.config import bot
-from utils.get_user import admin_only
 from utils.logging_config import bot_logger
 
 
-@admin_only
-async def show_requests(call: CallbackQuery, state: FSMContext, role: str):
+async def user_lk(call: CallbackQuery, state: FSMContext):
     """
-    Обработка кнопки Заявки на расчет.
-    Получаем все SalaryRequest с prefetch_related - user (все запросы salary связанные с объектами user).
-    requests передаем в клавиатуру.
-    :param call: requests
-    :param state: AdminMenuState.requests_menu
-    :param role: admin
+
+    :param call: my_requests
+    :param state:
     :return:
     """
-    requests = await SalaryRequest.all().prefetch_related('user')
 
-    if requests:
-        await call.message.edit_text(text="Здесь отображены все заявки от пользователей",
-                                     reply_markup=await requests_kb(requests, role))
-    else:
-        await call.message.edit_text(text="Заявок еще не было",
-                                     reply_markup=back_button())
-    await state.set_state(AdminMenuState.requests_menu)
+    try:
+        user = await User.get_or_none(telegram_id=call.from_user.id)
+        if user:
+            requests = await user.salary_requests.all()  # получаем заявки по связанной таблице salary_requests
+            await call.message.edit_text(
+                text="Мои заявки",
+                reply_markup=await requests_kb(requests, role="user"))
+
+    except Exception as e:
+        bot_logger.exception(e)
+    await state.set_state(UserState.all_requests)
 
 
-@admin_only
-async def show_user_request(call: CallbackQuery, state: FSMContext, role: str):
+async def show_my_request(call: CallbackQuery, state: FSMContext):
     """
     Отображение информации о заявке по клику на кнопку с ФИО.
     :param call: request_{request.id}
@@ -87,8 +83,7 @@ async def show_user_request(call: CallbackQuery, state: FSMContext, role: str):
 
         sent_message = await call.message.edit_text(
             text=message_text,
-            parse_mode='Markdown',
-            reply_markup=approve_request_kb(request_id=request.id, user_id=request.user.id))
+            parse_mode='Markdown')
 
         media_messages_ids.append(sent_message.message_id)
         # 2. Отправляем файлы
@@ -113,11 +108,11 @@ async def show_user_request(call: CallbackQuery, state: FSMContext, role: str):
 
         await state.update_data(media_message_ids=media_messages_ids)  # сохраняем ключ в data
 
-        await bot.send_message(chat_id=call.from_user.id,
-                               text="Для возврата в меню нажмите на кнопку ниже",
+        await bot.send_message(chat_id=call.from_user.id, text="Для возврата в меню нажмите на кнопку ниже",
                                reply_markup=back_button())
 
-        await state.set_state(AdminMenuState.request)
+        await state.set_state(UserState.request)
 
     except Exception as e:
         bot_logger.exception(f"Ошибка в отображении заявки пользователя: {e}")
+

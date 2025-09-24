@@ -3,6 +3,7 @@ from aiogram.types import CallbackQuery, Message
 
 from handlers.cancel_state_handler import cancel_state_handler
 from keyboards.back_keyboard import back_button
+from keyboards.create_request import file_for_record
 from states.menu_states import CreateRequest
 from utils.config import bot
 from utils.logging_config import bot_logger
@@ -51,6 +52,7 @@ async def creating_request_acc_screenshot_save(message: Message, state: FSMConte
 
     await message.answer(text=f"Скрин из ЛК получен\n"
                               f"Загрузите оставшиеся документы",
-                         reply_markup=back_button())
+                         reply_markup=await file_for_record(state))
+    await state.set_state(CreateRequest.save)
     bot_logger.debug(f'получен скрин: {message.document}, file_id: {file_id}')
 

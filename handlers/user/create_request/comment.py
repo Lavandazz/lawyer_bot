@@ -42,6 +42,7 @@ async def creating_request_comment_save(message: Message, state: FSMContext):
     await message.answer(
         text=f"Комментарий учтен.\n"
              f"Загрузите оставшиеся документы",
-        reply_markup=back_button()
+        reply_markup=await file_for_record(state)
     )
+    await state.set_state(CreateRequest.save)
 

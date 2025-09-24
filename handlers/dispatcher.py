@@ -21,6 +21,7 @@ from handlers.user.start_handlers import get_start, on_start
 from handlers.admin.admin_handlers import admin_menu
 
 from handlers.cancel_state_handler import cancel_handler
+from handlers.user.user_lk_requests import user_lk, show_my_request
 from handlers.user.user_request_handlers import creating_request, creating_request_save
 
 from states.menu_states import StatsState, CreateRequest, UserState
@@ -62,7 +63,7 @@ def setup_dispatcher(dp: Dispatcher):
     dp.callback_query.register(creating_request_acc_screenshot, F.data == "acc_screenshot")
     dp.message.register(creating_request_acc_screenshot_save, F.photo, StateFilter(CreateRequest.wait_acc_screenshot))
 
-    dp.callback_query.register(creating_request_pass, F.data == "pass")
+    dp.callback_query.register(creating_request_pass, F.data == "personal_pass")
     dp.message.register(creating_request_pass_save, F.photo, StateFilter(CreateRequest.wait_pass))
 
     dp.callback_query.register(creating_request_ndfl, F.data == "ndfl")
@@ -81,11 +82,12 @@ def setup_dispatcher(dp: Dispatcher):
 
     dp.callback_query.register(clear_message, F.data.startswith('clear_'))
 
-
+    dp.callback_query.register(user_lk, F.data == "my_requests")
+    dp.callback_query.register(show_my_request, F.data.startswith("user_request_"))
     # панель администратора
     dp.callback_query.register(admin_menu, F.data == "admin_panel")
     dp.callback_query.register(show_requests, F.data == "requests")
-    dp.callback_query.register(show_user_request, F.data.startswith("request_"))
+    dp.callback_query.register(show_user_request, F.data.startswith("admin_request_"))
     dp.callback_query.register(get_statistic, F.data == 'statistic')
 
     # # календарь

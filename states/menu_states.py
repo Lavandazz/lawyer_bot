@@ -10,6 +10,7 @@ class MenuState(StatesGroup):
 class UserState(StatesGroup):
     register = State()
     phone = State()
+    all_requests = State()
     request = State()
 
 
@@ -28,13 +29,13 @@ class CreateRequest(StatesGroup):
     wait_extract = State()
     wait_record_book = State()
     wait_comment = State()
-    wait_save = State()
-    wait_surname = State()
+    save = State()
 
 
 class AdminMenuState(StatesGroup):
     """ Меню админа """
     requests_menu = State()
+    request = State()
     statistic_menu = State()  # меню статистики
     statistic = State()
 

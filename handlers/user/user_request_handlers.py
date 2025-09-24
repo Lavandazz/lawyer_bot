@@ -24,7 +24,7 @@ async def creating_request(call: CallbackQuery, state: FSMContext):
     обработка кнопки 'добавить заявку'
     """
     await call.message.edit_text(text="Для загрузки документов, выберите кнопку",
-                                 reply_markup=file_for_record())
+                                 reply_markup=await file_for_record(state))
 
     await state.set_state(UserState.request)
 
@@ -46,8 +46,10 @@ async def creating_request_save(call: CallbackQuery, state: FSMContext):
     if not docs_data['is_complete']:
         missing_list = "\n".join([f"• {doc}" for doc in missing_docs])
         bot_logger.info(f' Не все документы загружены. {missing_list} ')
-        await call.message.answer(
-            f"❌ Не все документы загружены!\n\nОтсутствуют:\n{missing_list}\n\nПожалуйста, загрузите недостающие документы."
+        await call.message.edit_text(
+            text=f"❌ Не все документы загружены!\n\nОтсутствуют:\n{missing_list}\n\n"
+                 f"Пожалуйста, загрузите недостающие документы.",
+            reply_markup=await file_for_record(state)
         )
         return
 
@@ -86,21 +88,3 @@ async def creating_request_save(call: CallbackQuery, state: FSMContext):
                                reply_markup=await inline_menu_kb(call.from_user.id))
 
 
-
-
-
-# async def handle_review_text(message: Message, state: FSMContext, bot: Bot):
-#     """ Загрузка текстового отзыва от пользователя """
-#     user = await User.get(telegram_id=message.from_user.id)
-#     review = await Review.create(
-#         user=user,
-#         username=message.from_user.username,
-#         first_name=message.from_user.first_name,
-#         text=message.text
-#     )
-#
-#     sender = SendMessage(user_role='barista', user=user, bot=bot, review_id=review.id, text=message.text)
-#     await sender.send_message()
-#     await message.answer(text="Спасибо за отзыв! Бариста его рассмотрит ☕",
-#                          reply_markup=await inline_menu_kb(message.from_user.id))
-#     await state.clear()

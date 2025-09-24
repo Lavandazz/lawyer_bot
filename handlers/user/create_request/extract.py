@@ -3,6 +3,7 @@ from aiogram.types import CallbackQuery, Message
 
 from handlers.cancel_state_handler import cancel_state_handler
 from keyboards.back_keyboard import back_button
+from keyboards.create_request import file_for_record
 from states.menu_states import CreateRequest
 from utils.config import bot
 from utils.logging_config import bot_logger
@@ -50,8 +51,9 @@ async def creating_request_extract_save(message: Message, state: FSMContext):
 
     await message.answer(text=f"Файл ИЛС получен.\n"
                               f"Загрузите оставшиеся документы",
-                         reply_markup=back_button())
+                         reply_markup=await file_for_record(state))
+    await state.set_state(CreateRequest.save)
 
     bot_logger.debug(f'получена выписка ИЛС: file_id: {file_id}')
     # автоматический сброс состояния через 10 минут
-    await cancel_state_handler(user_id=message.from_user.id, bot=bot, state=state)
+
