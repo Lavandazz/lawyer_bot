@@ -3853,3 +3853,95 @@ DEBUG    2025-09-24 15:56:32,395 [bot] (menu_keyboard.py).inline_menu_kb(14) П�
 DEBUG    2025-09-24 15:57:27,657 [bot] (back_handler.py).back(30) Начало обработки back. Текущее состояние: UserState:request
 DEBUG    2025-09-24 15:57:27,657 [bot] (back_handler.py).back(79) список сообщений для удаления: [11020, 11022, 11023, 11024, 11025, 11026]
 DEBUG    2025-09-24 15:57:32,760 [bot] (back_handler.py).back(30) Начало обработки back. Текущее состояние: AdminMenuState:requests_menu
+DEBUG    2025-09-24 16:08:20,260 [bot] (back_handler.py).back(30) Начало обработки back. Текущее состояние: AdminMenuState:request
+DEBUG    2025-09-24 16:08:20,261 [bot] (back_handler.py).back(79) список сообщений для удаления: [11027, 11029, 11030, 11031, 11032, 11033]
+WARNING  2025-09-24 16:14:11,190 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-24 16:14:11,349 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-25 10:34:08,547 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-25 10:34:10,462 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-25 10:34:10,743 [bot] (commands.py).set_commands(20) Установил команды
+INFO     2025-09-25 10:34:32,889 [bot] (start_handlers.py).get_start(66) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-25 10:34:32,891 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-25 10:34:32,891 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-25 10:35:09,142 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-25 10:35:12,805 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-25 10:35:13,505 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-25 10:35:13,694 [bot] (commands.py).set_commands(20) Установил команды
+INFO     2025-09-25 10:35:14,873 [bot] (start_handlers.py).get_start(66) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-25 10:35:14,875 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-25 10:35:14,875 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-25 10:35:16,807 [bot] (back_handler.py).back(30) Начало обработки back. Текущее состояние: MenuState:admin_menu
+DEBUG    2025-09-25 10:35:16,810 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-25 10:35:16,810 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-25 10:36:02,317 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-25 10:36:05,567 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-25 10:36:06,231 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-25 10:36:06,492 [bot] (commands.py).set_commands(20) Установил команды
+INFO     2025-09-25 10:36:07,742 [bot] (start_handlers.py).get_start(66) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-25 10:36:07,744 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-25 10:36:07,744 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+ERROR    2025-09-25 10:36:09,185 [bot] (user_lk_requests.py).user_lk(31) Can't mix rooted and not-rooted paths
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\handlers\user\user_lk_requests.py", line 28, in user_lk
+    reply_markup=await requests_kb(requests, role="user"))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\keyboards\admin_keyboards.py", line 48, in requests_kb
+    btn = os.path.commonpath(request.contract).replace("_", ".")
+          ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "<frozen ntpath>", line 857, in commonpath
+ValueError: Can't mix rooted and not-rooted paths
+WARNING  2025-09-25 10:36:41,327 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-25 10:36:44,844 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-25 10:36:45,604 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-25 10:36:45,786 [bot] (commands.py).set_commands(20) Установил команды
+WARNING  2025-09-25 10:39:30,600 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-25 10:39:34,305 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-25 10:39:34,996 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-25 10:39:35,240 [bot] (commands.py).set_commands(20) Установил команды
+INFO     2025-09-25 10:39:36,802 [bot] (start_handlers.py).get_start(66) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-25 10:39:36,805 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-25 10:39:36,805 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+ERROR    2025-09-25 10:39:38,016 [bot] (user_lk_requests.py).user_lk(31) not enough values to unpack (expected 3, got 2)
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\handlers\user\user_lk_requests.py", line 28, in user_lk
+    reply_markup=await requests_kb(requests, role="user"))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\keyboards\admin_keyboards.py", line 48, in requests_kb
+    path, btn, doc = os.path.split(request.contract)
+    ^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 3, got 2)
+WARNING  2025-09-25 10:40:04,968 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-25 10:40:08,868 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-25 10:40:09,742 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-25 10:40:09,940 [bot] (commands.py).set_commands(20) Установил команды
+WARNING  2025-09-25 10:40:20,603 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-25 10:40:24,052 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-25 10:40:24,885 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-25 10:40:25,115 [bot] (commands.py).set_commands(20) Установил команды
+INFO     2025-09-25 10:40:26,567 [bot] (start_handlers.py).get_start(66) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-25 10:40:26,569 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-25 10:40:26,570 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-25 10:41:36,348 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-25 10:41:42,324 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-25 10:41:43,206 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-25 10:41:43,406 [bot] (commands.py).set_commands(20) Установил команды
+INFO     2025-09-25 10:41:44,794 [bot] (start_handlers.py).get_start(66) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-25 10:41:44,796 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-25 10:41:44,796 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-25 10:42:06,706 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-25 10:42:10,454 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-25 10:42:14,212 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-25 10:42:14,930 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-25 10:42:15,130 [bot] (commands.py).set_commands(20) Установил команды
+INFO     2025-09-25 10:42:16,244 [bot] (start_handlers.py).get_start(66) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-25 10:42:16,246 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-25 10:42:16,246 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-25 10:42:28,611 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-25 10:42:31,689 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-25 10:42:32,287 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-25 10:42:32,469 [bot] (commands.py).set_commands(20) Установил команды
+INFO     2025-09-25 10:42:37,125 [bot] (start_handlers.py).get_start(66) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-25 10:42:37,127 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-25 10:42:37,127 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-25 10:44:41,038 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-25 10:44:41,202 [bot] (main.py).<module>(43) Помощник завершены

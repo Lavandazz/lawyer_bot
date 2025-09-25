@@ -37,6 +37,7 @@ def admin_stat_kb():
 async def requests_kb(requests: List[SalaryRequest], role: str):
     """
     Принимаем объекты SalaryRequest из бд и делаем из них клавиатуру с кнопками вида Иванов.И.В.
+    Для получения названия папки делим путь clients\Иванов_И_И\contract.pdf с помощью os.path.split(request.contract)
     :param requests: список из объектов SalaryRequest
     :return: клавиатура по ФИО
     """
@@ -44,11 +45,14 @@ async def requests_kb(requests: List[SalaryRequest], role: str):
     for request in requests:
         # название кнопок берем из названия папок (contract - путь к папкам)
         # btn = request.contract.split("\\")[1].replace("_", ".")
-        btn = os.path.basename(request.contract).replace("_", ".")
+
+        path, btn = os.path.split(request.contract)  # делим путь на начало и конец
+        folder, btn_name = os.path.split(path)  # выделяем название подпапки
+
         if role == "admin":
-            kb.button(text=f"{btn}", callback_data=f'admin_request_{request.id}')
+            kb.button(text=f"{btn_name}", callback_data=f'admin_request_{request.id}')
         else:
-            kb.button(text=f"{btn}", callback_data=f'user_request_{request.id}')
+            kb.button(text=f"{btn_name}", callback_data=f'user_request_{request.id}')
     kb.adjust(2)
     kb.row(InlineKeyboardButton(text='⬅️ Назад', callback_data='back'))
     return kb.as_markup()

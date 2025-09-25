@@ -297,3 +297,14 @@ INFO     2025-09-24 15:51:09,718 [help_ai] (logging_config.py)._setup_handlers(5
 INFO     2025-09-24 15:52:18,240 [help_ai] (logging_config.py)._setup_handlers(50) Логирование для 'help_ai' настроено успешно.
 INFO     2025-09-24 15:55:36,468 [help_ai] (logging_config.py)._setup_handlers(50) Логирование для 'help_ai' настроено успешно.
 INFO     2025-09-24 15:56:12,348 [help_ai] (logging_config.py)._setup_handlers(50) Логирование для 'help_ai' настроено успешно.
+INFO     2025-09-25 10:34:08,600 [help_ai] (logging_config.py)._setup_handlers(50) Логирование для 'help_ai' настроено успешно.
+INFO     2025-09-25 10:35:12,806 [help_ai] (logging_config.py)._setup_handlers(50) Логирование для 'help_ai' настроено успешно.
+INFO     2025-09-25 10:36:05,568 [help_ai] (logging_config.py)._setup_handlers(50) Логирование для 'help_ai' настроено успешно.
+INFO     2025-09-25 10:36:44,846 [help_ai] (logging_config.py)._setup_handlers(50) Логирование для 'help_ai' настроено успешно.
+INFO     2025-09-25 10:39:34,306 [help_ai] (logging_config.py)._setup_handlers(50) Логирование для 'help_ai' настроено успешно.
+INFO     2025-09-25 10:40:08,869 [help_ai] (logging_config.py)._setup_handlers(50) Логирование для 'help_ai' настроено успешно.
+INFO     2025-09-25 10:40:24,053 [help_ai] (logging_config.py)._setup_handlers(50) Логирование для 'help_ai' настроено успешно.
+INFO     2025-09-25 10:41:42,325 [help_ai] (logging_config.py)._setup_handlers(50) Логирование для 'help_ai' настроено успешно.
+INFO     2025-09-25 10:42:10,456 [help_ai] (logging_config.py)._setup_handlers(50) Логирование для 'help_ai' настроено успешно.
+INFO     2025-09-25 10:42:14,213 [help_ai] (logging_config.py)._setup_handlers(50) Логирование для 'help_ai' настроено успешно.
+INFO     2025-09-25 10:42:31,690 [help_ai] (logging_config.py)._setup_handlers(50) Логирование для 'help_ai' настроено успешно.
