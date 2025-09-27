@@ -6,6 +6,7 @@ from aiogram.fsm.context import FSMContext
 from aiogram.types import CallbackQuery
 
 from database.models_db import SalaryRequest
+from handlers.admin.users_requests import show_requests
 from handlers.user.user_lk_requests import user_lk
 from keyboards.admin_keyboards import admin_kb, requests_kb
 from keyboards.create_request import file_for_record
@@ -42,7 +43,7 @@ async def back(call: CallbackQuery, state: FSMContext, bot: Bot, role: str):
         )
 
     # переход из документов и ответов в меню всех вопросов
-    if current_state in {AnswerState.docs_questions, AnswerState. answer}:
+    if current_state in {AnswerState.docs_questions, AnswerState.answer}:
         await state.set_state(AnswerState.all_questions)
         await call.message.edit_text(
             text="Выберите интересующий вопрос",
@@ -57,22 +58,24 @@ async def back(call: CallbackQuery, state: FSMContext, bot: Bot, role: str):
             reply_markup=help_docs_kb(documents_info)
         )
 
-    if current_state in {CreateRequest.wait_contract, CreateRequest.wait_acc_screenshot, CreateRequest.wait_pass,
+    # переход из добавления файлов в меню
+    if current_state in {CreateRequest.wait_contract, CreateRequest.wait_acc_screenshot, CreateRequest.wait_personal_pass,
                          CreateRequest.wait_ndfl, CreateRequest.wait_extract, CreateRequest.wait_record_book,
                          CreateRequest.save, CreateRequest.wait_comment}:
-        await state.set_state(UserState.request)
+        await state.set_state(UserState.all_requests)
         await call.message.edit_text(
             text="Выберите интересующий вопрос",
             reply_markup=await file_for_record(state)
         )
-
 
     # переход в админ меню
     if current_state in {AdminMenuState.requests_menu, AdminMenuState.statistic_menu}:
         await state.set_state(MenuState.admin_menu)
         await call.message.edit_text(text='Вы вошли в админ-панель', reply_markup=admin_kb())
 
+    # переход из запроса (через админа или пользователя) в меню заявок
     if current_state in {AdminMenuState.request, UserState.request}:
+
         data = await state.get_data()
         # Извлекаем список по ключу 'media_message_ids'
         message_ids = data.get('media_message_ids', [])  # получаем список сообщений message_ids = [123, 124, 125, 126]
@@ -85,7 +88,7 @@ async def back(call: CallbackQuery, state: FSMContext, bot: Bot, role: str):
                 for msg_id in message_ids
             ]
 
-            # Выполняем все задачи одновременно
+            # Выполняем все задачи по удалению сообщений одновременно
             results = await asyncio.gather(*delete_tasks, return_exceptions=True)
 
             await temp_msg.delete()  # удаляем сообщение ожидания удаления
@@ -94,13 +97,14 @@ async def back(call: CallbackQuery, state: FSMContext, bot: Bot, role: str):
             for i, result in enumerate(results):
                 if isinstance(result, Exception):
                     bot_logger.warning(f"Не удалось удалить сообщение {message_ids[i]}: {result}")
+
         except TelegramBadRequest as e:
             await bot.send_message(text='Вы вошли в админ-панель', chat_id=call.from_user.id, reply_markup=admin_kb())
 
-        await state.set_state(AdminMenuState.requests_menu)
         requests = await SalaryRequest.all().prefetch_related('user')
 
-        if role == "admin":
+        if current_state == AdminMenuState.request:
+            await state.set_state(AdminMenuState.requests_menu)
             await call.message.edit_text(text='Заявки пользователей',
                                          reply_markup=await requests_kb(requests, role))
         else:

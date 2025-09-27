@@ -13,7 +13,7 @@ async def creating_request_extract(call: CallbackQuery, state: FSMContext):
     """
     Загрузка выписки из индивидуального лицевого счета
     :param call: extract
-    :param state: wait_extract
+    :param state: CreateRequest.wait_extract
     """
     await call.message.delete()
     data = await state.get_data()
@@ -36,7 +36,11 @@ async def creating_request_extract(call: CallbackQuery, state: FSMContext):
 
 async def creating_request_extract_save(message: Message, state: FSMContext):
     """
-    Получение выписка из индивидуального лицевого счета
+    Получение выписка из индивидуального лицевого счета.
+    Ссылку file_id из телеграм сохраняем в state.data
+    :param message: message.document/message.photo
+    :param state: CreateRequest.save
+    :return:
     """
     if message.document:
         file_id = message.document.file_id

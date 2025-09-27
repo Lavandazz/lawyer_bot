@@ -11,9 +11,9 @@ from utils.logging_config import bot_logger
 
 async def creating_contract(call: CallbackQuery, state: FSMContext):
     """
-    Загрузка трудового договора
+    Загрузка трудового договора в формате PDF, JPEG
     :param call: contract
-    :param state: wait_contract
+    :param state: CreateRequest.wait_contract
     """
     await call.message.delete()
     data = await state.get_data()
@@ -24,7 +24,7 @@ async def creating_contract(call: CallbackQuery, state: FSMContext):
     if not data.get("contract"):
         await call.message.answer(
             text=f"📎 Прикрепите файл с трудовым договором/ГПХ используя скрепку ниже."
-                 f"Формат файла PDF.\n"
+                 f"Формат файла PDF, JPEG.\n"
                  f"Для отмены нажмите на кнопку 'Назад' или команду /cancel",
             reply_markup=back_button()
         )
@@ -40,6 +40,10 @@ async def creating_contract(call: CallbackQuery, state: FSMContext):
 async def creating_contract_save(message: Message, state: FSMContext):
     """
     Получение файла с трудовым договором.
+    Ссылку file_id из телеграм сохраняем в state.data
+    :param message: message.document/message.photo
+    :param state: CreateRequest.save
+    :return:
     """
     # Обработка документа (PDF, Word и т.д.)
     if message.document:
@@ -55,4 +59,5 @@ async def creating_contract_save(message: Message, state: FSMContext):
     await message.answer(text=f"Договор получен\n"
                               f"Загрузите оставшиеся документы",
                          reply_markup=await file_for_record(state))
+
     await state.set_state(CreateRequest.save)

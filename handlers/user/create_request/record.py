@@ -10,9 +10,9 @@ from utils.logging_config import bot_logger
 
 async def creating_request_record_book(call: CallbackQuery, state: FSMContext):
     """
-    Загрузка трудовой книжки
+    Загрузка файла электронной трудовой книжки
     :param call: pass
-    :param state: wait_pass
+    :param state: CreateRequest.wait_record_book
     """
     await call.message.delete()
     data = await state.get_data()
@@ -33,8 +33,11 @@ async def creating_request_record_book(call: CallbackQuery, state: FSMContext):
 
 async def creating_request_record_book_save(message: Message, state: FSMContext):
     """
-    Получение скрина из ЛК.
-    Ожидание фото бейджа
+    Получение электронной трудовой книжки.
+    Ссылку file_id из телеграм сохраняем в state.data
+    :param message: message.document / message.photo
+    :param state: CreateRequest.save
+    :return:
     """
     if message.document:
         file_id = message.document.file_id

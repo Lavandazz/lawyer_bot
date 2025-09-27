@@ -37,7 +37,7 @@ def admin_stat_kb():
 async def requests_kb(requests: List[SalaryRequest], role: str):
     """
     Принимаем объекты SalaryRequest из бд и делаем из них клавиатуру с кнопками вида Иванов.И.В.
-    Для получения названия папки делим путь clients\Иванов_И_И\contract.pdf с помощью os.path.split(request.contract)
+    Для получения названия папки делим путь clients\\Иванов_И_И\\contract.pdf с помощью os.path.split(request.contract)
     :param requests: список из объектов SalaryRequest
     :return: клавиатура по ФИО
     """

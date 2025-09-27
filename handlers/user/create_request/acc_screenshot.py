@@ -11,14 +11,16 @@ from utils.logging_config import bot_logger
 
 async def creating_request_acc_screenshot(call: CallbackQuery, state: FSMContext):
     """
-    скриншот из ЛК ВБ
+    Загрузка скриншота из ЛК ВБ
     :param call: acc_screenshot
-    :param state: acc_screenshot
+    :param state: CreateRequest.wait_acc_screenshot
     """
     await call.message.delete()
     data = await state.get_data()
+
     bot_logger.debug(f"Current state data: {data}")
     bot_logger.debug(f"acc_screenshot in data: {data.get('acc_screenshot')}")
+
     if not data.get("acc_screenshot"):
         await call.message.answer(
             text=f"📎 Прикрепите скриншот из ЛК ВБ используя скрепку ниже..."
@@ -36,10 +38,15 @@ async def creating_request_acc_screenshot(call: CallbackQuery, state: FSMContext
 
 async def creating_request_acc_screenshot_save(message: Message, state: FSMContext):
     """
-    Получение и сохранение скрина из ЛК.
+    Получение и сохранение скрина из ЛК в формате PDF, PNG или JPEG.
+    Ссылку file_id из телеграм сохраняем в state.data
+    :param message: message.document / message.photo
+    :param state: CreateRequest.save
+    :return:
     """
     # Обработка фото (PNG, JPEG)
     bot_logger.debug("сохраняю скрин лк")
+
     if message.document:
         file_id = message.document.file_id
     elif message.photo:

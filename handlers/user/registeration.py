@@ -18,7 +18,12 @@ from utils.logging_config import bot_logger
 
 
 async def start_registration_user(chat_id, state: FSMContext):
-    """Регистрация пользователя"""
+    """
+    Начало регистрации пользователя
+    :param chat_id: message.from_user.id
+    :param state: UserState.register
+    :return:
+    """
     await bot.send_message(chat_id=chat_id,
                            text=f"Для работы с ботом необходимо подтвердить номер телефона и ввести ФИО.\n"
                                 f"Пожалуйста, напишите полностью Фамилию, Имя, Отчество.\n",
@@ -28,7 +33,13 @@ async def start_registration_user(chat_id, state: FSMContext):
 
 
 async def start_registration_user_name(message: Message, state: FSMContext):
-    """Регистрация пользователя"""
+    """
+    Ожидание введения ФИО.
+    Запрос номера телефона.
+    :param message: message.text
+    :param state: UserState.phone
+    :return:
+    """
     await state.update_data(fio=message.text)
     if not message.text or not len(message.text.split()) == 3:
         await message.answer(text="Введите ФИО полностью")
@@ -43,7 +54,10 @@ async def start_registration_user_name(message: Message, state: FSMContext):
 
 async def process_contact(message: Message, state: FSMContext):
     """
-    Обрабатывает принятый контакт
+    Ожидание номера телефона и сохранение его в state.data
+    :param message: message.contact
+    :param state:
+    :return:
     """
     contact = message.contact
     phone_number = contact.phone_number
@@ -58,6 +72,9 @@ async def approve_phone(call: CallbackQuery, state: FSMContext):
     Подтверждение номера телефона.
     Зависит от колбека approve_yes/approve_no. Если yes, то переходит в режим сохранения данных.
     No - возвращает в главное меню.
+    :param call: call.data
+    :param state:
+    :return:
     """
     approval = call.data.split("_")[1]  # approve_yes/approve_no
 
@@ -86,11 +103,11 @@ async def approve_phone(call: CallbackQuery, state: FSMContext):
             reply_markup=types.ReplyKeyboardRemove()
         )
 
-        # Удаляем сообщение от бота о регистрацие (опционально)
+        # Удаляем сообщение от бота о регистрации
         await asyncio.sleep(1)
         await bot.delete_message(chat_id=call.from_user.id, message_id=mess.message_id)
 
-        # 4. Редактируем original сообщение
+        # Редактируем первое (original) сообщение
         await call.message.edit_text(
             text=f"Главное меню.\n\n"
                  f"Кнопка - *Начать запрос* - переводит бота в режим принятия документов.\n"
@@ -108,7 +125,12 @@ async def approve_phone(call: CallbackQuery, state: FSMContext):
     await state.clear()
 
 
-def split_fio(full_fio:str):
+def split_fio(full_fio: str):
+    """
+    Разбиваем строку ФИО на поля для сохранения в бд.
+    :param full_fio: str
+    :return: str
+    """
     fio = full_fio.split()
     second_name = fio[0].title()
     name = fio[1].title()
@@ -117,6 +139,16 @@ def split_fio(full_fio:str):
 
 
 async def save_contact(username, telegram_id, second_name, first_name, patronymic, phone):
+    """
+    Сохранение в бд
+    :param username: str
+    :param telegram_id: bigint
+    :param second_name: str
+    :param first_name: str
+    :param patronymic: str
+    :param phone: bigint
+    :return:
+    """
     try:
         await User.create(
             username=username,

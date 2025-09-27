@@ -49,7 +49,11 @@ async def get_docs_from_state(state: FSMContext) -> dict:
 
 
 def create_folder(fio: str) -> str:
-    """Создание подпапки для документов в папке clients"""
+    """
+    Создание подпапки для документов в папке clients
+    :param fio:
+    :return folder_path
+    """
     count = 1
     folder_path = os.path.join(CLIENTS_DIR, fio)
     # Проверяем, существует ли папка с таким именем

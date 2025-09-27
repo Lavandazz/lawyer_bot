@@ -48,11 +48,14 @@ async def seed_admin():
 async def get_start(message: Message, bot: Bot, new_user: bool, state: FSMContext):
     """
     Хендлер команды /start.
-
-    Действия:
     1. Если new_user == True — отправляет уведомление супер-админу о регистрации нового пользователя.
     2. Отправляет приветственное сообщение пользователю с учетом времени суток.
     3. Показывает главное меню и запускает стартовую логику приложения.
+    :param message: /start
+    :param bot: bot
+    :param new_user: bool
+    :param state:
+    :return:
     """
     time_message = message.date
     # Преобразуем часовой пояс (+3 часа для Москвы)
@@ -74,7 +77,6 @@ async def get_start(message: Message, bot: Bot, new_user: bool, state: FSMContex
                                         f"*Мои запросы* - Ваш личный кабинет, где отображаются все Ваши запросы.",
                                    reply_markup=await inline_menu_kb(message.from_user.id),
                                    parse_mode='Markdown')
-            # await start_registration_user(chat_id=message.from_user.id, state=state)
 
     except Exception as e:
         bot_logger.exception(f'Ошибка при создании админа {e}')

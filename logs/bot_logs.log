@@ -3945,3 +3945,424 @@ DEBUG    2025-09-25 10:42:37,127 [bot] (get_user.py).get_role_user(34) Возв�
 DEBUG    2025-09-25 10:42:37,127 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
 WARNING  2025-09-25 10:44:41,038 [bot] (main.py).start_bot(21) Бот закрыт
 WARNING  2025-09-25 10:44:41,202 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-25 10:44:44,901 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-25 10:44:45,672 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-25 10:44:46,114 [bot] (commands.py).set_commands(20) Установил команды
+INFO     2025-09-25 10:44:47,542 [bot] (start_handlers.py).get_start(66) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-25 10:44:47,544 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-25 10:44:47,544 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-25 10:45:07,265 [bot] (back_handler.py).back(30) Начало обработки back. Текущее состояние: UserState:request
+DEBUG    2025-09-25 10:45:07,266 [bot] (back_handler.py).back(79) список сообщений для удаления: [11064, 11065, 11066, 11067, 11068, 11069]
+WARNING  2025-09-25 13:44:11,795 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-25 13:44:12,351 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-25 13:44:20,018 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-25 13:44:21,815 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-25 13:44:22,100 [bot] (commands.py).set_commands(20) Установил команды
+WARNING  2025-09-25 13:45:08,416 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-25 13:45:10,964 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-25 13:45:11,388 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-25 13:45:11,570 [bot] (commands.py).set_commands(20) Установил команды
+INFO     2025-09-25 13:45:37,454 [bot] (start_handlers.py).get_start(66) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-25 13:45:37,455 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-25 13:45:37,455 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-25 13:45:46,782 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-25 13:45:46,782 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-25 13:45:54,312 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-25 13:45:54,312 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-25 13:46:20,927 [bot] (back_handler.py).back(30) Начало обработки back. Текущее состояние: UserState:request
+DEBUG    2025-09-25 13:46:20,927 [bot] (back_handler.py).back(79) список сообщений для удаления: [11085, 11086, 11087, 11088, 11089, 11090]
+DEBUG    2025-09-25 13:46:22,865 [bot] (back_handler.py).back(30) Начало обработки back. Текущее состояние: AdminMenuState:requests_menu
+DEBUG    2025-09-25 13:46:24,296 [bot] (back_handler.py).back(30) Начало обработки back. Текущее состояние: MenuState:admin_menu
+DEBUG    2025-09-25 13:46:24,298 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-25 13:46:24,299 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-25 13:46:31,166 [bot] (back_handler.py).back(30) Начало обработки back. Текущее состояние: UserState:all_requests
+DEBUG    2025-09-25 13:46:31,167 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-25 13:46:31,167 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+INFO     2025-09-25 14:03:21,486 [bot] (start_handlers.py).get_start(66) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-25 14:03:21,487 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-25 14:03:21,488 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-25 14:03:26,805 [bot] (back_handler.py).back(30) Начало обработки back. Текущее состояние: UserState:request
+DEBUG    2025-09-25 14:03:26,805 [bot] (back_handler.py).back(79) список сообщений для удаления: [11085, 11086, 11087, 11088, 11089, 11090]
+WARNING  2025-09-25 14:03:27,121 [bot] (back_handler.py).back(96) Не удалось удалить сообщение 11085: Telegram server says - Bad Request: message to delete not found
+WARNING  2025-09-25 14:03:27,121 [bot] (back_handler.py).back(96) Не удалось удалить сообщение 11086: Telegram server says - Bad Request: message to delete not found
+WARNING  2025-09-25 14:03:27,121 [bot] (back_handler.py).back(96) Не удалось удалить сообщение 11087: Telegram server says - Bad Request: message to delete not found
+WARNING  2025-09-25 14:03:27,121 [bot] (back_handler.py).back(96) Не удалось удалить сообщение 11088: Telegram server says - Bad Request: message to delete not found
+WARNING  2025-09-25 14:03:27,121 [bot] (back_handler.py).back(96) Не удалось удалить сообщение 11089: Telegram server says - Bad Request: message to delete not found
+WARNING  2025-09-25 14:03:27,121 [bot] (back_handler.py).back(96) Не удалось удалить сообщение 11090: Telegram server says - Bad Request: message to delete not found
+DEBUG    2025-09-25 14:03:30,506 [bot] (back_handler.py).back(30) Начало обработки back. Текущее состояние: AdminMenuState:requests_menu
+DEBUG    2025-09-25 14:03:32,148 [bot] (back_handler.py).back(30) Начало обработки back. Текущее состояние: MenuState:admin_menu
+DEBUG    2025-09-25 14:03:32,150 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-25 14:03:32,150 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-25 14:03:38,027 [bot] (back_handler.py).back(30) Начало обработки back. Текущее состояние: MenuState:admin_menu
+DEBUG    2025-09-25 14:03:38,029 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-25 14:03:38,029 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+INFO     2025-09-25 14:03:43,225 [bot] (start_handlers.py).get_start(66) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-25 14:03:43,226 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-25 14:03:43,226 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-25 14:03:45,865 [bot] (back_handler.py).back(30) Начало обработки back. Текущее состояние: MenuState:admin_menu
+DEBUG    2025-09-25 14:03:45,867 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-25 14:03:45,867 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-25 14:03:48,080 [bot] (get_statistic_handlers.py).get_statistic(27) State MenuState:admin_menu
+DEBUG    2025-09-25 14:03:48,912 [bot] (back_handler.py).back(30) Начало обработки back. Текущее состояние: AdminMenuState:statistic_menu
+DEBUG    2025-09-25 14:03:52,745 [bot] (back_handler.py).back(30) Начало обработки back. Текущее состояние: MenuState:admin_menu
+DEBUG    2025-09-25 14:03:52,746 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-25 14:03:52,746 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-25 14:03:55,721 [bot] (back_handler.py).back(30) Начало обработки back. Текущее состояние: UserState:request
+DEBUG    2025-09-25 14:03:55,721 [bot] (back_handler.py).back(79) список сообщений для удаления: [11085, 11086, 11087, 11088, 11089, 11090]
+WARNING  2025-09-25 14:03:55,917 [bot] (back_handler.py).back(96) Не удалось удалить сообщение 11085: Telegram server says - Bad Request: message to delete not found
+WARNING  2025-09-25 14:03:55,918 [bot] (back_handler.py).back(96) Не удалось удалить сообщение 11086: Telegram server says - Bad Request: message to delete not found
+WARNING  2025-09-25 14:03:55,918 [bot] (back_handler.py).back(96) Не удалось удалить сообщение 11087: Telegram server says - Bad Request: message to delete not found
+WARNING  2025-09-25 14:03:55,918 [bot] (back_handler.py).back(96) Не удалось удалить сообщение 11088: Telegram server says - Bad Request: message to delete not found
+WARNING  2025-09-25 14:03:55,918 [bot] (back_handler.py).back(96) Не удалось удалить сообщение 11089: Telegram server says - Bad Request: message to delete not found
+WARNING  2025-09-25 14:03:55,918 [bot] (back_handler.py).back(96) Не удалось удалить сообщение 11090: Telegram server says - Bad Request: message to delete not found
+DEBUG    2025-09-25 14:04:07,882 [bot] (back_handler.py).back(30) Начало обработки back. Текущее состояние: AdminMenuState:requests_menu
+DEBUG    2025-09-25 14:04:08,985 [bot] (back_handler.py).back(30) Начало обработки back. Текущее состояние: MenuState:admin_menu
+DEBUG    2025-09-25 14:04:08,986 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-25 14:04:08,986 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-25 14:04:15,426 [bot] (back_handler.py).back(30) Начало обработки back. Текущее состояние: UserState:request
+DEBUG    2025-09-25 14:04:15,426 [bot] (back_handler.py).back(79) список сообщений для удаления: [11085, 11086, 11087, 11088, 11089, 11090]
+WARNING  2025-09-25 14:04:15,659 [bot] (back_handler.py).back(96) Не удалось удалить сообщение 11085: Telegram server says - Bad Request: message to delete not found
+WARNING  2025-09-25 14:04:15,659 [bot] (back_handler.py).back(96) Не удалось удалить сообщение 11086: Telegram server says - Bad Request: message to delete not found
+WARNING  2025-09-25 14:04:15,660 [bot] (back_handler.py).back(96) Не удалось удалить сообщение 11087: Telegram server says - Bad Request: message to delete not found
+WARNING  2025-09-25 14:04:15,660 [bot] (back_handler.py).back(96) Не удалось удалить сообщение 11088: Telegram server says - Bad Request: message to delete not found
+WARNING  2025-09-25 14:04:15,660 [bot] (back_handler.py).back(96) Не удалось удалить сообщение 11089: Telegram server says - Bad Request: message to delete not found
+WARNING  2025-09-25 14:04:15,661 [bot] (back_handler.py).back(96) Не удалось удалить сообщение 11090: Telegram server says - Bad Request: message to delete not found
+DEBUG    2025-09-25 14:04:17,037 [bot] (back_handler.py).back(30) Начало обработки back. Текущее состояние: AdminMenuState:requests_menu
+DEBUG    2025-09-25 14:04:17,757 [bot] (back_handler.py).back(30) Начало обработки back. Текущее состояние: MenuState:admin_menu
+DEBUG    2025-09-25 14:04:17,758 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-25 14:04:17,758 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-25 14:04:58,474 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-25 14:04:58,643 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-25 14:05:00,877 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-25 14:05:14,952 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-25 14:05:32,720 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-25 14:05:33,144 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-25 14:05:33,484 [bot] (commands.py).set_commands(20) Установил команды
+INFO     2025-09-25 14:05:37,690 [bot] (start_handlers.py).get_start(66) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-25 14:05:37,691 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-25 14:05:37,691 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-25 14:05:40,392 [bot] (back_handler.py).back(30) Начало обработки back. Текущее состояние: UserState:all_requests
+DEBUG    2025-09-25 14:05:40,394 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-25 14:05:40,394 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-25 14:31:47,081 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-25 14:31:47,246 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-25 14:31:49,569 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-25 14:36:46,324 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-25 14:38:31,912 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-25 14:38:32,371 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-25 14:38:32,706 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-25 14:38:50,028 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-25 14:38:50,029 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-25 14:38:50,029 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-25 14:38:57,187 [bot] (back_handler.py).back(30) Начало обработки back. Текущее состояние: AnswerState:answer
+DEBUG    2025-09-25 14:38:59,460 [bot] (back_handler.py).back(30) Начало обработки back. Текущее состояние: AnswerState:answer
+DEBUG    2025-09-25 14:39:04,463 [bot] (back_handler.py).back(30) Начало обработки back. Текущее состояние: AnswerState:doc_answer
+DEBUG    2025-09-25 14:39:15,321 [bot] (back_handler.py).back(30) Начало обработки back. Текущее состояние: AnswerState:doc_answer
+DEBUG    2025-09-25 14:39:16,391 [bot] (back_handler.py).back(30) Начало обработки back. Текущее состояние: AnswerState:docs_questions
+DEBUG    2025-09-25 14:49:29,242 [bot] (back_handler.py).back(30) Начало обработки back. Текущее состояние: AnswerState:doc_answer
+DEBUG    2025-09-25 14:49:29,800 [bot] (back_handler.py).back(30) Начало обработки back. Текущее состояние: AnswerState:docs_questions
+DEBUG    2025-09-25 14:49:30,927 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-25 14:49:30,927 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-25 14:49:33,550 [bot] (contract.py).creating_contract(21) Current state data: {}
+DEBUG    2025-09-25 14:49:33,550 [bot] (contract.py).creating_contract(22) contract in data: None
+DEBUG    2025-09-25 15:01:09,724 [bot] (back_handler.py).back(30) Начало обработки back. Текущее состояние: CreateRequest:save
+DEBUG    2025-09-25 15:01:11,168 [bot] (back_handler.py).back(30) Начало обработки back. Текущее состояние: UserState:request
+DEBUG    2025-09-25 15:01:11,169 [bot] (back_handler.py).back(79) список сообщений для удаления: []
+DEBUG    2025-09-25 15:01:13,145 [bot] (back_handler.py).back(30) Начало обработки back. Текущее состояние: AdminMenuState:requests_menu
+DEBUG    2025-09-25 15:01:15,892 [bot] (back_handler.py).back(30) Начало обработки back. Текущее состояние: MenuState:admin_menu
+DEBUG    2025-09-25 15:01:15,894 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-25 15:01:15,894 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-25 15:01:20,433 [bot] (back_handler.py).back(30) Начало обработки back. Текущее состояние: CreateRequest:wait_extract
+DEBUG    2025-09-25 15:01:22,041 [bot] (back_handler.py).back(30) Начало обработки back. Текущее состояние: UserState:request
+DEBUG    2025-09-25 15:01:22,041 [bot] (back_handler.py).back(79) список сообщений для удаления: []
+WARNING  2025-09-25 15:03:07,953 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-25 15:03:08,121 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-25 15:03:10,929 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-25 15:03:11,409 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-25 15:03:11,580 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-25 15:03:13,637 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-25 15:03:13,640 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-25 15:03:13,640 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-25 15:03:16,426 [bot] (user_request_handlers.py).creating_request_save(40) Получаю все data state
+INFO     2025-09-25 15:03:16,426 [bot] (user_request_handlers.py).creating_request_save(50)  Не все документы загружены. • Договор ГПХ/Трудовой
+• Скрин ЛК ВБ Джоб
+• Бейдж/пропуск
+• Выписка ИЛС
+• Справка 2-НДФЛ
+• Электронная трудовая книжка 
+DEBUG    2025-09-25 15:03:21,527 [bot] (back_handler.py).back(30) Начало обработки back. Текущее состояние: CreateRequest:wait_ndfl
+DEBUG    2025-09-25 15:03:23,195 [bot] (back_handler.py).back(30) Начало обработки back. Текущее состояние: UserState:all_requests
+DEBUG    2025-09-25 15:03:23,196 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-25 15:03:23,196 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-25 15:03:29,916 [bot] (user_request_handlers.py).creating_request_save(40) Получаю все data state
+INFO     2025-09-25 15:03:29,916 [bot] (user_request_handlers.py).creating_request_save(50)  Не все документы загружены. • Договор ГПХ/Трудовой
+• Скрин ЛК ВБ Джоб
+• Бейдж/пропуск
+• Выписка ИЛС
+• Справка 2-НДФЛ
+• Электронная трудовая книжка 
+DEBUG    2025-09-25 15:03:33,136 [bot] (back_handler.py).back(30) Начало обработки back. Текущее состояние: UserState:all_requests
+DEBUG    2025-09-25 15:03:33,137 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-25 15:03:33,137 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-25 15:12:00,576 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-25 15:12:03,353 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-25 15:12:03,884 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-25 15:12:04,049 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-25 15:12:14,499 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-25 15:12:14,500 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-25 15:12:14,501 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-25 15:12:20,318 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: UserState:request
+DEBUG    2025-09-25 15:12:20,319 [bot] (back_handler.py).back(81) список сообщений для удаления: [11120, 11121, 11122, 11123, 11124, 11125]
+DEBUG    2025-09-25 15:12:43,057 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: UserState:request
+DEBUG    2025-09-25 15:12:43,058 [bot] (back_handler.py).back(81) список сообщений для удаления: [11120, 11121, 11122, 11123, 11124, 11125]
+WARNING  2025-09-25 15:12:43,455 [bot] (back_handler.py).back(98) Не удалось удалить сообщение 11120: Telegram server says - Bad Request: message to delete not found
+WARNING  2025-09-25 15:12:43,455 [bot] (back_handler.py).back(98) Не удалось удалить сообщение 11121: Telegram server says - Bad Request: message to delete not found
+WARNING  2025-09-25 15:12:43,456 [bot] (back_handler.py).back(98) Не удалось удалить сообщение 11122: Telegram server says - Bad Request: message to delete not found
+WARNING  2025-09-25 15:12:43,456 [bot] (back_handler.py).back(98) Не удалось удалить сообщение 11123: Telegram server says - Bad Request: message to delete not found
+WARNING  2025-09-25 15:12:43,457 [bot] (back_handler.py).back(98) Не удалось удалить сообщение 11124: Telegram server says - Bad Request: message to delete not found
+WARNING  2025-09-25 15:12:43,457 [bot] (back_handler.py).back(98) Не удалось удалить сообщение 11125: Telegram server says - Bad Request: message to delete not found
+DEBUG    2025-09-25 15:12:45,327 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: UserState:request
+DEBUG    2025-09-25 15:12:45,328 [bot] (back_handler.py).back(81) список сообщений для удаления: [11120, 11121, 11122, 11123, 11124, 11125]
+WARNING  2025-09-25 15:12:45,698 [bot] (back_handler.py).back(98) Не удалось удалить сообщение 11120: Telegram server says - Bad Request: message to delete not found
+WARNING  2025-09-25 15:12:45,698 [bot] (back_handler.py).back(98) Не удалось удалить сообщение 11121: Telegram server says - Bad Request: message to delete not found
+WARNING  2025-09-25 15:12:45,698 [bot] (back_handler.py).back(98) Не удалось удалить сообщение 11122: Telegram server says - Bad Request: message to delete not found
+WARNING  2025-09-25 15:12:45,698 [bot] (back_handler.py).back(98) Не удалось удалить сообщение 11123: Telegram server says - Bad Request: message to delete not found
+WARNING  2025-09-25 15:12:45,699 [bot] (back_handler.py).back(98) Не удалось удалить сообщение 11124: Telegram server says - Bad Request: message to delete not found
+WARNING  2025-09-25 15:12:45,699 [bot] (back_handler.py).back(98) Не удалось удалить сообщение 11125: Telegram server says - Bad Request: message to delete not found
+INFO     2025-09-25 15:12:59,771 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-25 15:12:59,771 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-25 15:12:59,771 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-25 15:13:05,804 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: AdminMenuState:request
+DEBUG    2025-09-25 15:13:05,804 [bot] (back_handler.py).back(81) список сообщений для удаления: [11131, 11132, 11133, 11134, 11135, 11136]
+WARNING  2025-09-25 15:13:31,453 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-25 15:13:31,628 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-25 15:13:34,144 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-25 15:13:34,701 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-25 15:13:34,897 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-25 15:13:38,608 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-25 15:13:38,610 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-25 15:13:38,610 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-25 15:13:43,286 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: UserState:request
+DEBUG    2025-09-25 15:13:43,286 [bot] (back_handler.py).back(81) список сообщений для удаления: [11141, 11142, 11143, 11144, 11145, 11146]
+WARNING  2025-09-25 15:13:58,655 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-25 15:14:01,323 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-25 15:14:01,768 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-25 15:14:01,956 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-25 15:14:05,232 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-25 15:14:05,233 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-25 15:14:05,233 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-25 15:14:09,420 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: UserState:request
+DEBUG    2025-09-25 15:14:09,420 [bot] (back_handler.py).back(81) список сообщений для удаления: [11151, 11152, 11153, 11154, 11155, 11156]
+DEBUG    2025-09-25 15:14:12,081 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: AdminMenuState:requests_menu
+WARNING  2025-09-25 15:14:40,515 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-25 15:14:43,147 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-25 15:14:43,593 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-25 15:14:43,861 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-25 15:14:46,106 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-25 15:14:46,107 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-25 15:14:46,107 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-25 15:14:51,469 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: AdminMenuState:request
+DEBUG    2025-09-25 15:14:51,469 [bot] (back_handler.py).back(81) список сообщений для удаления: [11161, 11162, 11163, 11164, 11165, 11166]
+DEBUG    2025-09-25 15:14:54,114 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: AdminMenuState:requests_menu
+DEBUG    2025-09-25 15:14:55,237 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: MenuState:admin_menu
+DEBUG    2025-09-25 15:14:55,238 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-25 15:14:55,238 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-25 15:15:00,286 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: UserState:request
+DEBUG    2025-09-25 15:15:00,286 [bot] (back_handler.py).back(81) список сообщений для удаления: [11167, 11169, 11170, 11171, 11172, 11173]
+DEBUG    2025-09-25 15:15:02,392 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: AdminMenuState:requests_menu
+WARNING  2025-09-25 15:15:29,304 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-25 15:15:31,803 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-25 15:15:32,226 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-25 15:15:32,489 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-25 15:15:35,723 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-25 15:15:35,726 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-25 15:15:35,726 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-25 15:15:39,566 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: UserState:request
+DEBUG    2025-09-25 15:15:39,566 [bot] (back_handler.py).back(81) список сообщений для удаления: [11178, 11179, 11180, 11181, 11182, 11183]
+DEBUG    2025-09-25 15:15:41,612 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: AdminMenuState:requests_menu
+DEBUG    2025-09-25 15:15:42,968 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: MenuState:admin_menu
+DEBUG    2025-09-25 15:15:42,969 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-25 15:15:42,969 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-25 15:16:12,627 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-25 15:16:15,590 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-25 15:16:16,124 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-25 15:16:16,280 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-25 15:16:17,726 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-25 15:16:17,727 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-25 15:16:17,728 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-25 15:16:21,438 [bot] (back_handler.py).back(30) Начало обработки back. Текущее состояние: UserState:request
+DEBUG    2025-09-25 15:16:21,439 [bot] (back_handler.py).back(80) список сообщений для удаления: [11188, 11189, 11190, 11191, 11192, 11193]
+DEBUG    2025-09-25 15:16:24,406 [bot] (back_handler.py).back(30) Начало обработки back. Текущее состояние: AdminMenuState:requests_menu
+DEBUG    2025-09-25 15:16:25,759 [bot] (back_handler.py).back(30) Начало обработки back. Текущее состояние: MenuState:admin_menu
+DEBUG    2025-09-25 15:16:25,760 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-25 15:16:25,760 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-25 15:16:54,095 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-25 15:16:56,659 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-25 15:16:57,097 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-25 15:16:57,266 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-25 15:17:03,783 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-25 15:17:03,784 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-25 15:17:03,784 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-25 15:17:11,204 [bot] (back_handler.py).back(30) Начало обработки back. Текущее состояние: UserState:request
+DEBUG    2025-09-25 15:17:11,205 [bot] (back_handler.py).back(80) список сообщений для удаления: [11198, 11199, 11200, 11201, 11202, 11203]
+DEBUG    2025-09-25 15:17:15,089 [bot] (back_handler.py).back(30) Начало обработки back. Текущее состояние: AdminMenuState:requests_menu
+DEBUG    2025-09-25 15:17:19,532 [bot] (back_handler.py).back(30) Начало обработки back. Текущее состояние: AdminMenuState:request
+DEBUG    2025-09-25 15:17:19,532 [bot] (back_handler.py).back(80) список сообщений для удаления: [11204, 11206, 11207, 11208, 11209, 11210]
+DEBUG    2025-09-25 15:17:20,778 [bot] (back_handler.py).back(30) Начало обработки back. Текущее состояние: AdminMenuState:requests_menu
+INFO     2025-09-25 15:17:42,156 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-25 15:17:42,157 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, user
+DEBUG    2025-09-25 15:17:42,157 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: user
+DEBUG    2025-09-25 15:17:45,845 [bot] (back_handler.py).back(30) Начало обработки back. Текущее состояние: UserState:request
+DEBUG    2025-09-25 15:17:45,846 [bot] (back_handler.py).back(80) список сообщений для удаления: [11214, 11215, 11216, 11217, 11218, 11219]
+WARNING  2025-09-25 15:18:55,512 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-25 15:18:58,427 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-25 15:18:58,859 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-25 15:18:58,873 [bot] (start_handlers.py).seed_admin(42) Админ уже существует, пропускаем создание
+INFO     2025-09-25 15:18:59,022 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-25 15:19:03,145 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-25 15:19:03,146 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, user
+DEBUG    2025-09-25 15:19:03,146 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: user
+DEBUG    2025-09-25 15:19:07,895 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: UserState:request
+DEBUG    2025-09-25 15:19:07,895 [bot] (back_handler.py).back(81) список сообщений для удаления: [11224, 11225, 11226, 11227, 11228, 11229]
+DEBUG    2025-09-25 15:19:16,078 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: UserState:request
+DEBUG    2025-09-25 15:19:16,078 [bot] (back_handler.py).back(81) список сообщений для удаления: [11230, 11232, 11233, 11234, 11235, 11236]
+DEBUG    2025-09-25 15:19:17,646 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: UserState:all_requests
+DEBUG    2025-09-25 15:19:17,648 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, user
+DEBUG    2025-09-25 15:19:17,649 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: user
+WARNING  2025-09-25 15:19:35,692 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-25 15:19:38,199 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-25 15:19:38,617 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-25 15:19:38,780 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-25 15:19:42,799 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-25 15:19:42,800 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-25 15:19:42,800 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-25 15:19:46,494 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: UserState:request
+DEBUG    2025-09-25 15:19:46,495 [bot] (back_handler.py).back(81) список сообщений для удаления: [11241, 11242, 11243, 11244, 11245, 11246]
+DEBUG    2025-09-25 15:19:48,389 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: UserState:request
+DEBUG    2025-09-25 15:19:48,389 [bot] (back_handler.py).back(81) список сообщений для удаления: [11241, 11242, 11243, 11244, 11245, 11246]
+WARNING  2025-09-25 15:19:48,649 [bot] (back_handler.py).back(98) Не удалось удалить сообщение 11241: Telegram server says - Bad Request: message to delete not found
+WARNING  2025-09-25 15:19:48,649 [bot] (back_handler.py).back(98) Не удалось удалить сообщение 11242: Telegram server says - Bad Request: message to delete not found
+WARNING  2025-09-25 15:19:48,649 [bot] (back_handler.py).back(98) Не удалось удалить сообщение 11243: Telegram server says - Bad Request: message to delete not found
+WARNING  2025-09-25 15:19:48,649 [bot] (back_handler.py).back(98) Не удалось удалить сообщение 11244: Telegram server says - Bad Request: message to delete not found
+WARNING  2025-09-25 15:19:48,649 [bot] (back_handler.py).back(98) Не удалось удалить сообщение 11245: Telegram server says - Bad Request: message to delete not found
+WARNING  2025-09-25 15:19:48,649 [bot] (back_handler.py).back(98) Не удалось удалить сообщение 11246: Telegram server says - Bad Request: message to delete not found
+INFO     2025-09-25 15:19:55,325 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-25 15:19:55,328 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-25 15:19:55,329 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-25 15:20:00,224 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: AdminMenuState:request
+DEBUG    2025-09-25 15:20:00,224 [bot] (back_handler.py).back(81) список сообщений для удаления: [11251, 11252, 11253, 11254, 11255, 11256]
+WARNING  2025-09-25 18:07:23,246 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-25 18:07:23,407 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-27 14:10:22,074 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-27 14:10:24,176 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-27 14:10:24,480 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-27 14:12:57,599 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-27 14:12:57,600 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-27 14:12:57,600 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-27 14:13:09,639 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: AdminMenuState:request
+DEBUG    2025-09-27 14:13:09,639 [bot] (back_handler.py).back(81) список сообщений для удаления: [11261, 11262, 11263, 11264, 11265, 11266]
+DEBUG    2025-09-27 14:13:12,990 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: AdminMenuState:request
+DEBUG    2025-09-27 14:13:12,990 [bot] (back_handler.py).back(81) список сообщений для удаления: [11267, 11269, 11270, 11271, 11272, 11273]
+DEBUG    2025-09-27 14:13:15,226 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: AdminMenuState:requests_menu
+DEBUG    2025-09-27 14:13:16,456 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: MenuState:admin_menu
+DEBUG    2025-09-27 14:13:16,456 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-27 14:13:16,457 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-27 14:13:19,731 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: UserState:all_requests
+DEBUG    2025-09-27 14:13:19,732 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-27 14:13:19,732 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-27 14:13:23,441 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: UserState:request
+DEBUG    2025-09-27 14:13:23,441 [bot] (back_handler.py).back(81) список сообщений для удаления: [11274, 11276, 11277, 11278, 11279, 11280]
+WARNING  2025-09-27 14:16:38,679 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-27 14:16:41,599 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-27 14:16:42,018 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-27 14:16:42,227 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-27 14:16:44,844 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-27 14:16:44,846 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-27 14:16:44,846 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-27 14:16:50,265 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: UserState:request
+DEBUG    2025-09-27 14:16:50,265 [bot] (back_handler.py).back(82) список сообщений для удаления: [11285, 11286, 11287, 11288, 11289, 11290]
+DEBUG    2025-09-27 14:16:53,620 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: UserState:all_requests
+DEBUG    2025-09-27 14:16:53,621 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-27 14:16:53,621 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-27 14:17:00,394 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: AdminMenuState:request
+DEBUG    2025-09-27 14:17:00,394 [bot] (back_handler.py).back(82) список сообщений для удаления: [11291, 11293, 11294, 11295, 11296, 11297]
+DEBUG    2025-09-27 14:17:02,986 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: AdminMenuState:requests_menu
+DEBUG    2025-09-27 14:17:03,825 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: MenuState:admin_menu
+DEBUG    2025-09-27 14:17:03,828 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-27 14:17:03,828 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-27 14:17:09,623 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: AdminMenuState:request
+DEBUG    2025-09-27 14:17:09,623 [bot] (back_handler.py).back(82) список сообщений для удаления: [11298, 11300, 11301, 11302, 11303, 11304]
+DEBUG    2025-09-27 14:17:23,249 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: AdminMenuState:requests_menu
+DEBUG    2025-09-27 14:17:25,554 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: MenuState:admin_menu
+DEBUG    2025-09-27 14:17:25,555 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-27 14:17:25,555 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-27 14:17:29,137 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: UserState:request
+DEBUG    2025-09-27 14:17:29,137 [bot] (back_handler.py).back(82) список сообщений для удаления: [11305, 11307, 11308, 11309, 11310, 11311]
+DEBUG    2025-09-27 14:17:31,465 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: UserState:all_requests
+DEBUG    2025-09-27 14:17:31,465 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-27 14:17:31,465 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-27 15:16:37,030 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-27 15:16:37,186 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-27 15:16:39,696 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-27 15:16:40,151 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-27 15:16:40,340 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-27 15:16:43,463 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-27 15:16:43,464 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-27 15:16:43,464 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-27 15:18:52,214 [bot] (ndfl.py).creating_request_ndfl_save(64) получен НДФЛ: file_id: BQACAgIAAxkBAAIsOGjX1iyG9STtXifnQolmXY5XUoFNAAIUfwACrbTASldkhQrisr7ENgQ
+WARNING  2025-09-27 16:25:06,261 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-27 16:25:06,416 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-27 16:25:08,898 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-27 16:25:09,342 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-27 16:25:09,794 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-27 16:25:37,432 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-27 16:25:37,432 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-27 16:25:37,433 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-27 16:25:45,547 [bot] (ndfl.py).creating_request_ndfl_save(65) получен НДФЛ: file_id: BQACAgIAAxkBAAIsPmjX5dpnBD0Y97K_vRA-czX56p28AALdfwACrbTASkp50bjIf4UPNgQ
+WARNING  2025-09-27 16:39:56,473 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-27 16:39:56,639 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-27 16:39:58,941 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-27 16:39:59,501 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-27 16:39:59,702 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-27 16:40:02,696 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-27 16:40:02,698 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-27 16:40:02,698 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-27 17:03:06,303 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-27 17:03:06,463 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-27 17:03:08,823 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-27 17:03:09,293 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-27 17:03:09,553 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-27 17:03:18,654 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-27 17:03:18,655 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-27 17:03:18,655 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-27 17:03:21,579 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: UserState:all_requests
+DEBUG    2025-09-27 17:03:21,580 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-27 17:03:21,580 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-27 17:33:15,378 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-27 17:33:15,527 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-27 17:33:19,218 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-27 17:33:20,070 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-27 17:33:20,241 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-27 17:33:41,305 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-27 17:33:41,306 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-27 17:33:41,306 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-27 17:34:33,295 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-27 17:34:35,752 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-27 17:34:36,195 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-27 17:34:36,374 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-27 17:34:39,306 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-27 17:34:39,307 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-27 17:34:39,307 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-27 19:34:19,640 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-27 19:34:19,810 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-27 19:34:22,164 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-27 19:34:22,736 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-27 19:34:22,919 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-27 19:34:25,358 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-27 19:34:25,359 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-27 19:34:25,359 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-27 19:34:36,619 [bot] (ndfl.py).creating_request_ndfl_save(67) получен НДФЛ: file_id: AgACAgIAAxkBAAIsWGjYEh0b7AX6bZvjdlBz6zB5x1j-AAJI_zEbrbTASiPzO2SjX9HNAQADAgADeQADNgQ
+INFO     2025-09-27 19:34:49,563 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-27 19:34:49,564 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-27 19:34:49,564 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-27 19:34:55,016 [bot] (main.py).start_bot(21) Бот закрыт

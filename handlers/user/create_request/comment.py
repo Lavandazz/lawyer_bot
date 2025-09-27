@@ -12,7 +12,10 @@ from utils.logging_config import bot_logger
 
 async def creating_request_comment(call: CallbackQuery, state: FSMContext):
     """
-    Ожидание комментария.
+    Добавление комментария.
+    :param call: comment
+    :param state: CreateRequest.wait_comment
+    :return:
     """
     data = await state.get_data()
     if not data.get("comment"):
@@ -34,8 +37,11 @@ async def creating_request_comment(call: CallbackQuery, state: FSMContext):
 
 async def creating_request_comment_save(message: Message, state: FSMContext):
     """
-    Если был передан комментарий, сохраняем его в data.
+    Если был передан комментарий, сохраняем его в state data.
     Далее обрабатываются все данные из data и сохраняются.
+    Ссылку file_id из телеграм сохраняем в state.data
+    :param message: message.text
+    :param state: CreateRequest.save
     """
     await state.update_data(comment=message.text, telegram=message.from_user.id)
 

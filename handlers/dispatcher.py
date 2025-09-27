@@ -13,7 +13,7 @@ from handlers.user.create_request.extract import creating_request_extract_save, 
 from handlers.user.create_request.ndfl import creating_request_ndfl, creating_request_ndfl_save
 from handlers.user.create_request.personal_pass import creating_request_pass_save, creating_request_pass
 from handlers.user.create_request.record import creating_request_record_book_save, creating_request_record_book
-from handlers.user.create_request.surname import creating_request_surname, creating_request_surname_save
+
 
 from handlers.user.help_handlers import get_help, hide_faq_handler, get_help_docs, get_help_how_upload, answer
 from handlers.user.registeration import process_contact, approve_phone, start_registration_user_name
@@ -64,7 +64,7 @@ def setup_dispatcher(dp: Dispatcher):
     dp.message.register(creating_request_acc_screenshot_save, F.photo, StateFilter(CreateRequest.wait_acc_screenshot))
 
     dp.callback_query.register(creating_request_pass, F.data == "personal_pass")
-    dp.message.register(creating_request_pass_save, F.photo, StateFilter(CreateRequest.wait_pass))
+    dp.message.register(creating_request_pass_save, F.photo, StateFilter(CreateRequest.wait_personal_pass))
 
     dp.callback_query.register(creating_request_ndfl, F.data == "ndfl")
     dp.message.register(creating_request_ndfl_save, F.document | F.photo, StateFilter(CreateRequest.wait_ndfl))

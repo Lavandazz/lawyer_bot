@@ -9,7 +9,7 @@ from keyboards.menu_keyboard import inline_menu_kb
 from utils.logging_config import bot_logger
 
 
-async def cancel_handler(message: Message, bot: Bot, state: FSMContext):
+async def cancel_handler(message: Message, state: FSMContext):
     """ Сброс состояния ввода данных """
     current_state = await state.get_state()
     if current_state is None:
@@ -29,7 +29,7 @@ async def cancel_state_handler(user_id: int, bot: Bot, state: FSMContext):
         if not current_state:
             # Если состояния нет, ничего не делаем
             return
-        await asyncio.sleep(600)
+        await asyncio.sleep(1000)
         new_current_state = await state.get_state()
         if current_state == new_current_state:
             # user_id = user_id

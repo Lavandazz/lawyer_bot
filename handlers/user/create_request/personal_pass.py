@@ -11,7 +11,7 @@ from utils.logging_config import bot_logger
 
 async def creating_request_pass(call: CallbackQuery, state: FSMContext):
     """
-    Загрузка трудового договора
+    Загрузка Бейджа/пропуска
     :param call: pass
     :param state: wait_pass
     """
@@ -29,14 +29,16 @@ async def creating_request_pass(call: CallbackQuery, state: FSMContext):
             text=f"Вы уже прикрепляли скриншот\n",
             reply_markup=back_button()
         )
-    await state.set_state(CreateRequest.wait_pass)
+    await state.set_state(CreateRequest.wait_personal_pass)
     await cancel_state_handler(user_id=call.from_user.id, bot=bot, state=state)
 
 
 async def creating_request_pass_save(message: Message, state: FSMContext):
     """
-    Получение скрина из ЛК.
-    Ожидание фото бейджа
+    Получение Бейджа/пропуска.
+    Ссылку file_id из телеграм сохраняем в state.data
+    :param message: message.document / message.photo
+    :param state: CreateRequest.save
     """
     if not message.photo:
         await message.answer(text="Пожалуйста, прикрепите фото бейджа/пропуска.\n"

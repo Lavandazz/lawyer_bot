@@ -24,7 +24,7 @@ class AnswerState(StatesGroup):
 class CreateRequest(StatesGroup):
     wait_contract = State()
     wait_acc_screenshot = State()
-    wait_pass = State()
+    wait_personal_pass = State()
     wait_ndfl = State()
     wait_extract = State()
     wait_record_book = State()

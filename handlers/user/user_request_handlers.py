@@ -21,12 +21,14 @@ if not os.path.exists(CLIENTS_DIR):
 
 async def creating_request(call: CallbackQuery, state: FSMContext):
     """
-    обработка кнопки 'добавить заявку'
+    Обработка кнопки -Добавить заявку.
+    :param call: start_request
+    :param state: UserState.all_requests
+    :return:
     """
     await call.message.edit_text(text="Для загрузки документов, выберите кнопку",
                                  reply_markup=await file_for_record(state))
-
-    await state.set_state(UserState.request)
+    await state.set_state(UserState.all_requests)
 
 
 async def creating_request_save(call: CallbackQuery, state: FSMContext):
@@ -55,6 +57,7 @@ async def creating_request_save(call: CallbackQuery, state: FSMContext):
 
     try:
         user = await User.get(telegram_id=call.from_user.id)
+
         user_folder = f"{user.second_name}_{user.first_name[0]}_{user.patronymic[0]}"
         # Создаем папку для пользователя
         folder_path = create_folder(user_folder)

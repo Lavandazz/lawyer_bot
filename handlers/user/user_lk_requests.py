@@ -13,12 +13,12 @@ from utils.logging_config import bot_logger
 
 async def user_lk(call: CallbackQuery, state: FSMContext):
     """
-
+    Переход в личный кабинет пользователя, где отображаются заявки.
     :param call: my_requests
-    :param state:
+    :param state: UserState.all_requests
     :return:
     """
-
+    await state.set_state(UserState.all_requests)
     try:
         user = await User.get_or_none(telegram_id=call.from_user.id)
         if user:
@@ -29,7 +29,6 @@ async def user_lk(call: CallbackQuery, state: FSMContext):
 
     except Exception as e:
         bot_logger.exception(e)
-    await state.set_state(UserState.all_requests)
 
 
 async def show_my_request(call: CallbackQuery, state: FSMContext):
