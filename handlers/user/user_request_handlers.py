@@ -1,5 +1,7 @@
 import os
+from typing import List
 
+from handlers.user.start_handlers import get_start
 from keyboards.menu_keyboard import inline_menu_kb
 from utils.config import bot, SUPERADMIN
 from aiogram.fsm.context import FSMContext
@@ -22,13 +24,31 @@ if not os.path.exists(CLIENTS_DIR):
 async def creating_request(call: CallbackQuery, state: FSMContext):
     """
     Обработка кнопки -Добавить заявку.
+    Если у пользователя есть не рассмотренные админом заявки, то будет выведено на экран сообщение об этом.
+    Пользователь останется в главном меню.
     :param call: start_request
     :param state: UserState.all_requests
     :return:
     """
-    await call.message.edit_text(text="Для загрузки документов, выберите кнопку",
-                                 reply_markup=await file_for_record(state))
-    await state.set_state(UserState.all_requests)
+
+    try:
+        user = await User.get_or_none(telegram_id=call.from_user.id)
+        requests = await SalaryRequest.filter(user_id=user.id, approved=False)
+
+        if not requests:
+            await call.message.edit_text(text="Для загрузки документов, выберите кнопку",
+                                         reply_markup=await file_for_record(state))
+            await state.set_state(UserState.all_requests)
+        else:
+            await call.answer(text="У вас есть необработанная заявка.\n"
+                                   "Дождитесь ее рассмотрения юристом.",
+                              show_alert=True)
+
+    except Exception as e:
+        bot_logger.exception(f"Ошибка при проверке данных для создания новой заявки, {e}")
+        await call.answer(text="Произошла ошибка.\n"
+                               "Попробуйте позже.",
+                          show_alert=True)
 
 
 async def creating_request_save(call: CallbackQuery, state: FSMContext):
@@ -42,6 +62,7 @@ async def creating_request_save(call: CallbackQuery, state: FSMContext):
     # Получаем документы из state
     docs_data = await get_docs_from_state(state)
     docs = docs_data['docs']
+    bot_logger.debug(f"Получил документы из data state: {docs_data}")
     missing_docs = docs_data['missing']
 
     # Проверяем, все ли документы загружены
@@ -91,3 +112,12 @@ async def creating_request_save(call: CallbackQuery, state: FSMContext):
                                reply_markup=await inline_menu_kb(call.from_user.id))
 
 
+
+async def search_request(requests: List[SalaryRequest], column: str, status=None):
+    """
+    Поиск данных по столбцу в таблице SalaryRequest
+    :param requests: список объектов SalaryRequest по юзеру
+    :param column: стобец для поиска в таблице
+    :param status:
+    :return:
+    """

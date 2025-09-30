@@ -4366,3 +4366,810 @@ INFO     2025-09-27 19:34:49,563 [bot] (start_handlers.py).get_start(69) Зар�
 DEBUG    2025-09-27 19:34:49,564 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
 DEBUG    2025-09-27 19:34:49,564 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
 WARNING  2025-09-27 19:34:55,016 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-27 19:34:57,523 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-27 19:34:57,946 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-27 19:34:58,121 [bot] (commands.py).set_commands(22) Установил команды
+WARNING  2025-09-27 22:32:42,171 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-27 22:32:42,335 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-28 13:07:02,079 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-28 13:07:04,490 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-28 13:07:04,700 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-28 13:11:13,182 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-28 13:11:13,183 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-28 13:11:13,183 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-28 13:11:25,491 [bot] (ndfl.py).creating_request_ndfl_save(62) получен НДФЛ: file_id: BQACAgIAAxkBAAIsYWjZCc1-BaLv1Ieku5xXQ8ogLbpTAAJPhwACrbTISgLL1S_QJgzhNgQ
+WARNING  2025-09-28 13:12:42,374 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-28 13:12:44,874 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-28 13:12:45,322 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-28 13:12:45,493 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-28 13:12:47,412 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-28 13:12:47,413 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-28 13:12:47,413 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-28 13:12:51,747 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: CreateRequest:wait_personal_pass
+DEBUG    2025-09-28 13:12:57,712 [bot] (ndfl.py).creating_request_ndfl_save(62) получен НДФЛ: file_id: BQACAgIAAxkBAAIsaGjZCinhGBIeSyIG6ZbKRWH02SC1AAJXhwACrbTISi_PE5KAxu0ENgQ
+WARNING  2025-09-28 13:13:47,518 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-28 13:13:49,927 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-28 13:13:50,369 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-28 13:13:50,533 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-28 13:13:51,776 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-28 13:13:51,777 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-28 13:13:51,777 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-28 13:14:51,470 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-28 13:14:53,736 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-28 13:14:54,275 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-28 13:14:54,450 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-28 13:14:55,831 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-28 13:14:55,832 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-28 13:14:55,832 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-28 13:15:06,463 [bot] (ndfl.py).creating_request_ndfl_save(62) получен НДФЛ: file_id: BQACAgIAAxkBAAIsc2jZCqoXitpMoS_UjO-GWYMWXK4lAAJphwACrbTISmO4j2Koc1z_NgQ
+WARNING  2025-09-28 14:10:04,560 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-28 14:10:04,767 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-28 14:10:07,167 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-28 14:10:07,635 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-28 14:10:07,805 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-28 14:10:27,568 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-28 14:10:27,569 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-28 14:10:27,569 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-28 14:10:45,982 [bot] (ndfl.py).creating_request_ndfl_save(61) получен НДФЛ: file_id: BQACAgIAAxkBAAIseWjZF7ULLixRrdB5FxdKiWekZK4AA7d-AAKttNBKoO-kCIQeyJY2BA
+WARNING  2025-09-28 14:13:22,779 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-28 14:13:25,535 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-28 14:13:25,957 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-28 14:13:26,127 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-28 14:13:28,194 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-28 14:13:28,194 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-28 14:13:28,195 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-28 14:13:40,153 [bot] (ndfl.py).creating_request_ndfl_save(61) получен НДФЛ: file_id: BQACAgIAAxkBAAIsgWjZGGPTyJDXeoiQ0BfOu-RKar2rAALEfgACrbTQSrdgzgFozPebNgQ
+WARNING  2025-09-28 15:20:34,079 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-28 15:20:34,256 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-28 15:20:36,696 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-28 15:20:37,512 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-28 15:20:37,875 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-28 15:20:43,626 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-28 15:20:43,627 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-28 15:20:43,627 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-28 15:20:46,146 [bot] (contract.py).creating_contract(21) Current state data: {}
+DEBUG    2025-09-28 15:20:46,146 [bot] (contract.py).creating_contract(22) contract in data: None
+DEBUG    2025-09-28 15:20:53,592 [bot] (acc_screenshot.py).creating_request_acc_screenshot(21) Current state data: {'contract': 'BQACAgIAAxkBAAIsh2jZKCMOUhR3t7cX0iV1oUap8V3gAALwfwACrbTQSjauF4basRzBNgQ'}
+DEBUG    2025-09-28 15:20:53,593 [bot] (acc_screenshot.py).creating_request_acc_screenshot(22) acc_screenshot in data: None
+DEBUG    2025-09-28 15:21:00,271 [bot] (acc_screenshot.py).creating_request_acc_screenshot_save(48) сохраняю скрин лк
+DEBUG    2025-09-28 15:21:00,364 [bot] (acc_screenshot.py).creating_request_acc_screenshot_save(64) получен скрин: None, file_id: AgACAgIAAxkBAAIsimjZKCzFU06eUi0Lnwr0olMlGuKHAAKA_zEbrbTQShA2xIWu6vraAQADAgADeQADNgQ
+DEBUG    2025-09-28 15:21:11,135 [bot] (personal_pass.py).creating_request_pass_save(56) получен скрин лк: [PhotoSize(file_id='AgACAgIAAxkBAAIsjWjZKDZbSmbBTFjgZTN6yHaH84C8AAKB_zEbrbTQSmScObyn-x2iAQADAgADcwADNgQ', file_unique_id='AQADgf8xG6200Ep4', width=90, height=90, file_size=2104), PhotoSize(file_id='AgACAgIAAxkBAAIsjWjZKDZbSmbBTFjgZTN6yHaH84C8AAKB_zEbrbTQSmScObyn-x2iAQADAgADbQADNgQ', file_unique_id='AQADgf8xG6200Epy', width=320, height=320, file_size=23306), PhotoSize(file_id='AgACAgIAAxkBAAIsjWjZKDZbSmbBTFjgZTN6yHaH84C8AAKB_zEbrbTQSmScObyn-x2iAQADAgADeAADNgQ', file_unique_id='AQADgf8xG6200Ep9', width=800, height=800, file_size=83780), PhotoSize(file_id='AgACAgIAAxkBAAIsjWjZKDZbSmbBTFjgZTN6yHaH84C8AAKB_zEbrbTQSmScObyn-x2iAQADAgADeQADNgQ', file_unique_id='AQADgf8xG6200Ep-', width=1024, height=1024, file_size=108015)], file_id: AgACAgIAAxkBAAIsjWjZKDZbSmbBTFjgZTN6yHaH84C8AAKB_zEbrbTQSmScObyn-x2iAQADAgADeQADNgQ
+DEBUG    2025-09-28 15:21:24,822 [bot] (extract.py).creating_request_extract_save(61) получена выписка ИЛС: file_id: AgACAgIAAxkBAAIskGjZKERVfFFrN4rMsK8fQ5FH5s2XAAKD_zEbrbTQSmX8nfm8pPDtAQADAgADeAADNgQ
+DEBUG    2025-09-28 15:21:32,319 [bot] (ndfl.py).creating_request_ndfl_save(59) получен НДФЛ: file_id: BQACAgIAAxkBAAIsk2jZKEz7ak7bzI6wd4pM2b2d2IeDAALyfwACrbTQSti4Fy_x2FzkNgQ
+DEBUG    2025-09-28 15:21:50,253 [bot] (ndfl.py).creating_request_ndfl_save(59) получен НДФЛ: file_id: BQACAgIAAxkBAAIslmjZKF5YgSXgYzWGxnEEGKXk4l_WAALzfwACrbTQSslaikAJjEvjNgQ
+DEBUG    2025-09-28 15:21:58,150 [bot] (record.py).creating_request_record_book_save(58) получен трудовой книжки: [PhotoSize(file_id='AgACAgIAAxkBAAIsmWjZKGUdb4D4ONBCWfJ2B7D4x9F6AAKG_zEbrbTQSoWfc6ouyt4dAQADAgADcwADNgQ', file_unique_id='AQADhv8xG6200Ep4', width=80, height=90, file_size=916), PhotoSize(file_id='AgACAgIAAxkBAAIsmWjZKGUdb4D4ONBCWfJ2B7D4x9F6AAKG_zEbrbTQSoWfc6ouyt4dAQADAgADbQADNgQ', file_unique_id='AQADhv8xG6200Epy', width=285, height=320, file_size=12224), PhotoSize(file_id='AgACAgIAAxkBAAIsmWjZKGUdb4D4ONBCWfJ2B7D4x9F6AAKG_zEbrbTQSoWfc6ouyt4dAQADAgADeAADNgQ', file_unique_id='AQADhv8xG6200Ep9', width=713, height=800, file_size=55449), PhotoSize(file_id='AgACAgIAAxkBAAIsmWjZKGUdb4D4ONBCWfJ2B7D4x9F6AAKG_zEbrbTQSoWfc6ouyt4dAQADAgADeQADNgQ', file_unique_id='AQADhv8xG6200Ep-', width=1021, height=1146, file_size=85843)], file_id: AgACAgIAAxkBAAIsmWjZKGUdb4D4ONBCWfJ2B7D4x9F6AAKG_zEbrbTQSoWfc6ouyt4dAQADAgADeQADNgQ
+DEBUG    2025-09-28 15:21:59,467 [bot] (user_request_handlers.py).creating_request_save(40) Получаю все data state
+INFO     2025-09-28 15:21:59,467 [bot] (user_request_handlers.py).creating_request_save(50)  Не все документы загружены. • Справка 2-НДФЛ 
+WARNING  2025-09-28 15:35:38,879 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-28 15:35:39,028 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-28 15:35:41,394 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-28 15:35:41,842 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-28 15:35:42,046 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-28 15:35:45,653 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-28 15:35:45,654 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-28 15:35:45,654 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-28 15:35:51,753 [bot] (contract.py).creating_contract(21) Current state data: {}
+DEBUG    2025-09-28 15:35:51,754 [bot] (contract.py).creating_contract(22) contract in data: None
+DEBUG    2025-09-28 15:35:59,660 [bot] (acc_screenshot.py).creating_request_acc_screenshot(21) Current state data: {'contract': 'BQACAgIAAxkBAAIsn2jZK62xFNk0ZuAwnLlILZQb3gmEAAIigAACrbTQSmsCK8p3Qb3CNgQ'}
+DEBUG    2025-09-28 15:35:59,660 [bot] (acc_screenshot.py).creating_request_acc_screenshot(22) acc_screenshot in data: None
+DEBUG    2025-09-28 15:36:04,687 [bot] (acc_screenshot.py).creating_request_acc_screenshot_save(48) сохраняю скрин лк
+DEBUG    2025-09-28 15:36:04,767 [bot] (acc_screenshot.py).creating_request_acc_screenshot_save(64) получен скрин: None, file_id: AgACAgIAAxkBAAIsomjZK7TxLvbzrEipvNg7vSRaKORPAAKG_zEbrbTQSoWfc6ouyt4dAQADAgADeQADNgQ
+DEBUG    2025-09-28 15:36:10,871 [bot] (extract.py).creating_request_extract_save(61) получена выписка ИЛС: file_id: AgACAgIAAxkBAAIspWjZK7pfOEeDqi6CjElLa9JYsPtZAAKD_zEbrbTQSmX8nfm8pPDtAQADAgADeAADNgQ
+DEBUG    2025-09-28 15:36:19,936 [bot] (personal_pass.py).creating_request_pass_save(56) получен скрин лк: [PhotoSize(file_id='AgACAgIAAxkBAAIsqGjZK8PvFzr4nsMXRgWMy6oEOVKVAAKb_zEbrbTQSp5YXy_6pGgLAQADAgADcwADNgQ', file_unique_id='AQADm_8xG6200Ep4', width=90, height=51, file_size=1600), PhotoSize(file_id='AgACAgIAAxkBAAIsqGjZK8PvFzr4nsMXRgWMy6oEOVKVAAKb_zEbrbTQSp5YXy_6pGgLAQADAgADbQADNgQ', file_unique_id='AQADm_8xG6200Epy', width=320, height=183, file_size=18023), PhotoSize(file_id='AgACAgIAAxkBAAIsqGjZK8PvFzr4nsMXRgWMy6oEOVKVAAKb_zEbrbTQSp5YXy_6pGgLAQADAgADeAADNgQ', file_unique_id='AQADm_8xG6200Ep9', width=800, height=457, file_size=68085), PhotoSize(file_id='AgACAgIAAxkBAAIsqGjZK8PvFzr4nsMXRgWMy6oEOVKVAAKb_zEbrbTQSp5YXy_6pGgLAQADAgADeQADNgQ', file_unique_id='AQADm_8xG6200Ep-', width=1280, height=731, file_size=122214)], file_id: AgACAgIAAxkBAAIsqGjZK8PvFzr4nsMXRgWMy6oEOVKVAAKb_zEbrbTQSp5YXy_6pGgLAQADAgADeQADNgQ
+DEBUG    2025-09-28 15:36:27,412 [bot] (record.py).creating_request_record_book_save(58) получен трудовой книжки: [PhotoSize(file_id='AgACAgIAAxkBAAIsomjZK7TxLvbzrEipvNg7vSRaKORPAAKG_zEbrbTQSoWfc6ouyt4dAQADAgADcwADNgQ', file_unique_id='AQADhv8xG6200Ep4', width=80, height=90, file_size=916), PhotoSize(file_id='AgACAgIAAxkBAAIsomjZK7TxLvbzrEipvNg7vSRaKORPAAKG_zEbrbTQSoWfc6ouyt4dAQADAgADbQADNgQ', file_unique_id='AQADhv8xG6200Epy', width=285, height=320, file_size=12224), PhotoSize(file_id='AgACAgIAAxkBAAIsomjZK7TxLvbzrEipvNg7vSRaKORPAAKG_zEbrbTQSoWfc6ouyt4dAQADAgADeAADNgQ', file_unique_id='AQADhv8xG6200Ep9', width=713, height=800, file_size=55449), PhotoSize(file_id='AgACAgIAAxkBAAIsomjZK7TxLvbzrEipvNg7vSRaKORPAAKG_zEbrbTQSoWfc6ouyt4dAQADAgADeQADNgQ', file_unique_id='AQADhv8xG6200Ep-', width=1021, height=1146, file_size=85843)], file_id: AgACAgIAAxkBAAIsomjZK7TxLvbzrEipvNg7vSRaKORPAAKG_zEbrbTQSoWfc6ouyt4dAQADAgADeQADNgQ
+DEBUG    2025-09-28 15:36:34,553 [bot] (ndfl.py).creating_request_ndfl_save(60) получен НДФЛ: file_id: BQACAgIAAxkBAAIsrmjZK9KG4QmL7pXVmM-jMoMOgcZZAAIlgAACrbTQSpIIiDmmhAx_NgQ
+DEBUG    2025-09-28 15:36:39,155 [bot] (user_request_handlers.py).creating_request_save(40) Получаю все data state
+INFO     2025-09-28 15:36:39,156 [bot] (save_docs.py).create_folder(69) Создана папка clients\Макушина_М_В_1_2
+INFO     2025-09-28 15:36:39,497 [bot] (save_docs.py).save_doc(105) Файл contract.pdf сохранен в clients\Макушина_М_В_1_2
+INFO     2025-09-28 15:36:39,729 [bot] (save_docs.py).save_doc(105) Файл screenshot.jpg сохранен в clients\Макушина_М_В_1_2
+INFO     2025-09-28 15:36:39,908 [bot] (save_docs.py).save_doc(105) Файл personal_pass.jpg сохранен в clients\Макушина_М_В_1_2
+INFO     2025-09-28 15:36:40,099 [bot] (save_docs.py).save_doc(105) Файл extract.jpg сохранен в clients\Макушина_М_В_1_2
+INFO     2025-09-28 15:36:40,194 [bot] (save_docs.py).save_doc(105) Файл record.jpg сохранен в clients\Макушина_М_В_1_2
+INFO     2025-09-28 15:36:40,199 [bot] (user_request_handlers.py).creating_request_save(77) Новый запрос по отпускным
+INFO     2025-09-28 15:36:40,704 [bot] (send_messages.py)._send_notification(36) Попытка отправки админу 2
+DEBUG    2025-09-28 15:36:40,848 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-28 15:36:40,848 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-28 16:37:00,024 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-28 16:37:00,180 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-29 13:57:07,566 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-29 13:57:09,420 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-29 13:57:09,708 [bot] (commands.py).set_commands(22) Установил команды
+WARNING  2025-09-29 13:57:46,570 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-29 13:57:49,227 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-29 13:57:49,651 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-29 13:57:49,838 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-29 13:58:01,368 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-29 13:58:01,369 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-29 13:58:01,369 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-29 13:58:04,455 [bot] (contract.py).creating_contract(21) Current state data: {}
+DEBUG    2025-09-29 13:58:04,455 [bot] (contract.py).creating_contract(22) contract in data: None
+DEBUG    2025-09-29 13:58:12,297 [bot] (acc_screenshot.py).creating_request_acc_screenshot(21) Current state data: {'contract': 'BQACAgIAAxkBAAIst2jaZkQAAXiYyDN9itOFDcyXSlefqwACUnwAAgpc0EooamZoFPpH1zYE'}
+DEBUG    2025-09-29 13:58:12,297 [bot] (acc_screenshot.py).creating_request_acc_screenshot(22) acc_screenshot in data: None
+DEBUG    2025-09-29 13:58:21,713 [bot] (acc_screenshot.py).creating_request_acc_screenshot_save(48) сохраняю скрин лк
+DEBUG    2025-09-29 13:58:21,882 [bot] (acc_screenshot.py).creating_request_acc_screenshot_save(64) получен скрин: None, file_id: AgACAgIAAxkBAAIsumjaZk44mAqJ2s8VEx6O5E4AAchw-gACivUxGwpc0Eowd2PdkGqZGAEAAwIAA3kAAzYE
+DEBUG    2025-09-29 13:58:28,037 [bot] (personal_pass.py).creating_request_pass_save(56) получен скрин лк: [PhotoSize(file_id='AgACAgIAAxkBAAIsvWjaZlQDFClb1VihDNZUluaoo-7VAAKL9TEbClzQSjLGmz6OGLshAQADAgADcwADNgQ', file_unique_id='AQADi_UxGwpc0Ep4', width=90, height=51, file_size=1600), PhotoSize(file_id='AgACAgIAAxkBAAIsvWjaZlQDFClb1VihDNZUluaoo-7VAAKL9TEbClzQSjLGmz6OGLshAQADAgADbQADNgQ', file_unique_id='AQADi_UxGwpc0Epy', width=320, height=183, file_size=18023), PhotoSize(file_id='AgACAgIAAxkBAAIsvWjaZlQDFClb1VihDNZUluaoo-7VAAKL9TEbClzQSjLGmz6OGLshAQADAgADeAADNgQ', file_unique_id='AQADi_UxGwpc0Ep9', width=800, height=457, file_size=68085), PhotoSize(file_id='AgACAgIAAxkBAAIsvWjaZlQDFClb1VihDNZUluaoo-7VAAKL9TEbClzQSjLGmz6OGLshAQADAgADeQADNgQ', file_unique_id='AQADi_UxGwpc0Ep-', width=1280, height=731, file_size=122214)], file_id: AgACAgIAAxkBAAIsvWjaZlQDFClb1VihDNZUluaoo-7VAAKL9TEbClzQSjLGmz6OGLshAQADAgADeQADNgQ
+DEBUG    2025-09-29 13:58:35,036 [bot] (extract.py).creating_request_extract_save(61) получена выписка ИЛС: file_id: AgACAgIAAxkBAAIswGjaZlwTe8wXJ0sOQE-yusFJsww1AAKN9TEbClzQSk6WLryh3qv8AQADAgADeAADNgQ
+DEBUG    2025-09-29 13:58:40,863 [bot] (ndfl.py).creating_request_ndfl_save(60) получен НДФЛ: file_id: BQACAgIAAxkBAAIsw2jaZmGXGZbPx3k0dbLBBjmrIIcSAAJWfAACClzQSpVHxxAMx33bNgQ
+DEBUG    2025-09-29 13:58:48,026 [bot] (record.py).creating_request_record_book_save(58) получен трудовой книжки: None, file_id: BQACAgIAAxkBAAIsxmjaZmmmPIIAAXWHVy0K-SWZLFARtwACWHwAAgpc0EoMGqZW110-3zYE
+DEBUG    2025-09-29 13:58:50,823 [bot] (user_request_handlers.py).creating_request_save(40) Получаю все data state
+INFO     2025-09-29 13:58:50,824 [bot] (save_docs.py).create_folder(69) Создана папка clients\Макушина_М_В_1_2_3
+INFO     2025-09-29 13:58:51,109 [bot] (save_docs.py).save_doc(105) Файл contract.pdf сохранен в clients\Макушина_М_В_1_2_3
+INFO     2025-09-29 13:58:51,379 [bot] (save_docs.py).save_doc(105) Файл screenshot.jpg сохранен в clients\Макушина_М_В_1_2_3
+INFO     2025-09-29 13:58:51,533 [bot] (save_docs.py).save_doc(105) Файл personal_pass.jpg сохранен в clients\Макушина_М_В_1_2_3
+INFO     2025-09-29 13:58:51,658 [bot] (save_docs.py).save_doc(105) Файл extract.jpg сохранен в clients\Макушина_М_В_1_2_3
+INFO     2025-09-29 13:58:51,799 [bot] (save_docs.py).save_doc(105) Файл record.pdf сохранен в clients\Макушина_М_В_1_2_3
+INFO     2025-09-29 13:58:51,805 [bot] (user_request_handlers.py).creating_request_save(77) Новый запрос по отпускным
+INFO     2025-09-29 13:58:52,312 [bot] (send_messages.py)._send_notification(36) Попытка отправки админу 2
+DEBUG    2025-09-29 13:58:52,480 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-29 13:58:52,481 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-29 14:05:29,915 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-29 14:05:32,599 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-29 14:05:33,066 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-29 14:05:33,242 [bot] (commands.py).set_commands(22) Установил команды
+WARNING  2025-09-29 14:07:47,138 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-29 14:07:47,285 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-29 14:07:49,530 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-29 14:07:50,079 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-29 14:07:50,310 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-29 14:07:51,466 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-29 14:07:51,467 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-29 14:07:51,467 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-29 14:07:54,558 [bot] (contract.py).creating_contract(21) Current state data: {}
+DEBUG    2025-09-29 14:07:54,559 [bot] (contract.py).creating_contract(22) contract in data: None
+DEBUG    2025-09-29 14:07:56,427 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: CreateRequest:wait_contract
+WARNING  2025-09-29 14:08:02,635 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-29 14:08:05,105 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-29 14:08:05,525 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-29 14:08:05,733 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-29 14:08:08,151 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-29 14:08:08,152 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-29 14:08:08,153 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-29 14:08:16,800 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-29 14:08:19,273 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-29 14:08:19,725 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-29 14:08:19,895 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-29 14:08:21,777 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-29 14:08:21,778 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-29 14:08:21,778 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-29 14:08:32,101 [bot] (user_request_handlers.py).creating_request_save(40) Получаю все data state
+INFO     2025-09-29 14:08:32,101 [bot] (user_request_handlers.py).creating_request_save(50)  Не все документы загружены. • Договор ГПХ/Трудовой 
+WARNING  2025-09-29 14:09:55,758 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-29 14:09:58,389 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-29 14:09:58,809 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-29 14:09:59,033 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-29 14:10:00,882 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-29 14:10:00,883 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-29 14:10:00,884 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-29 14:12:01,231 [bot] (contract.py).creating_contract(21) Current state data: {}
+DEBUG    2025-09-29 14:12:01,231 [bot] (contract.py).creating_contract(22) contract in data: None
+DEBUG    2025-09-29 14:12:08,784 [bot] (acc_screenshot.py).creating_request_acc_screenshot(21) Current state data: {'contract': 'BQACAgIAAxkBAAIs2WjaaYjE_xPXrThAr2T3pBNiDlHPAAKQfAACClzQSvCzBugCFoBnNgQ'}
+DEBUG    2025-09-29 14:12:08,784 [bot] (acc_screenshot.py).creating_request_acc_screenshot(22) acc_screenshot in data: None
+DEBUG    2025-09-29 14:12:14,346 [bot] (acc_screenshot.py).creating_request_acc_screenshot_save(48) сохраняю скрин лк
+DEBUG    2025-09-29 14:12:14,438 [bot] (acc_screenshot.py).creating_request_acc_screenshot_save(64) получен скрин: None, file_id: AgACAgIAAxkBAAIs3GjaaY-yqxs80Ia41yoGI9u-BGduAAKN9TEbClzQSk6WLryh3qv8AQADAgADeAADNgQ
+DEBUG    2025-09-29 14:12:20,857 [bot] (personal_pass.py).creating_request_pass_save(56) получен скрин лк: [PhotoSize(file_id='AgACAgIAAxkBAAIs32jaaZWlkeFMTGBc1psf9YGgl-VDAAK29TEbClzQSiCy6KLQEwaXAQADAgADcwADNgQ', file_unique_id='AQADtvUxGwpc0Ep4', width=80, height=90, file_size=916), PhotoSize(file_id='AgACAgIAAxkBAAIs32jaaZWlkeFMTGBc1psf9YGgl-VDAAK29TEbClzQSiCy6KLQEwaXAQADAgADbQADNgQ', file_unique_id='AQADtvUxGwpc0Epy', width=285, height=320, file_size=12224), PhotoSize(file_id='AgACAgIAAxkBAAIs32jaaZWlkeFMTGBc1psf9YGgl-VDAAK29TEbClzQSiCy6KLQEwaXAQADAgADeAADNgQ', file_unique_id='AQADtvUxGwpc0Ep9', width=713, height=800, file_size=55449), PhotoSize(file_id='AgACAgIAAxkBAAIs32jaaZWlkeFMTGBc1psf9YGgl-VDAAK29TEbClzQSiCy6KLQEwaXAQADAgADeQADNgQ', file_unique_id='AQADtvUxGwpc0Ep-', width=1021, height=1146, file_size=85843)], file_id: AgACAgIAAxkBAAIs32jaaZWlkeFMTGBc1psf9YGgl-VDAAK29TEbClzQSiCy6KLQEwaXAQADAgADeQADNgQ
+DEBUG    2025-09-29 14:12:27,053 [bot] (ndfl.py).creating_request_ndfl_save(60) получен НДФЛ: file_id: BQACAgIAAxkBAAIs4mjaaZy6rPSojPZNRyPs2BZ8P1AEAAKTfAACClzQSmoVwWHfZ10qNgQ
+DEBUG    2025-09-29 14:12:33,775 [bot] (extract.py).creating_request_extract_save(61) получена выписка ИЛС: file_id: AgACAgIAAxkBAAIs5WjaaaKXwFBUV2C8Q3MiowjpDOx0AAKL9TEbClzQSjLGmz6OGLshAQADAgADeQADNgQ
+DEBUG    2025-09-29 14:12:40,567 [bot] (record.py).creating_request_record_book_save(58) получен трудовой книжки: [PhotoSize(file_id='AgACAgIAAxkBAAIs32jaaZWlkeFMTGBc1psf9YGgl-VDAAK29TEbClzQSiCy6KLQEwaXAQADAgADcwADNgQ', file_unique_id='AQADtvUxGwpc0Ep4', width=80, height=90, file_size=916), PhotoSize(file_id='AgACAgIAAxkBAAIs32jaaZWlkeFMTGBc1psf9YGgl-VDAAK29TEbClzQSiCy6KLQEwaXAQADAgADbQADNgQ', file_unique_id='AQADtvUxGwpc0Epy', width=285, height=320, file_size=12224), PhotoSize(file_id='AgACAgIAAxkBAAIs32jaaZWlkeFMTGBc1psf9YGgl-VDAAK29TEbClzQSiCy6KLQEwaXAQADAgADeAADNgQ', file_unique_id='AQADtvUxGwpc0Ep9', width=713, height=800, file_size=55449), PhotoSize(file_id='AgACAgIAAxkBAAIs32jaaZWlkeFMTGBc1psf9YGgl-VDAAK29TEbClzQSiCy6KLQEwaXAQADAgADeQADNgQ', file_unique_id='AQADtvUxGwpc0Ep-', width=1021, height=1146, file_size=85843)], file_id: AgACAgIAAxkBAAIs32jaaZWlkeFMTGBc1psf9YGgl-VDAAK29TEbClzQSiCy6KLQEwaXAQADAgADeQADNgQ
+DEBUG    2025-09-29 14:12:42,178 [bot] (user_request_handlers.py).creating_request_save(40) Получаю все data state
+INFO     2025-09-29 14:12:42,182 [bot] (save_docs.py).create_folder(93) Создана папка clients\Макушина_М_В_1_2_3_4
+ERROR    2025-09-29 14:12:42,182 [bot] (user_request_handlers.py).creating_request_save(89) Не получилось сохранить заявку: 'str' object has no attribute 'get'
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\handlers\user\user_request_handlers.py", line 65, in creating_request_save
+    file_paths = await save_all_docs(bot, folder_path, docs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\utils\save_docs.py", line 192, in save_all_docs
+    if doc_data.get('regular'):
+       ^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+DEBUG    2025-09-29 14:12:42,185 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-29 14:12:42,185 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-29 14:13:42,007 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-29 14:13:44,584 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-29 14:13:45,042 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-29 14:13:45,246 [bot] (commands.py).set_commands(22) Установил команды
+WARNING  2025-09-29 14:14:21,969 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-29 14:14:24,548 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-29 14:14:25,102 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-29 14:14:25,260 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-29 14:14:27,608 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-29 14:14:27,609 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-29 14:14:27,609 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-29 14:14:29,902 [bot] (contract.py).creating_contract(21) Current state data: {}
+DEBUG    2025-09-29 14:14:29,903 [bot] (contract.py).creating_contract(22) contract in data: None
+DEBUG    2025-09-29 14:14:37,256 [bot] (acc_screenshot.py).creating_request_acc_screenshot(21) Current state data: {'contract': 'BQACAgIAAxkBAAIs8Gjaah1NXc3n54PtuMLAGhU9jS4oAAKafAACClzQSmbCmA3Tp6R1NgQ'}
+DEBUG    2025-09-29 14:14:37,256 [bot] (acc_screenshot.py).creating_request_acc_screenshot(22) acc_screenshot in data: None
+DEBUG    2025-09-29 14:14:41,231 [bot] (acc_screenshot.py).creating_request_acc_screenshot_save(48) сохраняю скрин лк
+DEBUG    2025-09-29 14:14:41,408 [bot] (acc_screenshot.py).creating_request_acc_screenshot_save(64) получен скрин: None, file_id: AgACAgIAAxkBAAIs5WjaaaKXwFBUV2C8Q3MiowjpDOx0AAKL9TEbClzQSjLGmz6OGLshAQADAgADeQADNgQ
+DEBUG    2025-09-29 14:14:47,370 [bot] (personal_pass.py).creating_request_pass_save(56) получен скрин лк: [PhotoSize(file_id='AgACAgIAAxkBAAIs5WjaaaKXwFBUV2C8Q3MiowjpDOx0AAKL9TEbClzQSjLGmz6OGLshAQADAgADcwADNgQ', file_unique_id='AQADi_UxGwpc0Ep4', width=90, height=51, file_size=1600), PhotoSize(file_id='AgACAgIAAxkBAAIs5WjaaaKXwFBUV2C8Q3MiowjpDOx0AAKL9TEbClzQSjLGmz6OGLshAQADAgADbQADNgQ', file_unique_id='AQADi_UxGwpc0Epy', width=320, height=183, file_size=18023), PhotoSize(file_id='AgACAgIAAxkBAAIs5WjaaaKXwFBUV2C8Q3MiowjpDOx0AAKL9TEbClzQSjLGmz6OGLshAQADAgADeAADNgQ', file_unique_id='AQADi_UxGwpc0Ep9', width=800, height=457, file_size=68085), PhotoSize(file_id='AgACAgIAAxkBAAIs5WjaaaKXwFBUV2C8Q3MiowjpDOx0AAKL9TEbClzQSjLGmz6OGLshAQADAgADeQADNgQ', file_unique_id='AQADi_UxGwpc0Ep-', width=1280, height=731, file_size=122214)], file_id: AgACAgIAAxkBAAIs5WjaaaKXwFBUV2C8Q3MiowjpDOx0AAKL9TEbClzQSjLGmz6OGLshAQADAgADeQADNgQ
+DEBUG    2025-09-29 14:14:52,889 [bot] (ndfl.py).creating_request_ndfl_save(60) получен НДФЛ: file_id: BQACAgIAAxkBAAIs-Wjaai03JX_lsUcyMs_M9GyvJL6gAAKcfAACClzQSrv48gcBVzwvNgQ
+DEBUG    2025-09-29 14:14:59,113 [bot] (extract.py).creating_request_extract_save(61) получена выписка ИЛС: file_id: AgACAgIAAxkBAAIs3GjaaY-yqxs80Ia41yoGI9u-BGduAAKN9TEbClzQSk6WLryh3qv8AQADAgADeAADNgQ
+DEBUG    2025-09-29 14:15:05,456 [bot] (record.py).creating_request_record_book_save(58) получен трудовой книжки: [PhotoSize(file_id='AgACAgIAAxkBAAIs32jaaZWlkeFMTGBc1psf9YGgl-VDAAK29TEbClzQSiCy6KLQEwaXAQADAgADcwADNgQ', file_unique_id='AQADtvUxGwpc0Ep4', width=80, height=90, file_size=916), PhotoSize(file_id='AgACAgIAAxkBAAIs32jaaZWlkeFMTGBc1psf9YGgl-VDAAK29TEbClzQSiCy6KLQEwaXAQADAgADbQADNgQ', file_unique_id='AQADtvUxGwpc0Epy', width=285, height=320, file_size=12224), PhotoSize(file_id='AgACAgIAAxkBAAIs32jaaZWlkeFMTGBc1psf9YGgl-VDAAK29TEbClzQSiCy6KLQEwaXAQADAgADeAADNgQ', file_unique_id='AQADtvUxGwpc0Ep9', width=713, height=800, file_size=55449), PhotoSize(file_id='AgACAgIAAxkBAAIs32jaaZWlkeFMTGBc1psf9YGgl-VDAAK29TEbClzQSiCy6KLQEwaXAQADAgADeQADNgQ', file_unique_id='AQADtvUxGwpc0Ep-', width=1021, height=1146, file_size=85843)], file_id: AgACAgIAAxkBAAIs32jaaZWlkeFMTGBc1psf9YGgl-VDAAK29TEbClzQSiCy6KLQEwaXAQADAgADeQADNgQ
+DEBUG    2025-09-29 14:15:06,705 [bot] (user_request_handlers.py).creating_request_save(40) Получаю все data state
+INFO     2025-09-29 14:15:06,706 [bot] (save_docs.py).create_folder(93) Создана папка clients\Макушина_М_В_1_2_3_4_5
+ERROR    2025-09-29 14:15:06,706 [bot] (user_request_handlers.py).creating_request_save(89) Не получилось сохранить заявку: 'str' object has no attribute 'get'
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\handlers\user\user_request_handlers.py", line 65, in creating_request_save
+    file_paths = await save_all_docs(bot, folder_path, docs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\utils\save_docs.py", line 192, in save_all_docs
+    if doc_data.get('regular'):
+       ^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+DEBUG    2025-09-29 14:15:06,709 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-29 14:15:06,709 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-29 14:36:20,157 [bot] (user_request_handlers.py).creating_request_save(40) Получаю все data state
+INFO     2025-09-29 14:36:20,157 [bot] (save_docs.py).create_folder(93) Создана папка clients\Макушина_М_В_1_2_3_4_5_6
+ERROR    2025-09-29 14:36:20,158 [bot] (user_request_handlers.py).creating_request_save(89) Не получилось сохранить заявку: 'str' object has no attribute 'get'
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\handlers\user\user_request_handlers.py", line 65, in creating_request_save
+    file_paths = await save_all_docs(bot, folder_path, docs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\utils\save_docs.py", line 192, in save_all_docs
+    file_paths[state_key] = file_path
+    ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+DEBUG    2025-09-29 14:36:20,162 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-29 14:36:20,162 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+INFO     2025-09-29 14:36:32,981 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-29 14:36:32,981 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-29 14:36:32,981 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-29 14:36:35,206 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: UserState:all_requests
+DEBUG    2025-09-29 14:36:35,207 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-29 14:36:35,207 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-29 14:37:35,305 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-29 14:37:35,454 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-29 14:37:37,712 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-29 14:37:38,141 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-29 14:37:38,303 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-29 14:37:39,774 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-29 14:37:39,775 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-29 14:37:39,775 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-29 14:38:02,940 [bot] (ndfl.py).creating_request_ndfl_save(60) получен НДФЛ: file_id: BQACAgIAAxkBAAItCWjab5tCsGwdDmYfmbaGV8pP1a1lAAJXfQACClzQSr6SUiQauKjeNgQ
+WARNING  2025-09-29 14:53:32,129 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-29 14:53:32,288 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-29 14:53:34,605 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-29 14:53:35,137 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-29 14:53:35,399 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-29 14:53:46,393 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-29 14:53:46,395 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-29 14:53:46,395 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-29 14:54:01,743 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-29 14:54:04,126 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-29 14:54:04,557 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-29 14:54:04,747 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-29 14:54:06,653 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-29 14:54:06,654 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-29 14:54:06,654 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-29 14:55:38,532 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-29 14:55:41,076 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-29 14:55:41,509 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-29 14:55:41,676 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-29 14:55:43,661 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-29 14:55:43,661 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-29 14:55:43,662 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-29 14:56:40,020 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-29 14:56:42,415 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-29 14:56:58,475 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-29 14:56:58,896 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-29 14:56:59,125 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-29 14:57:01,440 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-29 14:57:01,441 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-29 14:57:01,441 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-29 14:57:34,379 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-29 14:57:36,858 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-29 14:57:56,943 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-29 14:57:57,526 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-29 14:57:57,756 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-29 14:58:02,619 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-29 14:58:02,620 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-29 14:58:02,620 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-29 14:59:51,633 [bot] (contract.py).creating_contract(21) Current state data: {}
+DEBUG    2025-09-29 14:59:51,633 [bot] (contract.py).creating_contract(22) contract in data: None
+DEBUG    2025-09-29 14:59:59,615 [bot] (acc_screenshot.py).creating_request_acc_screenshot(21) Current state data: {'contract': 'BQACAgIAAxkBAAItG2jadL9A0y1EBjlfkuBnHBCinq6YAALFfQACClzQSl8ofmrL66dDNgQ'}
+DEBUG    2025-09-29 14:59:59,615 [bot] (acc_screenshot.py).creating_request_acc_screenshot(22) acc_screenshot in data: None
+DEBUG    2025-09-29 15:00:04,637 [bot] (acc_screenshot.py).creating_request_acc_screenshot_save(48) сохраняю скрин лк
+DEBUG    2025-09-29 15:00:04,736 [bot] (acc_screenshot.py).creating_request_acc_screenshot_save(64) получен скрин: None, file_id: AgACAgIAAxkBAAItHmjadMWsalfVywONGcQuyLGb2NRAAAKK9TEbClzQSjB3Y92QapkYAQADAgADeQADNgQ
+DEBUG    2025-09-29 15:00:11,600 [bot] (personal_pass.py).creating_request_pass_save(56) получен скрин лк: [PhotoSize(file_id='AgACAgIAAxkBAAItIWjadMw6gagybB3aRLtVW4J4dLDRAAKL9TEbClzQSjLGmz6OGLshAQADAgADcwADNgQ', file_unique_id='AQADi_UxGwpc0Ep4', width=90, height=51, file_size=1600), PhotoSize(file_id='AgACAgIAAxkBAAItIWjadMw6gagybB3aRLtVW4J4dLDRAAKL9TEbClzQSjLGmz6OGLshAQADAgADbQADNgQ', file_unique_id='AQADi_UxGwpc0Epy', width=320, height=183, file_size=18023), PhotoSize(file_id='AgACAgIAAxkBAAItIWjadMw6gagybB3aRLtVW4J4dLDRAAKL9TEbClzQSjLGmz6OGLshAQADAgADeAADNgQ', file_unique_id='AQADi_UxGwpc0Ep9', width=800, height=457, file_size=68085), PhotoSize(file_id='AgACAgIAAxkBAAItIWjadMw6gagybB3aRLtVW4J4dLDRAAKL9TEbClzQSjLGmz6OGLshAQADAgADeQADNgQ', file_unique_id='AQADi_UxGwpc0Ep-', width=1280, height=731, file_size=122214)], file_id: AgACAgIAAxkBAAItIWjadMw6gagybB3aRLtVW4J4dLDRAAKL9TEbClzQSjLGmz6OGLshAQADAgADeQADNgQ
+DEBUG    2025-09-29 15:00:17,823 [bot] (extract.py).creating_request_extract_save(61) получена выписка ИЛС: file_id: AgACAgIAAxkBAAItJGjadNI6OuSaYBpP6YcH7KMNLX0BAAK29TEbClzQSiCy6KLQEwaXAQADAgADeQADNgQ
+DEBUG    2025-09-29 15:00:24,572 [bot] (ndfl.py).creating_request_ndfl_save(60) получен НДФЛ: file_id: BQACAgIAAxkBAAItJ2jadNmY0bTNNVD8bI_YxhFHDuN_AALJfQACClzQSrh0fLjVogpuNgQ
+DEBUG    2025-09-29 15:00:33,068 [bot] (ndfl.py).creating_request_ndfl_save(60) получен НДФЛ: file_id: BQACAgIAAxkBAAItKmjadOIg6uc2buKpsFDd03uWuw1MAALKfQACClzQStbUwgyQsGpVNgQ
+DEBUG    2025-09-29 15:00:40,357 [bot] (record.py).creating_request_record_book_save(58) получен трудовой книжки: [PhotoSize(file_id='AgACAgIAAxkBAAItLWjadOmkrfDto0yFBvJaHs9Tfwx3AAKN9TEbClzQSk6WLryh3qv8AQADAgADcwADNgQ', file_unique_id='AQADjfUxGwpc0Ep4', width=90, height=78, file_size=944), PhotoSize(file_id='AgACAgIAAxkBAAItLWjadOmkrfDto0yFBvJaHs9Tfwx3AAKN9TEbClzQSk6WLryh3qv8AQADAgADbQADNgQ', file_unique_id='AQADjfUxGwpc0Epy', width=320, height=279, file_size=13366), PhotoSize(file_id='AgACAgIAAxkBAAItLWjadOmkrfDto0yFBvJaHs9Tfwx3AAKN9TEbClzQSk6WLryh3qv8AQADAgADeAADNgQ', file_unique_id='AQADjfUxGwpc0Ep9', width=596, height=520, file_size=33648)], file_id: AgACAgIAAxkBAAItLWjadOmkrfDto0yFBvJaHs9Tfwx3AAKN9TEbClzQSk6WLryh3qv8AQADAgADeAADNgQ
+DEBUG    2025-09-29 15:00:41,749 [bot] (user_request_handlers.py).creating_request_save(40) Получаю все data state
+INFO     2025-09-29 15:00:41,749 [bot] (user_request_handlers.py).creating_request_save(50)  Не все документы загружены. • Справка 2-НДФЛ 
+DEBUG    2025-09-29 15:01:31,195 [bot] (ndfl.py).creating_request_ndfl_save(60) получен НДФЛ: file_id: AgACAgIAAxkBAAItLWjadOmkrfDto0yFBvJaHs9Tfwx3AAKN9TEbClzQSk6WLryh3qv8AQADAgADeAADNgQ
+WARNING  2025-09-29 15:48:08,942 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-29 15:48:09,104 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-29 15:48:11,483 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-29 15:48:11,919 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-29 15:48:12,112 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-29 15:48:17,075 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-29 15:48:17,076 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-29 15:48:17,076 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-29 15:48:20,132 [bot] (contract.py).creating_contract(21) Current state data: {}
+DEBUG    2025-09-29 15:48:20,132 [bot] (contract.py).creating_contract(22) contract in data: None
+DEBUG    2025-09-29 15:48:27,676 [bot] (acc_screenshot.py).creating_request_acc_screenshot(21) Current state data: {'contract': 'AgACAgIAAxkBAAItNmjagBr8gP1tjyeEZDGQWAxaTCwyAAK29TEbClzQSiCy6KLQEwaXAQADAgADeQADNgQ'}
+DEBUG    2025-09-29 15:48:27,676 [bot] (acc_screenshot.py).creating_request_acc_screenshot(22) acc_screenshot in data: None
+DEBUG    2025-09-29 15:48:31,965 [bot] (acc_screenshot.py).creating_request_acc_screenshot_save(48) сохраняю скрин лк
+DEBUG    2025-09-29 15:48:32,051 [bot] (acc_screenshot.py).creating_request_acc_screenshot_save(64) получен скрин: None, file_id: AgACAgIAAxkBAAItNmjagBr8gP1tjyeEZDGQWAxaTCwyAAK29TEbClzQSiCy6KLQEwaXAQADAgADeQADNgQ
+DEBUG    2025-09-29 15:48:37,697 [bot] (personal_pass.py).creating_request_pass_save(56) получен скрин лк: [PhotoSize(file_id='AgACAgIAAxkBAAItPGjagCYAAR1Gge4uH_a4hRRVmn8ZjwACivUxGwpc0Eowd2PdkGqZGAEAAwIAA3MAAzYE', file_unique_id='AQADivUxGwpc0Ep4', width=90, height=51, file_size=1475), PhotoSize(file_id='AgACAgIAAxkBAAItPGjagCYAAR1Gge4uH_a4hRRVmn8ZjwACivUxGwpc0Eowd2PdkGqZGAEAAwIAA20AAzYE', file_unique_id='AQADivUxGwpc0Epy', width=320, height=183, file_size=17639), PhotoSize(file_id='AgACAgIAAxkBAAItPGjagCYAAR1Gge4uH_a4hRRVmn8ZjwACivUxGwpc0Eowd2PdkGqZGAEAAwIAA3gAAzYE', file_unique_id='AQADivUxGwpc0Ep9', width=800, height=457, file_size=72057), PhotoSize(file_id='AgACAgIAAxkBAAItPGjagCYAAR1Gge4uH_a4hRRVmn8ZjwACivUxGwpc0Eowd2PdkGqZGAEAAwIAA3kAAzYE', file_unique_id='AQADivUxGwpc0Ep-', width=1280, height=731, file_size=136128)], file_id: AgACAgIAAxkBAAItPGjagCYAAR1Gge4uH_a4hRRVmn8ZjwACivUxGwpc0Eowd2PdkGqZGAEAAwIAA3kAAzYE
+DEBUG    2025-09-29 15:48:44,697 [bot] (extract.py).creating_request_extract_save(61) получена выписка ИЛС: file_id: BQACAgIAAxkBAAItP2jagC1ldfhqombvAoDnFrhtFJ1RAALGfgACClzQSkJVz0l9WCATNgQ
+DEBUG    2025-09-29 15:48:51,225 [bot] (ndfl.py).creating_request_ndfl_save(60) получен НДФЛ: file_id: BQACAgIAAxkBAAItQmjagDTazW3Ph4Xm1zwd5gObw5mHAALHfgACClzQSgwJTnzwpy1kNgQ
+DEBUG    2025-09-29 15:48:59,462 [bot] (record.py).creating_request_record_book_save(58) получен трудовой книжки: [PhotoSize(file_id='AgACAgIAAxkBAAItRWjagDxfkOHRxbzXAQQbL_UUBVIPAAKN9TEbClzQSk6WLryh3qv8AQADAgADcwADNgQ', file_unique_id='AQADjfUxGwpc0Ep4', width=90, height=78, file_size=944), PhotoSize(file_id='AgACAgIAAxkBAAItRWjagDxfkOHRxbzXAQQbL_UUBVIPAAKN9TEbClzQSk6WLryh3qv8AQADAgADbQADNgQ', file_unique_id='AQADjfUxGwpc0Epy', width=320, height=279, file_size=13366), PhotoSize(file_id='AgACAgIAAxkBAAItRWjagDxfkOHRxbzXAQQbL_UUBVIPAAKN9TEbClzQSk6WLryh3qv8AQADAgADeAADNgQ', file_unique_id='AQADjfUxGwpc0Ep9', width=596, height=520, file_size=33648)], file_id: AgACAgIAAxkBAAItRWjagDxfkOHRxbzXAQQbL_UUBVIPAAKN9TEbClzQSk6WLryh3qv8AQADAgADeAADNgQ
+DEBUG    2025-09-29 15:49:00,936 [bot] (user_request_handlers.py).creating_request_save(40) Получаю все data state
+INFO     2025-09-29 15:49:00,937 [bot] (save_docs.py).create_folder(63) Создана папка clients\Макушина_М_В_1_2_3_4_5_6_7
+ERROR    2025-09-29 15:49:00,937 [bot] (user_request_handlers.py).creating_request_save(89) Не получилось сохранить заявку: 'str' object has no attribute 'get'
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\handlers\user\user_request_handlers.py", line 65, in creating_request_save
+    file_paths = await save_all_docs(bot, folder_path, docs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\utils\save_docs.py", line 164, in save_all_docs
+    if doc_data.get('zip'):
+       ^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+DEBUG    2025-09-29 15:49:00,939 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-29 15:49:00,940 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-29 15:52:12,971 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-29 15:52:15,579 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-29 15:52:16,137 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-29 15:52:16,415 [bot] (commands.py).set_commands(22) Установил команды
+WARNING  2025-09-29 16:11:45,145 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-29 16:11:45,304 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-29 16:11:47,710 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-29 16:11:48,158 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-29 16:11:48,458 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-29 16:11:50,728 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-29 16:11:50,728 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-29 16:11:50,729 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-29 16:11:52,920 [bot] (contract.py).creating_contract(21) Current state data: {}
+DEBUG    2025-09-29 16:11:52,921 [bot] (contract.py).creating_contract(22) contract in data: None
+DEBUG    2025-09-29 16:11:59,645 [bot] (acc_screenshot.py).creating_request_acc_screenshot(21) Current state data: {'contract': 'BQACAgIAAxkBAAItTWjahZ-JQJ9NlhE7dkzoUY2wVAqbAAIbfwACClzQSjfFrTVD1a7vNgQ'}
+DEBUG    2025-09-29 16:11:59,645 [bot] (acc_screenshot.py).creating_request_acc_screenshot(22) acc_screenshot in data: None
+DEBUG    2025-09-29 16:12:04,206 [bot] (acc_screenshot.py).creating_request_acc_screenshot_save(48) сохраняю скрин лк
+DEBUG    2025-09-29 16:12:04,379 [bot] (acc_screenshot.py).creating_request_acc_screenshot_save(64) получен скрин: None, file_id: AgACAgIAAxkBAAItUGjahaUZ8sD8Hcj4eR0C0yas3KleAAIK9zEbClzQSlMQzce_iIAMAQADAgADeQADNgQ
+DEBUG    2025-09-29 16:12:11,654 [bot] (personal_pass.py).creating_request_pass_save(56) получен скрин лк: [PhotoSize(file_id='AgACAgIAAxkBAAItU2jahayW1MwSF2VOEZNbZNfAphO9AAKK9TEbClzQSjB3Y92QapkYAQADAgADcwADNgQ', file_unique_id='AQADivUxGwpc0Ep4', width=90, height=51, file_size=1475), PhotoSize(file_id='AgACAgIAAxkBAAItU2jahayW1MwSF2VOEZNbZNfAphO9AAKK9TEbClzQSjB3Y92QapkYAQADAgADbQADNgQ', file_unique_id='AQADivUxGwpc0Epy', width=320, height=183, file_size=17639), PhotoSize(file_id='AgACAgIAAxkBAAItU2jahayW1MwSF2VOEZNbZNfAphO9AAKK9TEbClzQSjB3Y92QapkYAQADAgADeAADNgQ', file_unique_id='AQADivUxGwpc0Ep9', width=800, height=457, file_size=72057), PhotoSize(file_id='AgACAgIAAxkBAAItU2jahayW1MwSF2VOEZNbZNfAphO9AAKK9TEbClzQSjB3Y92QapkYAQADAgADeQADNgQ', file_unique_id='AQADivUxGwpc0Ep-', width=1280, height=731, file_size=136128)], file_id: AgACAgIAAxkBAAItU2jahayW1MwSF2VOEZNbZNfAphO9AAKK9TEbClzQSjB3Y92QapkYAQADAgADeQADNgQ
+DEBUG    2025-09-29 16:12:18,152 [bot] (extract.py).creating_request_extract_save(61) получена выписка ИЛС: file_id: AgACAgIAAxkBAAItVmjahbMEgiuuRAxIUgTwTwyo9RobAAKN9TEbClzQSk6WLryh3qv8AQADAgADeAADNgQ
+DEBUG    2025-09-29 16:12:25,858 [bot] (ndfl.py).creating_request_ndfl_save(60) получен НДФЛ: file_id: BQACAgIAAxkBAAItWWjahbpRnDig1woL3wcCbA-imU50AAIcfwACClzQSj2tVH9be6nSNgQ
+DEBUG    2025-09-29 16:12:33,541 [bot] (record.py).creating_request_record_book_save(58) получен трудовой книжки: [PhotoSize(file_id='AgACAgIAAxkBAAItXGjahcKr1rsFG1Ias-yuZXbLBc4qAAK29TEbClzQSiCy6KLQEwaXAQADAgADcwADNgQ', file_unique_id='AQADtvUxGwpc0Ep4', width=80, height=90, file_size=916), PhotoSize(file_id='AgACAgIAAxkBAAItXGjahcKr1rsFG1Ias-yuZXbLBc4qAAK29TEbClzQSiCy6KLQEwaXAQADAgADbQADNgQ', file_unique_id='AQADtvUxGwpc0Epy', width=285, height=320, file_size=12224), PhotoSize(file_id='AgACAgIAAxkBAAItXGjahcKr1rsFG1Ias-yuZXbLBc4qAAK29TEbClzQSiCy6KLQEwaXAQADAgADeAADNgQ', file_unique_id='AQADtvUxGwpc0Ep9', width=713, height=800, file_size=55449), PhotoSize(file_id='AgACAgIAAxkBAAItXGjahcKr1rsFG1Ias-yuZXbLBc4qAAK29TEbClzQSiCy6KLQEwaXAQADAgADeQADNgQ', file_unique_id='AQADtvUxGwpc0Ep-', width=1021, height=1146, file_size=85843)], file_id: AgACAgIAAxkBAAItXGjahcKr1rsFG1Ias-yuZXbLBc4qAAK29TEbClzQSiCy6KLQEwaXAQADAgADeQADNgQ
+DEBUG    2025-09-29 16:12:35,851 [bot] (user_request_handlers.py).creating_request_save(40) Получаю все data state
+ERROR    2025-09-29 16:12:35,852 [bot] (user_request_handlers.py).creating_request_save(90) Не получилось сохранить заявку: invalid literal for int() with base 10: 'В'
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\handlers\user\user_request_handlers.py", line 64, in creating_request_save
+    folder_path = create_folder(user_folder)
+  File "E:\python\bots\lawyer_bot\utils\save_docs.py", line 58, in create_folder
+    name_folder, folder_count = folder_path.split("_")[:-1], int(folder_path.split("_")[-1]) + count
+                                                             ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'В'
+DEBUG    2025-09-29 16:12:35,854 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-29 16:12:35,854 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-29 16:15:39,174 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-29 16:15:42,032 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-29 16:15:42,471 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-29 16:15:42,640 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-29 16:15:44,679 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-29 16:15:44,681 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-29 16:15:44,681 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-29 16:15:47,019 [bot] (contract.py).creating_contract(21) Current state data: {}
+DEBUG    2025-09-29 16:15:47,019 [bot] (contract.py).creating_contract(22) contract in data: None
+DEBUG    2025-09-29 16:15:53,516 [bot] (acc_screenshot.py).creating_request_acc_screenshot(21) Current state data: {'contract': 'BQACAgIAAxkBAAItY2jahokUumVfhEFQWp7g1sOCgEGYAAIjfwACClzQSleE_oSsacgPNgQ'}
+DEBUG    2025-09-29 16:15:53,517 [bot] (acc_screenshot.py).creating_request_acc_screenshot(22) acc_screenshot in data: None
+DEBUG    2025-09-29 16:15:57,598 [bot] (acc_screenshot.py).creating_request_acc_screenshot_save(48) сохраняю скрин лк
+DEBUG    2025-09-29 16:15:57,665 [bot] (acc_screenshot.py).creating_request_acc_screenshot_save(64) получен скрин: None, file_id: AgACAgIAAxkBAAItUGjahaUZ8sD8Hcj4eR0C0yas3KleAAIK9zEbClzQSlMQzce_iIAMAQADAgADeQADNgQ
+DEBUG    2025-09-29 16:16:03,863 [bot] (personal_pass.py).creating_request_pass_save(56) получен скрин лк: [PhotoSize(file_id='AgACAgIAAxkBAAItXGjahcKr1rsFG1Ias-yuZXbLBc4qAAK29TEbClzQSiCy6KLQEwaXAQADAgADcwADNgQ', file_unique_id='AQADtvUxGwpc0Ep4', width=80, height=90, file_size=916), PhotoSize(file_id='AgACAgIAAxkBAAItXGjahcKr1rsFG1Ias-yuZXbLBc4qAAK29TEbClzQSiCy6KLQEwaXAQADAgADbQADNgQ', file_unique_id='AQADtvUxGwpc0Epy', width=285, height=320, file_size=12224), PhotoSize(file_id='AgACAgIAAxkBAAItXGjahcKr1rsFG1Ias-yuZXbLBc4qAAK29TEbClzQSiCy6KLQEwaXAQADAgADeAADNgQ', file_unique_id='AQADtvUxGwpc0Ep9', width=713, height=800, file_size=55449), PhotoSize(file_id='AgACAgIAAxkBAAItXGjahcKr1rsFG1Ias-yuZXbLBc4qAAK29TEbClzQSiCy6KLQEwaXAQADAgADeQADNgQ', file_unique_id='AQADtvUxGwpc0Ep-', width=1021, height=1146, file_size=85843)], file_id: AgACAgIAAxkBAAItXGjahcKr1rsFG1Ias-yuZXbLBc4qAAK29TEbClzQSiCy6KLQEwaXAQADAgADeQADNgQ
+DEBUG    2025-09-29 16:16:09,663 [bot] (extract.py).creating_request_extract_save(61) получена выписка ИЛС: file_id: AgACAgIAAxkBAAItUGjahaUZ8sD8Hcj4eR0C0yas3KleAAIK9zEbClzQSlMQzce_iIAMAQADAgADeQADNgQ
+DEBUG    2025-09-29 16:16:16,812 [bot] (ndfl.py).creating_request_ndfl_save(60) получен НДФЛ: file_id: BQACAgIAAxkBAAItb2jahqHCmnNUNgMpasuS327nts8LAAIlfwACClzQSku-ySVV1pTcNgQ
+DEBUG    2025-09-29 16:16:22,650 [bot] (record.py).creating_request_record_book_save(58) получен трудовой книжки: [PhotoSize(file_id='AgACAgIAAxkBAAItUGjahaUZ8sD8Hcj4eR0C0yas3KleAAIK9zEbClzQSlMQzce_iIAMAQADAgADcwADNgQ', file_unique_id='AQADCvcxGwpc0Ep4', width=90, height=51, file_size=1600), PhotoSize(file_id='AgACAgIAAxkBAAItUGjahaUZ8sD8Hcj4eR0C0yas3KleAAIK9zEbClzQSlMQzce_iIAMAQADAgADbQADNgQ', file_unique_id='AQADCvcxGwpc0Epy', width=320, height=183, file_size=18023), PhotoSize(file_id='AgACAgIAAxkBAAItUGjahaUZ8sD8Hcj4eR0C0yas3KleAAIK9zEbClzQSlMQzce_iIAMAQADAgADeAADNgQ', file_unique_id='AQADCvcxGwpc0Ep9', width=800, height=457, file_size=68085), PhotoSize(file_id='AgACAgIAAxkBAAItUGjahaUZ8sD8Hcj4eR0C0yas3KleAAIK9zEbClzQSlMQzce_iIAMAQADAgADeQADNgQ', file_unique_id='AQADCvcxGwpc0Ep-', width=1280, height=731, file_size=122214)], file_id: AgACAgIAAxkBAAItUGjahaUZ8sD8Hcj4eR0C0yas3KleAAIK9zEbClzQSlMQzce_iIAMAQADAgADeQADNgQ
+DEBUG    2025-09-29 16:16:23,984 [bot] (user_request_handlers.py).creating_request_save(40) Получаю все data state
+ERROR    2025-09-29 16:16:23,984 [bot] (user_request_handlers.py).creating_request_save(90) Не получилось сохранить заявку: invalid literal for int() with base 10: 'В'
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\handlers\user\user_request_handlers.py", line 64, in creating_request_save
+    folder_path = create_folder(user_folder)
+  File "E:\python\bots\lawyer_bot\utils\save_docs.py", line 60, in create_folder
+    name_folder, folder_count = folder_path.split("_")[:-1], int(folder_path.split("_")[-1]) + count
+                                                             ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'В'
+DEBUG    2025-09-29 16:16:23,986 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-29 16:16:23,986 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-29 16:36:06,032 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-29 16:36:06,196 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-29 16:36:08,908 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-29 16:36:09,355 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-29 16:36:10,088 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-29 16:36:12,421 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-29 16:36:12,422 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-29 16:36:12,422 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-29 16:36:15,025 [bot] (contract.py).creating_contract(21) Current state data: {}
+DEBUG    2025-09-29 16:36:15,025 [bot] (contract.py).creating_contract(22) contract in data: None
+DEBUG    2025-09-29 16:36:22,011 [bot] (acc_screenshot.py).creating_request_acc_screenshot(21) Current state data: {'contract': 'BQACAgIAAxkBAAIteWjai1XhM-NyfpQc2_Xt9jUEdA-8AAJufwACClzQSl9BNyhDhRVbNgQ'}
+DEBUG    2025-09-29 16:36:22,011 [bot] (acc_screenshot.py).creating_request_acc_screenshot(22) acc_screenshot in data: None
+DEBUG    2025-09-29 16:36:26,542 [bot] (acc_screenshot.py).creating_request_acc_screenshot_save(48) сохраняю скрин лк
+DEBUG    2025-09-29 16:36:26,705 [bot] (acc_screenshot.py).creating_request_acc_screenshot_save(64) получен скрин: None, file_id: AgACAgIAAxkBAAItfGjai1vZXkxBY7rpIIySkH-76bc6AAIK9zEbClzQSlMQzce_iIAMAQADAgADeQADNgQ
+DEBUG    2025-09-29 16:36:32,828 [bot] (personal_pass.py).creating_request_pass_save(56) получен скрин лк: [PhotoSize(file_id='AgACAgIAAxkBAAItf2jai2HWFJR0IJ5CXKyRjQKc5AiXAAKN9TEbClzQSk6WLryh3qv8AQADAgADcwADNgQ', file_unique_id='AQADjfUxGwpc0Ep4', width=90, height=78, file_size=944), PhotoSize(file_id='AgACAgIAAxkBAAItf2jai2HWFJR0IJ5CXKyRjQKc5AiXAAKN9TEbClzQSk6WLryh3qv8AQADAgADbQADNgQ', file_unique_id='AQADjfUxGwpc0Epy', width=320, height=279, file_size=13366), PhotoSize(file_id='AgACAgIAAxkBAAItf2jai2HWFJR0IJ5CXKyRjQKc5AiXAAKN9TEbClzQSk6WLryh3qv8AQADAgADeAADNgQ', file_unique_id='AQADjfUxGwpc0Ep9', width=596, height=520, file_size=33648)], file_id: AgACAgIAAxkBAAItf2jai2HWFJR0IJ5CXKyRjQKc5AiXAAKN9TEbClzQSk6WLryh3qv8AQADAgADeAADNgQ
+DEBUG    2025-09-29 16:36:38,565 [bot] (extract.py).creating_request_extract_save(61) получена выписка ИЛС: file_id: AgACAgIAAxkBAAItgmjai2ctuuwjSD8klPSF64gzp444AAKK9TEbClzQSjB3Y92QapkYAQADAgADeQADNgQ
+DEBUG    2025-09-29 16:36:45,775 [bot] (ndfl.py).creating_request_ndfl_save(60) получен НДФЛ: file_id: BQACAgIAAxkBAAIthWjai25Ve09Z6rwuJpBJwBRHhJ0QAAJ0fwACClzQSkc9tGy8NahYNgQ
+DEBUG    2025-09-29 16:36:51,706 [bot] (record.py).creating_request_record_book_save(58) получен трудовой книжки: [PhotoSize(file_id='AgACAgIAAxkBAAItf2jai2HWFJR0IJ5CXKyRjQKc5AiXAAKN9TEbClzQSk6WLryh3qv8AQADAgADcwADNgQ', file_unique_id='AQADjfUxGwpc0Ep4', width=90, height=78, file_size=944), PhotoSize(file_id='AgACAgIAAxkBAAItf2jai2HWFJR0IJ5CXKyRjQKc5AiXAAKN9TEbClzQSk6WLryh3qv8AQADAgADbQADNgQ', file_unique_id='AQADjfUxGwpc0Epy', width=320, height=279, file_size=13366), PhotoSize(file_id='AgACAgIAAxkBAAItf2jai2HWFJR0IJ5CXKyRjQKc5AiXAAKN9TEbClzQSk6WLryh3qv8AQADAgADeAADNgQ', file_unique_id='AQADjfUxGwpc0Ep9', width=596, height=520, file_size=33648)], file_id: AgACAgIAAxkBAAItf2jai2HWFJR0IJ5CXKyRjQKc5AiXAAKN9TEbClzQSk6WLryh3qv8AQADAgADeAADNgQ
+DEBUG    2025-09-29 16:36:54,943 [bot] (user_request_handlers.py).creating_request_save(40) Получаю все data state
+INFO     2025-09-29 16:36:54,947 [bot] (save_docs.py).create_folder(69) Создана папка clients\Макушина_М_В_2
+ERROR    2025-09-29 16:36:54,947 [bot] (user_request_handlers.py).creating_request_save(90) Не получилось сохранить заявку: 'str' object has no attribute 'get'
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\handlers\user\user_request_handlers.py", line 66, in creating_request_save
+    file_paths = await save_all_docs(bot, folder_path, docs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\utils\save_docs.py", line 170, in save_all_docs
+    if doc_data.get('zip'):
+       ^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+DEBUG    2025-09-29 16:36:54,955 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-29 16:36:54,955 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-29 19:02:03,510 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-29 19:02:03,664 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-29 19:02:06,283 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-29 19:02:06,733 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-29 19:02:06,918 [bot] (commands.py).set_commands(22) Установил команды
+WARNING  2025-09-29 19:03:00,023 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-29 19:03:02,545 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-29 19:03:03,089 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-29 19:03:03,323 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-29 19:03:30,948 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-29 19:03:30,949 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-29 19:03:30,949 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-29 19:03:33,409 [bot] (contract.py).creating_contract(21) Current state data: {}
+DEBUG    2025-09-29 19:03:33,409 [bot] (contract.py).creating_contract(22) contract in data: None
+DEBUG    2025-09-29 19:03:40,604 [bot] (acc_screenshot.py).creating_request_acc_screenshot(21) Current state data: {'contract': 'BQACAgIAAxkBAAItkGjardwhoORjq-chXfmspkgm8LHrAAJvggACClzQSriYGk9JB6RLNgQ'}
+DEBUG    2025-09-29 19:03:40,604 [bot] (acc_screenshot.py).creating_request_acc_screenshot(22) acc_screenshot in data: None
+DEBUG    2025-09-29 19:03:46,773 [bot] (acc_screenshot.py).creating_request_acc_screenshot_save(48) сохраняю скрин лк
+DEBUG    2025-09-29 19:03:46,933 [bot] (acc_screenshot.py).creating_request_acc_screenshot_save(64) получен скрин: None, file_id: AgACAgIAAxkBAAItk2jareP2T3f5_ylADl43_DPjN_I_AAL3-DEbClzQSl6OmIgOKBzIAQADAgADeQADNgQ
+DEBUG    2025-09-29 19:03:54,116 [bot] (personal_pass.py).creating_request_pass_save(56) получен скрин лк: [PhotoSize(file_id='AgACAgIAAxkBAAItlmjareqXuV57zPfPd22S24ZcH-IFAAL5-DEbClzQSuf0lp7EUDabAQADAgADcwADNgQ', file_unique_id='AQAD-fgxGwpc0Ep4', width=90, height=51, file_size=1475), PhotoSize(file_id='AgACAgIAAxkBAAItlmjareqXuV57zPfPd22S24ZcH-IFAAL5-DEbClzQSuf0lp7EUDabAQADAgADbQADNgQ', file_unique_id='AQAD-fgxGwpc0Epy', width=320, height=183, file_size=17639), PhotoSize(file_id='AgACAgIAAxkBAAItlmjareqXuV57zPfPd22S24ZcH-IFAAL5-DEbClzQSuf0lp7EUDabAQADAgADeAADNgQ', file_unique_id='AQAD-fgxGwpc0Ep9', width=800, height=457, file_size=72057), PhotoSize(file_id='AgACAgIAAxkBAAItlmjareqXuV57zPfPd22S24ZcH-IFAAL5-DEbClzQSuf0lp7EUDabAQADAgADeQADNgQ', file_unique_id='AQAD-fgxGwpc0Ep-', width=1280, height=731, file_size=136128)], file_id: AgACAgIAAxkBAAItlmjareqXuV57zPfPd22S24ZcH-IFAAL5-DEbClzQSuf0lp7EUDabAQADAgADeQADNgQ
+DEBUG    2025-09-29 19:04:02,532 [bot] (extract.py).creating_request_extract_save(61) получена выписка ИЛС: file_id: AgACAgIAAxkBAAItmWjarfOC020AAVp-NPsr1ZB5cmDmWQAC-vgxGwpc0Eq6nmdGZ0JyWQEAAwIAA3gAAzYE
+DEBUG    2025-09-29 19:05:18,364 [bot] (ndfl.py).creating_request_ndfl_save(60) получен НДФЛ: file_id: BQACAgIAAxkBAAItnGjarj9QB0cl1yGiJ4A7WcWJKQxIAAJ9ggACClzQSni9BW9SZsQiNgQ
+DEBUG    2025-09-29 19:05:24,568 [bot] (record.py).creating_request_record_book_save(58) получен трудовой книжки: [PhotoSize(file_id='AgACAgIAAxkBAAItmWjarfOC020AAVp-NPsr1ZB5cmDmWQAC-vgxGwpc0Eq6nmdGZ0JyWQEAAwIAA3MAAzYE', file_unique_id='AQAD-vgxGwpc0Ep4', width=90, height=78, file_size=944), PhotoSize(file_id='AgACAgIAAxkBAAItmWjarfOC020AAVp-NPsr1ZB5cmDmWQAC-vgxGwpc0Eq6nmdGZ0JyWQEAAwIAA20AAzYE', file_unique_id='AQAD-vgxGwpc0Epy', width=320, height=279, file_size=13366), PhotoSize(file_id='AgACAgIAAxkBAAItmWjarfOC020AAVp-NPsr1ZB5cmDmWQAC-vgxGwpc0Eq6nmdGZ0JyWQEAAwIAA3gAAzYE', file_unique_id='AQAD-vgxGwpc0Ep9', width=596, height=520, file_size=33648)], file_id: AgACAgIAAxkBAAItmWjarfOC020AAVp-NPsr1ZB5cmDmWQAC-vgxGwpc0Eq6nmdGZ0JyWQEAAwIAA3gAAzYE
+DEBUG    2025-09-29 19:05:26,433 [bot] (user_request_handlers.py).creating_request_save(40) Получаю все data state
+INFO     2025-09-29 19:05:26,435 [bot] (save_docs.py).create_folder(69) Создана папка clients\Макушина_М_В_3
+INFO     2025-09-29 19:05:26,593 [bot] (save_docs.py).save_doc(105) Файл contract.pdf сохранен в clients\Макушина_М_В_3
+INFO     2025-09-29 19:05:26,812 [bot] (save_docs.py).save_doc(105) Файл screenshot.jpg сохранен в clients\Макушина_М_В_3
+INFO     2025-09-29 19:05:26,943 [bot] (save_docs.py).save_doc(105) Файл personal_pass.jpg сохранен в clients\Макушина_М_В_3
+INFO     2025-09-29 19:05:27,063 [bot] (save_docs.py).save_doc(105) Файл extract.jpg сохранен в clients\Макушина_М_В_3
+INFO     2025-09-29 19:05:27,541 [bot] (save_docs.py).save_doc(105) Файл ndfl.zip сохранен в clients\Макушина_М_В_3
+ERROR    2025-09-29 19:05:27,591 [bot] (save_docs.py).save_doc(109) Ошибка при сохранении файла temp_archive: 1 validation error for GetFile
+file_id
+  Input should be a valid string [type=string_type, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+INFO     2025-09-29 19:05:27,591 [bot] (save_docs.py).save_all_docs(174) Сохранен ZIP архив zip_ndfl: 0 файлов
+INFO     2025-09-29 19:05:27,692 [bot] (save_docs.py).save_doc(105) Файл record.jpg сохранен в clients\Макушина_М_В_3
+INFO     2025-09-29 19:05:27,696 [bot] (user_request_handlers.py).creating_request_save(78) Новый запрос по отпускным
+INFO     2025-09-29 19:05:28,202 [bot] (send_messages.py)._send_notification(36) Попытка отправки админу 2
+DEBUG    2025-09-29 19:05:28,328 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-29 19:05:28,328 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-29 22:04:00,813 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: CreateRequest:wait_extract
+DEBUG    2025-09-29 22:04:10,872 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: UserState:all_requests
+DEBUG    2025-09-29 22:04:10,873 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-29 22:04:10,873 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-29 22:41:48,325 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-29 22:41:48,557 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-30 13:31:43,753 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-30 13:31:46,307 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-30 13:31:46,657 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-30 13:32:27,745 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-30 13:32:27,747 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-30 13:32:27,747 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-30 13:32:36,602 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: UserState:all_requests
+DEBUG    2025-09-30 13:32:36,604 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-30 13:32:36,604 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-30 13:32:53,307 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-30 13:32:56,855 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-30 13:32:57,641 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-30 13:32:57,836 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-30 13:32:59,789 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-30 13:32:59,792 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-30 13:32:59,792 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-30 13:33:22,035 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-30 13:33:25,218 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-30 13:33:25,848 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-30 13:33:26,022 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-30 13:33:27,762 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-30 13:33:27,764 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-30 13:33:27,765 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-30 13:33:49,339 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-30 13:33:52,568 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-30 13:33:53,288 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-30 13:33:53,477 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-30 13:33:54,977 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-30 13:33:54,980 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-30 13:33:54,980 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-30 13:34:51,677 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-30 13:34:54,892 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-30 13:34:55,609 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-30 13:34:55,804 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-30 13:34:57,453 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-30 13:34:57,456 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-30 13:34:57,456 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-30 13:37:04,632 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-30 13:37:08,171 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-30 13:37:09,003 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-30 13:37:09,222 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-30 13:37:11,751 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-30 13:37:11,753 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-30 13:37:11,754 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-30 13:37:42,921 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-30 13:37:46,095 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-30 13:37:46,668 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-30 13:37:46,833 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-30 13:37:54,384 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-30 13:37:54,386 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-30 13:37:54,386 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-30 13:38:43,058 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: UserState:all_requests
+DEBUG    2025-09-30 13:38:43,061 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-30 13:38:43,061 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-30 13:39:08,947 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: UserState:all_requests
+DEBUG    2025-09-30 13:39:08,948 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-30 13:39:08,948 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-30 13:40:00,696 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-30 13:40:04,282 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-30 13:40:05,059 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-30 13:40:05,330 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-30 13:40:07,983 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-30 13:40:07,985 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-30 13:40:07,986 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-30 13:42:50,451 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-30 13:42:50,645 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-30 13:42:53,775 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-30 13:42:54,406 [bot] (start_handlers.py).seed_admin(27) Проверка: seed_admin вызвана
+INFO     2025-09-30 13:42:54,625 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-30 13:43:34,999 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-30 13:43:35,001 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-30 13:43:35,001 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-30 13:43:36,766 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-30 13:43:36,766 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-30 13:43:51,531 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-30 13:43:51,531 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+ERROR    2025-09-30 13:43:51,612 [bot] (user_request_handlers.py).creating_request(45) Ошибка при проверке данных для создания новой заявки, Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\handlers\user\user_request_handlers.py", line 40, in creating_request
+    await call.message.edit_text(text="У вас есть необработанная заявка.\n"
+                                      "Дождитесь ее рассмотрения юристом.",
+                                 reply_markup=await inline_menu_kb(call.from_user.id))
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiogram\client\bot.py", line 478, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+        bot=bot, method=method, status_code=resp.status, content=raw_result
+    )
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+INFO     2025-09-30 13:44:00,048 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-30 13:44:00,050 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-30 13:44:00,050 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-30 13:44:10,926 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-30 13:44:10,926 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+INFO     2025-09-30 13:44:23,033 [bot] (start_handlers.py).get_start(69) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-30 13:44:23,035 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-30 13:44:23,035 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-30 13:50:28,986 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-30 13:50:32,558 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-30 13:50:33,199 [bot] (start_handlers.py).seed_admin(28) Проверка: seed_admin вызвана
+INFO     2025-09-30 13:50:33,366 [bot] (commands.py).set_commands(22) Установил команды
+WARNING  2025-09-30 13:50:37,332 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-30 13:50:40,797 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-30 13:50:41,551 [bot] (start_handlers.py).seed_admin(28) Проверка: seed_admin вызвана
+INFO     2025-09-30 13:50:41,817 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-30 13:50:43,821 [bot] (start_handlers.py).get_start(71) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-30 13:50:43,823 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-30 13:50:43,823 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+ERROR    2025-09-30 13:50:46,416 [bot] (user_request_handlers.py).creating_request(48) Ошибка при проверке данных для создания новой заявки, 1 validation error for SendMessage
+text
+  Input should be a valid string [type=string_type, input_value=Message(message_id=11724,...=None, user_shared=None), input_type=Message]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\handlers\user\user_request_handlers.py", line 43, in creating_request
+    await bot.send_message(chat_id=call.from_user.id, text=message)
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiogram\client\bot.py", line 2832, in send_message
+    call = SendMessage(
+        chat_id=chat_id,
+    ...<14 lines>...
+        reply_to_message_id=reply_to_message_id,
+    )
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\pydantic\main.py", line 253, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+pydantic_core._pydantic_core.ValidationError: 1 validation error for SendMessage
+text
+  Input should be a valid string [type=string_type, input_value=Message(message_id=11724,...=None, user_shared=None), input_type=Message]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+WARNING  2025-09-30 13:58:53,735 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-30 13:58:53,920 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-30 13:58:57,530 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-30 13:58:58,411 [bot] (start_handlers.py).seed_admin(28) Проверка: seed_admin вызвана
+INFO     2025-09-30 13:58:58,898 [bot] (commands.py).set_commands(22) Установил команды
+WARNING  2025-09-30 14:00:18,805 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-30 14:00:22,025 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-30 14:00:22,699 [bot] (start_handlers.py).seed_admin(28) Проверка: seed_admin вызвана
+INFO     2025-09-30 14:00:23,016 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-30 14:00:25,084 [bot] (start_handlers.py).get_start(70) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-30 14:00:25,086 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-30 14:00:25,086 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+INFO     2025-09-30 14:00:26,856 [bot] (start_handlers.py).get_start(70) Зарегистрированный пользователь взаимодействует с ботом 7693453113
+ERROR    2025-09-30 14:00:26,857 [bot] (get_user.py).get_role_user(41) Ошибка, Юзер не зарегистрирован: 7693453113
+DEBUG    2025-09-30 14:00:26,858 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: None
+ERROR    2025-09-30 14:00:26,923 [bot] (start_handlers.py).get_start(84) Ошибка при создании админа Telegram server says - Forbidden: bots can't send messages to bots
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\handlers\user\start_handlers.py", line 72, in get_start
+    await bot.send_message(message.from_user.id,
+    ...<7 lines>...
+                           parse_mode='Markdown')
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiogram\client\bot.py", line 2850, in send_message
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiogram\client\bot.py", line 478, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+        bot=bot, method=method, status_code=resp.status, content=raw_result
+    )
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiogram\client\session\base.py", line 128, in check_response
+    raise TelegramForbiddenError(method=method, message=description)
+aiogram.exceptions.TelegramForbiddenError: Telegram server says - Forbidden: bots can't send messages to bots
+WARNING  2025-09-30 14:01:48,192 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-30 14:01:51,646 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-30 14:01:52,301 [bot] (start_handlers.py).seed_admin(28) Проверка: seed_admin вызвана
+INFO     2025-09-30 14:01:52,473 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-30 14:01:54,332 [bot] (start_handlers.py).get_start(70) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-30 14:01:54,333 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-30 14:01:54,334 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+INFO     2025-09-30 14:01:55,720 [bot] (start_handlers.py).get_start(70) Зарегистрированный пользователь взаимодействует с ботом 7693453113
+ERROR    2025-09-30 14:01:55,722 [bot] (get_user.py).get_role_user(41) Ошибка, Юзер не зарегистрирован: 7693453113
+DEBUG    2025-09-30 14:01:55,723 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: None
+ERROR    2025-09-30 14:01:55,805 [bot] (start_handlers.py).get_start(84) Ошибка при создании админа Telegram server says - Forbidden: bots can't send messages to bots
+Traceback (most recent call last):
+  File "E:\python\bots\lawyer_bot\handlers\user\start_handlers.py", line 72, in get_start
+    await bot.send_message(message.from_user.id,
+    ...<7 lines>...
+                           parse_mode='Markdown')
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiogram\client\bot.py", line 2850, in send_message
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiogram\client\bot.py", line 478, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+        bot=bot, method=method, status_code=resp.status, content=raw_result
+    )
+  File "E:\python\bots\lawyer_bot\venv\Lib\site-packages\aiogram\client\session\base.py", line 128, in check_response
+    raise TelegramForbiddenError(method=method, message=description)
+aiogram.exceptions.TelegramForbiddenError: Telegram server says - Forbidden: bots can't send messages to bots
+WARNING  2025-09-30 14:06:38,889 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-30 14:06:42,459 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-30 14:06:43,238 [bot] (start_handlers.py).seed_admin(28) Проверка: seed_admin вызвана
+INFO     2025-09-30 14:06:43,466 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-30 14:06:47,186 [bot] (start_handlers.py).get_start(70) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-30 14:06:47,188 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-30 14:06:47,188 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+INFO     2025-09-30 14:06:51,556 [bot] (start_handlers.py).get_start(70) Зарегистрированный пользователь взаимодействует с ботом 7693453113
+ERROR    2025-09-30 14:06:51,558 [bot] (get_user.py).get_role_user(41) Ошибка, Юзер не зарегистрирован: 7693453113
+DEBUG    2025-09-30 14:06:51,558 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: None
+DEBUG    2025-09-30 14:07:04,283 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: UserState:all_requests
+DEBUG    2025-09-30 14:07:04,285 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-30 14:07:04,286 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+INFO     2025-09-30 14:07:06,263 [bot] (start_handlers.py).get_start(70) Зарегистрированный пользователь взаимодействует с ботом 7693453113
+ERROR    2025-09-30 14:07:06,265 [bot] (get_user.py).get_role_user(41) Ошибка, Юзер не зарегистрирован: 7693453113
+DEBUG    2025-09-30 14:07:06,266 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: None
+INFO     2025-09-30 14:07:11,938 [bot] (start_handlers.py).get_start(70) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-30 14:07:11,940 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-30 14:07:11,940 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+INFO     2025-09-30 14:07:43,446 [bot] (start_handlers.py).get_start(70) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-30 14:07:43,449 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-30 14:07:43,449 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+INFO     2025-09-30 14:07:48,116 [bot] (start_handlers.py).get_start(70) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-30 14:07:48,117 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-30 14:07:48,117 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-30 14:07:53,343 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: UserState:all_requests
+DEBUG    2025-09-30 14:07:53,345 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-30 14:07:53,346 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-30 14:07:55,377 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: MenuState:admin_menu
+DEBUG    2025-09-30 14:07:55,379 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-30 14:07:55,379 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-30 14:07:59,497 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: UserState:all_requests
+DEBUG    2025-09-30 14:07:59,500 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-30 14:07:59,500 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+INFO     2025-09-30 14:08:01,315 [bot] (start_handlers.py).get_start(70) Зарегистрированный пользователь взаимодействует с ботом 7693453113
+ERROR    2025-09-30 14:08:01,317 [bot] (get_user.py).get_role_user(41) Ошибка, Юзер не зарегистрирован: 7693453113
+DEBUG    2025-09-30 14:08:01,318 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: None
+INFO     2025-09-30 14:09:09,280 [bot] (start_handlers.py).get_start(70) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-30 14:09:09,281 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-30 14:09:09,282 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+INFO     2025-09-30 14:09:11,078 [bot] (start_handlers.py).get_start(70) Зарегистрированный пользователь взаимодействует с ботом 7693453113
+ERROR    2025-09-30 14:09:11,080 [bot] (get_user.py).get_role_user(41) Ошибка, Юзер не зарегистрирован: 7693453113
+DEBUG    2025-09-30 14:09:11,081 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: None
+WARNING  2025-09-30 14:09:48,845 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-09-30 14:09:49,024 [bot] (main.py).<module>(43) Помощник завершены
+INFO     2025-09-30 14:09:52,489 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-30 14:09:53,241 [bot] (start_handlers.py).seed_admin(28) Проверка: seed_admin вызвана
+INFO     2025-09-30 14:09:53,417 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-30 14:09:56,352 [bot] (start_handlers.py).get_start(70) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-30 14:09:56,355 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-30 14:09:56,355 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-30 14:10:36,476 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-30 14:10:40,196 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-30 14:10:41,038 [bot] (start_handlers.py).seed_admin(28) Проверка: seed_admin вызвана
+INFO     2025-09-30 14:10:41,288 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-30 14:10:42,870 [bot] (start_handlers.py).get_start(70) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-30 14:10:42,874 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-30 14:10:42,874 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-30 14:11:14,975 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-30 14:11:18,782 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-30 14:11:19,508 [bot] (start_handlers.py).seed_admin(28) Проверка: seed_admin вызвана
+INFO     2025-09-30 14:11:19,754 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-30 14:11:21,476 [bot] (start_handlers.py).get_start(70) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-30 14:11:21,480 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-30 14:11:21,481 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-30 14:11:37,900 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: UserState:request
+DEBUG    2025-09-30 14:11:37,901 [bot] (back_handler.py).back(82) список сообщений для удаления: [11763, 11764, 11765, 11766, 11767, 11768]
+DEBUG    2025-09-30 14:11:45,373 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: UserState:request
+DEBUG    2025-09-30 14:11:45,373 [bot] (back_handler.py).back(82) список сообщений для удаления: [11769, 11771, 11772, 11773, 11774, 11775]
+DEBUG    2025-09-30 14:11:54,367 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: UserState:request
+DEBUG    2025-09-30 14:11:54,368 [bot] (back_handler.py).back(82) список сообщений для удаления: [11776, 11778, 11779, 11780, 11781, 11782, 11783]
+DEBUG    2025-09-30 14:11:56,035 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: UserState:all_requests
+DEBUG    2025-09-30 14:11:56,040 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-30 14:11:56,040 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-30 14:14:10,576 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-30 14:14:14,565 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-30 14:14:15,289 [bot] (start_handlers.py).seed_admin(28) Проверка: seed_admin вызвана
+INFO     2025-09-30 14:14:15,538 [bot] (commands.py).set_commands(22) Установил команды
+WARNING  2025-09-30 14:15:05,685 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-30 14:15:09,160 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-30 14:15:09,859 [bot] (start_handlers.py).seed_admin(28) Проверка: seed_admin вызвана
+INFO     2025-09-30 14:15:10,058 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-30 14:15:11,393 [bot] (start_handlers.py).get_start(70) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-30 14:15:11,395 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-30 14:15:11,395 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+INFO     2025-09-30 14:15:21,500 [bot] (start_handlers.py).get_start(70) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-30 14:15:21,501 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-30 14:15:21,501 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+INFO     2025-09-30 14:16:07,654 [bot] (start_handlers.py).get_start(70) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-30 14:16:07,658 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-30 14:16:07,659 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+INFO     2025-09-30 14:16:17,405 [bot] (start_handlers.py).get_start(70) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-30 14:16:17,409 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-30 14:16:17,410 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-30 14:16:28,299 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-30 14:16:32,154 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-30 14:16:32,929 [bot] (start_handlers.py).seed_admin(28) Проверка: seed_admin вызвана
+INFO     2025-09-30 14:16:33,151 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-30 14:16:39,984 [bot] (start_handlers.py).get_start(70) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-30 14:16:39,988 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-30 14:16:39,989 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-30 14:16:44,434 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: UserState:all_requests
+DEBUG    2025-09-30 14:16:44,436 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-30 14:16:44,436 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-30 14:17:07,425 [bot] (back_handler.py).back(31) Начало обработки back. Текущее состояние: UserState:all_requests
+DEBUG    2025-09-30 14:17:07,427 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-30 14:17:07,428 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-09-30 14:18:56,227 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-09-30 14:18:59,391 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-09-30 14:18:59,892 [bot] (start_handlers.py).seed_admin(28) Проверка: seed_admin вызвана
+INFO     2025-09-30 14:19:00,123 [bot] (commands.py).set_commands(22) Установил команды
+INFO     2025-09-30 14:19:03,264 [bot] (start_handlers.py).get_start(70) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-09-30 14:19:03,265 [bot] (get_user.py).get_role_user(34) Возврат роли: 484385628, admin
+DEBUG    2025-09-30 14:19:03,265 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-09-30 14:19:05,619 [bot] (back_handler.py).back(32) Начало обработки back. Текущее состояние: UserState:all_requests
+INFO     2025-09-30 14:19:05,619 [bot] (start_handlers.py).get_start(70) Зарегистрированный пользователь взаимодействует с ботом 7693453113
+ERROR    2025-09-30 14:19:05,620 [bot] (get_user.py).get_role_user(41) Ошибка, Юзер не зарегистрирован: 7693453113
+DEBUG    2025-09-30 14:19:05,620 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: None
+DEBUG    2025-09-30 14:19:19,323 [bot] (back_handler.py).back(32) Начало обработки back. Текущее состояние: UserState:all_requests
+INFO     2025-09-30 14:19:19,324 [bot] (start_handlers.py).get_start(70) Зарегистрированный пользователь взаимодействует с ботом 7693453113
+ERROR    2025-09-30 14:19:19,325 [bot] (get_user.py).get_role_user(41) Ошибка, Юзер не зарегистрирован: 7693453113
+DEBUG    2025-09-30 14:19:19,325 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: None
+WARNING  2025-09-30 14:19:25,925 [bot] (main.py).start_bot(21) Бот закрыт

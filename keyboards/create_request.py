@@ -1,7 +1,8 @@
 from aiogram.types import InlineKeyboardButton
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 
-from utils.save_docs import get_docs_from_state, expected_docs
+from services.config import EXPECTED_DOCS
+from utils.save_docs import get_docs_from_state
 
 
 async def file_for_record(state):
@@ -17,7 +18,7 @@ async def file_for_record(state):
 
     missing_docs = docs_data['missing']
     kb = InlineKeyboardBuilder()
-    for call, name in expected_docs.items():
+    for call, name in EXPECTED_DOCS.items():
         for doc in missing_docs:
             if doc in name:
                 kb.button(text=name, callback_data=call)

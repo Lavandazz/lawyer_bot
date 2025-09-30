@@ -9,6 +9,7 @@ from database.models_db import User
 from handlers.user.registeration import start_registration_user
 from keyboards.menu_keyboard import inline_menu_kb
 from keyboards.register_keyboard import get_phone_keyboard
+from states.menu_states import MenuState
 
 from utils.config import SUPERADMIN, TEL
 from utils.generator_text import generate_day_or_night
@@ -45,7 +46,7 @@ async def seed_admin():
         bot_logger.exception(f'Ошибка при создании админа {e}')
 
 
-async def get_start(message: Message, bot: Bot, new_user: bool, state: FSMContext):
+async def get_start(message: Message, new_user: bool, state: FSMContext):
     """
     Хендлер команды /start.
     1. Если new_user == True — отправляет уведомление супер-админу о регистрации нового пользователя.
@@ -60,23 +61,35 @@ async def get_start(message: Message, bot: Bot, new_user: bool, state: FSMContex
     time_message = message.date
     # Преобразуем часовой пояс (+3 часа для Москвы)
     local_time = time_message.replace(tzinfo=timezone.utc).astimezone(tz=None)  # определяет локальный пояс
-    try:
 
+    try:
         if new_user:
             await start_registration_user(chat_id=message.from_user.id, state=state)
 
         else:
             bot_logger.info(f"Зарегистрированный пользователь взаимодействует с ботом {message.from_user.id}")
 
-            await bot.send_message(message.from_user.id,
-                                   f"{generate_day_or_night(local_time.hour)}\n\n"
-                                        f"Главное меню.\n\n"
-                                        f"Кнопка - *Начать запрос* - переводит бота в режим принятия документов.\n"
-                                        f"Пожалуйста, перед началом работы, ознакомьтесь с инструкцией для работы с ботом "
-                                        f"по команде /help.\n\n"
-                                        f"*Мои запросы* - Ваш личный кабинет, где отображаются все Ваши запросы.",
-                                   reply_markup=await inline_menu_kb(message.from_user.id),
-                                   parse_mode='Markdown')
+            # await bot.send_message(message.from_user.id,
+            #                        f"{generate_day_or_night(local_time.hour)}\n\n"
+            #                             f"Главное меню.\n\n"
+            #                             f"Кнопка - *Начать запрос* - переводит бота в режим принятия документов.\n"
+            #                             f"Пожалуйста, перед началом работы, ознакомьтесь с инструкцией для работы с ботом "
+            #                             f"по команде /help.\n\n"
+            #                             f"*Мои запросы* - Ваш личный кабинет, где отображаются все Ваши запросы.",
+            #                        reply_markup=await inline_menu_kb(message.from_user.id),
+            #                        parse_mode='Markdown')
+
+            await message.answer(text=
+                f"{generate_day_or_night(local_time.hour)}\n\n"
+                f"🔈 Главное меню.\n\n"
+                f"Кнопка - *Начать запрос* - переводит бота в режим принятия документов.\n"
+                f"Пожалуйста, перед началом работы, ознакомьтесь с инструкцией для работы с ботом "
+                f"по команде /help.\n\n"
+                f"*Мои запросы* - Ваш личный кабинет, где отображаются все Ваши запросы.",
+                reply_markup=await inline_menu_kb(message.from_user.id),
+                parse_mode='Markdown'
+            )
+            await state.set_state(MenuState.main_menu)
 
     except Exception as e:
         bot_logger.exception(f'Ошибка при создании админа {e}')

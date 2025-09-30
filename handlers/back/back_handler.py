@@ -7,6 +7,7 @@ from aiogram.types import CallbackQuery
 
 from database.models_db import SalaryRequest
 from handlers.admin.users_requests import show_requests
+from handlers.user.start_handlers import get_start
 from handlers.user.user_lk_requests import user_lk
 from keyboards.admin_keyboards import admin_kb, requests_kb
 from keyboards.create_request import file_for_record
@@ -34,7 +35,7 @@ async def back(call: CallbackQuery, state: FSMContext, bot: Bot, role: str):
     if current_state in {MenuState.admin_menu, UserState.all_requests}:
         await state.set_state(MenuState.main_menu)
         await call.message.edit_text(
-            text=f"*Главное меню.*\n\n"
+            text=f"*🔈 Главное меню.*\n\n"
                  f"Кнопка - *Начать запрос* - переводит бота в режим принятия документов.\n"
                  f"Пожалуйста, перед началом работы, ознакомьтесь с инструкцией по команде /help.\n\n"
                  f"Ниже Вы можете зайти в личный кабинет, где отображаются все Ваши запросы.",

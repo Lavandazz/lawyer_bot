@@ -31,6 +31,7 @@ class FileDetector:
             self._file_id = self.message.document.file_id
             self._file_type = DICT_TYPE.get(self.message.document.file_name.split(".")[1])
 
+
         elif self.message.photo:
             self._file_id = self.message.photo[-1].file_id
             self._file_type = "image"
@@ -46,5 +47,9 @@ class FileDetector:
     # Метод для проверки, является ли сообщение файлом
     def is_file(self):
         return bool(self.message.document or self.message.photo)
+
+    def is_zip(self):
+        """Проверяем, это ZIP архив или нет"""
+        return self.file_type == "zip"
 
 
