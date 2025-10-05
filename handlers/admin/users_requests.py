@@ -1,9 +1,9 @@
 import os
 
 from aiogram.fsm.context import FSMContext
-from aiogram.types import CallbackQuery, FSInputFile, InputMediaPhoto, InlineKeyboardMarkup, InlineKeyboardButton
+from aiogram.types import CallbackQuery, FSInputFile, InputMediaPhoto
 
-from database.models_db import SalaryRequest
+from database.config import RequestStatus
 from keyboards.admin_keyboards import requests_kb
 from keyboards.approval_keyboard import approve_request_kb
 from keyboards.back_keyboard import back_button
@@ -11,6 +11,7 @@ from states.menu_states import AdminMenuState
 from utils.config import bot
 from utils.get_user import admin_only
 from utils.logging_config import bot_logger
+from services.requests import RequestService
 
 
 @admin_only
@@ -24,8 +25,8 @@ async def show_requests(call: CallbackQuery, state: FSMContext, role: str):
     :param role: admin
     :return:
     """
-    requests = await SalaryRequest.all().prefetch_related('user')
-
+    # requests = await SalaryRequest.filter(status=RequestStatus.PENDING).all()
+    requests = await RequestService.get_requests(status=RequestStatus.PENDING)
     if requests:
         await call.message.edit_text(text="Здесь отображены все заявки от пользователей",
                                      reply_markup=await requests_kb(requests, role))
@@ -46,8 +47,8 @@ async def show_user_request(call: CallbackQuery, state: FSMContext, role: str):
     """
     request_id = call.data.split("_")[2]
     try:
-        request = await SalaryRequest.filter(id=request_id).prefetch_related('user').first()
-
+        # request = await SalaryRequest.filter(id=request_id).prefetch_related('user').first()
+        request = await RequestService.get_user_request(request_id=request_id)
         if not request:
             await call.answer("Заявка не найдена")
             return
@@ -78,10 +79,11 @@ async def show_user_request(call: CallbackQuery, state: FSMContext, role: str):
 
         👤 *Пользователь:* {request.user.first_name} {request.user.second_name}
         📞 *Телефон:* {request.user.phone}
-        📅 *Дата:* {request.created_at.strftime('%d.%m.%Y %H:%M')}
-        💬 *Комментарий:* {request.comment or 'Нет'}
+        ✉️ *Телеграм* @{request.user.username} 
+        📆 *Дата:* {request.created_at.strftime('%d.%m.%Y %H:%M')}
+        💬 *Комментарий:* {request.comment if request.comment != "pass" else "Отсутствует"}
 
-        ✅ *Статус:* {'Одобрена' if request.approved else 'На рассмотрении'}"""
+        ✅ *Статус:* {RequestStatus.PENDING.value if RequestStatus.PENDING else 'на рассмотрении'}"""
 
         media_messages_ids = []  # список для медиа сообщений для удаления по кнопке Назад
 
@@ -90,7 +92,7 @@ async def show_user_request(call: CallbackQuery, state: FSMContext, role: str):
             parse_mode='Markdown',
             reply_markup=approve_request_kb(request_id=request.id, user_id=request.user.id))
 
-        media_messages_ids.append(sent_message.message_id)
+        # media_messages_ids.append(sent_message.message_id)
         # 2. Отправляем файлы
         if photos:
             media_group = []
@@ -112,10 +114,6 @@ async def show_user_request(call: CallbackQuery, state: FSMContext, role: str):
                 media_messages_ids.append(sent_message.message_id)  # Добавляем каждый ID в список
 
         await state.update_data(media_message_ids=media_messages_ids)  # сохраняем ключ в data
-
-        await bot.send_message(chat_id=call.from_user.id,
-                               text="Для возврата в меню нажмите на кнопку ниже",
-                               reply_markup=back_button())
 
         await state.set_state(AdminMenuState.request)
 

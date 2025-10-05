@@ -1,6 +1,7 @@
 from aiogram import Dispatcher, F
 from aiogram.filters import Command, StateFilter
 
+from handlers.admin.approve_request import approve_user_request, comment_user_request, reject_user_request
 from handlers.admin.get_statistic_handlers import get_statistic, get_period_statistic, day_statistic, \
     first_day_statistic, second_day_statistic, prev_month, next_month
 from handlers.admin.users_requests import show_requests, show_user_request
@@ -24,7 +25,7 @@ from handlers.cancel_state_handler import cancel_handler
 from handlers.user.user_lk_requests import user_lk, show_my_request
 from handlers.user.user_request_handlers import creating_request, creating_request_save
 
-from states.menu_states import StatsState, CreateRequest, UserState
+from states.menu_states import StatsState, CreateRequest, UserState, ApproveState
 from utils.middleware import RoleMiddleware, StatisticMiddleware
 
 from utils.config import redis_client
@@ -53,6 +54,16 @@ def setup_dispatcher(dp: Dispatcher):
     dp.callback_query.register(get_help_docs, F.data == "what_upload")
     dp.callback_query.register(get_help_how_upload, F.data.startswith("how_"))
     dp.callback_query.register(answer, F.data.startswith("get_"))
+
+    # панель администратора
+    dp.callback_query.register(admin_menu, F.data == "admin_panel")
+    dp.callback_query.register(show_requests, F.data == "requests")
+    dp.callback_query.register(show_user_request, F.data.startswith("admin_request_"))
+    dp.callback_query.register(get_statistic, F.data == 'statistic')
+    # согласование заявки
+    dp.callback_query.register(approve_user_request, F.data.startswith('req_approve_'))
+    dp.callback_query.register(comment_user_request, F.data.startswith("req_reject_"))
+    dp.message.register(reject_user_request, F.text, StateFilter(ApproveState.reject_comment))
 
     # оформление запроса пользователя
     dp.callback_query.register(creating_request, F.data == "start_request")
@@ -84,11 +95,7 @@ def setup_dispatcher(dp: Dispatcher):
 
     dp.callback_query.register(user_lk, F.data == "my_requests")
     dp.callback_query.register(show_my_request, F.data.startswith("user_request_"))
-    # панель администратора
-    dp.callback_query.register(admin_menu, F.data == "admin_panel")
-    dp.callback_query.register(show_requests, F.data == "requests")
-    dp.callback_query.register(show_user_request, F.data.startswith("admin_request_"))
-    dp.callback_query.register(get_statistic, F.data == 'statistic')
+
 
     # # календарь
     dp.callback_query.register(get_period_statistic, F.data.startswith('stat_'))

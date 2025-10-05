@@ -1,7 +1,7 @@
 import asyncio
-from handlers.user.commands import set_commands
 from handlers.dispatcher import setup_dispatcher
 from handlers.user.start_handlers import seed_admin
+from keyboards.set_menu import set_main_menu
 from utils.config import dp, bot
 from database.create_db import init_db, close_db
 from utils.logging_config import bot_logger
@@ -9,7 +9,7 @@ from utils.logging_config import bot_logger
 
 async def start_bot(user_id: int = None):
     """ Запуск бота, при неудаче бот закроется """
-    await set_commands(bot, user_id)
+    await set_main_menu(user_id)
     # Регистрация хэндлеров
     setup_dispatcher(dp)
 
@@ -32,7 +32,6 @@ async def main():
         await start_bot()
     finally:
         await close_db()  # Закроем БД после завершения всех задач
-
 
 
 if __name__ == '__main__':

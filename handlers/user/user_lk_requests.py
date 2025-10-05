@@ -6,6 +6,7 @@ from aiogram.types import CallbackQuery, InputMediaPhoto, FSInputFile
 from database.models_db import User, SalaryRequest
 from keyboards.admin_keyboards import requests_kb
 from keyboards.back_keyboard import back_button
+from services.requests import RequestService
 from states.menu_states import UserState
 from utils.config import bot
 from utils.logging_config import bot_logger
@@ -20,12 +21,13 @@ async def user_lk(call: CallbackQuery, state: FSMContext):
     """
     await state.set_state(UserState.all_requests)
     try:
-        user = await User.get_or_none(telegram_id=call.from_user.id)
-        if user:
-            requests = await user.salary_requests.all()  # получаем заявки по связанной таблице salary_requests
-            await call.message.edit_text(
-                text="Мои заявки",
-                reply_markup=await requests_kb(requests, role="user"))
+        # user = await User.get_or_none(telegram_id=call.from_user.id)
+        # if user:
+        #     requests = await user.salary_requests.all()  # получаем заявки по связанной таблице salary_requests
+        requests = await RequestService.get_user_requests_by_id(telegram_id=call.from_user.id)
+        await call.message.edit_text(
+            text="Мои заявки",
+            reply_markup=await requests_kb(requests, role="user"))
 
     except Exception as e:
         bot_logger.exception(e)
@@ -41,8 +43,8 @@ async def show_my_request(call: CallbackQuery, state: FSMContext):
     """
     request_id = call.data.split("_")[2]
     try:
-        request = await SalaryRequest.filter(id=request_id).prefetch_related('user').first()
-
+        # request = await SalaryRequest.filter(id=request_id).prefetch_related('user').first()
+        request = await RequestService.get_user_request(request_id=request_id)
         if not request:
             await call.answer("Заявка не найдена")
             return
@@ -72,11 +74,10 @@ async def show_my_request(call: CallbackQuery, state: FSMContext):
         message_text = f"""📋 *Заявка №{request.id}*
 
         👤 *Пользователь:* {request.user.first_name} {request.user.second_name}
-        📞 *Телефон:* {request.user.phone}
         📅 *Дата:* {request.created_at.strftime('%d.%m.%Y %H:%M')}
-        💬 *Комментарий:* {request.comment or 'Нет'}
+        💬 *Комментарий:* {request.comment if request.comment else "Комментария нет"}
 
-        ✅ *Статус:* {'Одобрена' if request.approved else 'На рассмотрении'}"""
+        *Статус:* {'✅ Одобрена' if request.RequestStatus.APPROVED else '⏳ На рассмотрении'}"""
 
         media_messages_ids = []  # список для медиа сообщений для удаления по кнопке Назад
 

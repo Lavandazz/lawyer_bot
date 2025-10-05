@@ -4,7 +4,7 @@ from aiogram.exceptions import TelegramBadRequest
 from aiogram.types import CallbackQuery, Message
 from tortoise.exceptions import DoesNotExist
 
-from database.models_db import User
+from database.models_db import User, SalaryRequest
 from utils.logging_config import bot_logger
 
 
@@ -15,6 +15,21 @@ async def is_admin(user_id) -> bool:
         return user.role == 'admin'
     except DoesNotExist:
         return False
+
+
+async def get_user(user_id: int = None, request_id: int = None):
+    """
+    Поиск юзера по айди или id запроса
+    :param user_id:
+    :param request_id:
+    :return:
+    """
+    if request_id:
+        try:
+            request = await SalaryRequest.filter(id=request_id).prefetch_related("user").first()
+            return request.user
+        except Exception as e:
+            bot_logger.exception(f"Не удалось отфильтровать юзера: {e}")
 
 
 async def get_users_from_db(user_role) -> list[dict]:

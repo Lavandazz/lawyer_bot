@@ -1,9 +1,12 @@
+import datetime
 import os
+from datetime import timedelta
+from pathlib import Path
 from typing import List
 
+from database.config import RequestStatus
 from handlers.user.start_handlers import get_start
 from keyboards.menu_keyboard import inline_menu_kb
-from utils.config import bot, SUPERADMIN
 from aiogram.fsm.context import FSMContext
 from aiogram.types import CallbackQuery
 
@@ -33,7 +36,8 @@ async def creating_request(call: CallbackQuery, state: FSMContext):
 
     try:
         user = await User.get_or_none(telegram_id=call.from_user.id)
-        requests = await SalaryRequest.filter(user_id=user.id, approved=False)
+        requests = await SalaryRequest.filter(user_id=user.id, status=RequestStatus.PENDING)
+        # requests = await RequestService.get_user_requests_by_id(telegram_id=call.from_user.id)
 
         if not requests:
             await call.message.edit_text(text="Для загрузки документов, выберите кнопку",
@@ -80,10 +84,13 @@ async def creating_request_save(call: CallbackQuery, state: FSMContext):
         user = await User.get(telegram_id=call.from_user.id)
 
         user_folder = f"{user.second_name}_{user.first_name[0]}_{user.patronymic[0]}"
+
         # Создаем папку для пользователя
         folder_path = create_folder(user_folder)
+        folder_name = Path(folder_path).name  # получаем имя файла/папки
         # Сохраняем файлы и получаем пути
         file_paths = await save_all_docs(bot, folder_path, docs)
+        bot_logger.debug(f"создал папку: {folder_name}, путь {file_paths}")
         # Сохраняем заявку в БД
         request = await SalaryRequest.create(
             user=user,  # передаем весь объект
@@ -93,7 +100,9 @@ async def creating_request_save(call: CallbackQuery, state: FSMContext):
             extract=file_paths.get('extract'),
             ndfl_reference=file_paths.get('ndfl'),
             employment_record=file_paths.get('record_book'),
-            comment=docs['comment']
+            comment=docs['comment'],
+            user_folder=folder_name,
+            date_to_delete=datetime.date.today() + timedelta(days=31),
         )
         bot_logger.info(f"Новый запрос по отпускным")
         await state.clear()
@@ -111,13 +120,3 @@ async def creating_request_save(call: CallbackQuery, state: FSMContext):
         await bot.send_message(chat_id=call.from_user.id, text="Не удалось отправить заявку. Попробуйте позже.",
                                reply_markup=await inline_menu_kb(call.from_user.id))
 
-
-
-async def search_request(requests: List[SalaryRequest], column: str, status=None):
-    """
-    Поиск данных по столбцу в таблице SalaryRequest
-    :param requests: список объектов SalaryRequest по юзеру
-    :param column: стобец для поиска в таблице
-    :param status:
-    :return:
-    """

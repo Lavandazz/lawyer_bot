@@ -102,7 +102,5 @@ class SchedulerLogger(BaseLogger):
 
 # Инициализация логгеров
 bot_logger = BotLogger().get_logger()
-horo_logger = HoroscopeLogger().get_logger()
 db_logger = DatabaseLogger().get_logger()
 scheduler_logger = SchedulerLogger().get_logger()
-help_ai_logger = HelpAiLogger().get_logger()

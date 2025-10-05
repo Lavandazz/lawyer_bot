@@ -1,3 +1,4 @@
+from aiogram.types import InlineKeyboardButton
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 
 from utils.get_user import admin_only
@@ -21,8 +22,10 @@ def show_review_message(req_id: int):
 def approve_request_kb(request_id: int, user_id: int):
     """ Клавиатура для одобрения/отклонения отзыва """
     kb = InlineKeyboardBuilder()
-    kb.button(text="✅ Одобрить", callback_data=f"approve_{request_id}")
-    kb.button(text="❌ Отклонить", callback_data=f"reject_{request_id}")
+    kb.button(text="✅ Одобрить", callback_data=f"req_approve_{request_id}")
+    kb.button(text="❌ Отклонить", callback_data=f"req_reject_{request_id}")
     kb.button(text="📞 Связаться", callback_data=f"contact_{user_id}")
     kb.adjust(3)
+    kb.row(InlineKeyboardButton(text='⬅️ Назад', callback_data='back'))
+
     return kb.as_markup()

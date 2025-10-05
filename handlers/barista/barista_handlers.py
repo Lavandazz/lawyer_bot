@@ -131,6 +131,7 @@ async def to_save(photo: str, text: str, user_id: int):
     except Exception as e:
         bot_logger.error(f'Ошибка сохранения поста, {e}')
 
+
 @is_admin
 async def moderate_review(call: CallbackQuery, bot: Bot, state: FSMContext, role: str):
     """ Обработка отзыва пользователя """
@@ -182,15 +183,12 @@ async def approve_review(call: CallbackQuery, bot: Bot, role: str, state: FSMCon
     print(f'Статус при одобрении {current_state}')
     await call.answer("Одобрено!")
 
-    # if await state.get_state() == BaristaState.approve_menu:  # если отзыв отображается через меню бариста
-    #     bot_logger.debug(f'Проверка статуса {current_state}')
     await state.set_state(BaristaState.review_menu)
     await bot.send_message(chat_id=call.from_user.id,
                            text="Вы находитесь в меню с отзывами клиентов",
                            reply_markup=await review_kb()
     )
-    # пересылаем сообщение в канал
-    await forward_review_to_channel(bot, call.from_user.id, call.message.message_id)
+
 
     await call.message.delete()
     await bot.send_message(chat_id=telegram_id, text='Ваш отзыв одобрен')

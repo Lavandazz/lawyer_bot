@@ -1,6 +1,8 @@
 from tortoise import fields
 from tortoise.models import Model
 
+from database.config import RequestStatus
+
 
 class User(Model):
     """
@@ -52,7 +54,10 @@ class SalaryRequest(Model):
     employment_record - трудовая книжка.
     comment - комментарий, возможно оставить пустым.
     approved - статус, принят ли в работу.
+    user_folder - название папки.
     created_at - дата создания запроса.
+    status - обозначает статус заявки.
+    date_to_delete - дата для удаления шедулером. (+30 дней с момента отклонения)
     """
     id = fields.IntField(pk=True)
     user = fields.ForeignKeyField(
@@ -66,7 +71,17 @@ class SalaryRequest(Model):
     employment_record = fields.CharField(max_length=255, null=True)
     comment = fields.TextField(null=True)
     approved = fields.BooleanField(default=False)
+    user_folder = fields.CharField(max_length=300, null=True)
     created_at = fields.DatetimeField(auto_now_add=True)
+    reject_comment = fields.CharField(max_length=255, null=True)
+    status = fields.IntField(
+        default=RequestStatus.PENDING.value,
+        choices=[
+            (RequestStatus.PENDING.value, "На рассмотрении"),
+            (RequestStatus.APPROVED.value, "Одобрено"),
+            (RequestStatus.REJECTED.value, "Отклонено")
+        ])
+    date_to_delete = fields.DateField(null=True)
 
     class Meta:
         table = 'salary_requests'

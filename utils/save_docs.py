@@ -164,9 +164,13 @@ async def save_all_docs(bot: Bot, folder_path: str, docs: dict) -> dict:
     for state_key, file_name in DOC_MAPPING.items():
         print("state_key", state_key)
         # Получаем данные о документе
-        doc_data = docs.get(state_key, {})
+        doc_data = docs.get(state_key)  # убираем значение по умолчанию {}
         print("doc_data", doc_data)
-        # Сохраняем обычный файл
+
+        # Пропускаем если документ не передан
+        if not doc_data:
+            bot_logger.info(f"Документ {state_key} не передан, пропускаем")
+            continue
 
         # Сохраняем ZIP архив
         if state_key.startswith("zip"):

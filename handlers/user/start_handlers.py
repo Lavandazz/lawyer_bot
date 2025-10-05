@@ -6,6 +6,7 @@ from datetime import timezone
 from tortoise.exceptions import IntegrityError
 
 from database.models_db import User
+from handlers.message_texts import start_text
 from handlers.user.registeration import start_registration_user
 from keyboards.menu_keyboard import inline_menu_kb
 from keyboards.register_keyboard import get_phone_keyboard
@@ -68,24 +69,10 @@ async def get_start(message: Message, new_user: bool, state: FSMContext):
 
         else:
             bot_logger.info(f"Зарегистрированный пользователь взаимодействует с ботом {message.from_user.id}")
-
-            # await bot.send_message(message.from_user.id,
-            #                        f"{generate_day_or_night(local_time.hour)}\n\n"
-            #                             f"Главное меню.\n\n"
-            #                             f"Кнопка - *Начать запрос* - переводит бота в режим принятия документов.\n"
-            #                             f"Пожалуйста, перед началом работы, ознакомьтесь с инструкцией для работы с ботом "
-            #                             f"по команде /help.\n\n"
-            #                             f"*Мои запросы* - Ваш личный кабинет, где отображаются все Ваши запросы.",
-            #                        reply_markup=await inline_menu_kb(message.from_user.id),
-            #                        parse_mode='Markdown')
-
             await message.answer(text=
                 f"{generate_day_or_night(local_time.hour)}\n\n"
-                f"🔈 Главное меню.\n\n"
-                f"Кнопка - *Начать запрос* - переводит бота в режим принятия документов.\n"
-                f"Пожалуйста, перед началом работы, ознакомьтесь с инструкцией для работы с ботом "
-                f"по команде /help.\n\n"
-                f"*Мои запросы* - Ваш личный кабинет, где отображаются все Ваши запросы.",
+                f"{start_text}"
+                ,
                 reply_markup=await inline_menu_kb(message.from_user.id),
                 parse_mode='Markdown'
             )
