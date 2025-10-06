@@ -6864,3 +6864,29 @@ DEBUG    2025-10-03 13:44:59,472 [bot] (back_handler.py).back(34) Начало �
 INFO     2025-10-03 14:32:48,000 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
 WARNING  2025-10-03 15:35:06,410 [bot] (main.py).start_bot(21) Бот закрыт
 WARNING  2025-10-03 15:35:06,579 [bot] (main.py).<module>(42) Помощник завершены
+INFO     2025-10-05 09:30:56,418 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-10-05 09:30:57,685 [bot] (start_handlers.py).seed_admin(29) Проверка: seed_admin вызвана
+INFO     2025-10-05 09:30:57,899 [bot] (set_menu.py).set_main_menu(25) Установил команды
+INFO     2025-10-05 09:31:13,512 [bot] (start_handlers.py).get_start(71) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-10-05 09:31:13,516 [bot] (get_user.py).get_role_user(49) Возврат роли: 484385628, admin
+DEBUG    2025-10-05 09:31:13,517 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-10-05 09:31:17,312 [bot] (back_handler.py).back(34) Начало обработки back. Текущее состояние: UserState:all_requests
+DEBUG    2025-10-05 09:31:17,314 [bot] (get_user.py).get_role_user(49) Возврат роли: 484385628, admin
+DEBUG    2025-10-05 09:31:17,314 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-10-05 09:31:24,161 [bot] (back_handler.py).delete_messages(110) список сообщений для удаления: media_message_ids
+INFO     2025-10-05 09:31:29,461 [bot] (requests.py).change_status_request(82) Статус заявки 11 изменен: RequestStatus.REJECTED
+DEBUG    2025-10-05 09:31:34,702 [bot] (back_handler.py).back(34) Начало обработки back. Текущее состояние: ApproveState:reject_comment
+DEBUG    2025-10-05 09:31:34,703 [bot] (back_handler.py).delete_messages(110) список сообщений для удаления: media_message_ids
+DEBUG    2025-10-05 09:31:36,722 [bot] (back_handler.py).back(34) Начало обработки back. Текущее состояние: AdminMenuState:requests_menu
+DEBUG    2025-10-05 09:31:37,747 [bot] (back_handler.py).back(34) Начало обработки back. Текущее состояние: MenuState:admin_menu
+DEBUG    2025-10-05 09:31:37,750 [bot] (get_user.py).get_role_user(49) Возврат роли: 484385628, admin
+DEBUG    2025-10-05 09:31:37,750 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-10-05 09:33:05,498 [bot] (back_handler.py).back(34) Начало обработки back. Текущее состояние: AnswerState:answer
+DEBUG    2025-10-05 09:33:10,627 [bot] (back_handler.py).back(34) Начало обработки back. Текущее состояние: AnswerState:doc_answer
+DEBUG    2025-10-05 09:36:15,926 [bot] (back_handler.py).back(34) Начало обработки back. Текущее состояние: AnswerState:docs_questions
+DEBUG    2025-10-05 09:36:20,254 [bot] (back_handler.py).back(34) Начало обработки back. Текущее состояние: AnswerState:answer
+DEBUG    2025-10-05 09:36:23,979 [bot] (back_handler.py).back(34) Начало обработки back. Текущее состояние: AnswerState:answer
+DEBUG    2025-10-05 09:36:25,119 [bot] (get_user.py).get_role_user(49) Возврат роли: 484385628, admin
+DEBUG    2025-10-05 09:36:25,119 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-10-05 10:01:22,235 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-10-05 10:01:22,478 [bot] (main.py).<module>(42) Помощник завершены

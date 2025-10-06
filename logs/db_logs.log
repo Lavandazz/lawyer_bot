@@ -495,3 +495,4 @@ INFO     2025-10-03 13:14:13,197 [db] (logging_config.py)._setup_handlers(50) Л
 INFO     2025-10-03 13:15:00,240 [db] (logging_config.py)._setup_handlers(50) Логирование для 'db' настроено успешно.
 INFO     2025-10-03 13:21:54,676 [db] (logging_config.py)._setup_handlers(50) Логирование для 'db' настроено успешно.
 INFO     2025-10-03 14:32:48,001 [db] (logging_config.py)._setup_handlers(50) Логирование для 'db' настроено успешно.
+INFO     2025-10-05 09:30:56,436 [db] (logging_config.py)._setup_handlers(50) Логирование для 'db' настроено успешно.
