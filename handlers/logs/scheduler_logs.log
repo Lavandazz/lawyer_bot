@@ -1,3 +1,0 @@
-INFO     2025-07-26 14:17:16,104 [scheduler] (logging_config.py)._setup_handlers(49) Логирование для 'scheduler' настроено успешно.
-INFO     2025-08-09 15:18:37,716 [scheduler] (logging_config.py)._setup_handlers(49) Логирование для 'scheduler' настроено успешно.
-INFO     2025-08-09 15:18:48,521 [scheduler] (logging_config.py)._setup_handlers(49) Логирование для 'scheduler' настроено успешно.

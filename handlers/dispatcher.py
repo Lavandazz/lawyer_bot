@@ -84,7 +84,8 @@ def setup_dispatcher(dp: Dispatcher):
     dp.message.register(creating_request_extract_save, F.document | F.photo, StateFilter(CreateRequest.wait_extract))
 
     dp.callback_query.register(creating_request_record_book, F.data == "record_book")
-    dp.message.register(creating_request_record_book_save, F.document | F.photo, StateFilter(CreateRequest.wait_record_book))
+    dp.message.register(creating_request_record_book_save, F.document | F.photo,
+                        StateFilter(CreateRequest.wait_record_book))
 
     dp.callback_query.register(creating_request_comment, F.data == "comment")
     dp.message.register(creating_request_comment_save, F.text, StateFilter(CreateRequest.wait_comment))
@@ -96,7 +97,6 @@ def setup_dispatcher(dp: Dispatcher):
     dp.callback_query.register(user_lk, F.data == "my_requests")
     dp.callback_query.register(show_my_request, F.data.startswith("user_request_"))
 
-
     # # календарь
     dp.callback_query.register(get_period_statistic, F.data.startswith('stat_'))
     dp.callback_query.register(prev_month, F.data == "prev_month")
@@ -104,9 +104,7 @@ def setup_dispatcher(dp: Dispatcher):
     dp.callback_query.register(day_statistic, StateFilter(StatsState.waiting_date))
     dp.callback_query.register(first_day_statistic, StateFilter(StatsState.waiting_first_date))
     dp.callback_query.register(second_day_statistic, StateFilter(StatsState.waiting_second_date))
-    #
-    # dp.callback_query.register(clear_message,  F.data.startswith('clear_'))
-    #
+
     # панель юзера
     dp.callback_query.register(hide_faq_handler, F.data == "hide_faq")
 

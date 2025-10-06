@@ -2,6 +2,7 @@ import os
 from typing import List
 
 from utils.config import CLIENTS_DIR
+from utils.logging_config import bot_logger
 
 
 class DocumentManager:
@@ -46,7 +47,7 @@ class DocumentManager:
                     if os.path.isdir(os.path.join(folder_path, item))]
 
         except PermissionError:
-            print(f"Нет доступа к папке: {folder_path}")
+            bot_logger.exception(f"Нет доступа к папке: {folder_path}")
             return []
 
     def find_project_root(self, markers=['.git', 'requirements.txt']):

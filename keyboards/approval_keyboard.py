@@ -24,7 +24,7 @@ def approve_request_kb(request_id: int, user_id: int):
     kb = InlineKeyboardBuilder()
     kb.button(text="✅ Одобрить", callback_data=f"req_approve_{request_id}")
     kb.button(text="❌ Отклонить", callback_data=f"req_reject_{request_id}")
-    kb.button(text="📞 Связаться", callback_data=f"contact_{user_id}")
+    # kb.button(text="📞 Связаться", callback_data=f"contact_{user_id}")
     kb.adjust(3)
     kb.row(InlineKeyboardButton(text='⬅️ Назад', callback_data='back'))
 

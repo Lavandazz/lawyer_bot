@@ -7,14 +7,16 @@ from aiogram.types import CallbackQuery
 
 from database.config import RequestStatus
 from database.models_db import SalaryRequest
+from handlers.admin.get_statistic_handlers import get_statistic
 from handlers.message_texts import start_text
 from handlers.user.user_lk_requests import user_lk
-from keyboards.admin_keyboards import admin_kb, requests_kb
+from keyboards.admin_keyboards import admin_kb, requests_kb, admin_stat_kb
 from keyboards.create_request import file_for_record
 from keyboards.help_keyboard import help_kb, help_docs_kb
 from keyboards.menu_keyboard import inline_menu_kb
 from services.requests import RequestService
-from states.menu_states import MenuState, CreateRequest, AnswerState, UserState, AdminMenuState, ApproveState
+from states.menu_states import MenuState, CreateRequest, AnswerState, UserState, AdminMenuState, ApproveState, \
+    StatsState
 from utils.answers import documents_info
 from utils.config import bot
 from utils.logging_config import bot_logger
@@ -87,6 +89,14 @@ async def back(call: CallbackQuery, state: FSMContext, bot: Bot, role: str):
         # если не админ, то в личный кабинет юзера
         else:
             await user_lk(call, state)
+
+    # переход из календаря статистики
+    if current_state in {StatsState.waiting_date, StatsState.waiting_first_date,
+                         StatsState.waiting_second_date, StatsState.answer}:
+        await call.message.edit_text(text="Выберите период", reply_markup=admin_stat_kb())
+        await state.set_state(AdminMenuState.statistic_menu)
+
+
 
 
 async def clear_message(call: CallbackQuery, role: str):

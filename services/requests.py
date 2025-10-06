@@ -90,5 +90,5 @@ class BaseRequestService:
 
 class RequestService(BaseRequestService):
     MODEL = SalaryRequest
-    print(f'отработал класс')
+
 

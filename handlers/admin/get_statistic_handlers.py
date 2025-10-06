@@ -146,10 +146,14 @@ async def first_day_statistic(call: CallbackQuery, state: FSMContext, role: str)
     """
     Сохранение начальной даты в fitst_date.
     Выбор конечной даты периода для отображения статистики.
+    Проверяет, чтобы выбранная дата не была позднее текущей.
     """
     global NEW_DATE
 
     call_date = from_str_to_date_day(call.data)
+    if call_date > date.today():
+        await call.answer(f"Выбранная дата не может быть позднее текущей", show_alert=True)
+        return
     await state.update_data(first_date=call_date)  # сохраняем начальную дату в состояние fitst_date
 
     bot_logger.debug('жду конечную дату')
@@ -166,18 +170,22 @@ async def first_day_statistic(call: CallbackQuery, state: FSMContext, role: str)
 async def second_day_statistic(call: CallbackQuery, state: FSMContext, role: str):
     """
     Отправляет ответ по статистике за выбранный период.
+    Проверяет, чтобы выбранная дата не была позднее текущей.
     :param call: CallbackQuery
     :param state: FSMContext
     :param role: admin
     :return: message
     """
-
+    data = await state.get_data()
+    first_date = data.get('first_date')
     call_date = from_str_to_date_day(call.data)
+
+    if call_date > date.today():
+        await call.answer(f"Неверно выбрана дата", show_alert=True)
+        return
 
     await state.update_data(second_date=call_date)
 
-    data = await state.get_data()
-    first_date = data.get('first_date')
     second_date = data.get('second_date')
 
     period = await get_statistic_from_db(first_date=first_date, second_date=second_date)

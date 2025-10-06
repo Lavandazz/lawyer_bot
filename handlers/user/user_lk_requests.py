@@ -69,15 +69,15 @@ async def show_my_request(call: CallbackQuery, state: FSMContext):
                         photos.append((file_type, filename, file_path))
                     else:
                         documents.append((file_type, filename, file_path))
-
+        print("статус заявки",request.status)
         # 1. Отправляем основную информацию с кнопками
         message_text = f"""📋 *Заявка №{request.id}*
 
         👤 *Пользователь:* {request.user.first_name} {request.user.second_name}
         📅 *Дата:* {request.created_at.strftime('%d.%m.%Y %H:%M')}
         💬 *Комментарий:* {request.comment if request.comment else "Комментария нет"}
-
-        *Статус:* {'✅ Одобрена' if request.RequestStatus.APPROVED else '⏳ На рассмотрении'}"""
+        
+        *Статус:* {'✅ Одобрена' if request.status == 1 else 'Отклонена' if request.status == 2 else '⏳ На рассмотрении'}"""
 
         media_messages_ids = []  # список для медиа сообщений для удаления по кнопке Назад
 
