@@ -7615,3 +7615,5 @@ INFO     2025-10-07 11:37:35,862 [bot] (logging_config.py)._setup_handlers(50) �
 INFO     2025-10-07 11:37:36,015 [bot] (start_handlers.py).seed_admin(41) Проверка: seed_admin вызвана
 INFO     2025-10-07 11:37:36,185 [bot] (set_menu.py).set_main_menu(25) Установил команды
 INFO     2025-10-07 11:37:36,318 [bot] (start_handlers.py).on_start(29) Сообщение отправлено на chat_id: 484385628
+WARNING  2025-10-07 14:05:07,063 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-10-07 14:05:07,252 [bot] (main.py).<module>(42) Помощник завершены
