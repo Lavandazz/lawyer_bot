@@ -18,3 +18,4 @@ my_test.py
 clients/
 
 logs/
+*.log
