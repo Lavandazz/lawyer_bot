@@ -2,6 +2,7 @@ from aiogram import Bot
 from aiogram.fsm.context import FSMContext
 from aiogram.types import Message, CallbackQuery
 
+from handlers.message_texts import start_text
 from keyboards.back_keyboard import back_button
 from keyboards.help_keyboard import help_kb, help_docs_kb
 from keyboards.menu_keyboard import inline_menu_kb
@@ -68,10 +69,7 @@ async def hide_faq_handler(call: CallbackQuery, state: FSMContext):
     """
     try:
         await call.message.edit_text(
-            text=f"Главное меню.\n\n"
-                 f"Кнопка - *Начать запрос* - переводит бота в режим принятия документов.\n"
-                 f"Пожалуйста, перед началом работы, ознакомьтесь с инструкцией по команде /help.\n\n"
-                 f"Ниже Вы можете зайти в личный кабинет, где отображаются все Ваши запросы.",
+            text=start_text,
             reply_markup=await inline_menu_kb(call.from_user.id),
             parse_mode='Markdown'
         )

@@ -7617,3 +7617,49 @@ INFO     2025-10-07 11:37:36,185 [bot] (set_menu.py).set_main_menu(25) Уста�
 INFO     2025-10-07 11:37:36,318 [bot] (start_handlers.py).on_start(29) Сообщение отправлено на chat_id: 484385628
 WARNING  2025-10-07 14:05:07,063 [bot] (main.py).start_bot(21) Бот закрыт
 WARNING  2025-10-07 14:05:07,252 [bot] (main.py).<module>(42) Помощник завершены
+INFO     2025-10-07 15:13:05,050 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-10-07 15:13:05,419 [bot] (start_handlers.py).seed_admin(41) Проверка: seed_admin вызвана
+INFO     2025-10-07 15:13:05,598 [bot] (set_menu.py).set_main_menu(25) Установил команды
+INFO     2025-10-07 15:13:05,749 [bot] (start_handlers.py).on_start(29) Сообщение отправлено на chat_id: 484385628
+INFO     2025-10-07 15:13:12,468 [bot] (start_handlers.py).get_start(84) Зарегистрированный пользователь взаимодействует с ботом 484385628
+WARNING  2025-10-07 15:21:08,215 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-10-07 15:21:10,841 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-10-07 15:21:11,002 [bot] (start_handlers.py).seed_admin(41) Проверка: seed_admin вызвана
+INFO     2025-10-07 15:21:11,187 [bot] (set_menu.py).set_main_menu(25) Установил команды
+INFO     2025-10-07 15:21:11,333 [bot] (start_handlers.py).on_start(29) Сообщение отправлено на chat_id: 484385628
+WARNING  2025-10-07 15:21:36,328 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-10-07 15:21:38,939 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-10-07 15:21:39,210 [bot] (start_handlers.py).seed_admin(41) Проверка: seed_admin вызвана
+INFO     2025-10-07 15:21:39,472 [bot] (set_menu.py).set_main_menu(25) Установил команды
+INFO     2025-10-07 15:21:39,711 [bot] (start_handlers.py).on_start(29) Сообщение отправлено на chat_id: 484385628
+INFO     2025-10-07 15:21:43,608 [bot] (start_handlers.py).get_start(84) Зарегистрированный пользователь взаимодействует с ботом 484385628
+WARNING  2025-10-07 15:21:57,004 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-10-07 15:21:59,646 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-10-07 15:21:59,916 [bot] (start_handlers.py).seed_admin(41) Проверка: seed_admin вызвана
+INFO     2025-10-07 15:22:00,077 [bot] (set_menu.py).set_main_menu(25) Установил команды
+INFO     2025-10-07 15:22:00,207 [bot] (start_handlers.py).on_start(29) Сообщение отправлено на chat_id: 484385628
+INFO     2025-10-07 15:22:03,375 [bot] (start_handlers.py).get_start(84) Зарегистрированный пользователь взаимодействует с ботом 484385628
+WARNING  2025-10-07 15:23:14,145 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-10-07 15:23:14,298 [bot] (main.py).<module>(42) Помощник завершены
+INFO     2025-10-07 15:23:16,750 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-10-07 15:23:16,907 [bot] (start_handlers.py).seed_admin(41) Проверка: seed_admin вызвана
+INFO     2025-10-07 15:23:17,156 [bot] (set_menu.py).set_main_menu(25) Установил команды
+INFO     2025-10-07 15:23:17,380 [bot] (start_handlers.py).on_start(29) Сообщение отправлено на chat_id: 484385628
+INFO     2025-10-07 15:23:19,321 [bot] (start_handlers.py).get_start(84) Зарегистрированный пользователь взаимодействует с ботом 484385628
+INFO     2025-10-07 15:23:25,355 [bot] (users_requests.py).show_requests(38) Меню заявок
+WARNING  2025-10-07 15:24:20,244 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-10-07 15:24:22,950 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-10-07 15:24:23,105 [bot] (start_handlers.py).seed_admin(41) Проверка: seed_admin вызвана
+INFO     2025-10-07 15:24:23,290 [bot] (set_menu.py).set_main_menu(25) Установил команды
+INFO     2025-10-07 15:24:23,426 [bot] (start_handlers.py).on_start(29) Сообщение отправлено на chat_id: 484385628
+WARNING  2025-10-07 15:24:50,348 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-10-07 15:24:52,954 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-10-07 15:24:53,111 [bot] (start_handlers.py).seed_admin(41) Проверка: seed_admin вызвана
+INFO     2025-10-07 15:24:53,264 [bot] (set_menu.py).set_main_menu(25) Установил команды
+INFO     2025-10-07 15:24:53,385 [bot] (start_handlers.py).on_start(29) Сообщение отправлено на chat_id: 484385628
+WARNING  2025-10-07 15:25:07,294 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-10-07 15:25:09,980 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-10-07 15:25:10,137 [bot] (start_handlers.py).seed_admin(41) Проверка: seed_admin вызвана
+INFO     2025-10-07 15:25:10,381 [bot] (set_menu.py).set_main_menu(25) Установил команды
+INFO     2025-10-07 15:25:10,612 [bot] (start_handlers.py).on_start(29) Сообщение отправлено на chat_id: 484385628
+WARNING  2025-10-07 15:25:47,089 [bot] (main.py).start_bot(21) Бот закрыт

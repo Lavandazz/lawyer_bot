@@ -15,11 +15,11 @@
       <jdbc-url>jdbc:postgresql://185.239.50.102:5433/lawyer_db</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="lawyer_db@localhost" uuid="92d668c4-49b2-4067-af1b-1d60cd153969">
+    <data-source source="LOCAL" name="lawyer_db_darya" uuid="92d668c4-49b2-4067-af1b-1d60cd153969">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://localhost:5433/lawyer_db</jdbc-url>
+      <jdbc-url>jdbc:postgresql://89.191.225.49:5433/lawyer_db</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>
