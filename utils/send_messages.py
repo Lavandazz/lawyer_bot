@@ -22,14 +22,14 @@ class SendMessage:
     file_id: Optional[str] = None
 
     async def send_message(self):
-        """Отправляет уведомление баристам о новом отзыве"""
+        """Отправляет уведомление админам о новой заявке"""
         try:
             admins = await get_users_from_db(self.user_role)
             for admin in admins:
                 await asyncio.sleep(0.5)
                 await self._send_notification(admin)
         except TelegramBadRequest or Exception as e:
-            # если нет ни одного бариста, рассылка идет по админам
+
             bot_logger.exception(f"Ошибка при отправке уведомления: {e}")
 
     async def _send_notification(self, admin):

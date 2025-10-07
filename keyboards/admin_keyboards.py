@@ -6,7 +6,6 @@ from aiogram.utils.keyboard import InlineKeyboardBuilder
 
 from database.models_db import SalaryRequest
 from utils.config import SUPERADMIN
-from utils.logging_config import bot_logger
 
 
 def admin_kb():

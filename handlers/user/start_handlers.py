@@ -1,5 +1,6 @@
 import asyncio
 from aiogram import Bot
+from aiogram.exceptions import TelegramBadRequest
 from aiogram.fsm.context import FSMContext
 from aiogram.types import Message
 from datetime import timezone
@@ -19,7 +20,18 @@ from utils.logging_config import bot_logger
 
 async def on_start(bot: Bot):
     """ Отправка сообщения о старте супер-админу """
-    await bot.send_message(chat_id=SUPERADMIN, text='Я запустил lawyerBot, /start')
+    # await bot.send_message(chat_id=SUPERADMIN, text='Я запустил lawyerBot, /start')
+    try:
+        bot_info = await bot.get_me()
+        # bot_logger.info(f'@{bot_info.username}')
+
+        await bot.send_message(chat_id=SUPERADMIN, text=f'Я запустил {bot_info.username}, /start')
+        bot_logger.info(f"Сообщение отправлено на chat_id: {SUPERADMIN}")
+    except TelegramBadRequest as e:
+        bot_logger.exception(f"Ошибка отправки сообщения: {e}")
+        # Можно отправить сообщение в лог или пропустить
+    except Exception as e:
+        bot_logger.exception(f"Неизвестная ошибка: {e}")
 
 
 async def seed_admin():
@@ -33,8 +45,9 @@ async def seed_admin():
             await User.create(
                 username="Админ",
                 telegram_id=SUPERADMIN,
-                first_name="Марина",
-                second_name="Овс",
+                first_name="Mari",
+                second_name="Triumph",
+                patronymic="Tiger",
                 phone=TEL,
                 role="admin"
             )

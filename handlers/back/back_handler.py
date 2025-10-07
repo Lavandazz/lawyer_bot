@@ -33,7 +33,7 @@ async def back(call: CallbackQuery, state: FSMContext, bot: Bot, role: str):
     :return: text, kb
     """
     current_state = await state.get_state()
-    bot_logger.debug(f'Начало обработки back. Текущее состояние: {current_state}')
+    # bot_logger.debug(f'Начало обработки back. Текущее состояние: {current_state}')
 
     # возврат в главное меню
     if current_state in {MenuState.admin_menu, UserState.all_requests}:
@@ -90,13 +90,13 @@ async def back(call: CallbackQuery, state: FSMContext, bot: Bot, role: str):
         else:
             await user_lk(call, state)
 
-    # переход из календаря статистики
+    # переход из календаря статистики и очистка ожидания дат
     if current_state in {StatsState.waiting_date, StatsState.waiting_first_date,
                          StatsState.waiting_second_date, StatsState.answer}:
+        await state.clear()
+        bot_logger.debug(f"Очистил ожидание даты статистики")
         await call.message.edit_text(text="Выберите период", reply_markup=admin_stat_kb())
         await state.set_state(AdminMenuState.statistic_menu)
-
-
 
 
 async def clear_message(call: CallbackQuery, role: str):

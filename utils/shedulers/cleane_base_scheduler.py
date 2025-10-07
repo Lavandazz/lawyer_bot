@@ -6,7 +6,7 @@ from pytz import timezone
 from datetime import datetime, date
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 
-from database.models_db import Horoscope
+
 from utils.logging_config import scheduler_logger
 
 
@@ -33,9 +33,9 @@ async def horo_to_clean(bot: Bot):
     current_date = datetime.now().date()
     # находим все даты меньше вчерашней и удаляем их
     try:
-        old_horoscopes = await Horoscope.filter(date__lt=current_date).count()
+        # old_horoscopes = await Horoscope.filter(date__lt=current_date).count()
 
-        await bot.send_message(chat_id=admin_id, text=f'Очистка дат гороскопа: удалено {old_horoscopes} строк гороскопа')
+        await bot.send_message(chat_id=admin_id, text=f'Очистка дат гороскопа: удалено строк гороскопа')
         # await call.message.answer(text=f'удалено {old_horoscopes} трок гороскопа')
     except Exception as e:
         await bot.send_message(chat_id=admin_id, text=f'Очистка дат гороскопа не была проведена: {e}')

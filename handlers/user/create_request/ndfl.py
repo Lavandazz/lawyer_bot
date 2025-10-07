@@ -57,13 +57,5 @@ async def creating_request_ndfl_save(message: Message, state: FSMContext):
 
     await state.set_state(CreateRequest.save)
 
-    bot_logger.debug(f'получен НДФЛ: file_id: {doc.file_id}')
-
-
-
-    # if message.document:
-    #     file_id = message.document.file_id
-    # # Обработка фото (PNG, JPEG)
-    # elif message.photo:
-    #     file_id = message.photo[-1].file_id  # Берем фото наивысшего качества
-    # # elif message.document.file_name.endswith("zip"):
+    bot_logger.info(f'Пользователь {message.from_user.id} загрузил НДФЛ: '
+                    f'{message.photo if message.photo else message.document.file_id}')

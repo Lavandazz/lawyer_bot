@@ -1,5 +1,3 @@
-from utils.generator_text import generate_day_or_night
-
 file_name = ""
 
 upload_a_document = (f"📎 Прикрепите файл: {file_name} используя скрепку ниже.\n"

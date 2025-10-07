@@ -22,9 +22,8 @@ END_STAT_DATE = date.today()
 
 @admin_only
 async def get_statistic(call: CallbackQuery, state: FSMContext, role: str):
-    """ Колбэек на кнопку Стастистика """
-    # print(f'Колл дата = {call.message.date.date()}')
-    bot_logger.debug(f'State {await state.get_state()}')
+    """ Кнопка Стастистика """
+
     await call.message.edit_text(text="Выберите период", reply_markup=admin_stat_kb())
     await state.set_state(AdminMenuState.statistic_menu)
 
@@ -40,6 +39,7 @@ async def get_period_statistic(call: CallbackQuery, state: FSMContext, role: str
     Сохраняем дату в global NEW_DATE для того, чтобы построить календарь при пагинации
     """
     global NEW_DATE
+
     NEW_DATE = call.message.date.date()
     if call.data == 'stat_all':
         await call.message.edit_text(
@@ -61,6 +61,7 @@ async def get_period_statistic(call: CallbackQuery, state: FSMContext, role: str
 @admin_only
 async def prev_month(call: CallbackQuery, role: str):
     """Пагинация календаря назад"""
+
     global NEW_DATE
     if call.data == 'prev_month':
         new_date = MyCalendar.prev_month(NEW_DATE)
@@ -74,6 +75,7 @@ async def prev_month(call: CallbackQuery, role: str):
 async def next_month(call: CallbackQuery, role: str):
     """Пагинация календаря вперед"""
     global NEW_DATE
+
     if call.data == 'next_month':
         new_date = MyCalendar.next_month(NEW_DATE)
         NEW_DATE = new_date
@@ -93,9 +95,8 @@ async def day_statistic(call: CallbackQuery, state: FSMContext, role: str):
     :param role: admin
     """
     global NEW_DATE
-    if call.data == "back":
-        await call.message.edit_text(text='Возврат в статистику', reply_markup=admin_stat_kb())
-        return
+
+    await state.set_state(StatsState.waiting_date)
 
     call_date = from_str_to_date_day(call.data)
     await state.update_data(day_date=call_date)
@@ -121,13 +122,14 @@ async def day_statistic(call: CallbackQuery, state: FSMContext, role: str):
 
         else:
             await state.set_state(StatsState.answer)
-            bot_logger.debug(f'Получил статистику за день')
+            bot_logger.debug(f'Получение статистики за день')
             await call.message.edit_text(
                 text=f'*Зарегистрировано новых пользователей*: `{statistic.new_user}`\n'
                      f'*Просмотров бота за день `{call.data.split("_")[1]}`*: `{statistic.event}`',
                 parse_mode=ParseMode.MARKDOWN_V2,
                 reply_markup=back_button()
             )
+        bot_logger.info(f'Статистика за день {day} получена')
 
     except TelegramBadRequest as e:
         bot_logger.warning(f'Попытка получить статистику: {e}')
@@ -138,25 +140,27 @@ async def day_statistic(call: CallbackQuery, state: FSMContext, role: str):
                      f'Попробуйте другую дату',
                 show_alert=True)
     except Exception as e:
-        bot_logger.warning(e)
+        bot_logger.exception(e)
 
 
 @admin_only
 async def first_day_statistic(call: CallbackQuery, state: FSMContext, role: str):
     """
     Сохранение начальной даты в fitst_date.
+    Дату берем из колбека day_, преобразуем в формат date.
     Выбор конечной даты периода для отображения статистики.
     Проверяет, чтобы выбранная дата не была позднее текущей.
     """
     global NEW_DATE
 
     call_date = from_str_to_date_day(call.data)
+
     if call_date > date.today():
         await call.answer(f"Выбранная дата не может быть позднее текущей", show_alert=True)
         return
     await state.update_data(first_date=call_date)  # сохраняем начальную дату в состояние fitst_date
 
-    bot_logger.debug('жду конечную дату')
+    bot_logger.debug('Ожидание конечно даты статистики')
     await call.message.edit_text(
         text=f'Вы выбрали {call_date}\n'
              f'Теперь выберите конечную дату периода',
@@ -169,6 +173,7 @@ async def first_day_statistic(call: CallbackQuery, state: FSMContext, role: str)
 @admin_only
 async def second_day_statistic(call: CallbackQuery, state: FSMContext, role: str):
     """
+    Получает вторую дату статистики.
     Отправляет ответ по статистике за выбранный период.
     Проверяет, чтобы выбранная дата не была позднее текущей.
     :param call: CallbackQuery
@@ -226,7 +231,7 @@ async def get_statistic_from_db(first_date: date = None,
             period_statistic = await Statistic.filter(day__gte=first_date, day__lte=second_date)
             bot_logger.debug(f'period_statistic: {period_statistic}')
             return period_statistic
-
+        bot_logger.info(f'Статистика получена')
     except Exception as e:
         bot_logger.error(f'Ошибка во время получения статистики из бд, {e}')
 

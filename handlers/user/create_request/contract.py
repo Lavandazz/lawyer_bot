@@ -61,3 +61,6 @@ async def creating_contract_save(message: Message, state: FSMContext):
                          reply_markup=await file_for_record(state))
 
     await state.set_state(CreateRequest.save)
+
+    bot_logger.info(f'Пользователь {message.from_user.id} загрузил договор: '
+                    f'{message.photo if message.photo else message.document.file_id}')

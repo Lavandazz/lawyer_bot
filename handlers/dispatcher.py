@@ -45,6 +45,8 @@ def setup_dispatcher(dp: Dispatcher):
     dp.message.register(cancel_handler, Command(commands='cancel'))
     dp.message.register(get_help, Command(commands='help'))
 
+    dp.callback_query.register(back, F.data == 'back')  # кнопка назад
+
     # регистрация фио и телефона
     dp.message.register(start_registration_user_name, StateFilter(UserState.register))
     dp.message.register(process_contact, F.contact)
@@ -108,7 +110,6 @@ def setup_dispatcher(dp: Dispatcher):
     # панель юзера
     dp.callback_query.register(hide_faq_handler, F.data == "hide_faq")
 
-    dp.callback_query.register(back, F.data == 'back')  # кнопка назад
     # dp.callback_query.register(back, F.data == 'farther')  # кнопка вперед
 
     return dp

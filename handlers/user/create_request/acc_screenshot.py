@@ -61,5 +61,7 @@ async def creating_request_acc_screenshot_save(message: Message, state: FSMConte
                               f"Загрузите оставшиеся документы",
                          reply_markup=await file_for_record(state))
     await state.set_state(CreateRequest.save)
-    bot_logger.debug(f'получен скрин: {message.document}, file_id: {file_id}')
+
+    bot_logger.info(f'Пользователь {message.from_user.id} загрузил скрин ЛК: '
+                    f'{message.photo if message.photo else message.document.file_id}')
 

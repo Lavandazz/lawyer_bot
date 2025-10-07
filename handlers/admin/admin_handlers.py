@@ -1,11 +1,10 @@
 from aiogram.fsm.context import FSMContext
 from aiogram.types import CallbackQuery
 
-from database.models_db import SalaryRequest
-from keyboards.admin_keyboards import admin_kb, requests_kb
-from states.menu_states import AdminMenuState, MenuState
+from keyboards.admin_keyboards import admin_kb
+from states.menu_states import MenuState
 from utils.get_user import admin_only
-from utils.logging_config import bot_logger
+
 
 
 @admin_only

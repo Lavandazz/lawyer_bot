@@ -2,7 +2,7 @@ from datetime import datetime
 
 from database.config import RequestStatus
 from database.models_db import SalaryRequest
-from utils.logging_config import bot_logger
+from utils.logging_config import bot_logger, db_logger
 
 
 class BaseRequestService:
@@ -18,8 +18,11 @@ class BaseRequestService:
         :param status: передаем статус RequestStatus.PENDING/APPROVED/REJECTED
         :return: requests
         """
-        requests = await SalaryRequest.filter(status=status).all()
-        return requests
+        try:
+            requests = await SalaryRequest.filter(status=status).all()
+            return requests
+        except Exception as e:
+            db_logger.error(f"Ошибка получения заявки: {e}")
 
     @classmethod
     async def get_user_requests_by_id(cls, user_id: int = None, telegram_id: int = None):
@@ -28,14 +31,17 @@ class BaseRequestService:
         :param user_id: id пользователя
         :return: requests
         """
-        if user_id:
-            requests = await SalaryRequest.filter(user_id=user_id).all()
-            return requests
-        else:
-            requests = await SalaryRequest.filter(
-                user__telegram_id=telegram_id  # Двойное подчеркивание для связи
-            ).prefetch_related('user').all()
-            return requests
+        try:
+            if user_id:
+                requests = await SalaryRequest.filter(user_id=user_id).all()
+                return requests
+            else:
+                requests = await SalaryRequest.filter(
+                    user__telegram_id=telegram_id  # Двойное подчеркивание для связи
+                ).prefetch_related('user').all()
+                return requests
+        except Exception as e:
+            db_logger.error(f"Ошибка получения заявки: {e}")
 
     @classmethod
     async def get_user_request(cls, request_id):
@@ -44,8 +50,11 @@ class BaseRequestService:
         :param request_id: id заявки
         :return:
         """
-        request = await SalaryRequest.filter(id=request_id).prefetch_related('user').first()
-        return request
+        try:
+            request = await SalaryRequest.filter(id=request_id).prefetch_related('user').first()
+            return request
+        except Exception as e:
+            db_logger.error(f"Ошибка получения заявки: {e}")
 
     @classmethod
     async def requests_by_status(cls, status: RequestStatus) -> dict[str, datetime.date]:
@@ -54,9 +63,12 @@ class BaseRequestService:
         :param status: статус заявки RequestStatus.PENDING/APPROVED/REJECTED
         :return:
         """
-        requests = await SalaryRequest.filter(status=status).all()
-        rejected_list = {request.user_folder: request.date_to_delete for request in requests}
-        return rejected_list
+        try:
+            requests = await SalaryRequest.filter(status=status).all()
+            rejected_list = {request.user_folder: request.date_to_delete for request in requests}
+            return rejected_list
+        except Exception as e:
+            db_logger.error(f"Ошибка фильтрации заявок: {e}")
 
     @classmethod
     async def change_status_request(cls, request_id: int, status: int, comment: str = None) -> tuple | bool:
@@ -79,12 +91,12 @@ class BaseRequestService:
                 pass
 
             await request.save()
-            bot_logger.info(f"Статус заявки {request_id} изменен: {status}")
+            db_logger.info(f"Статус заявки {request_id} изменен: {status}")
 
             return True, user.telegram_id
 
         except Exception as e:
-            bot_logger.exception(f"Не получилось изменить статус заявки {request_id}: {e}")
+            db_logger.exception(f"Не получилось изменить статус заявки {request_id}: {e}")
             return False
 
 

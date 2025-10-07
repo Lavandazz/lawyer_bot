@@ -3,16 +3,14 @@ from aiogram.fsm.context import FSMContext
 from aiogram.types import CallbackQuery, Message
 
 from database.config import RequestStatus
-from database.models_db import SalaryRequest
-from handlers.admin.users_requests import show_requests
+
 from handlers.back.back_handler import delete_messages
 from handlers.message_texts import start_text
 from keyboards.back_keyboard import back_button
-from keyboards.menu_keyboard import inline_menu_kb
 from services.requests import RequestService
-from states.menu_states import ApproveState, AdminMenuState
+from states.menu_states import ApproveState
 from utils.config import bot
-from utils.get_user import admin_only, get_user
+from utils.get_user import admin_only
 from utils.logging_config import bot_logger
 
 
@@ -28,12 +26,10 @@ async def approve_user_request(call: CallbackQuery, role: str, state: FSMContext
     :return:
     """
     request_id = int(call.data.split('_')[2])
-    # status, user_telegram = await change_status_request(request_id=request_id, status=RequestStatus.APPROVED)
+
     change_status, telegram_id = await RequestService.change_status_request(
         request_id=request_id, status=RequestStatus.APPROVED
     )
-
-    stat = await state.get_state()
 
     if change_status:
         try:
@@ -48,8 +44,10 @@ async def approve_user_request(call: CallbackQuery, role: str, state: FSMContext
             await bot.send_message(chat_id=telegram_id,
                                    text="Ваша заявка рассмотрена и принята в работу.\n"
                                         "С вами свяжется юрист.")
+            bot_logger.info(f"Согласование заявки {request_id}")
+
         except Exception as e:
-            bot_logger.exception(e)
+            bot_logger.exception(f"Ошибка согласования заявки {request_id}: {e}")
 
 
 @admin_only
@@ -90,7 +88,6 @@ async def reject_user_request(message: Message, role: str, state: FSMContext):
     change_status, telegram_id = await RequestService.change_status_request(
         request_id=request_id, status=RequestStatus.REJECTED, comment=comment
     )
-    # await change_status_request(request_id=request_id, status=RequestStatus.REJECTED, comment=comment)
 
     if not change_status:
         await message.answer(text="Произошла ошибка.",
@@ -106,3 +103,5 @@ async def reject_user_request(message: Message, role: str, state: FSMContext):
 
     await message.answer(text="Сообщение отправлено заявителю",
                          reply_markup=back_button())
+
+    bot_logger.info(f"Отклонение заявки {request_id}")

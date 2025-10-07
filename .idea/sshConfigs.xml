@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig host="89.191.225.49" id="a1b7ce1d-4617-4c35-b8c7-430e3d615d93" keyPath="C:\Keys\keys_lawyar\lawyar_openssh" port="2222" nameFormat="DESCRIPTIVE" username="lavandazz" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</project>

@@ -52,3 +52,5 @@ async def creating_request_comment_save(message: Message, state: FSMContext):
     )
     await state.set_state(CreateRequest.save)
 
+    bot_logger.info(f'Пользователь {message.from_user.id} добавил комментарий к заявке')
+

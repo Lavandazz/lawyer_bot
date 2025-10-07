@@ -25,7 +25,7 @@ async def show_requests(call: CallbackQuery, state: FSMContext, role: str):
     :param role: admin
     :return:
     """
-    # requests = await SalaryRequest.filter(status=RequestStatus.PENDING).all()
+
     requests = await RequestService.get_requests(status=RequestStatus.PENDING)
     if requests:
         await call.message.edit_text(text="Здесь отображены все заявки от пользователей",
@@ -34,6 +34,8 @@ async def show_requests(call: CallbackQuery, state: FSMContext, role: str):
         await call.message.edit_text(text="Заявок еще не было",
                                      reply_markup=back_button())
     await state.set_state(AdminMenuState.requests_menu)
+
+    bot_logger.info(f"Меню заявок")
 
 
 @admin_only
@@ -45,9 +47,10 @@ async def show_user_request(call: CallbackQuery, state: FSMContext, role: str):
     :param role: admin
     :return:
     """
+
     request_id = call.data.split("_")[2]
+
     try:
-        # request = await SalaryRequest.filter(id=request_id).prefetch_related('user').first()
         request = await RequestService.get_user_request(request_id=request_id)
         if not request:
             await call.answer("Заявка не найдена")
@@ -116,6 +119,8 @@ async def show_user_request(call: CallbackQuery, state: FSMContext, role: str):
         await state.update_data(media_message_ids=media_messages_ids)  # сохраняем ключ в data
 
         await state.set_state(AdminMenuState.request)
+
+        bot_logger.info(f"Отображение заявки {request.id}")
 
     except Exception as e:
         bot_logger.exception(f"Ошибка в отображении заявки пользователя: {e}")

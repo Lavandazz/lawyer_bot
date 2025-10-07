@@ -55,4 +55,5 @@ async def creating_request_record_book_save(message: Message, state: FSMContext)
                          reply_markup=await file_for_record(state))
     await state.set_state(CreateRequest.save)
 
-    bot_logger.debug(f'получен трудовой книжки: {message.photo}, file_id: {file_id}')
+    bot_logger.info(f'Пользователь {message.from_user.id} загрузил ЭТК: '
+                    f'{message.photo if message.photo else message.document.file_id}')

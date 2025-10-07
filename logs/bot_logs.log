@@ -7118,3 +7118,500 @@ INFO     2025-10-06 14:51:45,338 [bot] (start_handlers.py).get_start(71) Зар�
 DEBUG    2025-10-06 14:51:45,340 [bot] (get_user.py).get_role_user(49) Возврат роли: 484385628, admin
 DEBUG    2025-10-06 14:51:45,340 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
 WARNING  2025-10-06 14:53:29,922 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-10-06 14:53:32,725 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-10-06 14:53:32,892 [bot] (start_handlers.py).seed_admin(29) Проверка: seed_admin вызвана
+INFO     2025-10-06 14:53:33,140 [bot] (set_menu.py).set_main_menu(25) Установил команды
+INFO     2025-10-06 14:53:37,757 [bot] (start_handlers.py).get_start(71) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-10-06 14:53:37,758 [bot] (get_user.py).get_role_user(49) Возврат роли: 484385628, admin
+DEBUG    2025-10-06 14:53:37,758 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-10-06 14:53:41,891 [bot] (back_handler.py).back(36) Начало обработки back. Текущее состояние: MenuState:admin_menu
+DEBUG    2025-10-06 14:53:41,892 [bot] (get_user.py).get_role_user(49) Возврат роли: 484385628, admin
+DEBUG    2025-10-06 14:53:41,892 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-10-06 14:53:45,217 [bot] (user_request_handlers.py).creating_request_save(64) Получаю все data state
+DEBUG    2025-10-06 14:53:45,217 [bot] (user_request_handlers.py).creating_request_save(69) Получил документы из data state: {'docs': {'contract': None, 'acc_screenshot': None, 'personal_pass': None, 'extract': None, 'ndfl': None, 'record_book': None, 'comment': 'pass'}, 'missing': ['Договор ГПХ/Трудовой', 'Скрин ЛК ВБ Джоб', 'Бейдж/пропуск', 'Выписка ИЛС', 'Справка 2-НДФЛ', 'Электронная трудовая книжка'], 'is_complete': False}
+INFO     2025-10-06 14:53:45,218 [bot] (user_request_handlers.py).creating_request_save(75)  Не все документы загружены. • Договор ГПХ/Трудовой
+• Скрин ЛК ВБ Джоб
+• Бейдж/пропуск
+• Выписка ИЛС
+• Справка 2-НДФЛ
+• Электронная трудовая книжка 
+DEBUG    2025-10-06 14:53:49,483 [bot] (back_handler.py).back(36) Начало обработки back. Текущее состояние: CreateRequest:wait_ndfl
+DEBUG    2025-10-06 14:53:50,567 [bot] (back_handler.py).back(36) Начало обработки back. Текущее состояние: UserState:all_requests
+DEBUG    2025-10-06 14:53:50,568 [bot] (get_user.py).get_role_user(49) Возврат роли: 484385628, admin
+DEBUG    2025-10-06 14:53:50,568 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-10-06 16:18:48,039 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-10-06 16:18:48,183 [bot] (main.py).<module>(42) Помощник завершены
+INFO     2025-10-06 23:31:58,256 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-10-06 23:32:28,860 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-10-07 10:17:07,777 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-10-07 10:17:08,598 [bot] (start_handlers.py).seed_admin(41) Проверка: seed_admin вызвана
+INFO     2025-10-07 10:17:08,817 [bot] (set_menu.py).set_main_menu(25) Установил команды
+INFO     2025-10-07 10:17:08,964 [bot] (start_handlers.py).on_start(29) Сообщение отправлено на chat_id: 484385628
+ERROR    2025-10-07 10:17:24,456 [bot] (middleware.py).__call__(108) [StatisticMiddleware] Ошибка статистики: Error 22 connecting to localhost:6379. Удаленный компьютер отклонил это сетевое подключение.
+INFO     2025-10-07 10:17:24,469 [bot] (start_handlers.py).get_start(84) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-10-07 10:17:24,472 [bot] (get_user.py).get_role_user(49) Возврат роли: 484385628, admin
+DEBUG    2025-10-07 10:17:24,473 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+ERROR    2025-10-07 10:17:32,691 [bot] (middleware.py).__call__(108) [StatisticMiddleware] Ошибка статистики: Error 22 connecting to localhost:6379. Удаленный компьютер отклонил это сетевое подключение.
+INFO     2025-10-07 10:17:32,694 [bot] (start_handlers.py).get_start(84) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-10-07 10:17:32,784 [bot] (get_user.py).get_role_user(49) Возврат роли: 484385628, admin
+DEBUG    2025-10-07 10:17:32,785 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-10-07 10:18:00,618 [bot] (get_statistic_handlers.py).get_statistic(27) State MenuState:admin_menu
+DEBUG    2025-10-07 10:18:01,895 [bot] (get_statistic_handlers.py).get_period_statistic(58) Выбор даты: get_period_statistic StatsState:waiting_date
+DEBUG    2025-10-07 10:18:02,912 [bot] (get_statistic_handlers.py).get_statistic_from_db(223) day_stat: None
+DEBUG    2025-10-07 10:18:02,912 [bot] (get_statistic_handlers.py).day_statistic(110) Нет статистики за день
+DEBUG    2025-10-07 10:18:10,097 [bot] (get_statistic_handlers.py).get_statistic_from_db(223) day_stat: None
+DEBUG    2025-10-07 10:18:10,097 [bot] (get_statistic_handlers.py).day_statistic(110) Нет статистики за день
+WARNING  2025-10-07 10:18:10,245 [bot] (get_statistic_handlers.py).day_statistic(133) Попытка получить статистику: Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+DEBUG    2025-10-07 10:18:11,910 [bot] (get_statistic_handlers.py).get_statistic_from_db(223) day_stat: None
+DEBUG    2025-10-07 10:18:11,910 [bot] (get_statistic_handlers.py).day_statistic(110) Нет статистики за день
+WARNING  2025-10-07 10:18:12,041 [bot] (get_statistic_handlers.py).day_statistic(133) Попытка получить статистику: Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+DEBUG    2025-10-07 10:18:17,368 [bot] (get_statistic_handlers.py).get_period_statistic(50) Выбор начальной даты периода: get_period_statistic StatsState:waiting_first_date
+DEBUG    2025-10-07 10:18:22,425 [bot] (get_statistic_handlers.py).first_day_statistic(159) жду конечную дату
+DEBUG    2025-10-07 10:18:23,646 [bot] (get_statistic_handlers.py).get_statistic_from_db(227) period_statistic: []
+DEBUG    2025-10-07 10:18:30,131 [bot] (get_statistic_handlers.py).get_statistic(27) State MenuState:admin_menu
+DEBUG    2025-10-07 10:18:31,317 [bot] (get_statistic_handlers.py).get_period_statistic(58) Выбор даты: get_period_statistic StatsState:waiting_date
+DEBUG    2025-10-07 10:18:33,728 [bot] (get_statistic_handlers.py).get_statistic_from_db(223) day_stat: <Statistic>
+DEBUG    2025-10-07 10:18:33,729 [bot] (get_statistic_handlers.py).day_statistic(124) Получил статистику за день
+DEBUG    2025-10-07 10:18:41,049 [bot] (get_statistic_handlers.py).get_period_statistic(50) Выбор начальной даты периода: get_period_statistic StatsState:waiting_first_date
+DEBUG    2025-10-07 10:18:42,691 [bot] (get_statistic_handlers.py).first_day_statistic(159) жду конечную дату
+DEBUG    2025-10-07 10:18:43,695 [bot] (get_statistic_handlers.py).get_statistic_from_db(227) period_statistic: []
+DEBUG    2025-10-07 10:18:47,366 [bot] (get_statistic_handlers.py).get_period_statistic(50) Выбор начальной даты периода: get_period_statistic StatsState:waiting_first_date
+DEBUG    2025-10-07 10:18:49,234 [bot] (get_statistic_handlers.py).first_day_statistic(159) жду конечную дату
+DEBUG    2025-10-07 10:18:50,133 [bot] (get_statistic_handlers.py).get_statistic_from_db(227) period_statistic: []
+DEBUG    2025-10-07 10:19:00,756 [bot] (get_statistic_handlers.py).get_statistic(27) State MenuState:admin_menu
+DEBUG    2025-10-07 10:19:01,840 [bot] (get_statistic_handlers.py).get_period_statistic(58) Выбор даты: get_period_statistic StatsState:waiting_date
+DEBUG    2025-10-07 10:19:04,435 [bot] (get_statistic_handlers.py).get_period_statistic(58) Выбор даты: get_period_statistic StatsState:waiting_date
+DEBUG    2025-10-07 10:19:05,382 [bot] (get_statistic_handlers.py).get_statistic_from_db(223) day_stat: None
+DEBUG    2025-10-07 10:19:05,383 [bot] (get_statistic_handlers.py).day_statistic(110) Нет статистики за день
+WARNING  2025-10-07 10:23:25,672 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-10-07 10:23:29,102 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-10-07 10:23:29,373 [bot] (start_handlers.py).seed_admin(41) Проверка: seed_admin вызвана
+INFO     2025-10-07 10:23:29,538 [bot] (set_menu.py).set_main_menu(25) Установил команды
+INFO     2025-10-07 10:23:29,653 [bot] (start_handlers.py).on_start(29) Сообщение отправлено на chat_id: 484385628
+INFO     2025-10-07 10:23:33,860 [bot] (start_handlers.py).get_start(84) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-10-07 10:23:33,861 [bot] (get_user.py).get_role_user(49) Возврат роли: 484385628, admin
+DEBUG    2025-10-07 10:23:33,861 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-10-07 10:23:36,267 [bot] (get_statistic_handlers.py).get_statistic(27) State MenuState:admin_menu
+DEBUG    2025-10-07 10:23:37,228 [bot] (get_statistic_handlers.py).get_period_statistic(58) Выбор даты: get_period_statistic StatsState:waiting_date
+DEBUG    2025-10-07 10:23:38,071 [bot] (get_statistic_handlers.py).get_statistic_from_db(223) day_stat: None
+DEBUG    2025-10-07 10:23:38,071 [bot] (get_statistic_handlers.py).day_statistic(110) Нет статистики за день
+DEBUG    2025-10-07 10:23:40,440 [bot] (get_statistic_handlers.py).get_statistic_from_db(223) day_stat: None
+DEBUG    2025-10-07 10:23:40,441 [bot] (get_statistic_handlers.py).day_statistic(110) Нет статистики за день
+WARNING  2025-10-07 10:23:40,698 [bot] (get_statistic_handlers.py).day_statistic(133) Попытка получить статистику: Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+WARNING  2025-10-07 10:24:39,194 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-10-07 10:24:42,266 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-10-07 10:24:42,436 [bot] (start_handlers.py).seed_admin(41) Проверка: seed_admin вызвана
+INFO     2025-10-07 10:24:42,631 [bot] (set_menu.py).set_main_menu(25) Установил команды
+INFO     2025-10-07 10:24:42,799 [bot] (start_handlers.py).on_start(29) Сообщение отправлено на chat_id: 484385628
+INFO     2025-10-07 10:24:48,027 [bot] (start_handlers.py).get_start(84) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-10-07 10:24:48,028 [bot] (get_user.py).get_role_user(49) Возврат роли: 484385628, admin
+DEBUG    2025-10-07 10:24:48,028 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-10-07 10:24:50,172 [bot] (get_statistic_handlers.py).get_statistic(27) State MenuState:admin_menu
+DEBUG    2025-10-07 10:24:51,623 [bot] (get_statistic_handlers.py).get_period_statistic(58) Выбор даты: get_period_statistic StatsState:waiting_date
+DEBUG    2025-10-07 10:24:53,964 [bot] (get_statistic_handlers.py).get_statistic_from_db(223) day_stat: None
+DEBUG    2025-10-07 10:24:53,964 [bot] (get_statistic_handlers.py).day_statistic(110) Нет статистики за день
+DEBUG    2025-10-07 10:24:55,602 [bot] (get_statistic_handlers.py).get_statistic_from_db(223) day_stat: None
+DEBUG    2025-10-07 10:24:55,602 [bot] (get_statistic_handlers.py).day_statistic(110) Нет статистики за день
+WARNING  2025-10-07 10:24:55,729 [bot] (get_statistic_handlers.py).day_statistic(133) Попытка получить статистику: Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+WARNING  2025-10-07 10:26:37,494 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-10-07 10:26:40,690 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-10-07 10:26:40,861 [bot] (start_handlers.py).seed_admin(41) Проверка: seed_admin вызвана
+INFO     2025-10-07 10:26:41,018 [bot] (set_menu.py).set_main_menu(25) Установил команды
+INFO     2025-10-07 10:26:41,149 [bot] (start_handlers.py).on_start(29) Сообщение отправлено на chat_id: 484385628
+INFO     2025-10-07 10:26:43,647 [bot] (start_handlers.py).get_start(84) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-10-07 10:26:43,649 [bot] (get_user.py).get_role_user(49) Возврат роли: 484385628, admin
+DEBUG    2025-10-07 10:26:43,649 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-10-07 10:26:45,652 [bot] (get_statistic_handlers.py).get_statistic(27) State MenuState:admin_menu
+DEBUG    2025-10-07 10:26:47,459 [bot] (get_statistic_handlers.py).get_statistic(27) State MenuState:admin_menu
+DEBUG    2025-10-07 10:26:48,367 [bot] (get_statistic_handlers.py).get_period_statistic(58) Выбор даты: get_period_statistic StatsState:waiting_date
+DEBUG    2025-10-07 10:26:57,012 [bot] (get_statistic_handlers.py).get_statistic_from_db(223) day_stat: None
+DEBUG    2025-10-07 10:26:57,012 [bot] (get_statistic_handlers.py).day_statistic(110) Нет статистики за день
+DEBUG    2025-10-07 10:26:58,397 [bot] (get_statistic_handlers.py).get_statistic_from_db(223) day_stat: <Statistic>
+DEBUG    2025-10-07 10:26:58,398 [bot] (get_statistic_handlers.py).day_statistic(124) Получил статистику за день
+DEBUG    2025-10-07 10:27:01,817 [bot] (get_statistic_handlers.py).get_statistic(27) State MenuState:admin_menu
+DEBUG    2025-10-07 10:27:02,842 [bot] (get_statistic_handlers.py).get_period_statistic(58) Выбор даты: get_period_statistic StatsState:waiting_date
+WARNING  2025-10-07 10:27:53,116 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-10-07 10:27:53,276 [bot] (main.py).<module>(42) Помощник завершены
+INFO     2025-10-07 10:27:56,156 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-10-07 10:27:56,326 [bot] (start_handlers.py).seed_admin(41) Проверка: seed_admin вызвана
+INFO     2025-10-07 10:27:56,503 [bot] (set_menu.py).set_main_menu(25) Установил команды
+INFO     2025-10-07 10:27:56,640 [bot] (start_handlers.py).on_start(29) Сообщение отправлено на chat_id: 484385628
+INFO     2025-10-07 10:27:57,733 [bot] (start_handlers.py).get_start(84) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-10-07 10:27:57,735 [bot] (get_user.py).get_role_user(49) Возврат роли: 484385628, admin
+DEBUG    2025-10-07 10:27:57,735 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-10-07 10:28:00,758 [bot] (get_user.py).get_role_user(49) Возврат роли: 484385628, admin
+DEBUG    2025-10-07 10:28:00,759 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-10-07 10:28:02,321 [bot] (get_statistic_handlers.py).get_statistic(27) State MenuState:admin_menu
+DEBUG    2025-10-07 10:28:03,498 [bot] (get_statistic_handlers.py).get_period_statistic(58) Выбор даты: get_period_statistic StatsState:waiting_date
+DEBUG    2025-10-07 10:28:05,565 [bot] (get_statistic_handlers.py).get_period_statistic(58) Выбор даты: get_period_statistic StatsState:waiting_date
+WARNING  2025-10-07 10:28:15,118 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-10-07 10:28:17,931 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-10-07 10:28:18,203 [bot] (start_handlers.py).seed_admin(41) Проверка: seed_admin вызвана
+INFO     2025-10-07 10:28:18,382 [bot] (set_menu.py).set_main_menu(25) Установил команды
+INFO     2025-10-07 10:28:18,556 [bot] (start_handlers.py).on_start(29) Сообщение отправлено на chat_id: 484385628
+INFO     2025-10-07 10:28:20,278 [bot] (start_handlers.py).get_start(84) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-10-07 10:28:20,280 [bot] (get_user.py).get_role_user(49) Возврат роли: 484385628, admin
+DEBUG    2025-10-07 10:28:20,280 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-10-07 10:28:22,506 [bot] (get_statistic_handlers.py).get_statistic(27) State MenuState:admin_menu
+DEBUG    2025-10-07 10:28:23,479 [bot] (get_statistic_handlers.py).get_period_statistic(58) Выбор даты: get_period_statistic StatsState:waiting_date
+DEBUG    2025-10-07 10:28:25,207 [bot] (get_statistic_handlers.py).get_period_statistic(50) Выбор начальной даты периода: get_period_statistic StatsState:waiting_first_date
+INFO     2025-10-07 10:28:33,854 [bot] (start_handlers.py).get_start(84) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-10-07 10:28:33,857 [bot] (get_user.py).get_role_user(49) Возврат роли: 484385628, admin
+DEBUG    2025-10-07 10:28:33,857 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-10-07 10:28:35,980 [bot] (get_statistic_handlers.py).get_statistic(27) State MenuState:admin_menu
+DEBUG    2025-10-07 10:28:36,929 [bot] (get_statistic_handlers.py).get_period_statistic(58) Выбор даты: get_period_statistic StatsState:waiting_date
+DEBUG    2025-10-07 10:28:41,016 [bot] (get_statistic_handlers.py).get_period_statistic(58) Выбор даты: get_period_statistic StatsState:waiting_date
+DEBUG    2025-10-07 10:28:41,686 [bot] (get_statistic_handlers.py).get_statistic_from_db(226) day_stat: None
+DEBUG    2025-10-07 10:28:41,686 [bot] (get_statistic_handlers.py).day_statistic(111) Нет статистики за день
+DEBUG    2025-10-07 10:28:46,491 [bot] (get_statistic_handlers.py).day_statistic(111) Нет статистики за день
+INFO     2025-10-07 10:28:54,668 [bot] (start_handlers.py).get_start(84) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-10-07 10:28:54,669 [bot] (get_user.py).get_role_user(49) Возврат роли: 484385628, admin
+DEBUG    2025-10-07 10:28:54,669 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-10-07 10:28:56,743 [bot] (get_statistic_handlers.py).get_statistic(27) State MenuState:admin_menu
+DEBUG    2025-10-07 10:28:58,072 [bot] (get_statistic_handlers.py).get_period_statistic(58) Выбор даты: get_period_statistic StatsState:waiting_date
+DEBUG    2025-10-07 10:28:58,818 [bot] (get_statistic_handlers.py).get_statistic_from_db(226) day_stat: None
+DEBUG    2025-10-07 10:28:58,818 [bot] (get_statistic_handlers.py).day_statistic(111) Нет статистики за день
+DEBUG    2025-10-07 10:29:01,290 [bot] (get_statistic_handlers.py).get_statistic_from_db(226) day_stat: None
+DEBUG    2025-10-07 10:29:01,291 [bot] (get_statistic_handlers.py).day_statistic(111) Нет статистики за день
+WARNING  2025-10-07 10:29:01,662 [bot] (get_statistic_handlers.py).day_statistic(134) Попытка получить статистику: Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+DEBUG    2025-10-07 10:29:07,281 [bot] (get_statistic_handlers.py).day_statistic(111) Нет статистики за день
+WARNING  2025-10-07 10:29:45,965 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-10-07 10:29:48,917 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-10-07 10:29:49,207 [bot] (start_handlers.py).seed_admin(41) Проверка: seed_admin вызвана
+INFO     2025-10-07 10:29:49,432 [bot] (set_menu.py).set_main_menu(25) Установил команды
+INFO     2025-10-07 10:29:49,575 [bot] (start_handlers.py).on_start(29) Сообщение отправлено на chat_id: 484385628
+INFO     2025-10-07 10:29:52,207 [bot] (start_handlers.py).get_start(84) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-10-07 10:29:52,208 [bot] (get_user.py).get_role_user(49) Возврат роли: 484385628, admin
+DEBUG    2025-10-07 10:29:52,208 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-10-07 10:29:54,758 [bot] (get_statistic_handlers.py).get_statistic(27) State MenuState:admin_menu
+DEBUG    2025-10-07 10:29:55,606 [bot] (get_statistic_handlers.py).get_period_statistic(58) Выбор даты: get_period_statistic StatsState:waiting_date
+WARNING  2025-10-07 10:30:09,489 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-10-07 10:30:12,367 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-10-07 10:30:12,536 [bot] (start_handlers.py).seed_admin(41) Проверка: seed_admin вызвана
+INFO     2025-10-07 10:30:12,700 [bot] (set_menu.py).set_main_menu(25) Установил команды
+INFO     2025-10-07 10:30:12,848 [bot] (start_handlers.py).on_start(29) Сообщение отправлено на chat_id: 484385628
+INFO     2025-10-07 10:30:16,457 [bot] (start_handlers.py).get_start(84) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-10-07 10:30:16,458 [bot] (get_user.py).get_role_user(49) Возврат роли: 484385628, admin
+DEBUG    2025-10-07 10:30:16,458 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-10-07 10:30:19,216 [bot] (get_statistic_handlers.py).get_statistic(27) State MenuState:admin_menu
+DEBUG    2025-10-07 10:30:20,546 [bot] (get_statistic_handlers.py).get_period_statistic(58) Выбор даты: get_period_statistic StatsState:waiting_date
+DEBUG    2025-10-07 10:30:23,150 [bot] (get_statistic_handlers.py).get_period_statistic(58) Выбор даты: get_period_statistic StatsState:waiting_date
+DEBUG    2025-10-07 10:30:24,153 [bot] (get_statistic_handlers.py).get_statistic_from_db(232) day_stat: None
+DEBUG    2025-10-07 10:30:24,153 [bot] (get_statistic_handlers.py).day_statistic(111) Нет статистики за день
+WARNING  2025-10-07 10:31:36,364 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-10-07 10:31:39,427 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-10-07 10:31:39,717 [bot] (start_handlers.py).seed_admin(41) Проверка: seed_admin вызвана
+INFO     2025-10-07 10:31:39,870 [bot] (set_menu.py).set_main_menu(25) Установил команды
+INFO     2025-10-07 10:31:39,991 [bot] (start_handlers.py).on_start(29) Сообщение отправлено на chat_id: 484385628
+INFO     2025-10-07 10:31:41,719 [bot] (start_handlers.py).get_start(84) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-10-07 10:31:41,720 [bot] (get_user.py).get_role_user(49) Возврат роли: 484385628, admin
+DEBUG    2025-10-07 10:31:41,721 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-10-07 10:31:43,488 [bot] (get_statistic_handlers.py).get_statistic(27) State MenuState:admin_menu
+DEBUG    2025-10-07 10:31:44,284 [bot] (get_statistic_handlers.py).get_period_statistic(58) Выбор даты: get_period_statistic StatsState:waiting_date
+WARNING  2025-10-07 10:32:26,732 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-10-07 10:32:29,399 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-10-07 10:32:29,590 [bot] (start_handlers.py).seed_admin(41) Проверка: seed_admin вызвана
+INFO     2025-10-07 10:32:29,745 [bot] (set_menu.py).set_main_menu(25) Установил команды
+INFO     2025-10-07 10:32:29,865 [bot] (start_handlers.py).on_start(29) Сообщение отправлено на chat_id: 484385628
+INFO     2025-10-07 10:32:34,207 [bot] (start_handlers.py).get_start(84) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-10-07 10:32:34,209 [bot] (get_user.py).get_role_user(49) Возврат роли: 484385628, admin
+DEBUG    2025-10-07 10:32:34,209 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-10-07 10:32:45,012 [bot] (get_statistic_handlers.py).get_statistic(27) State MenuState:admin_menu
+DEBUG    2025-10-07 10:32:57,644 [bot] (get_statistic_handlers.py).get_statistic(27) State MenuState:admin_menu
+DEBUG    2025-10-07 10:32:59,418 [bot] (get_statistic_handlers.py).get_period_statistic(58) Выбор даты: get_period_statistic StatsState:waiting_date
+DEBUG    2025-10-07 10:33:00,678 [bot] (get_statistic_handlers.py).day_statistic(111) Нет статистики за день
+INFO     2025-10-07 10:34:26,017 [bot] (start_handlers.py).get_start(84) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-10-07 10:34:26,018 [bot] (get_user.py).get_role_user(49) Возврат роли: 484385628, admin
+DEBUG    2025-10-07 10:34:26,018 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-10-07 10:34:28,173 [bot] (get_statistic_handlers.py).get_statistic(27) State MenuState:admin_menu
+DEBUG    2025-10-07 10:34:34,778 [bot] (get_statistic_handlers.py).get_period_statistic(58) Выбор даты: get_period_statistic StatsState:waiting_date
+DEBUG    2025-10-07 10:34:36,604 [bot] (get_statistic_handlers.py).day_statistic(111) Нет статистики за день
+WARNING  2025-10-07 10:35:47,275 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-10-07 10:35:50,268 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-10-07 10:36:27,429 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-10-07 10:36:27,589 [bot] (start_handlers.py).seed_admin(41) Проверка: seed_admin вызвана
+INFO     2025-10-07 10:36:27,797 [bot] (set_menu.py).set_main_menu(25) Установил команды
+INFO     2025-10-07 10:36:27,947 [bot] (start_handlers.py).on_start(29) Сообщение отправлено на chat_id: 484385628
+INFO     2025-10-07 10:36:29,822 [bot] (start_handlers.py).get_start(84) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-10-07 10:36:29,823 [bot] (get_user.py).get_role_user(49) Возврат роли: 484385628, admin
+DEBUG    2025-10-07 10:36:29,823 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-10-07 10:36:32,106 [bot] (get_statistic_handlers.py).get_statistic(27) State MenuState:admin_menu
+DEBUG    2025-10-07 10:36:33,683 [bot] (get_statistic_handlers.py).get_period_statistic(58) Выбор даты: get_period_statistic StatsState:waiting_date
+DEBUG    2025-10-07 10:36:51,859 [bot] (get_statistic_handlers.py).get_statistic(27) State MenuState:admin_menu
+DEBUG    2025-10-07 10:36:52,804 [bot] (get_statistic_handlers.py).get_period_statistic(58) Выбор даты: get_period_statistic StatsState:waiting_date
+WARNING  2025-10-07 10:37:23,267 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-10-07 10:37:26,039 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-10-07 10:37:26,198 [bot] (start_handlers.py).seed_admin(41) Проверка: seed_admin вызвана
+INFO     2025-10-07 10:37:26,397 [bot] (set_menu.py).set_main_menu(25) Установил команды
+INFO     2025-10-07 10:37:26,526 [bot] (start_handlers.py).on_start(29) Сообщение отправлено на chat_id: 484385628
+INFO     2025-10-07 10:37:29,183 [bot] (start_handlers.py).get_start(84) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-10-07 10:37:29,184 [bot] (get_user.py).get_role_user(49) Возврат роли: 484385628, admin
+DEBUG    2025-10-07 10:37:29,184 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-10-07 10:37:31,390 [bot] (get_statistic_handlers.py).get_statistic(27) State MenuState:admin_menu
+DEBUG    2025-10-07 10:37:32,352 [bot] (get_statistic_handlers.py).get_period_statistic(58) Выбор даты: get_period_statistic StatsState:waiting_date
+WARNING  2025-10-07 10:38:19,387 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-10-07 10:38:19,542 [bot] (main.py).<module>(42) Помощник завершены
+INFO     2025-10-07 10:38:21,925 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-10-07 10:38:22,206 [bot] (start_handlers.py).seed_admin(41) Проверка: seed_admin вызвана
+INFO     2025-10-07 10:38:22,390 [bot] (set_menu.py).set_main_menu(25) Установил команды
+INFO     2025-10-07 10:38:22,566 [bot] (start_handlers.py).on_start(29) Сообщение отправлено на chat_id: 484385628
+INFO     2025-10-07 10:38:25,956 [bot] (start_handlers.py).get_start(84) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-10-07 10:38:25,958 [bot] (get_user.py).get_role_user(49) Возврат роли: 484385628, admin
+DEBUG    2025-10-07 10:38:25,958 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-10-07 10:38:27,818 [bot] (get_statistic_handlers.py).get_statistic(27) State MenuState:admin_menu
+DEBUG    2025-10-07 10:38:28,791 [bot] (get_statistic_handlers.py).get_period_statistic(58) Выбор даты: get_period_statistic StatsState:waiting_date
+DEBUG    2025-10-07 10:38:29,969 [bot] (get_statistic_handlers.py).get_statistic_from_db(231) day_stat: None
+DEBUG    2025-10-07 10:38:29,970 [bot] (get_statistic_handlers.py).day_statistic(110) Нет статистики за день
+WARNING  2025-10-07 10:39:14,847 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-10-07 10:39:17,640 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-10-07 10:39:17,910 [bot] (start_handlers.py).seed_admin(41) Проверка: seed_admin вызвана
+INFO     2025-10-07 10:39:18,064 [bot] (set_menu.py).set_main_menu(25) Установил команды
+INFO     2025-10-07 10:39:18,187 [bot] (start_handlers.py).on_start(29) Сообщение отправлено на chat_id: 484385628
+INFO     2025-10-07 10:39:19,439 [bot] (start_handlers.py).get_start(84) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-10-07 10:39:19,440 [bot] (get_user.py).get_role_user(49) Возврат роли: 484385628, admin
+DEBUG    2025-10-07 10:39:19,440 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-10-07 10:39:21,240 [bot] (get_statistic_handlers.py).get_statistic(27) State MenuState:admin_menu
+DEBUG    2025-10-07 10:39:22,132 [bot] (get_statistic_handlers.py).get_period_statistic(58) Выбор даты: get_period_statistic StatsState:waiting_date
+WARNING  2025-10-07 10:40:08,092 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-10-07 10:40:10,713 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-10-07 10:40:10,892 [bot] (start_handlers.py).seed_admin(41) Проверка: seed_admin вызвана
+INFO     2025-10-07 10:40:11,095 [bot] (set_menu.py).set_main_menu(25) Установил команды
+INFO     2025-10-07 10:40:11,288 [bot] (start_handlers.py).on_start(29) Сообщение отправлено на chat_id: 484385628
+INFO     2025-10-07 10:40:13,092 [bot] (start_handlers.py).get_start(84) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-10-07 10:40:13,093 [bot] (get_user.py).get_role_user(49) Возврат роли: 484385628, admin
+DEBUG    2025-10-07 10:40:13,093 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-10-07 10:40:14,916 [bot] (get_statistic_handlers.py).get_statistic(27) State MenuState:admin_menu
+DEBUG    2025-10-07 10:40:16,044 [bot] (get_statistic_handlers.py).get_period_statistic(58) Выбор даты: get_period_statistic StatsState:waiting_date
+WARNING  2025-10-07 10:40:41,490 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-10-07 10:40:44,324 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-10-07 10:40:44,602 [bot] (start_handlers.py).seed_admin(41) Проверка: seed_admin вызвана
+INFO     2025-10-07 10:40:44,832 [bot] (set_menu.py).set_main_menu(25) Установил команды
+INFO     2025-10-07 10:40:45,044 [bot] (start_handlers.py).on_start(29) Сообщение отправлено на chat_id: 484385628
+INFO     2025-10-07 10:40:47,014 [bot] (start_handlers.py).get_start(84) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-10-07 10:40:47,015 [bot] (get_user.py).get_role_user(49) Возврат роли: 484385628, admin
+DEBUG    2025-10-07 10:40:47,015 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-10-07 10:40:52,182 [bot] (get_statistic_handlers.py).get_statistic(27) State MenuState:admin_menu
+DEBUG    2025-10-07 10:40:53,064 [bot] (get_statistic_handlers.py).get_period_statistic(58) Выбор даты: get_period_statistic StatsState:waiting_date
+DEBUG    2025-10-07 10:40:53,893 [bot] (get_statistic_handlers.py).day_statistic(110) Нет статистики за день
+DEBUG    2025-10-07 10:40:57,362 [bot] (get_statistic_handlers.py).get_statistic_from_db(231) day_stat: None
+DEBUG    2025-10-07 10:40:57,362 [bot] (get_statistic_handlers.py).day_statistic(110) Нет статистики за день
+WARNING  2025-10-07 10:40:57,646 [bot] (get_statistic_handlers.py).day_statistic(133) Попытка получить статистику: Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+DEBUG    2025-10-07 10:40:59,997 [bot] (get_statistic_handlers.py).day_statistic(110) Нет статистики за день
+WARNING  2025-10-07 10:41:00,240 [bot] (get_statistic_handlers.py).day_statistic(133) Попытка получить статистику: Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+WARNING  2025-10-07 10:41:37,287 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-10-07 10:41:40,158 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-10-07 10:41:40,448 [bot] (start_handlers.py).seed_admin(41) Проверка: seed_admin вызвана
+INFO     2025-10-07 10:41:40,597 [bot] (set_menu.py).set_main_menu(25) Установил команды
+INFO     2025-10-07 10:41:40,721 [bot] (start_handlers.py).on_start(29) Сообщение отправлено на chat_id: 484385628
+INFO     2025-10-07 10:41:43,092 [bot] (start_handlers.py).get_start(84) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-10-07 10:41:43,093 [bot] (get_user.py).get_role_user(49) Возврат роли: 484385628, admin
+DEBUG    2025-10-07 10:41:43,093 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-10-07 10:41:45,159 [bot] (get_statistic_handlers.py).get_statistic(27) State MenuState:admin_menu
+DEBUG    2025-10-07 10:41:46,032 [bot] (get_statistic_handlers.py).get_period_statistic(58) Выбор даты: get_period_statistic StatsState:waiting_date
+WARNING  2025-10-07 10:46:44,045 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-10-07 10:46:47,131 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-10-07 10:46:47,416 [bot] (start_handlers.py).seed_admin(41) Проверка: seed_admin вызвана
+INFO     2025-10-07 10:46:47,569 [bot] (set_menu.py).set_main_menu(25) Установил команды
+INFO     2025-10-07 10:46:47,721 [bot] (start_handlers.py).on_start(29) Сообщение отправлено на chat_id: 484385628
+INFO     2025-10-07 10:46:50,490 [bot] (start_handlers.py).get_start(84) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-10-07 10:46:50,491 [bot] (get_user.py).get_role_user(49) Возврат роли: 484385628, admin
+DEBUG    2025-10-07 10:46:50,491 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-10-07 10:46:52,605 [bot] (get_statistic_handlers.py).get_statistic(27) State MenuState:admin_menu
+DEBUG    2025-10-07 10:46:53,838 [bot] (get_statistic_handlers.py).get_period_statistic(58) Выбор даты: get_period_statistic StatsState:waiting_date
+WARNING  2025-10-07 10:54:04,196 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-10-07 10:54:04,366 [bot] (main.py).<module>(42) Помощник завершены
+INFO     2025-10-07 10:54:07,277 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-10-07 10:54:07,560 [bot] (start_handlers.py).seed_admin(41) Проверка: seed_admin вызвана
+INFO     2025-10-07 10:54:07,730 [bot] (set_menu.py).set_main_menu(25) Установил команды
+INFO     2025-10-07 10:54:07,923 [bot] (start_handlers.py).on_start(29) Сообщение отправлено на chat_id: 484385628
+DEBUG    2025-10-07 10:54:13,448 [bot] (get_user.py).get_role_user(49) Возврат роли: 484385628, admin
+DEBUG    2025-10-07 10:54:13,448 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-10-07 10:54:14,909 [bot] (get_user.py).get_role_user(49) Возврат роли: 484385628, admin
+DEBUG    2025-10-07 10:54:14,909 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-10-07 10:54:16,457 [bot] (get_statistic_handlers.py).get_statistic(27) State MenuState:admin_menu
+DEBUG    2025-10-07 10:54:20,688 [bot] (get_statistic_handlers.py).get_period_statistic(58) Выбор даты: get_period_statistic StatsState:waiting_date
+DEBUG    2025-10-07 10:54:22,466 [bot] (get_statistic_handlers.py).get_statistic_from_db(239) day_stat: None
+DEBUG    2025-10-07 10:54:22,466 [bot] (get_statistic_handlers.py).day_statistic(118) Нет статистики за день
+WARNING  2025-10-07 10:56:14,448 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-10-07 10:56:17,575 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-10-07 10:56:17,747 [bot] (start_handlers.py).seed_admin(41) Проверка: seed_admin вызвана
+INFO     2025-10-07 10:56:17,913 [bot] (set_menu.py).set_main_menu(25) Установил команды
+INFO     2025-10-07 10:56:18,043 [bot] (start_handlers.py).on_start(29) Сообщение отправлено на chat_id: 484385628
+INFO     2025-10-07 10:56:20,805 [bot] (start_handlers.py).get_start(84) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-10-07 10:56:20,806 [bot] (get_user.py).get_role_user(49) Возврат роли: 484385628, admin
+DEBUG    2025-10-07 10:56:20,806 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-10-07 10:56:23,052 [bot] (get_user.py).get_role_user(49) Возврат роли: 484385628, admin
+DEBUG    2025-10-07 10:56:23,052 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-10-07 10:56:24,266 [bot] (get_statistic_handlers.py).get_statistic(27) State MenuState:admin_menu
+DEBUG    2025-10-07 10:56:25,266 [bot] (get_statistic_handlers.py).get_period_statistic(58) Выбор даты: get_period_statistic StatsState:waiting_date
+DEBUG    2025-10-07 10:57:51,567 [bot] (get_statistic_handlers.py).get_period_statistic(58) Выбор даты: get_period_statistic StatsState:waiting_date
+INFO     2025-10-07 10:57:54,494 [bot] (start_handlers.py).get_start(84) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-10-07 10:57:54,495 [bot] (get_user.py).get_role_user(49) Возврат роли: 484385628, admin
+DEBUG    2025-10-07 10:57:54,495 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-10-07 10:57:57,145 [bot] (get_user.py).get_role_user(49) Возврат роли: 484385628, admin
+DEBUG    2025-10-07 10:57:57,145 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-10-07 10:58:03,301 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-10-07 10:58:06,445 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-10-07 10:58:06,609 [bot] (start_handlers.py).seed_admin(41) Проверка: seed_admin вызвана
+INFO     2025-10-07 10:58:06,819 [bot] (set_menu.py).set_main_menu(25) Установил команды
+INFO     2025-10-07 10:58:06,991 [bot] (start_handlers.py).on_start(29) Сообщение отправлено на chat_id: 484385628
+INFO     2025-10-07 10:58:08,569 [bot] (start_handlers.py).get_start(84) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-10-07 10:58:08,570 [bot] (get_user.py).get_role_user(49) Возврат роли: 484385628, admin
+DEBUG    2025-10-07 10:58:08,570 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-10-07 10:58:10,755 [bot] (get_statistic_handlers.py).get_statistic(27) State MenuState:admin_menu
+DEBUG    2025-10-07 10:58:18,724 [bot] (get_statistic_handlers.py).get_statistic(27) State MenuState:admin_menu
+DEBUG    2025-10-07 10:58:23,441 [bot] (get_statistic_handlers.py).get_statistic(27) State MenuState:admin_menu
+DEBUG    2025-10-07 10:58:25,050 [bot] (get_statistic_handlers.py).get_period_statistic(58) Выбор даты: get_period_statistic StatsState:waiting_date
+INFO     2025-10-07 10:59:09,031 [bot] (start_handlers.py).get_start(84) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-10-07 10:59:09,032 [bot] (get_user.py).get_role_user(49) Возврат роли: 484385628, admin
+DEBUG    2025-10-07 10:59:09,032 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-10-07 10:59:11,430 [bot] (get_statistic_handlers.py).get_statistic(27) State MenuState:admin_menu
+DEBUG    2025-10-07 10:59:12,286 [bot] (get_statistic_handlers.py).get_period_statistic(58) Выбор даты: get_period_statistic StatsState:waiting_date
+DEBUG    2025-10-07 10:59:13,688 [bot] (get_statistic_handlers.py).get_statistic_from_db(240) day_stat: <Statistic>
+DEBUG    2025-10-07 10:59:13,689 [bot] (get_statistic_handlers.py).day_statistic(133) Получил статистику за день
+WARNING  2025-10-07 11:00:09,776 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-10-07 11:00:12,734 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-10-07 11:00:12,904 [bot] (start_handlers.py).seed_admin(41) Проверка: seed_admin вызвана
+INFO     2025-10-07 11:00:13,073 [bot] (set_menu.py).set_main_menu(25) Установил команды
+INFO     2025-10-07 11:00:13,209 [bot] (start_handlers.py).on_start(29) Сообщение отправлено на chat_id: 484385628
+INFO     2025-10-07 11:00:14,958 [bot] (start_handlers.py).get_start(84) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-10-07 11:00:14,959 [bot] (get_user.py).get_role_user(49) Возврат роли: 484385628, admin
+DEBUG    2025-10-07 11:00:14,959 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-10-07 11:00:16,918 [bot] (get_statistic_handlers.py).get_statistic(27) State MenuState:admin_menu
+DEBUG    2025-10-07 11:00:17,892 [bot] (get_statistic_handlers.py).get_period_statistic(58) Выбор даты: get_period_statistic StatsState:waiting_date
+DEBUG    2025-10-07 11:00:19,129 [bot] (get_statistic_handlers.py).get_statistic_from_db(240) day_stat: None
+DEBUG    2025-10-07 11:00:19,129 [bot] (get_statistic_handlers.py).day_statistic(119) Нет статистики за день
+DEBUG    2025-10-07 11:00:22,561 [bot] (get_statistic_handlers.py).get_statistic_from_db(240) day_stat: None
+DEBUG    2025-10-07 11:00:22,561 [bot] (get_statistic_handlers.py).day_statistic(119) Нет статистики за день
+WARNING  2025-10-07 11:00:23,024 [bot] (get_statistic_handlers.py).day_statistic(142) Попытка получить статистику: Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+DEBUG    2025-10-07 11:00:29,367 [bot] (get_statistic_handlers.py).get_statistic_from_db(240) day_stat: None
+DEBUG    2025-10-07 11:00:29,368 [bot] (get_statistic_handlers.py).day_statistic(119) Нет статистики за день
+WARNING  2025-10-07 11:00:29,510 [bot] (get_statistic_handlers.py).day_statistic(142) Попытка получить статистику: Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+DEBUG    2025-10-07 11:00:31,254 [bot] (get_statistic_handlers.py).get_statistic_from_db(240) day_stat: <Statistic>
+DEBUG    2025-10-07 11:00:31,254 [bot] (get_statistic_handlers.py).day_statistic(133) Получил статистику за день
+DEBUG    2025-10-07 11:00:38,280 [bot] (get_user.py).get_role_user(49) Возврат роли: 484385628, admin
+DEBUG    2025-10-07 11:00:38,280 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-10-07 11:00:40,471 [bot] (get_statistic_handlers.py).get_statistic(27) State MenuState:admin_menu
+DEBUG    2025-10-07 11:00:41,514 [bot] (get_statistic_handlers.py).get_period_statistic(58) Выбор даты: get_period_statistic StatsState:waiting_date
+DEBUG    2025-10-07 11:00:42,711 [bot] (get_statistic_handlers.py).day_statistic(119) Нет статистики за день
+WARNING  2025-10-07 11:01:06,546 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-10-07 11:01:09,422 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-10-07 11:01:09,580 [bot] (start_handlers.py).seed_admin(41) Проверка: seed_admin вызвана
+INFO     2025-10-07 11:01:09,740 [bot] (set_menu.py).set_main_menu(25) Установил команды
+INFO     2025-10-07 11:01:09,866 [bot] (start_handlers.py).on_start(29) Сообщение отправлено на chat_id: 484385628
+INFO     2025-10-07 11:01:15,846 [bot] (start_handlers.py).get_start(84) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-10-07 11:01:15,847 [bot] (get_user.py).get_role_user(49) Возврат роли: 484385628, admin
+DEBUG    2025-10-07 11:01:15,847 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-10-07 11:01:17,695 [bot] (get_statistic_handlers.py).get_statistic(27) State MenuState:admin_menu
+DEBUG    2025-10-07 11:01:18,552 [bot] (get_statistic_handlers.py).get_period_statistic(58) Выбор даты: get_period_statistic StatsState:waiting_date
+DEBUG    2025-10-07 11:01:19,654 [bot] (get_statistic_handlers.py).get_statistic_from_db(240) day_stat: None
+DEBUG    2025-10-07 11:01:19,654 [bot] (get_statistic_handlers.py).day_statistic(119) Нет статистики за день
+DEBUG    2025-10-07 11:01:22,177 [bot] (get_statistic_handlers.py).day_statistic(119) Нет статистики за день
+WARNING  2025-10-07 11:01:22,472 [bot] (get_statistic_handlers.py).day_statistic(142) Попытка получить статистику: Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+WARNING  2025-10-07 11:03:44,401 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-10-07 11:03:47,878 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-10-07 11:03:48,078 [bot] (start_handlers.py).seed_admin(41) Проверка: seed_admin вызвана
+INFO     2025-10-07 11:03:48,371 [bot] (set_menu.py).set_main_menu(25) Установил команды
+INFO     2025-10-07 11:03:48,583 [bot] (start_handlers.py).on_start(29) Сообщение отправлено на chat_id: 484385628
+INFO     2025-10-07 11:03:51,603 [bot] (start_handlers.py).get_start(84) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-10-07 11:03:51,604 [bot] (get_user.py).get_role_user(49) Возврат роли: 484385628, admin
+DEBUG    2025-10-07 11:03:51,604 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-10-07 11:03:55,369 [bot] (get_statistic_handlers.py).get_statistic(27) State MenuState:admin_menu
+DEBUG    2025-10-07 11:03:56,313 [bot] (get_statistic_handlers.py).get_period_statistic(58) Выбор даты: get_period_statistic StatsState:waiting_date
+DEBUG    2025-10-07 11:04:00,184 [bot] (get_user.py).get_role_user(49) Возврат роли: 484385628, admin
+DEBUG    2025-10-07 11:04:00,184 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-10-07 11:04:02,697 [bot] (get_user.py).get_role_user(49) Возврат роли: 484385628, admin
+DEBUG    2025-10-07 11:04:02,697 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-10-07 11:04:05,924 [bot] (get_statistic_handlers.py).get_statistic(27) State MenuState:admin_menu
+DEBUG    2025-10-07 11:04:07,164 [bot] (get_statistic_handlers.py).get_period_statistic(58) Выбор даты: get_period_statistic StatsState:waiting_date
+DEBUG    2025-10-07 11:04:08,547 [bot] (get_statistic_handlers.py).get_statistic_from_db(240) day_stat: None
+DEBUG    2025-10-07 11:04:08,547 [bot] (get_statistic_handlers.py).day_statistic(119) Нет статистики за день
+DEBUG    2025-10-07 11:04:10,235 [bot] (get_statistic_handlers.py).get_statistic_from_db(240) day_stat: None
+DEBUG    2025-10-07 11:04:10,235 [bot] (get_statistic_handlers.py).day_statistic(119) Нет статистики за день
+WARNING  2025-10-07 11:04:10,371 [bot] (get_statistic_handlers.py).day_statistic(142) Попытка получить статистику: Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+WARNING  2025-10-07 11:05:48,873 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-10-07 11:05:49,036 [bot] (main.py).<module>(42) Помощник завершены
+INFO     2025-10-07 11:05:51,732 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-10-07 11:05:51,895 [bot] (start_handlers.py).seed_admin(41) Проверка: seed_admin вызвана
+INFO     2025-10-07 11:05:52,198 [bot] (set_menu.py).set_main_menu(25) Установил команды
+INFO     2025-10-07 11:05:52,353 [bot] (start_handlers.py).on_start(29) Сообщение отправлено на chat_id: 484385628
+WARNING  2025-10-07 11:06:07,960 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-10-07 11:06:10,809 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-10-07 11:06:10,973 [bot] (start_handlers.py).seed_admin(41) Проверка: seed_admin вызвана
+INFO     2025-10-07 11:06:11,138 [bot] (set_menu.py).set_main_menu(25) Установил команды
+INFO     2025-10-07 11:06:11,258 [bot] (start_handlers.py).on_start(29) Сообщение отправлено на chat_id: 484385628
+INFO     2025-10-07 11:06:14,800 [bot] (start_handlers.py).get_start(84) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-10-07 11:06:14,801 [bot] (get_user.py).get_role_user(49) Возврат роли: 484385628, admin
+DEBUG    2025-10-07 11:06:14,801 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-10-07 11:06:22,874 [bot] (get_statistic_handlers.py).get_statistic(27) State MenuState:admin_menu
+DEBUG    2025-10-07 11:06:24,314 [bot] (get_statistic_handlers.py).get_period_statistic(50) Выбор начальной даты периода: get_period_statistic StatsState:waiting_first_date
+DEBUG    2025-10-07 11:06:26,171 [bot] (get_statistic_handlers.py).get_period_statistic(50) Выбор начальной даты периода: get_period_statistic StatsState:waiting_first_date
+DEBUG    2025-10-07 11:06:29,520 [bot] (get_statistic_handlers.py).first_day_statistic(172) жду конечную дату
+DEBUG    2025-10-07 11:06:37,342 [bot] (get_statistic_handlers.py).get_statistic(27) State MenuState:admin_menu
+WARNING  2025-10-07 11:07:02,068 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-10-07 11:07:05,263 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-10-07 11:07:05,533 [bot] (start_handlers.py).seed_admin(41) Проверка: seed_admin вызвана
+INFO     2025-10-07 11:07:05,715 [bot] (set_menu.py).set_main_menu(25) Установил команды
+INFO     2025-10-07 11:07:05,849 [bot] (start_handlers.py).on_start(29) Сообщение отправлено на chat_id: 484385628
+INFO     2025-10-07 11:07:09,336 [bot] (start_handlers.py).get_start(84) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-10-07 11:07:09,337 [bot] (get_user.py).get_role_user(49) Возврат роли: 484385628, admin
+DEBUG    2025-10-07 11:07:09,337 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-10-07 11:07:13,390 [bot] (get_statistic_handlers.py).get_statistic(27) State MenuState:admin_menu
+DEBUG    2025-10-07 11:07:14,723 [bot] (get_statistic_handlers.py).get_period_statistic(58) Выбор даты: get_period_statistic StatsState:waiting_date
+DEBUG    2025-10-07 11:07:15,500 [bot] (get_statistic_handlers.py).get_statistic_from_db(240) day_stat: None
+DEBUG    2025-10-07 11:07:15,500 [bot] (get_statistic_handlers.py).day_statistic(119) Нет статистики за день
+DEBUG    2025-10-07 11:07:17,676 [bot] (back_handler.py).back(97) Очистил ожидание даты статистики
+DEBUG    2025-10-07 11:07:20,252 [bot] (get_statistic_handlers.py).get_period_statistic(50) Выбор начальной даты периода: get_period_statistic StatsState:waiting_first_date
+DEBUG    2025-10-07 11:07:28,483 [bot] (get_statistic_handlers.py).first_day_statistic(172) жду конечную дату
+DEBUG    2025-10-07 11:07:32,950 [bot] (get_statistic_handlers.py).get_statistic_from_db(244) period_statistic: []
+DEBUG    2025-10-07 11:07:35,406 [bot] (back_handler.py).back(97) Очистил ожидание даты статистики
+WARNING  2025-10-07 11:10:21,676 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-10-07 11:10:26,034 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-10-07 11:10:26,297 [bot] (start_handlers.py).seed_admin(41) Проверка: seed_admin вызвана
+INFO     2025-10-07 11:10:26,446 [bot] (set_menu.py).set_main_menu(25) Установил команды
+INFO     2025-10-07 11:10:26,569 [bot] (start_handlers.py).on_start(29) Сообщение отправлено на chat_id: 484385628
+INFO     2025-10-07 11:10:47,640 [bot] (start_handlers.py).get_start(84) Зарегистрированный пользователь взаимодействует с ботом 484385628
+DEBUG    2025-10-07 11:10:47,642 [bot] (get_user.py).get_role_user(49) Возврат роли: 484385628, admin
+DEBUG    2025-10-07 11:10:47,642 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-10-07 11:10:50,706 [bot] (get_statistic_handlers.py).get_statistic(27) State MenuState:admin_menu
+DEBUG    2025-10-07 11:10:51,697 [bot] (get_statistic_handlers.py).get_period_statistic(58) Выбор даты: get_period_statistic StatsState:waiting_date
+DEBUG    2025-10-07 11:10:52,468 [bot] (back_handler.py).back(97) Очистил ожидание даты статистики
+DEBUG    2025-10-07 11:10:59,874 [bot] (get_user.py).get_role_user(49) Возврат роли: 484385628, admin
+DEBUG    2025-10-07 11:10:59,874 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+DEBUG    2025-10-07 11:12:19,465 [bot] (get_statistic_handlers.py).get_statistic(27) State MenuState:admin_menu
+DEBUG    2025-10-07 11:12:20,349 [bot] (get_statistic_handlers.py).get_period_statistic(58) Выбор даты: get_period_statistic StatsState:waiting_date
+DEBUG    2025-10-07 11:12:20,980 [bot] (get_statistic_handlers.py).get_statistic_from_db(224) day_stat: None
+DEBUG    2025-10-07 11:12:20,980 [bot] (get_statistic_handlers.py).day_statistic(109) Нет статистики за день
+DEBUG    2025-10-07 11:12:23,096 [bot] (get_statistic_handlers.py).get_statistic_from_db(224) day_stat: None
+DEBUG    2025-10-07 11:12:23,097 [bot] (get_statistic_handlers.py).day_statistic(109) Нет статистики за день
+WARNING  2025-10-07 11:12:23,242 [bot] (get_statistic_handlers.py).day_statistic(132) Попытка получить статистику: Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+DEBUG    2025-10-07 11:12:24,682 [bot] (get_statistic_handlers.py).get_statistic_from_db(224) day_stat: <Statistic>
+DEBUG    2025-10-07 11:12:24,683 [bot] (get_statistic_handlers.py).day_statistic(123) Получил статистику за день
+DEBUG    2025-10-07 11:18:31,991 [bot] (back_handler.py).back(97) Очистил ожидание даты статистики
+WARNING  2025-10-07 11:30:07,244 [bot] (main.py).start_bot(21) Бот закрыт
+WARNING  2025-10-07 11:30:07,403 [bot] (main.py).<module>(42) Помощник завершены
+INFO     2025-10-07 11:30:10,020 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-10-07 11:31:12,164 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-10-07 11:31:12,323 [bot] (start_handlers.py).seed_admin(41) Проверка: seed_admin вызвана
+INFO     2025-10-07 11:31:12,565 [bot] (set_menu.py).set_main_menu(25) Установил команды
+INFO     2025-10-07 11:31:12,751 [bot] (start_handlers.py).on_start(29) Сообщение отправлено на chat_id: 484385628
+DEBUG    2025-10-07 11:31:43,232 [bot] (get_user.py).get_role_user(49) Возврат роли: 484385628, admin
+DEBUG    2025-10-07 11:31:43,232 [bot] (menu_keyboard.py).inline_menu_kb(14) Передаю inline_menu_kb. Роль юзера: admin
+WARNING  2025-10-07 11:32:21,494 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-10-07 11:32:24,462 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-10-07 11:32:24,619 [bot] (start_handlers.py).seed_admin(41) Проверка: seed_admin вызвана
+INFO     2025-10-07 11:32:24,785 [bot] (set_menu.py).set_main_menu(25) Установил команды
+INFO     2025-10-07 11:32:24,914 [bot] (start_handlers.py).on_start(29) Сообщение отправлено на chat_id: 484385628
+INFO     2025-10-07 11:32:26,883 [bot] (start_handlers.py).get_start(84) Зарегистрированный пользователь взаимодействует с ботом 484385628
+INFO     2025-10-07 11:32:30,649 [bot] (users_requests.py).show_requests(38) Меню заявок
+WARNING  2025-10-07 11:36:57,105 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-10-07 11:37:00,334 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-10-07 11:37:00,498 [bot] (start_handlers.py).seed_admin(41) Проверка: seed_admin вызвана
+INFO     2025-10-07 11:37:00,690 [bot] (set_menu.py).set_main_menu(25) Установил команды
+INFO     2025-10-07 11:37:00,832 [bot] (start_handlers.py).on_start(29) Сообщение отправлено на chat_id: 484385628
+INFO     2025-10-07 11:37:01,473 [bot] (start_handlers.py).get_start(84) Зарегистрированный пользователь взаимодействует с ботом 484385628
+WARNING  2025-10-07 11:37:33,112 [bot] (main.py).start_bot(21) Бот закрыт
+INFO     2025-10-07 11:37:35,862 [bot] (logging_config.py)._setup_handlers(50) Логирование для 'bot' настроено успешно.
+INFO     2025-10-07 11:37:36,015 [bot] (start_handlers.py).seed_admin(41) Проверка: seed_admin вызвана
+INFO     2025-10-07 11:37:36,185 [bot] (set_menu.py).set_main_menu(25) Установил команды
+INFO     2025-10-07 11:37:36,318 [bot] (start_handlers.py).on_start(29) Сообщение отправлено на chat_id: 484385628

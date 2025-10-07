@@ -53,4 +53,5 @@ async def creating_request_pass_save(message: Message, state: FSMContext):
                          reply_markup=await file_for_record(state))
     await state.set_state(CreateRequest.save)
 
-    bot_logger.debug(f'получен скрин лк: {message.photo}, file_id: {file_id}')
+    bot_logger.info(f'Пользователь {message.from_user.id} загрузил пропуск: '
+                    f'{message.photo}')

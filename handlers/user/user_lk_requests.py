@@ -1,9 +1,7 @@
 import os
 
-from tortoise.exceptions import DoesNotExist
 from aiogram.fsm.context import FSMContext
 from aiogram.types import CallbackQuery, InputMediaPhoto, FSInputFile
-from database.models_db import User, SalaryRequest
 from keyboards.admin_keyboards import requests_kb
 from keyboards.back_keyboard import back_button
 from services.requests import RequestService
@@ -21,9 +19,7 @@ async def user_lk(call: CallbackQuery, state: FSMContext):
     """
     await state.set_state(UserState.all_requests)
     try:
-        # user = await User.get_or_none(telegram_id=call.from_user.id)
-        # if user:
-        #     requests = await user.salary_requests.all()  # получаем заявки по связанной таблице salary_requests
+
         requests = await RequestService.get_user_requests_by_id(telegram_id=call.from_user.id)
         await call.message.edit_text(
             text="Мои заявки",
@@ -43,7 +39,7 @@ async def show_my_request(call: CallbackQuery, state: FSMContext):
     """
     request_id = call.data.split("_")[2]
     try:
-        # request = await SalaryRequest.filter(id=request_id).prefetch_related('user').first()
+
         request = await RequestService.get_user_request(request_id=request_id)
         if not request:
             await call.answer("Заявка не найдена")
@@ -69,7 +65,7 @@ async def show_my_request(call: CallbackQuery, state: FSMContext):
                         photos.append((file_type, filename, file_path))
                     else:
                         documents.append((file_type, filename, file_path))
-        print("статус заявки",request.status)
+
         # 1. Отправляем основную информацию с кнопками
         message_text = f"""📋 *Заявка №{request.id}*
 

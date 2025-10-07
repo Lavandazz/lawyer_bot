@@ -58,6 +58,6 @@ async def creating_request_extract_save(message: Message, state: FSMContext):
                          reply_markup=await file_for_record(state))
     await state.set_state(CreateRequest.save)
 
-    bot_logger.debug(f'получена выписка ИЛС: file_id: {file_id}')
-    # автоматический сброс состояния через 10 минут
+    bot_logger.info(f'Пользователь {message.from_user.id} загрузил ИЛС: '
+                    f'{message.photo if message.photo else message.document.file_id}')
 

@@ -90,7 +90,8 @@ async def creating_request_save(call: CallbackQuery, state: FSMContext):
         folder_name = Path(folder_path).name  # получаем имя файла/папки
         # Сохраняем файлы и получаем пути
         file_paths = await save_all_docs(bot, folder_path, docs)
-        bot_logger.debug(f"создал папку: {folder_name}, путь {file_paths}")
+        # file_paths имеет вид словаря {'contract': 'clients/Овс_М_В_1/contract.pdf', 'acc_screenshot': 'clients/Овс_М_В_1/screenshot.jpg'}
+        bot_logger.info(f"создал папку: {folder_name}, путь {file_paths}")
         # Сохраняем заявку в БД
         request = await SalaryRequest.create(
             user=user,  # передаем весь объект

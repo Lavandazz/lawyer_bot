@@ -61,16 +61,7 @@ class BotLogger(BaseLogger):
         log_folder = "logs"
         os.makedirs(log_folder, exist_ok=True)
         log_file = os.path.join(log_folder, "bot_logs.log")
-        super().__init__(name="bot", log_file=log_file, logging_level=logging.DEBUG)
-
-
-class HelpAiLogger(BaseLogger):
-    """ Логгер для аи генератора"""
-    def __init__(self):
-        log_folder = "logs"
-        os.makedirs(log_folder, exist_ok=True)
-        log_file = os.path.join(log_folder, "phrase_logs.log")
-        super().__init__(name="help_ai", log_file=log_file, logging_level=logging.DEBUG)
+        super().__init__(name="bot", log_file=log_file, logging_level=logging.INFO)
 
 
 class DatabaseLogger(BaseLogger):
