@@ -12,6 +12,7 @@ from handlers.user.create_request.comment import creating_request_comment, creat
 from handlers.user.create_request.contract import creating_contract, creating_contract_save
 from handlers.user.create_request.extract import creating_request_extract_save, creating_request_extract
 from handlers.user.create_request.ndfl import creating_request_ndfl, creating_request_ndfl_save
+from handlers.user.create_request.passport import creating_request_passport, creating_request_passport_save
 from handlers.user.create_request.personal_pass import creating_request_pass_save, creating_request_pass
 from handlers.user.create_request.record import creating_request_record_book_save, creating_request_record_book
 
@@ -88,6 +89,9 @@ def setup_dispatcher(dp: Dispatcher):
     dp.callback_query.register(creating_request_record_book, F.data == "record_book")
     dp.message.register(creating_request_record_book_save, F.document | F.photo,
                         StateFilter(CreateRequest.wait_record_book))
+
+    dp.callback_query.register(creating_request_passport, F.data == "passport")
+    dp.callback_query.register(creating_request_passport_save, StateFilter(CreateRequest.wait_passport))
 
     dp.callback_query.register(creating_request_comment, F.data == "comment")
     dp.message.register(creating_request_comment_save, F.text, StateFilter(CreateRequest.wait_comment))

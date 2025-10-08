@@ -104,6 +104,7 @@ async def creating_request_save(call: CallbackQuery, state: FSMContext):
             comment=docs['comment'],
             user_folder=folder_name,
             date_to_delete=datetime.date.today() + timedelta(days=31),
+            passport=True
         )
         bot_logger.info(f"Новый запрос по отпускным")
         await state.clear()

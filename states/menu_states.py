@@ -29,6 +29,7 @@ class CreateRequest(StatesGroup):
     wait_extract = State()
     wait_record_book = State()
     wait_comment = State()
+    wait_passport = State()
     save = State()
 
 

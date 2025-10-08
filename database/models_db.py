@@ -82,6 +82,7 @@ class SalaryRequest(Model):
             (RequestStatus.REJECTED.value, "Отклонено")
         ])
     date_to_delete = fields.DateField(null=True)
+    passport = fields.BooleanField(default=False)
 
     class Meta:
         table = 'salary_requests'

@@ -71,9 +71,11 @@ async def show_my_request(call: CallbackQuery, state: FSMContext):
 
         👤 *Пользователь:* {request.user.first_name} {request.user.second_name}
         📅 *Дата:* {request.created_at.strftime('%d.%m.%Y %H:%M')}
-        💬 *Комментарий:* {request.comment if request.comment else "Комментария нет"}
+        💬 *Комментарий:* {"Комментария нет" if request.comment == 'pass' else request.comment}
         
-        *Статус:* {'✅ Одобрена' if request.status == 1 else 'Отклонена' if request.status == 2 else '⏳ На рассмотрении'}"""
+        {request.reject_comment if request.reject_comment else ""}
+        
+        *Статус:* {'✅ Одобрена' if request.status == 1 else '❌ Отклонена' if request.status == 2 else '⏳ На рассмотрении'}"""
 
         media_messages_ids = []  # список для медиа сообщений для удаления по кнопке Назад
 
@@ -111,4 +113,3 @@ async def show_my_request(call: CallbackQuery, state: FSMContext):
 
     except Exception as e:
         bot_logger.exception(f"Ошибка в отображении заявки пользователя: {e}")
-

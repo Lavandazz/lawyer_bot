@@ -85,7 +85,8 @@ async def show_user_request(call: CallbackQuery, state: FSMContext, role: str):
         ✉️ *Телеграм* @{request.user.username} 
         📆 *Дата:* {request.created_at.strftime('%d.%m.%Y %H:%M')}
         💬 *Комментарий:* {request.comment if request.comment != "pass" else "Отсутствует"}
-
+        📩  *Паспорт:* Отправлен на почту
+        
         ✅ *Статус:* {RequestStatus.PENDING.value if RequestStatus.PENDING else 'на рассмотрении'}"""
 
         media_messages_ids = []  # список для медиа сообщений для удаления по кнопке Назад

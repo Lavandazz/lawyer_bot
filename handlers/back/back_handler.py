@@ -63,7 +63,7 @@ async def back(call: CallbackQuery, state: FSMContext, bot: Bot, role: str):
     # переход из добавления файлов в меню
     if current_state in {CreateRequest.wait_contract, CreateRequest.wait_acc_screenshot, CreateRequest.wait_personal_pass,
                          CreateRequest.wait_ndfl, CreateRequest.wait_extract, CreateRequest.wait_record_book,
-                         CreateRequest.save, CreateRequest.wait_comment}:
+                         CreateRequest.save, CreateRequest.wait_comment, CreateRequest.wait_passport}:
         await state.set_state(UserState.all_requests)
         await call.message.edit_text(
             text="Выберите интересующий вопрос",

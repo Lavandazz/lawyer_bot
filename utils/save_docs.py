@@ -24,8 +24,11 @@ async def get_docs_from_state(state: FSMContext) -> dict:
 
         regular_value = docs.get(key)
         zip_value = docs.get(f"zip_{key}")  # получаем zip из data state
+        print('regular_value: ', regular_value)
+        if key == 'passport':
+            result[key] = regular_value
 
-        # Документ считается загруженным если есть обычная версия ИЛИ ZIP версия
+            # Документ считается загруженным если есть обычная версия ИЛИ ZIP версия
         value = regular_value or zip_value
         result[key] = value  # сохраняем в результат
 
@@ -166,6 +169,11 @@ async def save_all_docs(bot: Bot, folder_path: str, docs: dict) -> dict:
         # Получаем данные о документе
         doc_data = docs.get(state_key)  # убираем значение по умолчанию {}
         print("doc_data", doc_data)
+
+        if state_key == 'passport':
+            file_paths['passport'] = docs.get('passport')
+            print(f'passport передаю в сохранение')
+            continue
 
         # Пропускаем если документ не передан
         if not doc_data:

@@ -12,6 +12,15 @@ def yes_or_no_btn():
     return kb.as_markup()
 
 
+def approve():
+    kb = InlineKeyboardBuilder()
+    kb.button(text='Да', callback_data='yes')
+    kb.button(text='Нет', callback_data='no')
+    kb.adjust(2)
+    kb.row(InlineKeyboardButton(text='⬅️ Назад', callback_data='back'))
+    return kb.as_markup()
+
+
 def show_review_message(req_id: int):
     """ Клавиатура для уведомления о новом отзыве """
     kb = InlineKeyboardBuilder()
