@@ -82,7 +82,17 @@ class SchedulerLogger(BaseLogger):
         super().__init__(name="scheduler", log_file=log_file)
 
 
+class CleanerLogger(BaseLogger):
+    """ Логгер для шедулера """
+    def __init__(self):
+        log_folder = "logs"
+        os.makedirs(log_folder, exist_ok=True)
+        log_file = os.path.join(log_folder, "clean_logs.log")
+        bot_logger.info(f'Создал файл по пути {log_file}')
+        super().__init__(name="cleaner", log_file=log_file)
+
 # Инициализация логгеров
 bot_logger = BotLogger().get_logger()
 db_logger = DatabaseLogger().get_logger()
 scheduler_logger = SchedulerLogger().get_logger()
+cleaner_logger = CleanerLogger().get_logger()

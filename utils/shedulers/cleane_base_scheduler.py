@@ -1,4 +1,9 @@
-from utils.config import admin_id
+import os
+import shutil
+
+from services.cleaner import filter_name_folders
+from services.requests import RequestService
+from utils.config import admin_id, bot, SUPERADMIN
 
 from aiogram import Bot
 from aiogram.types import CallbackQuery
@@ -6,13 +11,12 @@ from pytz import timezone
 from datetime import datetime, date
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 
-
-from utils.logging_config import scheduler_logger
+from utils.logging_config import scheduler_logger, cleaner_logger
 
 
 def get_first_day_next_month() -> date:
     """
-    Вычисление первого дня следующего месяца для очистки базы от устаревших гороскопов
+    Вычисление первого дня следующего месяца для очистки базы
     :return: next_month - первый день следующего месяца
     """
     today = datetime.now().date()
@@ -24,38 +28,40 @@ def get_first_day_next_month() -> date:
     # return datetime(2025, 6, 3).date()
 
 
-async def horo_to_clean(bot: Bot):
+async def delete_folders():
     """
     Получение данных для удаления.
-    Если дата гороскопа предшествует текущей дате, то строка попадает под удаление
-
     """
-    current_date = datetime.now().date()
-    # находим все даты меньше вчерашней и удаляем их
+    folders_to_delete = await filter_name_folders()
+    scheduler_logger.info(f"Получил папки для удаления {folders_to_delete}")
     try:
-        # old_horoscopes = await Horoscope.filter(date__lt=current_date).count()
+        if folders_to_delete:
+            for folder in folders_to_delete:
+                if os.path.exists(folder):
+                    shutil.rmtree(folder)
+                    folder_name = os.path.basename(folder)
+                    await RequestService.mark_to_delete(folder_name)
+                    cleaner_logger.info(f'Удаление папки {folder_name}')
 
-        await bot.send_message(chat_id=admin_id, text=f'Очистка дат гороскопа: удалено строк гороскопа')
-        # await call.message.answer(text=f'удалено {old_horoscopes} трок гороскопа')
     except Exception as e:
-        await bot.send_message(chat_id=admin_id, text=f'Очистка дат гороскопа не была проведена: {e}')
+        await bot.send_message(chat_id=SUPERADMIN, text=f'Очистка папок клиентов не проведена : {e}')
         scheduler_logger.warning(f'Ошибка при очистке дат гороскопа {datetime.now()}, {e}')
 
 
-async def scheduler_clean_horoscope(bot: Bot):
+async def scheduler_clean_folders():
     """
-    Шедулер для очистки бд от устаревших гороскопов.
+    Шедулер для очистки удаления ненужны папок.
     Шедулер запускается на основании вычисленной даты next_month
     и запускается автоматически в первый день месяца в 15 часов 35 минут.
 
     """
     next_month = get_first_day_next_month()
-    horo_timezone = timezone('Europe/Moscow')
+    t_timezone = timezone('Europe/Moscow')
     scheduler = AsyncIOScheduler()
-    # scheduler.add_job(horo_to_clean, "cron", hour=13, minute=53, timezone=horo_timezone, args=[bot])
-    scheduler.add_job(horo_to_clean, "date",
+
+    scheduler.add_job(delete_folders, "date",
                       run_date=datetime(year=next_month.year, month=next_month.month, day=1, hour=15, minute=35, second=0),
-                      timezone=horo_timezone,
-                      args=[bot])
+                      timezone=t_timezone
+                      )
     scheduler.start()
-    scheduler_logger.info(f'Шедулер очистки дат запущен в {datetime.now()}')
+    scheduler_logger.info(f'Шедулер очистки папок запущен в {datetime.now()}')

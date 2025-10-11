@@ -72,39 +72,36 @@ class DocumentManager:
         return os.path.dirname(os.path.abspath(self.start_path))
 
 
-class FolderCleaner:
-    """Класс отвечает за удаление ненужных папок"""
-    def __init__(self, folder_path):
-        self.folder_path = folder_path
-        self.to_delete = []
-
-    def is_folders_in_base_folder(self, folder_names: dict):
-        """
-        Сверяет, есть ли переданные подпапки в папке
-        :param folder_names: словарь из папки и даты
-        :return: список папок на удаление
-        """
-        for name, date in folder_names.items():
-            if name in os.listdir(self.folder_path):
-                self.to_delete.append(name)
-                return self.folder_path
-
-    @staticmethod
-    def clean_folder(folder_path: str, folder_names: dict):
-        """
-        Удаление папок
-        :param folder_path: путь к папке, где необходимо удалить ненужные папки
-        :param folder_names: список наименований папок
-        :return:
-        """
-        #  doc.show_all_folders(clients_dir)
-
-        # folder_path = os.path.join(folder_path, folder_name)
-        # print(folder_path)
-        pass
+# class FolderCleaner:
+#     """Класс отвечает за удаление ненужных папок"""
+#     def __init__(self, folder_path):
+#         self.folder_path = folder_path
+#         self.to_delete = []
+#
+#     def is_folders_in_base_folder(self, folder_names: dict):
+#         """
+#         Сверяет, есть ли переданные подпапки в папке
+#         :param folder_names: словарь из папки и даты
+#         :return: список папок на удаление
+#         """
+#         for name, date in folder_names.items():
+#             if name in os.listdir(self.folder_path):
+#                 self.to_delete.append(name)
+#                 return self.folder_path
+#
+#     @staticmethod
+#     def clean_folder(folder_path: str, folder_names: dict):
+#         """
+#         Удаление папок
+#         :param folder_path: путь к папке, где необходимо удалить ненужные папки
+#         :param folder_names: список наименований папок
+#         :return:
+#         """
+#
+#         pass
 
 
 doc = DocumentManager()
 start_dir = doc.find_project_root()
 clients_dir = doc.go_to_folder(start_dir, CLIENTS_DIR)
-print(doc.show_all_folders(clients_dir))
+folders = doc.show_all_folders(clients_dir)

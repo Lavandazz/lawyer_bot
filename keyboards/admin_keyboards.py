@@ -15,8 +15,6 @@ def admin_kb():
               callback_data="statistic")
     kb.button(text="Заявки на расчет",
               callback_data="requests")
-    if SUPERADMIN:
-        kb.row(InlineKeyboardButton(text='Запуск парсинга', callback_data='start_parse'))
     kb.adjust(2)
     kb.row(InlineKeyboardButton(text='⬅️ Назад', callback_data='back'))
 

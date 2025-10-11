@@ -5,6 +5,7 @@ from keyboards.set_menu import set_main_menu
 from utils.config import dp, bot
 from database.create_db import init_db, close_db
 from utils.logging_config import bot_logger
+from utils.shedulers.cleane_base_scheduler import scheduler_clean_folders
 
 
 async def start_bot(user_id: int = None):
@@ -13,8 +14,8 @@ async def start_bot(user_id: int = None):
     # Регистрация хэндлеров
     setup_dispatcher(dp)
 
-    # asyncio.create_task(scheduler_horoscope())
-    # asyncio.create_task(scheduler_clean_horoscope(bot))
+    asyncio.create_task(scheduler_clean_folders())
+
     try:
         await dp.start_polling(bot, skip_updates=True)
     finally:

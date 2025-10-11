@@ -70,7 +70,7 @@ class SalaryRequest(Model):
     extract = fields.CharField(max_length=255, null=True)
     employment_record = fields.CharField(max_length=255, null=True)
     comment = fields.TextField(null=True)
-    approved = fields.BooleanField(default=False)
+    deleted = fields.BooleanField(default=False)
     user_folder = fields.CharField(max_length=300, null=True)
     created_at = fields.DatetimeField(auto_now_add=True)
     reject_comment = fields.CharField(max_length=255, null=True)

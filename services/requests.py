@@ -1,4 +1,5 @@
-from datetime import datetime
+from dateutil.relativedelta import *
+import datetime
 
 from database.config import RequestStatus
 from database.models_db import SalaryRequest
@@ -71,6 +72,28 @@ class BaseRequestService:
             db_logger.error(f"Ошибка фильтрации заявок: {e}")
 
     @classmethod
+    async def requests_by_date_to_delete(cls, date_to_del) -> list[str] | str:
+        """
+         Фильтрация заявок для дальнейшего удаления. Фильтруем заявки по статусу отказа и дате от текущего число
+         :param target_date: дата, по месяцу которой фильтруем
+         :return: список название папок
+         """
+        try:
+            date_to_del += relativedelta(months=+1)
+
+            requests = await SalaryRequest.filter(
+                status=RequestStatus.REJECTED,
+                deleted=False,
+                date_to_delete__gt=date_to_del).all()
+
+            rejected_list = [request.user_folder for request in requests]
+            return rejected_list
+
+        except Exception as e:
+            db_logger.error(f"Ошибка фильтрации заявок: {e}")
+            return f'ошибка {e}'
+
+    @classmethod
     async def change_status_request(cls, request_id: int, status: int, comment: str = None) -> tuple | bool:
         """
         Изменение статуса заявки в бд
@@ -99,8 +122,18 @@ class BaseRequestService:
             db_logger.exception(f"Не получилось изменить статус заявки {request_id}: {e}")
             return False
 
+    @staticmethod
+    async def mark_to_delete(folder_name: str):
+        """
+        Пометить папку на удаление
+        :return:
+        """
+        try:
+            await SalaryRequest.filter(user_folder=folder_name).update(deleted=True)
+            db_logger.info(f"Изменил поле deleted для папки {folder_name}")
+        except Exception as e:
+            db_logger.error(f"не получилось пометить на удаление папку {folder_name}: {e}")
+
 
 class RequestService(BaseRequestService):
     MODEL = SalaryRequest
-
-
