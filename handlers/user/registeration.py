@@ -46,7 +46,8 @@ async def start_registration_user_name(message: Message, state: FSMContext):
         return
 
     await message.answer(text=f"Отлично.\n"
-                              f"Пришлите номер телефона",
+                              f"Пришлите номер телефона.\n"
+                              f"Для этого, нажмите на появившуюся ниже кнопку.",
                          reply_markup=get_phone_keyboard()
                          )
     await state.set_state(UserState.phone)
