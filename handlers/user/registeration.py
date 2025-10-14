@@ -82,16 +82,17 @@ async def approve_phone(call: CallbackQuery, state: FSMContext):
     if approval == "yes":
         data = await state.get_data()
         fio_string = data.get("fio")
-        phone_number = data.get("phone").replace('7', '')
+        phone_number = data.get("phone")
+        bot_logger.info(f'Получен номер телефона {phone_number}')
         fio = split_fio(fio_string)
 
         # Сохраняем данные
         await save_contact(
             username=call.from_user.username,
             telegram_id=call.from_user.id,
-            second_name=fio[0],
-            first_name=fio[1],
-            patronymic=fio[2],
+            second_name=fio[0].title(),
+            first_name=fio[1].title(),
+            patronymic=fio[2].title(),
             phone=phone_number
         )
 

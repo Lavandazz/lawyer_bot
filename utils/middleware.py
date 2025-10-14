@@ -81,8 +81,10 @@ class StatisticMiddleware(BaseMiddleware):
             #                  f'{await self.redis.exists(redis_key)}')
             # Если юзера нет в бд, то добавляется +1 new_user
             if not user:
+                new_u = await Statistic.filter(day=event_date)
                 stat.new_user += 1
                 # bot_logger.debug(f"stat.new_user увеличен до {stat.new_user}")
+                bot_logger.info(f"Статистика. stat.new_user увеличен до {stat.new_user} ")
 
             # Проверяем, есть ли в базе ключ redis_key, то есть заходил ли пользователь
             if not await self.redis.exists(redis_key):
