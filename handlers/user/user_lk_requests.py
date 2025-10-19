@@ -81,7 +81,7 @@ async def show_my_request(call: CallbackQuery, state: FSMContext):
 
         sent_message = await call.message.edit_text(
             text=message_text,
-            parse_mode='Markdown')
+            parse_mode='MarkdownV2')
 
         media_messages_ids.append(sent_message.message_id)
         # 2. Отправляем файлы

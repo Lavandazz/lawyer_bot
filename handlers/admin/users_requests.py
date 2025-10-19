@@ -93,7 +93,7 @@ async def show_user_request(call: CallbackQuery, state: FSMContext, role: str):
 
         sent_message = await call.message.edit_text(
             text=message_text,
-            parse_mode='Markdown',
+            parse_mode='MarkdownV2',
             reply_markup=approve_request_kb(request_id=request.id, user_id=request.user.id))
 
         # media_messages_ids.append(sent_message.message_id)
