@@ -69,19 +69,19 @@ async def show_my_request(call: CallbackQuery, state: FSMContext):
         # 1. Отправляем основную информацию с кнопками
         message_text = f"""📋 *Заявка №{request.id}*
 
-        👤 *Пользователь:* {request.user.first_name} {request.user.second_name}
-        📅 *Дата:* {request.created_at.strftime('%d.%m.%Y %H:%M')}
-        💬 *Комментарий:* {"Комментария нет" if request.comment == 'pass' else request.comment}
+        👤 <b>Пользователь:</b> {request.user.first_name} {request.user.second_name}
+        📅 <b>Дата:</b>{request.created_at.strftime('%d.%m.%Y %H:%M')}
+        💬  <b>Комментарий:</b> {"Комментария нет" if request.comment == 'pass' else request.comment}
         
         {request.reject_comment if request.reject_comment else ""}
         
-        *Статус:* {'✅ Одобрена' if request.status == 1 else '❌ Отклонена' if request.status == 2 else '⏳ На рассмотрении'}"""
+        <b>Статус:</b>  {'✅ Одобрена' if request.status == 1 else '❌ Отклонена' if request.status == 2 else '⏳ На рассмотрении'}"""
 
         media_messages_ids = []  # список для медиа сообщений для удаления по кнопке Назад
 
         sent_message = await call.message.edit_text(
             text=message_text,
-            parse_mode='MarkdownV2')
+            parse_mode='HTML')
 
         media_messages_ids.append(sent_message.message_id)
         # 2. Отправляем файлы

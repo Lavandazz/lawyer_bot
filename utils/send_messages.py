@@ -36,12 +36,7 @@ class SendMessage:
         bot_logger.info(f"Попытка отправки админу {admin.get('id')}")
 
         message_text = f"📝 Новая заявка #{self.salary_request}\n"\
-                       f"От: @{self.user.username}\n" + (f"\n{self.text}" if self.text else "")
+                       f"От: @{self.user.username}\n" + f"\n{self.text if self.text != 'pass' else ''}"
 
         await self.bot.send_message(
             admin.get('telegram_id'), message_text, reply_markup=show_review_message(self.salary_request))
-
-
-@classmethod
-class BotMessage:
-    bot: Bot

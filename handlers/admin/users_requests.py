@@ -78,22 +78,22 @@ async def show_user_request(call: CallbackQuery, state: FSMContext, role: str):
                         documents.append((file_type, filename, file_path))
 
         # 1. Отправляем основную информацию с кнопками
-        message_text = f"""📋 *Заявка №{request.id}*
+        message_text = f"""📋 <b>Заявка №{request.id}</b>
 
-        👤 *Пользователь:* {request.user.first_name} {request.user.second_name}
-        📞 *Телефон:* {request.user.phone}
-        ✉️ *Телеграм* @{request.user.username} 
-        📆 *Дата:* {request.created_at.strftime('%d.%m.%Y %H:%M')}
-        💬 *Комментарий:* {request.comment if request.comment != "pass" else "Отсутствует"}
-        📩  *Паспорт:* Отправлен на почту
-        
-        ✅ *Статус:* {RequestStatus.PENDING.value if RequestStatus.PENDING else 'на рассмотрении'}"""
+        👤 <b>Пользователь:</b> {request.user.first_name} {request.user.second_name}
+        📞 <b>Телефон:</b> {request.user.phone}
+        ✉️ <b>Телеграм</b> @{request.user.username}
+        📆 <b>Дата:</b> {request.created_at.strftime('%d.%m.%Y %H:%M')}
+        💬 <b>Комментарий:</b> {request.comment if request.comment != "pass" else "Отсутствует"}
+        📩  <b>Паспорт:</b> Отправлен на почту
+
+        ✅ <b>Статус:</b> {RequestStatus.PENDING.value if RequestStatus.PENDING else 'на рассмотрении'}"""
 
         media_messages_ids = []  # список для медиа сообщений для удаления по кнопке Назад
 
         sent_message = await call.message.edit_text(
             text=message_text,
-            parse_mode='MarkdownV2',
+            parse_mode='HTML',  # меняем на HTML
             reply_markup=approve_request_kb(request_id=request.id, user_id=request.user.id))
 
         # media_messages_ids.append(sent_message.message_id)
